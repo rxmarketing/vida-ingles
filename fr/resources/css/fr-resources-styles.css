@@ -22,6 +22,12 @@ a:visited {
     color: #6A245B;
 }
 
+a[href$='.pdf'] // this is for all the link which end .pdf extension. so you dont need jquery  
+{  
+padding-left: 20px;  
+background: url(http://localhost/vidaingles/i/pdf.png) center left no-repeat;  
+}  
+
 #main-content{
     background-color: #fff;
     color: #333;

@@ -20,7 +20,7 @@
             <div class="col-xs-12 col-md-9" id="main-content">
                 <h1>Elementary A </h1>
                 <h2><a href="#starter-a">Starter A</a></h2>
-                <small><a href="#"><a href="pdf/for_real_elem_starter_wb.pdf" target="_blank">Descargar libro de ejercicios (pdf)</a></a></small>
+                <small><a href="pdf/for_real_elem_starter_wb.pdf" target="_blank">Descargar libro de ejercicios (pdf)</a></small>
                 <h3><a href="#unit-1">Unit 1</a></h3>
                 <h4>Grammar</h4>
                 <ul>
