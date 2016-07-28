@@ -6,74 +6,13 @@
 		<link rel="stylesheet" href="http://vidaingles.com/css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="http://vidaingles.com/css/jquery-ui.min.css"/>
 		<link rel="stylesheet" href="http://vidaingles.com/css/vi_core.css"/>
+		<link rel="stylesheet" href="css/fr-resources-styles.css"/>
 		<link rel="stylesheet" href="http://vidaingles.com/css/vi_print.css" media="print"/>
 		<script src="http://vidaingles.com/js/jquery-1.11.3.min.js"></script>
 		<script src="http://vidaingles.com/js/bootstrap.min.js"></script>
 		<script src="http://vidaingles.com/js/jquery-ui.min.js"></script>
 		<script src="http://vidaingles.com/js/timeago.js"></script>
 		<script src="http://vidaingles.com/fr/resources/js/resources.js"></script>
-        <style type="text/css">
-            #top {
-            position: fixed;
-            bottom: 100px;
-            right: 60px;
-            ddisplay: none;
-            }
-            
-            body {
-            background-color: #1b062f;
-            color: #fff;
-            }
-            
-            a {
-            color: #6A245B;
-            }
-            a:hover {
-            color: #6A245B;
-            }
-            a:visited {
-            color: #6A245B;
-            }
-            
-            #main-content{
-            background-color: #fff;
-            color: #333;
-            box-shadow: -3px 0 5px -3px rgba(1, 1, 1, 0.87), 3px 0 5px -3px rgba(1, 1, 1, 0.87);
-            
-            border-top: 1px solid #333;
-            border-radius: 10px 10px 10px 10px;
-            position: relative;
-            }
-            
-            h1,h2,h3,h4,h5,h6 {
-            color: #2E1347;
-            lfont-size: 36px;
-            line-height: 36px;
-            font-weight: 700;
-            }
-            
-            footer {
-            background-color: #0B0009;
-            margin-top: -30px;
-            }
-            
-            footer h3 {
-            color: #777;
-            letter-spacing: normal;
-            text-transform: uppercase;
-            text-shadow: #000 0 1px 0;
-            border: solid 1px #000;
-            text-rendering: optimizeLegibility;
-            border-bottom: none;
-            border-radius: 4px 4px 0 0;
-            position: relative;
-            text-align: center;
-            height: 10px;
-            margin-top: 20px;
-            font-size: 16px;
-            }
-            
-        </style>
     </head>
     <body>
         <div class="container">
