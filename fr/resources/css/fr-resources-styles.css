@@ -1,17 +1,14 @@
 /* for real resources styles */
-
 #top {
     position: fixed;
     bottom: 100px;
     right: 60px;
     ddisplay: none;
 }
-
 body {
     background-color: #1b062f;
     color: #fff;
 }
-
 a {
     color: #6A245B;
 }
@@ -21,35 +18,31 @@ a:hover {
 a:visited {
     color: #6A245B;
 }
-
 a[href$='.pdf'] // this is for all the link which end .pdf extension. so you dont need jquery  
 {  
-padding-left: 20px;  
-background: url(http://localhost/vidaingles/i/pdf.png) center left no-repeat;  
+    padding-left: 24px; /* or the width of your icon */
+    background-repeat: no-repeat;
+    background-position: left center; /* Adjust if needed */
+    background-image: url(http://localhost/vidaingles/i/pdf.png) center left no-repeat;  
 }  
-
 #main-content{
     background-color: #fff;
     color: #333;
     box-shadow: -3px 0 5px -3px rgba(1, 1, 1, 0.87), 3px 0 5px -3px rgba(1, 1, 1, 0.87);
-    
     border-top: 1px solid #333;
     border-radius: 10px 10px 10px 10px;
     position: relative;
 }
-
 h1,h2,h3,h4,h5,h6 {
     color: #2E1347;
     lfont-size: 36px;
     line-height: 36px;
     font-weight: 700;
 }
-
 footer {
     background-color: #0B0009;
     margin-top: -30px;
 }
-
 footer h3 {
     color: #777;
     letter-spacing: normal;
