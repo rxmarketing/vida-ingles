@@ -11,13 +11,10 @@ body {
 }
 
 a[href$='.pdf'] {  
-    padding-left: 24px; /* or the width of your icon */
-    background-image: url(../../../../vidaingles/i/pdf.png);
+    padding-right: 28px; /* or the width of your icon */
+    background-image: url(../../../../vidaingles/i/pdf-xs.png);
     background-repeat: no-repeat;
-      background-position: left center; /* Adjust if needed */
-      width: 20px;
-      height: 20px;
-    color: red;
+      background-position: right center; /* Adjust if needed */
 }
 
 a {
