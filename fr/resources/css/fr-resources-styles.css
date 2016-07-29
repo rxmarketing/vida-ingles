@@ -9,6 +9,17 @@ body {
     background-color: #1b062f;
     color: #fff;
 }
+
+a[href$='.pdf'] {  
+    padding-left: 24px; /* or the width of your icon */
+    background-image: url(../../../../vidaingles/i/pdf.png);
+    background-repeat: no-repeat;
+      background-position: left center; /* Adjust if needed */
+      width: 20px;
+      height: 20px;
+    color: red;
+}
+
 a {
     color: #6A245B;
 }
@@ -18,13 +29,7 @@ a:hover {
 a:visited {
     color: #6A245B;
 }
-a[href$='.pdf'] // this is for all the link which end .pdf extension. so you dont need jquery  
-{  
-    padding-left: 24px; /* or the width of your icon */
-    background-repeat: no-repeat;
-    background-position: left center; /* Adjust if needed */
-    background-image: url(http://localhost/vidaingles/i/pdf.png) center left no-repeat;  
-}  
+  
 #main-content{
     background-color: #fff;
     color: #333;
