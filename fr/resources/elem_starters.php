@@ -27,7 +27,7 @@
           <a class="navbar-brand" href="#">Elementary Starter A & B</a>
 				</div>
         <div class="navbar-collapse collapse">
-				<a href="pdf/for_real_elem_starter_wb.pdf" target="_blank" class="btn btn-warning navbar-btn navbar-right">Download Workbook</a>
+				<a href="pdf/for_real_elem_starter_wb.pdf" target="_blank" class="btn btn-info navbar-btn navbar-right">Download Workbook</a>
           <ul class="nav navbar-nav" >
             <li>
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Unit 1 <span class="caret"></span></a>
