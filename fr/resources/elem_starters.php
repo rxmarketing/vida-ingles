@@ -7,46 +7,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="http://localhost/vidaingles/css/bootstrap.min.css">
 		<link rel="stylesheet" href="http://localhost/vidaingles/css/docs.min.css">
+		<link rel="stylesheet" href="css/fr-resources-styles.css">
 		<script src="http://localhost/vidaingles/js/jquery-1.11.3.min.js"></script>
 		<script src="http://localhost/vidaingles/js/bootstrap.min.js"></script>
 		<script src="http://localhost/vidaingles/js/docs.min.js"></script>
 		<script src="http://localhost/vidaingles/fr/resources/js/resources.js"></script>
-		<style>
-			body {
-			margin-top: 70px;
-			position: relative;
-			}
-			.padTop50 {
-			padding-top: 50px;
-			}
-			.bg-warning {
-			padding:10px;
-			border: 1px solid #d2d2d2;
-			border-radius: 5px;
-			}
-			ul.syntax {
-			list-style: none;
-			}
-			.syntax {
-			font-family: monospace, tahoma;
-			}
-			span.tradu {
-			font-size: 11px;
-			font-family: Verdana, tahoma;
-			color: rgba(136, 136, 136, 0.9);
-			word-spacing: -1px;
-			display: block;
-			font-style: italic;
-			margin-top: -2px;
-			}
-			ul.example-lists > li {
-			margin-bottom: 8px;
-			list-style: square;
-			}
-			nav.bs-docs-sidebar ul li ul {
-			padding-left: 10px;
-			}
-		</style>
 	</head>
 	<body data-spy="scroll" data-target="#main-nav" data-offset="0">
     <!-- Fixed navbar -->
@@ -62,8 +27,9 @@
           <a class="navbar-brand" href="#">Elementary Starter A & B</a>
 				</div>
         <div class="navbar-collapse collapse">
+				<a href="pdf/for_real_elem_starter_wb.pdf" target="_blank" class="btn btn-warning navbar-btn navbar-right">Download Workbook</a>
           <ul class="nav navbar-nav" >
-            <li class="active">
+            <li>
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Unit 1 <span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li class="dropdown-header">Grammar</li>

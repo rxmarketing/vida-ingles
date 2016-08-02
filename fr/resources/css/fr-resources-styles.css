@@ -1,13 +1,7 @@
 /* for real resources styles */
-#top {
-    position: fixed;
-    bottom: 100px;
-    right: 60px;
-    ddisplay: none;
-}
 body {
-    background-color: #1b062f;
-    color: #fff;
+	margin-top: 70px;
+	position: relative;
 }
 
 a[href$='.pdf'] {  
@@ -16,47 +10,33 @@ a[href$='.pdf'] {
     background-repeat: no-repeat;
       background-position: right center; /* Adjust if needed */
 }
-
-a {
-    color: #6A245B;
+.padTop50 {
+	padding-top: 50px;
 }
-a:hover {
-    color: #6A245B;
+.bg-warning {
+	padding:10px;
+	border: 1px solid #d2d2d2;
+	border-radius: 5px;
 }
-a:visited {
-    color: #6A245B;
+ul.syntax {
+	list-style: none;
 }
-  
-#main-content{
-    background-color: #fff;
-    color: #333;
-    box-shadow: -3px 0 5px -3px rgba(1, 1, 1, 0.87), 3px 0 5px -3px rgba(1, 1, 1, 0.87);
-    border-top: 1px solid #333;
-    border-radius: 10px 10px 10px 10px;
-    position: relative;
+.syntax {
+	font-family: monospace, tahoma;
 }
-h1,h2,h3,h4,h5,h6 {
-    color: #2E1347;
-    lfont-size: 36px;
-    line-height: 36px;
-    font-weight: 700;
+span.tradu {
+	font-size: 11px;
+	font-family: Verdana, tahoma;
+	color: rgba(136, 136, 136, 0.9);
+	word-spacing: -1px;
+	display: block;
+	font-style: italic;
+	margin-top: -2px;
 }
-footer {
-    background-color: #0B0009;
-    margin-top: -30px;
+ul.example-lists > li {
+	margin-bottom: 8px;
+	list-style: square;
 }
-footer h3 {
-    color: #777;
-    letter-spacing: normal;
-    text-transform: uppercase;
-    text-shadow: #000 0 1px 0;
-    border: solid 1px #000;
-    text-rendering: optimizeLegibility;
-    border-bottom: none;
-    border-radius: 4px 4px 0 0;
-    position: relative;
-    text-align: center;
-    height: 10px;
-    margin-top: 20px;
-    font-size: 16px;
+nav.bs-docs-sidebar ul li ul {
+	padding-left: 10px;
 }
