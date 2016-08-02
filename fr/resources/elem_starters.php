@@ -10,6 +10,7 @@
 		<script src="http://localhost/vidaingles/js/jquery-1.11.3.min.js"></script>
 		<script src="http://localhost/vidaingles/js/bootstrap.min.js"></script>
 		<script src="http://localhost/vidaingles/js/docs.min.js"></script>
+		<script src="http://localhost/vidaingles/fr/resources/js/resources.js"></script>
 		<style>
 			body {
 			margin-top: 70px;
@@ -1057,33 +1058,7 @@
 			<div id="selectedMenu"></div>
 		</div>
 		<script>
-			$(document).ready(function() {
-				$('a[href^="#"]').on('click', function(e) {
-					e.preventDefault();
-					var target = this.hash;
-					var $target = $(target);
-					$('html, body').animate({
-						'scrollTop':$target.offset().top
-					}, 1000, "swing");
-				});
-				//	$(window).scroll(function(){
-				//		if($(this).scrollTop() !=0) {
-				//			$('#top').fadeIn();
-				//			} else {
-				//			$('#top').fadeOut();
-				//		}
-				//	});
-				//	$('#top').click(function() {
-				//		$('body, html').animate({
-				//			scrollTop:0
-				//		}, 500);
-				//	});
-				//	
-				//	$("#main-nav").on("activate.bs.scrollspy", function() {
-				//		var selectedMenu = $(".nav li.active > a").text();
-				//		$("#selectedMenu").html("You're in <b>"+ selectedMenu + "</b> section.");
-				//	});
-			});
+		
 		</script>
 	</body>
-</html>				
+</html>
