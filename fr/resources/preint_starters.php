@@ -99,12 +99,12 @@
 									</li>
 								</ul>
 								<div class="well syntax">
-									<h4>Estructura del present simple <small>Regular and Irregular Verbs</small></h4>			
-									<ul>									
-										<li>(+) Sujeto + verbo* + complemento.</li>									
-										<li>(-) Sujeto + don't/doesn't + verbo + complemento.</li>									
-										<li>(?) Do/Does + sujeto + verbo + complemento?</li>									
-										<li>(=) Yes, + sujeto** + do/does. / No, + sujeto** + don't/doesn't.</li>								
+									<h4>Estructura del present simple <small>Regular and Irregular Verbs</small></h4>
+									<ul>
+										<li>(+) Sujeto + verbo* + complemento.</li>
+										<li>(-) Sujeto + don't/doesn't + verbo + complemento.</li>
+										<li>(?) Do/Does + sujeto + verbo + complemento?</li>
+										<li>(=) Yes, + sujeto** + do/does. / No, + sujeto** + don't/doesn't.</li>
 									</ul>
 									<small>* Anexa <b>s</b> o <b>es</b> si el sujeto es <strong>he/she/it</strong>.</small><br />
 									<small>** Usa el <strong>pronombre</strong> correspondiente.</small>
@@ -118,7 +118,7 @@
 								<header><h3>Present continuous</h3></header>
 								<p>Usa el <em>presente continuo</em> para:</p>
 								<ul class="example-lists">
-									<li>decir lo que esta sucediendo en el momento de hablar. 
+									<li>decir lo que esta sucediendo en el momento de hablar.
 										<ul class="example-lists">
 											<li>We can't leave now. It<strong>'s rainning</strong>.<span class="tradu">No podemos salir ahora. Esta lloviendo.</span></li>
 											<li><strong>Are you having</strong> fun? Yes, I am.<span class="tradu">¿Te estas divirtiendo? Si estoy.</span></li>
@@ -134,12 +134,12 @@
 									</li>
 								</ul>
 								<div class="well syntax">
-									<h4>Estructura del presente continuo</h4>							
-									<ul class="syntax">									
-										<li>(+) Sujeto + be + verbo -ing + complemento.</li>									
-										<li>(-) Sujeto + be + not + verbo -ing + complemento.</li>									
-										<li>(?) Be + sujeto + verbo -ing + complemento?</li>									
-										<li>(=) Yes, + sujeto* + be. / No, + sujeto* + be + not.</li>								
+									<h4>Estructura del presente continuo</h4>
+									<ul class="syntax">
+										<li>(+) Sujeto + be + verbo -ing + complemento.</li>
+										<li>(-) Sujeto + be + not + verbo -ing + complemento.</li>
+										<li>(?) Be + sujeto + verbo -ing + complemento?</li>
+										<li>(=) Yes, + sujeto* + be. / No, + sujeto* + be + not.</li>
 									</ul>
 									<small>* Usa el <strong>pronombre</strong> correspondiente.</small>
 								</div>
@@ -168,14 +168,14 @@
 								</ul>
 								<footer>
 									<a href="#" target="_blank" class="btn btn-success navbar-btn">Present continuous exercise &raquo;</a>
-								</footer>								
+								</footer>
 							</article>
 							<article id="modal-verb-can" class="padTop50">
 								<h3>Modal verb <em>can</em></h3>
 							</article>
 							<article id="degrees-of-ability" class="padTop50">
 								<h3>Degrees of ability</h3>
-								
+
 							</article>
 						</section>
 						<!-- Ends Unit 1 -->
@@ -183,34 +183,34 @@
 							<h2>Unit 2</h2>
 							<article id="countables-and-uncountables" class="padTop50">
 								<header><h3>Countables and uncountables</h3></header>
-								
+
 								<!-- contente here -->
-								
+
 							</article>
 							<article id="some-any" class="padTop50">
 								<header><h3><em>some / any </em></h3></header>
-								
+
 								<!-- contente here -->
-								
+
 							</article>
 							<article id="much-many" class="padTop50">
 								<header><h3><em>much / many</em></h3></header>
-								
+
 								<!-- contente here -->
-								
+
 							</article>
 							<article id="comparatives" class="padTop50">
 								<header><h3>Comparatives</h3></header>
-								
+
 								<!-- contente here -->
-								
+
 							</article>
 							<article id="superlatives" class="padTop50">
 								<header><h3>Superlatives</h3></header>
-								
+
 								<!-- contente here -->
-								
-							</article>  
+
+							</article>
 						</section>
 						<!-- Ends Unti 2 -->
 					</section>
@@ -221,17 +221,17 @@
 							<h2>Unit 3</h2>
 							<article id="past-simple" class="padTop50">
 								<header><h3>Past simple</h3></header>
-								
+
 								<!-- contente here -->
-								
+
 							</article>
 							<article id="pronunciation-of-s" class="padTop50">
 							</article>
 							<article id="modal-verb-obligation" class="padTop50">
 								<header><h4>Modal verb: obligation</h4></header>
-								
+
 								<!-- contente here -->
-								
+
 							</article>
 						</section>
 						<!-- ends unit 3 -->
@@ -239,21 +239,21 @@
 							<h2>Unit 4</h2>
 							<article id="present-continuous-for-future" class="padTop50">
 								<header><h3>Present continuous for future</h3></header>
-								
+
 								<!-- contente here -->
-								
+
 							</article>
 							<article id="be-going-to" class="padTop50">
 								<header><h3><em>be going to</em></h3></header>
-								
+
 								<!-- contente here -->
-								
+
 							</article>
 							<article id="present-perfect-with-ever-never-and-for-since" class="padTop50">
 								<header><h3>Present perfect with <em>ever / never</em> and <em>for / since</em></h3></header>
-								
+
 								<!-- contente here -->
-								
+
 							</article>
 						</section>
 						<!-- ends unit 4 -->
@@ -321,7 +321,7 @@
 			<div id="selectedMenu"></div>
 		</div>
 		<script>
-			
+
 		</script>
 	</body>
 </html>
