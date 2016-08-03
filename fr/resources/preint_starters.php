@@ -27,7 +27,7 @@
           <a class="navbar-brand" href="#">Pre-Intermediate Starters A & B</a>
 				</div>
         <div class="navbar-collapse collapse">
-					<a href="pdf/for_real_elem_starter_wb.pdf" target="_blank" class="btn btn-info navbar-btn navbar-right">Download Workbook</a>
+					<a href="pdf/for_real_elem_starter_wb.pdf" target="_blank" class="btn btn-danger navbar-btn navbar-right">Download Workbook</a>
           <ul class="nav navbar-nav" >
             <li>
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Unit 1 <span class="caret"></span></a>
@@ -66,7 +66,7 @@
                 <li><a href="#present-continuous-for-future">Present continuous for future</a></li>
 								<li><a href="#be-going-to"><em>be going to</em></a></li>
 								<li><a href="#present-perfect-with-ever-never-and-for-since">Present perfect with <em>ever / never</em> and <em>for / since</em></a></li>
-								</ul>
+							</ul>
 						</li>
 					</ul>
 				</div><!--/.nav-collapse -->
@@ -81,18 +81,94 @@
 							<h2>Unit 1</h2>
 							<article id="present-simple" class="padTop50">
 								<h3>Present simple </h3>
-									
-									<!-- presente simple content here -->
-									
+								<p>Utiliza el <em>presente simple</em> para hablar de:</p>
+								<ul class="example-lists">
+									<li>acciones que siempre son verdad:
+										<ul>
+											<li>He plays guitar. <span class="tradu">El toca la guitarra.</span></li>
+											<li>I don't sleep during the day.<span class="tradu">No duermo durante el dia.</span></li>
+											<li>Does Brenda sing in a band?<span class="tradu">¿Canta Brenda en una banda?</span></li>
+										</ul>
+									</li>
+									<li>
+										<li>gustos y disgustos</li>
+										<ul class="example-lists">
+											<li>I like Kibis. <span class="tradu">Me gustan los Kibis.</span></li>
+											<li>Do you like facebook? <span class="tradu">¿Te gusta facebook?</span></li>
+										</ul>
+									</li>
+								</ul>
+								<div class="well syntax">
+									<h4>Estructura del present simple <small>Regular and Irregular Verbs</small></h4>			
+									<ul>									
+										<li>(+) Sujeto + verbo* + complemento.</li>									
+										<li>(-) Sujeto + don't/doesn't + verbo + complemento.</li>									
+										<li>(?) Do/Does + sujeto + verbo + complemento?</li>									
+										<li>(=) Yes, + sujeto** + do/does. / No, + sujeto** + don't/doesn't.</li>								
+									</ul>
+									<small>* Anexa <b>s</b> o <b>es</b> si el sujeto es <strong>he/she/it</strong>.</small><br />
+									<small>** Usa el <strong>pronombre</strong> correspondiente.</small>
+								</div>
+								<p class="bg-warning">Recuerda: El verbo principal <u>no se modifica</u> en la forma <em>negativa</em> e <em>interrogativa</em>.</p>
+								<footer>
+									<a href="http://vidaingles.com/app/present_simple.php" target="_blank" class="btn btn-success navbar-btn">Practice exercise &raquo;</a>
+								</footer>
 							</article>
 							<article id="present-continuous" class="padTop50">
-								<header>
-									<h3>Present continuous</h3>
-								</header>
-								<footer></footer>
+								<header><h3>Present continuous</h3></header>
+								<p>Usa el <em>presente continuo</em> para:</p>
+								<ul class="example-lists">
+									<li>decir lo que esta sucediendo en el momento de hablar. 
+										<ul class="example-lists">
+											<li>We can't leave now. It<strong>'s rainning</strong>.<span class="tradu">No podemos salir ahora. Esta lloviendo.</span></li>
+											<li><strong>Are you having</strong> fun? Yes, I am.<span class="tradu">¿Te estas divirtiendo? Si estoy.</span></li>
+											<li>The teachers <strong>are having</strong> a meeting right now.<span class="tradu">Los maestros estan teniendo una junta en este momento.</span></li>
+										</ul>
+									</li>
+									<li>para situaciones temporales
+										<ul class="example-lists">
+											<li>Sinai <strong>is staying</strong> with her grandma this weekend. <span class="tradu">Sinai se va a quedar con su abuelita este fin de semana.</span></li>
+											<li>I <strong>am taking</strong> guitar lessons. <span class="tradu">Estoy tomando clases de guitarra.</span></li>
+											<li>Vanessa <strong>is learning</strong> to drive. <span class="tradu">Vanessa esta aprendiendo a menejar.</span></li>
+										</ul>
+									</li>
+								</ul>
+								<div class="well syntax">
+									<h4>Estructura del presente continuo</h4>							
+									<ul class="syntax">									
+										<li>(+) Sujeto + be + verbo -ing + complemento.</li>									
+										<li>(-) Sujeto + be + not + verbo -ing + complemento.</li>									
+										<li>(?) Be + sujeto + verbo -ing + complemento?</li>									
+										<li>(=) Yes, + sujeto* + be. / No, + sujeto* + be + not.</li>								
+									</ul>
+									<small>* Usa el <strong>pronombre</strong> correspondiente.</small>
+								</div>
+								<footer>
+									<a href="#" target="_blank" class="btn btn-success navbar-btn">Present continuous exercise &raquo;</a>
+								</footer>
 							</article>
 							<article id="adverbs-of-frequency" class="padTop50">
 								<h3>Adverbs of frequency</h3>
+								<p>Podemos usar algunos <em>adverbios</em>, junto con el presente simple,  para decir que tan seguido hacemos algo. Los adverbios principales son:</p>
+								<ul class="example-lists">
+									<li>always</li>
+									<li>often</li>
+									<li>not often</li>
+									<li>usually</li>
+									<li>sometimes</li>
+									<li>never</li>
+								</ul>
+								<p class="bg-warning text-center">Recuerda: Los adverbios de frecuencia van <strong>antes</strong> el verbo principal, y despues del verbo <strong>be</strong>.</p>
+								<p>Ejemplos:</p>
+								<ul class="example-lists">
+									<li>I <strong>never eat</strong> fast food.<span class="tradu">Yo <strong>nunca como</strong> comida rápida.</span></li>
+									<li>Sophie <strong>is always</strong> late for school.<span class="tradu">Sophie <strong>siempre</strong> llega tarde a la escuela.</span></li>
+									<li>Don't worry. Susan <strong>often forgets</strong> to phone home.<span class="tradu">No te preocupes. Susan <strong>seguido olvida</strong> llamar a casa.</span></li>
+									<li>Do you <strong>usually do</strong> your homework at night?<span class="tradu">¿<strong>Usualmente haces</strong> tu tarea en la noche?</span></li>
+								</ul>
+								<footer>
+									<a href="#" target="_blank" class="btn btn-success navbar-btn">Present continuous exercise &raquo;</a>
+								</footer>								
 							</article>
 							<article id="modal-verb-can" class="padTop50">
 								<h3>Modal verb <em>can</em></h3>
@@ -114,8 +190,8 @@
 							<article id="some-any" class="padTop50">
 								<header><h3><em>some / any </em></h3></header>
 								
-									<!-- contente here -->
-									
+								<!-- contente here -->
+								
 							</article>
 							<article id="much-many" class="padTop50">
 								<header><h3><em>much / many</em></h3></header>

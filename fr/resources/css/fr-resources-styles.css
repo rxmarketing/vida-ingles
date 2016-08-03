@@ -37,6 +37,12 @@ ul.example-lists > li {
 	margin-bottom: 8px;
 	list-style: square;
 }
+
+ul.example-lists > li > ul > li {
+	margin-bottom: 8px;
+	list-style: square;
+}
+
 nav.bs-docs-sidebar ul li ul {
 	padding-left: 10px;
 }
