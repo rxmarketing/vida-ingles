@@ -31,6 +31,7 @@
             <ul>
             <li><a href="elem_starters.php">Elementary Starter A & B</a></li>
             	<li><a href="#">Pre-Intermediate Starter A & B</a></li>
+            	<li><a href="#">Intermediate Starter C & D</a></li>
             </ul>
         </div>
         <footer class="footer">
