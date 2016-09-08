@@ -1,0 +1,35 @@
+/* VIDA INGES PRINT STYLES */
+
+body{
+ font-family: Georgia, times;
+ font-size: 14px;
+ padding-top: 0;
+}
+
+
+.noprint {
+ display: none
+}
+
+.form-control {
+display:none
+}
+
+#hashtagWrapper {
+display:none;
+}
+
+.table {
+ font-size: 12px;
+}
+
+span.tradu {
+ font-family: Georgia, times;
+ font-size: 11px;
+}
+
+code {
+ font-family: Georgia, times;
+ text-decoration: underline;
+ color: red;
+}

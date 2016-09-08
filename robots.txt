@@ -1,0 +1,18 @@
+User-agent: *
+Disallow: /cetec/
+Disallow: /includes/
+Disallow: /inc/
+Disallow: /templates/
+Disallow: /fr/
+Disallow: /misc/
+Disallow: /admin/
+Disallow: /users/
+Disallow: /js/
+Disallow: /css/
+Disallow: /ajax/
+Disallow: /ads/
+Disallow: /sql/
+Disallow: /pdf/
+
+User-Agent: Googlebot
+Disallow: /folder2/

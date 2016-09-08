@@ -1,0 +1,226 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+	background: #222;
+	5color: #32E74F;
+	color: #d8dfea;
+   /* Margin bottom by footer height */
+  margin-top: 51px;
+  margin-bottom: 60px;
+}
+
+.dropdown {
+ margin-top: 14px;
+}
+
+.logo {
+ float: left;
+ margin-right: 10px;
+ margin-top: 10px;
+}
+
+.jumbotron {
+ padding: 5% 8%;
+}
+
+.top-span {
+	background: #3b5998;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 20px;
+  background-color: #222;
+   margin-top: 20px;
+ border-top: 1px solid #6495E2;
+ padding: 10px;
+ font-size: 12px;
+}
+a.pro:link {
+ color: #FFFFBF;
+}
+
+a.pro:hover {
+ color: #FFFFBF;
+}
+
+a.pro:visited {
+ color: #FFFFBF;
+}
+
+#loginform {
+ margin-top: 10px;
+}
+
+
+
+h3 {
+color: #6C95EA;
+}
+
+table.milista {
+	font-size: 12px;
+}
+
+.stats {
+ gheight: 200px;
+ overflow-y: hidden;
+}
+
+table {
+	border: 1px solid #3C3A3A;
+}
+
+.table.stripped > tbody > tr:nth-child(odd) {
+ background-color: #111;
+}
+
+.table.stripped {
+ width: 50%;
+ 
+}
+
+.bg-color {
+ background-color: #111;
+}
+
+td {
+	border: 1px solid #3C3A3A;
+}
+
+td.col-nombre {
+	text-transform: capitalize;
+}
+
+ul.nav.navbar-nav li a {
+ color: #b2b2b2;
+}
+
+ul.nav.navbar-nav li:hover {
+ background-color: #222;
+}
+
+ul.nav.navbar-nav li a:hover {
+ color: #fff;
+}
+
+/**** FORM SIGNIN STYLES **********************/
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* FORMULARIO NUEVO PROSPECTO STYLES */
+
+
+input.data {
+
+}
+
+.control-label {
+ text-shadow: 1px -1px 1px #000;
+}
+
+input[type=text],[type=email], [type=tel],[type=number],[type=password] {
+	background: #444;
+	color: #f2f2f2;
+ }
+ 
+ .form-control[disabled] {
+  background-color: #444;
+ }
+
+select.select {
+	/-webkit-border-radius: 5px;
+	background: #444;
+		color: #f2f2f2;
+}
+
+select.fdn, select.mdn, select.adn {
+	background: #444;
+	color: #f2f2f2;
+}
+
+textarea.textarea {
+	background: #444;
+	color: #f2f2f2;
+}
+
+span#emailstatus {
+	display: block;
+	font-weight: bold;
+}
+
+span#aviso {
+	font-weight: bold;
+	color: red;
+}
+
+button.botonEnviarPros {
+	padding: 8px 20px;
+	margin: 10px;
+}
+
+.well {
+ background-color: #444;
+}
+
+footer {
+
+}
+/*TERMINA FORMULARIO NUEVO PROSPECTO STYLES */
+/* MI LISTA STYLES *********************************** */
+.alabel {
+ color: #428bca;
+ font-weight: bold;
+}
+
+/* CHANGE PASSWORD STYLES */
+.bg-danger {
+ background-color: #222;
+ font-weight: bold;
+}
+
+#changepassaviso {
+ margin-top: 10px;
+}
+
+/* ENDS CHANGE PASSWORD STYLES */
+
+/* FORGOT PASS STYLES */
+
+/* ENDS FORGOT PASS STYLES */

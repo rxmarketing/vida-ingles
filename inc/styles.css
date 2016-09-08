@@ -1,0 +1,299 @@
+html {
+    font: 100%/1.4 Tahoma, Verdana, Arial;
+    color: #444;
+}
+
+body {
+    -webkit-font-smoothing:antialiased; 
+	font-smoothing:antialiased; 
+	text-rendering:optimizeLegibility; 
+}
+
+code {
+    font-size: 1.2em;
+}
+
+pre {
+    padding: 10px;
+    background-color: #d8d8d8;
+    border: 1px solid #d2d2d2;
+}
+
+table {
+    width: 600px;
+}
+table tr td {
+    padding: 10px;
+    border: 1px solid #d2d2d2;
+}
+table th {
+    border: 1px solid #d2d2d2;
+}
+footer {
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    background-color: #666;
+}
+
+h2, h3, h4, h5, h6 {
+	font-family:Futura, "Century Gothic", AppleGothic, sans-serif;
+	text-shadow:1px 1px 1px rgba(0,0,0,.10);
+    
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.50em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.50em;
+}
+
+h5 {
+    font-size: 1.1em;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+details,summary {
+    display: block;
+}
+
+em {
+    font-weight: bold;
+    color: #3b5998;
+    font-style: normal;
+}
+
+.rachel,.silas,.luke,.aisha {
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.transcript-wrapper,.answers-wrapper, .exercise-wrapper {
+    background-color: #f3f3f3;
+    width: 50%;
+    padding: 20px;
+    font-family: Verdana, Tahoma;
+    font-size: 12px;
+    margin-left: 20px;
+    border: 1px solid #d2d2d2;
+}
+
+.answersLink {
+    font-size: 11px;
+}
+
+.transcript-header, .answers-header, .exercise-header {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+div.answers-content, div.transcript-content {
+    margin-left: 20px;
+	
+}
+
+div.answers-content > ul, div.answers-content > ol {
+    margin-left:-15px;
+}
+
+div.transcript-content > ul, div.transcript-content > ol {
+    border-left: 3px solid #d2d2d2;
+    padding-left: 10px;
+    margin-left: 30px;
+    list-style: none;
+}
+
+
+div#marco > details > summary {
+    height: 75px;
+    margin-bottom: 10px;
+    border: 2px solid #666;
+    border-radius: 5px;
+}
+
+div#marco > details > summary > h1 {
+    text-shadow: 0 -1px 3px #000;
+    letter-spacing: -2px;
+}
+
+div#marco > details > details > summary {
+    margin-bottom: 10px;
+}
+
+.inline {
+    display: inline;
+    line-height: 1.5em;
+}
+
+summary:hover {
+    cursor: pointer;
+}
+
+div#marco > details > summary > span {
+    padding-left: 30px;
+    font-size: 1.3em;
+    color: #999;
+}
+
+div#marco > details > details, div#marco > details > details > details, div#marco > details > details > details > details {
+    margin-left: 20px;
+}
+
+div#marco > details > details > details {
+    margin-bottom: 10px;
+}
+
+div#marco > details > details > p,table, div#marco > details > details > details > p,table{
+    padding-left:20px;
+}
+
+div#marco > details > details > details > table, th,tr,td, div.answers-content > table, th, tr, td {
+	border-collapse: collapse;
+	border: 1px solid #b3b3b3;
+	padding: 5px 10px;
+	font-size: 0.9em;
+}
+
+div.transcript-content > table + tr + td {
+	border-collapse: collapse;
+	border: 0px;
+	font-size: 1em;
+}
+
+div.transcript-content > table {
+	border-left: 3px solid #d2d2d2;
+}
+
+div#marco > details > details > details > table > tbody > tr > th {
+	background: #d2d2d2;
+}
+
+div#marco > details > details > details > details > summary > h4 {
+	font-style: italic;
+}
+
+div.objectives-wrapper {
+	height: 300px;
+	background-color: #f2f2f2;
+	border: 1px solid #d2d2d2;
+}
+
+
+div.objectives-wrapper ul {
+	margin-left: -20px;
+}
+
+
+div.ob_grammar, div.ob_functions, div.ob_vocabulary, div.ob_skills, div.objectives-content {
+	float:left;
+	font-size: 0.7em;
+	width: 21%;
+	padding: 2%;
+}
+
+/* Classes  *******************/
+
+div.transcript-content > ul > li > div.actor {
+    display: inline;
+    width: 100px;
+    font-weight: bold;
+} 
+
+p.competences > .cef {
+    font-weight: bold;
+    color: red;
+}
+
+.skills-for-life {
+    margin-left: 60px;
+    background-color: rgba(46, 0, 128, 0.51);
+    padding: 15px;
+}
+
+.i {
+    font-style: italic;
+}
+
+b {
+    font-style: italic;
+}
+
+abbr.pet {
+    color: blue;
+}
+
+abbr.ise {
+    color: red;
+}
+
+.elem-background {
+    background: #324F99;
+    color: #fff;
+}
+
+.preint-background {
+    background-color: rgb(204, 35, 35);
+    color: #fff;
+}
+
+span.tradu {
+	display: block;
+	font-size: 0.7em;
+	color: #999
+}
+
+span.syntax {
+	display: block;
+	color: green;
+	padding: 4px;
+	font-weight: normal;
+	font-family: verdana;
+	font-size: 0.9em;
+}
+
+.competences {
+	margin-right: 2%;
+	border-radius: 8px;
+	box-shadow: 2px 2px 5px #000;
+	font-size: 0.9em;
+	padding: 10px;
+	background-color: #d2d2d2;
+}
+
+p.exe-number {
+    font-weight: bold;
+    font-family: "Century Gothic";
+    margin-left: -20px;
+}
+
+.hiddenWordPlaceholder {
+	background-color: yellow;
+}
+
+span.hidden-word {
+	color: #3B5998;
+	font-weight: bold;
+	background-color: rgba(20, 255, 0, 0.51);
+}
+
+div.transcript-content td {
+	vertical-align: top;
+}
+
+.file-expressions {
+	font-weight: bold;
+}

@@ -1,0 +1,67 @@
+body {
+  margin-top: 51px;
+ }
+ 
+    .marketing, .footer {
+    text-shadow: 1px 1px 2px #b2b2b2;
+  
+  }
+  
+   .syntax {
+    font-family: monospace, verdana, times;
+    font-size: 17px;
+    color: #555;
+   }
+   
+   ul li {
+     list-style: none;
+     margin-left: -20px;
+   }
+		.msg {
+			font-weight: bold;
+			color: red;
+		}
+		.good {
+			background-color: rgba(0, 128, 0, 0.39);
+		}
+		.bad {
+			background-color: rgba(255, 0, 0, 0.35);
+		}
+		
+		.marketing {
+			margin: 20px 0px;
+		}
+ label {
+  font-weight: 400;
+ }
+ 
+ em {
+  color: #374FCA;
+  font-weight: 700;
+ }
+ 
+ .subject {
+  color: #3B59B0;
+  font-weight: bold;
+ }
+ 
+  .verb {
+  color: #B85CA1;
+  font-weight: bold;
+ }
+ 
+  .compl {
+  color: #5BB35B;
+  font-weight: bold;
+ }
+ 
+ h3 {
+  font-size: 36px;
+  color: #4C79FF;
+  letter-spacing: -1px;
+ }
+ 
+ .formula {
+  color: green;
+  font-style: bold;
+ }

@@ -1,0 +1,47 @@
+ErrorDocument 404 /vidaingles/404.php
+
+IndexIgnore *
+
+#<Limit GET POST>
+#order deny,allow
+#deny from all
+#allow from all
+#</Limit>
+#<Limit PUT DELETE>
+#order deny,allow
+#deny from all
+#</Limit>
+#AuthName vidaingles.com
+#AuthUserFile /home/vidaingl/public_html/_vti_pvt/service.pwd
+#AuthGroupFile /home/vidaingl/public_html/_vti_pvt/service.grp
+# BEGIN WordPress
+#<IfModule mod_rewrite.c>
+
+
+#RewriteEngine On
+#RewriteBase /
+#RewriteRule ^index\.php$ - [L]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule . /index.php [L]
+#</IfModule>
+
+# END WordPress
+
+#Options +FollowSymLinks
+
+RewriteEngine On
+
+RewriteRule ^lecciones/([0-9]+)/([a-zA-Z0-9_-]+) lesson.php?id=$1&title=$2 [NC,L]
+RewriteRule ^ejercicios/([0-9]+)/([a-zA-Z0-9_-]+) ejercicio.php?id=$1&title=$2 [NC,L]
+RewriteRule ^cursos/([0-9]+)/([a-zA-Z0-9_-]+) course.php?id=$1&title=$2 [NC,L]
+RewriteRule ^paginas/([0-9]+)/([a-zA-Z0-9_-]+) pagina.php?id=$1&title=$2 [NC,L]
+RewriteRule ^canciones/([0-9]+)/([a-zA-Z0-9_-]+) cancion.php?id=$1&title=$2 [NC,L]
+RewriteRule ^contacto contacto.php [NC,L]
+RewriteRule ^verbos verbos.php [NC,L]
+RewriteRule ^usuario/([a-zA-Z0-9]+) user.php?u=$1 [NC,L]
+RewriteRule ^iniciar login.php [NC,L]
+RewriteRule ^registrar register.php [NC,L]
+RewriteRule ^lecciones todas_lecciones.php [NC,L]
+RewriteRule ^ejercicios todos_ejercicios.php [NC,L]
+#RewriteRule ^leccion/([a-zA-Z0-9_-]+)/([0-9]+) lesson.php?title=$2&id=$1 [NC,L]
