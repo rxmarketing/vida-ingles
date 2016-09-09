@@ -6,7 +6,7 @@
 		} else {
 		header("location: login.php");
 		exit();	
-	}
+    }
 	$ejer_userid = "";
 	$ejer_nombre = "";
 	$ejer_instr = "";
@@ -22,7 +22,7 @@
 		$dice = "Haz hecho este ejercicio <b>" . $ejerCount . "</b> veces";
 		} else {
 		$dice = "";
-	}
+    }
 	// GATHER ejercicios QUESTIONS FROM ejercicios TABLE into variables
 	$sql = "SELECT * FROM ejercicios WHERE ejer_id='$ejerid' LIMIT 1";
 	$test_query = mysqli_query($db_conx,$sql);
@@ -71,9 +71,9 @@
 			$leccionFriendName = $row['lesson_name'];
 			$leccionTitle = $row['lessontitle'];
 			$leccionTitleNoTags = strip_tags($leccionTitle);
-		}
-	}
-
+        }
+    }
+    
 ?>
 <!doctype html>
 <html lang="es" translate="no">
@@ -100,8 +100,8 @@
 		<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
-	</head>
+        <![endif]-->
+    </head>
 	<body>
 		<?php include_once('templates/template_header.php') ?>
 		<!-- SHOWCASE =======================================================-->
@@ -117,159 +117,159 @@
 						<form role="form" id="ejerAppForm" method="post" action="ajax/ajax_auto_save.php">
 							<h3 class="encabezado-pagina"><?php echo $ejer_nombre; ?></h3>
 							<div class="metadata">
-						<span class=""><?php echo '<a href="#" data-html="<em>loco</em>" data-toggle="tooltip" data-placement="top" title="Marco Com&uacute;n Europeo de Referencia">CEF: '. $cefname .'</a>  | '. '<a href="'.$domain.'/lecciones/'.$lesson_id.'/'.$leccionFriendName.'" title="'.$leccionTitleNoTags.'" data-content="'.$lessonexcerpt.'" data-trigger="hover" rel="popover" data-placement="right">Ver leccion</a>' ?></span>
-					</div>
-					<p class="lead"><?php echo $ejer_desc ?></p>
+                                <span class=""><?php echo '<a href="#" data-html="<em>loco</em>" data-toggle="tooltip" data-placement="top" title="Marco Com&uacute;n Europeo de Referencia">CEF: '. $cefname .'</a>  | '. '<a href="'.$domain.'/lecciones/'.$lesson_id.'/'.$leccionFriendName.'" title="'.$leccionTitleNoTags.'" data-content="'.$lessonexcerpt.'" data-trigger="hover" rel="popover" data-placement="right">Ver leccion</a>' ?></span>
+                            </div>
+                            <p class="lead"><?php echo $ejer_desc ?></p>
 							<div class="fb-like"></div>
 							<?php include_once('includes/app_ads.php') ?>
 							<h4 class="ejer-instr"><?php echo $ejer_instr_p; ?></h4>
-				
+                            
 							<ol>
 								<li>
 									<div class="form-group">
 										<label for="q1"><?php echo $q1; ?></label>
 										<input type="text" class="form-control" id="inputq1" name="inputq1" placeholder="">
-									</div>
-								</li>
+                                    </div>
+                                </li>
 								<li>
 									<div class="form-group">
 										<label for="q2"><?php echo $q2; ?></label>
 										<input type="text" class="form-control" id="inputq2" name="inputq2" placeholder="">
-									</div>
-								</li>
+                                    </div>
+                                </li>
 								<li>
 									<div class="form-group">
 										<label for="q3"><?php echo $q3; ?></label>
 										<input type="text" class="form-control" id="inputq3" name="inputq3" placeholder="">
-									</div>
-								</li>
+                                    </div>
+                                </li>
 								<li>
 									<div class="form-group">
 										<label for="q4"><?php echo $q4; ?></label>
 										<input type="text" class="form-control" id="inputq4" name="inputq4" placeholder="">
-									</div>
-								</li>
+                                    </div>
+                                </li>
 								<li>
 									<div class="form-group">
 										<label for="q5"><?php echo $q5; ?></label>
 										<input type="text" class="form-control" id="inputq5" name="inputq5" placeholder="">
-									</div>
-								</li>
-							</ol>
+                                    </div>
+                                </li>
+                            </ol>
 							<h4><?php echo $ejer_instr_n; ?></h4>
 							<ol>
 								<li>
 									<div class="form-group">
 										<label for="q6"><?php echo $q6; ?></label>
 										<input type="text" class="form-control" id="inputq6" name="inputq6" placeholder="">
-									</div>
-								</li>
+                                    </div>
+                                </li>
 								<li>
 									<div class="form-group">
 										<label for="q7"><?php echo $q7; ?></label>
 										<input type="text" class="form-control" id="inputq7" name="inputq7" placeholder="">
-									</div>
-								</li>
+                                    </div>
+                                </li>
 								<li>
 									<div class="form-group">
 										<label for="q8"><?php echo $q8; ?></label>
 										<input type="text" class="form-control" id="inputq8" name="inputq8" placeholder="">
-									</div>
-								</li>
+                                    </div>
+                                </li>
 								<li>
 									<div class="form-group">
 										<label for="q9"><?php echo $q9; ?></label>
 										<input type="text" class="form-control" id="inputq9" name="inputq9" placeholder="">
-									</div>
-								</li>
+                                    </div>
+                                </li>
 								<li>
 									<div class="form-group">
 										<label for="q10"><?php echo $q10; ?></label>
 										<input type="text" class="form-control" id="inputq10" name="inputq10" placeholder="">
-									</div>
-								</li>
-							</ol>
+                                    </div>
+                                </li>
+                            </ol>
 							<h4><?php echo $ejer_instr_i; ?></h4>
 							<ol>
 								<li>
 									<div class="form-group">
 										<label for="q11"><?php echo $q11; ?></label>
 										<input type="text" class="form-control" id="inputq11" name="inputq11" placeholder="">
-									</div>
+                                    </div>
 									<div class="form-group col-md-6">
 										<label for="q12"><?php echo $q12; ?></label>
 										<input type="text" class="form-control" id="inputq12" name="inputq12" placeholder="">
-									</div>
+                                    </div>
 									<div class="form-group col-md-6">
 										<label for="q13"><?php echo $q13; ?></label>
 										<input type="text" class="form-control" id="inputq13" name="inputq13" placeholder="">
-									</div>
+                                    </div>
 									&nbsp;
-								</li>
+                                </li>
 								<li>
 									<div class="form-group">
 										<label for="q14"><?php echo $q14; ?></label>
 										<input type="text" class="form-control" id="inputq14" name="inputq14" placeholder="">
-									</div>
+                                    </div>
 									<div class="form-group col-md-6">
 										<label for="q15"><?php echo $q15; ?></label>
 										<input type="text" class="form-control" id="inputq15" name="inputq15" placeholder="">
-									</div>
+                                    </div>
 									<div class="form-group col-md-6">
 										<label for="q16"><?php echo $q16; ?></label>
 										<input type="text" class="form-control" id="inputq16" name="inputq16" placeholder="">
-									</div>
+                                    </div>
 									&nbsp;
-								</li>
+                                </li>
 								<li>
 									<div class="form-group">
 										<label for="q17"><?php echo $q17; ?></label>
 										<input type="text" class="form-control" id="inputq17" name="inputq17" placeholder="">
-									</div>
+                                    </div>
 									<div class="form-group col-md-6">
 										<label for="q18"><?php echo $q18; ?></label>
 										<input type="text" class="form-control" id="inputq18" name="inputq18" placeholder="">
-									</div>
+                                    </div>
 									<div class="form-group col-md-6">
 										<label for="q19"><?php echo $q19; ?></label>
 										<input type="text" class="form-control" id="inputq19" name="inputq19" placeholder="">
-									</div>
+                                    </div>
 									&nbsp;
-								</li>
+                                </li>
 								<li>
 									<div class="form-group">
 										<label for="q20"><?php echo $q20; ?></label>
 										<input type="text" class="form-control" id="inputq20" name="inputq20" placeholder="">
-									</div>
+                                    </div>
 									<div class="form-group col-md-6">
 										<label for="q21"><?php echo $q21; ?></label>
 										<input type="text" class="form-control" id="inputq21" name="inputq21" placeholder="">
-									</div>
+                                    </div>
 									<div class="form-group col-md-6">
 										<label for="q22"><?php echo $q22; ?></label>
 										<input type="text" class="form-control" id="inputq22" name="inputq22" placeholder="">
-									</div>
+                                    </div>
 									&nbsp;
-								</li>
+                                </li>
 								<li>
 									<div class="form-group">
 										<label for="q23"><?php echo $q23; ?></label>
 										<input type="text" class="form-control" id="inputq23" name="inputq23" placeholder="">
-									</div>
+                                    </div>
 									<div class="form-group col-md-6">
 										<label for="q24"><?php echo $q24; ?></label>
 										<input type="text" class="form-control" id="inputq24" name="inputq24" placeholder="">
-									</div>
+                                    </div>
 									<div class="form-group col-md-6">
 										<label for="q25"><?php echo $q25; ?></label>
 										<input type="text" class="form-control" id="inputq25" name="inputq25" placeholder="">
-									</div>&nbsp;
-								</li>
-							</ol>
+                                    </div>&nbsp;
+                                </li>
+                            </ol>
 							<p class="sugerenciasLinkWrapper noprint">
 								<a href="#" title="Lee las Reglas Gramaticales antes de checar resultados." class="reglas-gramaticales-link">Reglas gramaticales <span class="caret"></span></a>
-							</p>
-							<d|iv class="well" id="sugerencias" style="display:none">
+                            </p>
+							<div class="well" id="sugerencias" style="display:none">
 								<h4>Sigue estas reglas gramaticales antes de checar resultados</h4>
 								<ul class="lista-sugerencias">
 									<li>La primera letra al comienzo de una oración <em>debe</em> ser mayúscula.</li>
@@ -279,68 +279,68 @@
 									<li>Asegúrate de <em>no poner doble espacio</em> entre palabras.</li>
 									<li>Después del punto final <em>no deben haber espacios</em>.</li>
 									<li><em>Utiliza (Shift + ?) para el apóstrofe</em> de las contracciones (short form) junto a la tecla cero.</li>
-								</ul>
-							</div><!--Ends sugerencias div -->
+                                </ul>
+                            </div><!--Ends sugerencias div -->
 							<div class="col-md-8">
 								<button type="submit" class="btn btn-primary noprint" id="evalEjerBtn">Ver resultados</button> 
 								<button type="submit" class="btn btn-primary noprint" id="saveBtn">Guardar resultados</button> 
 								<input type="hidden" name="ejerid" id="ejerid" value="<?php echo $ejer_id ?>"/>
 								<input type="hidden" name="resultId" id="resultId"/>
-							<input type="hidden" name="ejerNombre" id="ejerNombre" value="<?php echo $ejer_nombre ?>"/>
-							<input type="hidden" name="logusername" id="logusername" value="<?php echo $log_username ?>"/>
+                                <input type="hidden" name="ejerNombre" id="ejerNombre" value="<?php echo $ejer_nombre ?>"/>
+                                <input type="hidden" name="logusername" id="logusername" value="<?php echo $log_username ?>"/>
 								<span class="msg"></span>
 								<span class="autosave"></span>
-							</div>
+                            </div>
 							<div class="col-md-1">
 								<div class="fb-share-button text-right" data-href="<?php echo canonical() ?>" data-layout="button_count"></div>
-							</div>
-						</form>
-					</section>
+                            </div>
+                        </form>
+                    </section>
 					<div class="noprint">
 						<?php include_once('ads/ad_responsive.php')?>
-					</div>
-				</div><!-- Ends col-md-8 -->
+                    </div>
+                </div><!-- Ends col-md-8 -->
 				<!-- SIDE BAR 
-				======================================================-->
+                ======================================================-->
 				<div class="col-md-4 noprint">
 					<?php include_once('templates/template_sidebar_right.php')?>
-				</div><!--Ends col-md-4 -->
-			</div>
-		</div>
+                </div><!--Ends col-md-4 -->
+            </div>
+        </div>
 		<!--- FOOTER ======================================================-->
 		<footer class="footer">
 			<div class="container">
 				<?php include_once('templates/template_footer.php') ?>
-			</div>
-		</footer>
+            </div>
+        </footer>
 		<script src="<?php echo home() ?>/js/check_results.js"></script>
-	</body>
+    </body>
 </html>
 <script>
-$(document).ready(function () {
-    function autoSave() {
-        var input1 = $("#inputq1").val(), input2 = $("#inputq2").val(), input3 = $("#inputq3").val(), input4 = $("#inputq4").val(), input5 = $("#inputq5").val(), input6 = $("#inputq6").val(), input7 = $("#inputq7").val(), input8 = $("#inputq8").val(), input9 = $("#inputq9").val(), input10 = $("#inputq10").val(), resultId = $("#resultId").val(), username = $("#logusername").val();
-        if (username !== '') {
-            $.ajax({
-                url: "ajax/ajax_auto_save.php",
-                method: "post",
-                data: $("#ejerAppForm").serializeArray(),
-                dataType: "html",
-                success: function (data) {
-                    if (data !== '') {
-                        $("#resultId").val(data);
+    $(document).ready(function () {
+        function autoSave() {
+            var input1 = $("#inputq1").val(), input2 = $("#inputq2").val(), input3 = $("#inputq3").val(), input4 = $("#inputq4").val(), input5 = $("#inputq5").val(), input6 = $("#inputq6").val(), input7 = $("#inputq7").val(), input8 = $("#inputq8").val(), input9 = $("#inputq9").val(), input10 = $("#inputq10").val(), resultId = $("#resultId").val(), username = $("#logusername").val();
+            if (username !== '') {
+                $.ajax({
+                    url: "ajax/ajax_auto_save.php",
+                    method: "post",
+                    data: $("#ejerAppForm").serializeArray(),
+                    dataType: "html",
+                    success: function (data) {
+                        if (data !== '') {
+                            $("#resultId").val(data);
+                        }
+                        alert(data);
+                        $(".autosave").text("Ejercicio auto-guardado.");
+                        setInterval(function () {
+                            $(".autosave").text("");
+                        }, 2000);
                     }
-                    alert(data);
-                    $(".autosave").text("Ejercicio auto-guardado.");
-                    setInterval(function () {
-                        $(".autosave").text("");
-                    }, 2000);
-                }
-            });
+                });
+            }
         }
-    }
-    setInterval(function () {
-        autoSave();
-    }, 10000);
-});
+        setInterval(function () {
+            autoSave();
+        }, 10000);
+    });
 </script>
