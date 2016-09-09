@@ -101,7 +101,7 @@
                         <ul class="list-unstyled">
                             <?php echo $moduleList; ?>
                         </ul>
-                        <a class="btn btn-primary" href="http://localhost/vidaingles/contacto" role="button">Solicita m&aacute;s informaci&oacute;n &raquo;</a>
+                        
 						<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
 							<div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
 								<img src=""/>
@@ -117,8 +117,9 @@
 					<hr class="featurette-divider noprint">
 					<ul id="etiquetas" class="list-inline noprint">
 					<span class="glyphicon glyphicon-tags" aria‐hidden="true"></span>
-					 temario ingles
+					 <li>temario <?php echo $cursoName ?></li>
 					</ul>
+                    <a class="btn btn-primary" href="http://localhost/vidaingles/contacto" role="button">Solicita m&aacute;s informaci&oacute;n &raquo;</a>
 					</article>
 					<hr class="featurette-divider noprint">
 					<?php include_once('ads/ad_responsive.php')?>
