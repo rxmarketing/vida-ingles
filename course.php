@@ -12,7 +12,7 @@
 	}
 	
 	// fetch one course to display
-	$sql = "SELECT cursos.courseid, cursos.coursename AS Curso, cursos.coursedesc AS Descripcion, categorias.catname AS Category, cursos.cefdesc, cursos.competences, cursos.courseweeks, cursos.course_price AS Precio, cursos.course_hours_week AS 'Horas Semana', cursos.lastmodified
+	$sql = "SELECT cursos.courseid, cursos.coursename AS Curso, cursos.coursedesc AS Descripcion, categorias.catname AS Category, cursos.cefdesc, cursos.competences, cursos.courseweeks, cursos.course_price AS Precio, cursos.course_hours_week AS 'Horas Semana', cursos.price_per_hour AS 'Precio Hora', cursos.temario_id, cursos.lastmodified
 	FROM cursos
 	INNER JOIN categorias
 	ON cursos.course_cat_id = categorias.catid
@@ -29,8 +29,15 @@
 		$competences = $row["competences"];
 		$course_weeks = $row["courseweeks"];
 		$course_hrs_week = $row["Horas Semana"];
-		$course_price = $row["Precio"];
+		$course_price_hour = $row["Precio Hora"];
+		$temario_id = $row["temario_id"];
+		$total_hours = $course_hrs_week * $course_weeks;
+		$total_price = $total_hours * $course_price_hour;
+		$weekly_price = $course_hrs_week * $course_price_hour;
+		$forknight_price = 8 * $course_price_hour;
 	}
+    //BUILD THE LINK TO THE TEMARIO
+    $temario_link = '<a class="btn btn-primary" href="'.$domain.'/temario.php?temario_id='.$temario_id.'">Ver temario &raquo;</a>';
 ?>
 <!doctype html>
 <html lang="es">
@@ -70,11 +77,11 @@
 					<h1>Cursos</h1>
 					<h3 id="exam-name"><?php echo $coursename ?></h3>
 					<div class="metadata">
-						<span class="cef">CEF: <a href="pagina.php?id=1" class=""><?php echo $cef_desc ?></a> &nbsp;|&nbsp;Categor&iacute;a: <?php echo $coursecat ?> &nbsp;|&nbsp;Semanas: <?php echo $course_weeks . ' ('. $course_hrs_week .'-hrs/sem)' ?> &nbsp;|&nbsp;Precio: <del class="text-danger">$<?php echo $course_price ?></del></span>
+						<span class="cef">CEF: <a href="pagina.php?id=1" class=""><?php echo $cef_desc ?></a> &nbsp;|&nbsp;Categor&iacute;a: <?php echo $coursecat ?> &nbsp;|&nbsp;Semanas: <?php echo $course_weeks . ' ('. $course_hrs_week .'-hrs/sem)' ?> &nbsp;|&nbsp;Horas: <?php echo $total_hours; ?>&nbsp;|&nbsp;Pago quincenal: <span class="text-danger">$<?php echo $forknight_price ?></span></span>
 					</div>
 					<?php echo $course_desc ?>
 					<?php echo $competences ?>
-					<a class="btn btn-primary" href="http://localhost/vidaingles/contacto" role="button">Solicita m&aacute;s informaci&oacute;n &raquo;</a>
+					<a class="btn btn-primary" href="http://localhost/vidaingles/contacto" role="button">Solicita m&aacute;s informaci&oacute;n &raquo;</a><?php echo $temario_link; ?>
 					<?php include_once('ads/ad_responsive.php')?>
 				</div><!-- Ends col-md-8 -->
 				<!-- SIDE BAR 
