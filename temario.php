@@ -23,18 +23,29 @@
 		$cursoId = $row["curso_id"];
 		$moduleName = $row["module_name"];
         $unitNumber = $row["unit_num"];
+        $functions = $row["Functions"];
+        $communication = $row["Communication"];
 		$grammar = $row["grammar"];
 		$vocabulary = $row["vocabulary"];
+        $skills = $row["skills"];
         $unitList .= '<li>' . $unitNumber . '</li>';
         $moduleList .= '<h3><li>' . $moduleName . '</h3>
             <ul class="list-unstyled">
                 <li><h4>'.$unitNumber.'</h4>
+                <h5>Functions</h5>
+                    <ul class="list-unstyled"><li>'.$functions.'</li></ul>
+                <h5>Communication</h5>
+                    <ul class="list-unstyled"><li>'.$communication.'</li></ul>
                 <h5>Grammar</h5>
                     <ul class="list-unstyled"><li>'.$grammar.'</li></ul>
                 </li>
                 <h5>Vocabulary</h5>
                 <ul class="list-unstyled">
                     <li>'.$vocabulary.'</li>
+                </ul>
+                <h5>Skills</h5>
+                <ul class="list-unstyled">
+                    <li>'.$skills.'</li>
                 </ul>
             </ul>
         </li>';
