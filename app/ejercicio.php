@@ -129,7 +129,7 @@
 								<button type="submit" class="btn btn-primary noprint" id="evalEjerBtn">Ver resultados</button> 
 								<button type="submit" class="btn btn-primary noprint" id="saveBtn">Guardar resultados</button> 
 								<input type="hidden" name="ejerid" id="ejerid" value="<?php echo $eid ?>"/>
-							<input type="hidden" name="ejerNombre" id="ejerNombre" value="<?php //echo $ejer_nombre ?>"/>
+							<input type="hidden" name="ejerNombre" id="ejerNombre" value="<?php echo $ename ?>"/>
 							<input type="hidden" name="logusername" id="logusername" value="<?php //echo $log_username ?>"/>
 								<span class="msg"></span>
 							</div>

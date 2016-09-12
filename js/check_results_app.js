@@ -20,33 +20,34 @@
 			alert("JS: Error al tratar de cargar las respuestas.");
 		})      
 		.always(function (data) {
-			var id = data[0], ak1 = data[2], ak2 = data[3], ak3 = data[4], ak4 = data[5], ak5 = data[6], ak6 = data[7], ak7 = data[8], ak8 = data[9], ak9 = data[10], ak10 = data[11], ak11 = data[12], ak12 = data[13], ak13 = data[14], ak14 = data[15], ak15 = data[16], ak16 = data[17], ak17 = data[18], ak18 = data[19], ak19 = data[20], ak20 = data[21], ak21 = data[22], ak22 = data[23], ak23 = data[24], ak24 = data[25], ak25 = data[26], lak1 = ak1.length, lak2 = ak2.length, lak3 = ak3.length, lak4 = ak4.length, lak5 = ak5.length, lak6 = ak6.length, lak7 = ak7.length, lak8 = ak8.length, lak9 = ak9.length, lak10 = ak10.length, lak11 = ak11.length, lak12 = ak12.length, lak13 = ak13.length, lak14 = ak14.length, lak15 = ak15.length, lak16 = ak16.length, lak17 = ak17.length, lak18 = ak18.length, lak19 = ak19.length, lak20 = ak20.length, lak21 = ak21.length, lak22 = ak22.length, lak23 = ak23.length, lak24 = ak24.length, lak25 = ak25.length;
+			var ak1 = data[0], ak2 = data[1], ak3 = data[2], ak4 = data[3], ak5 = data[4], ak6 = data[5], ak7 = data[6], ak8 = data[7], ak9 = data[8], ak10 = data[9], ak11 = data[10], ak12 = data[11], ak13 = data[12], ak14 = data[13], ak15 = data[14], ak16 = data[15], ak17 = data[16], ak18 = data[17], ak19 = data[18], ak20 = data[19], ak21 = data[20], ak22 = data[21], ak23 = data[22], ak24 = data[23], ak25 = data[24], ak26 = data[25], ak27 = data[26], ak28 = data[27], ak29 = data[28], ak30 = data[29], ak31 = data[30], ak32 = data[31], ak33 = data[32], ak34 = data[33], ak35 = data[34], ak36 = data[35], ak37 = data[36], ak38 = data[37], ak39 = data[38], ak40 = data[39], ak41 = data[40], ak42 = data[41], ak43 = data[42], ak44 = data[43], ak45 = data[44], ak46 = data[45], ak47 = data[46], ak48 = data[47], ak49 = data[48], ak50 = data[49], ak51 = data[50], ak52 = data[51], ak53 = data[52], ak54 = data[53], ak55 = data[54], ak56 = data[55], ak57 = data[56], ak58 = data[57], ak59 = data[58], ak60 = data[59], lak1 = ak1.length;
+            console.log(lak1);
 			
-			$('input#inputq1').attr({'maxlength': +lak1});
-			$('input#inputq2').attr({'maxlength': +lak2});
-			$('input#inputq3').attr({'maxlength': +lak3});
-			$('input#inputq4').attr({'maxlength': +lak4});
-			$('input#inputq5').attr({'maxlength': +lak5});
-			$('input#inputq6').attr({'maxlength': +lak6});
-			$('input#inputq7').attr({'maxlength': +lak7});
-			$('input#inputq8').attr({'maxlength': +lak8});
-			$('input#inputq9').attr({'maxlength': +lak9});
-			$('input#inputq10').attr({'maxlength': +lak10});
-			$('input#inputq11').attr({'maxlength': +lak11})
-			$('input#inputq12').attr({'maxlength': +lak12});
-			$('input#inputq13').attr({'maxlength': +lak13});
-			$('input#inputq14').attr({'maxlength': +lak14});
-			$('input#inputq15').attr({'maxlength': +lak15});
-			$('input#inputq16').attr({'maxlength': +lak16});
-			$('input#inputq17').attr({'maxlength': +lak17});
-			$('input#inputq18').attr({'maxlength': +lak18});
-			$('input#inputq19').attr({'maxlength': +lak19});
-			$('input#inputq20').attr({'maxlength': +lak20});
-			$('input#inputq21').attr({'maxlength': +lak21});
-			$('input#inputq22').attr({'maxlength': +lak22});
-			$('input#inputq23').attr({'maxlength': +lak23});
-			$('input#inputq24').attr({'maxlength': +lak24});
-			$('input#inputq25').attr({'maxlength': +lak25});
+			//$('input#inputq-1').attr({'maxlength': +lak1});
+			//$('input#inputq2').attr({'maxlength': +lak2});
+			//$('input#inputq3').attr({'maxlength': +lak3});
+			//$('input#inputq4').attr({'maxlength': +lak4});
+			//$('input#inputq5').attr({'maxlength': +lak5});
+			//$('input#inputq6').attr({'maxlength': +lak6});
+			//$('input#inputq7').attr({'maxlength': +lak7});
+			//$('input#inputq8').attr({'maxlength': +lak8});
+			//$('input#inputq9').attr({'maxlength': +lak9});
+			//$('input#inputq10').attr({'maxlength': +lak10});
+			//$('input#inputq11').attr({'maxlength': +lak11})
+			//$('input#inputq12').attr({'maxlength': +lak12});
+			//$('input#inputq13').attr({'maxlength': +lak13});
+			//$('input#inputq14').attr({'maxlength': +lak14});
+			//$('input#inputq15').attr({'maxlength': +lak15});
+			//$('input#inputq16').attr({'maxlength': +lak16});
+			//$('input#inputq17').attr({'maxlength': +lak17});
+			//$('input#inputq18').attr({'maxlength': +lak18});
+			//$('input#inputq19').attr({'maxlength': +lak19});
+			//$('input#inputq20').attr({'maxlength': +lak20});
+			//$('input#inputq21').attr({'maxlength': +lak21});
+			//$('input#inputq22').attr({'maxlength': +lak22});
+			//$('input#inputq23').attr({'maxlength': +lak23});
+			//$('input#inputq24').attr({'maxlength': +lak24});
+			//$('input#inputq25').attr({'maxlength': +lak25});
 			
 			$('#evalEjerBtn').click(function (e) {
 				e.preventDefault();
