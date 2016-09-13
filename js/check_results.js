@@ -20,7 +20,7 @@
 		})
 		.always(function (data) {
 			var id = data[0], ak1 = data[2], ak2 = data[3], ak3 = data[4], ak4 = data[5], ak5 = data[6], ak6 = data[7], ak7 = data[8], ak8 = data[9], ak9 = data[10], ak10 = data[11], lak1 = ak1.length, lak2 = ak2.length, lak3 = ak3.length, lak4 = ak4.length, lak5 = ak5.length, lak6 = ak6.length, lak7 = ak7.length, lak8 = ak8.length, lak9 = ak9.length, lak10 = ak10.length;
-            console.log(lak1);
+            //console.log(ak1);
 			$('input#inputq1').attr({'maxlength': +lak1});
 			$('input#inputq2').attr({'maxlength': +lak2});
 			$('input#inputq3').attr({'maxlength': +lak3});
