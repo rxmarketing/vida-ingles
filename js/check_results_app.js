@@ -20,8 +20,10 @@
 			alert("JS: Error al tratar de cargar las respuestas.");
         })      
 		.always(function (data) {
-			var ak1 = data[0], ak2 = data[1], ak3 = data[2], ak4 = data[3], ak5 = data[4], ak6 = data[5], ak7 = data[6], ak8 = data[7], ak9 = data[8], ak10 = data[9], ak11 = data[10], ak12 = data[11], ak13 = data[12], ak14 = data[13], ak15 = data[14], ak16 = data[15], ak17 = data[16], ak18 = data[17], ak19 = data[18], ak20 = data[19], ak21 = data[20], ak22 = data[21], ak23 = data[22], ak24 = data[23], ak25 = data[24], ak26 = data[25], ak27 = data[26], ak28 = data[27], ak29 = data[28], ak30 = data[29], ak31 = data[30], ak32 = data[31], ak33 = data[32], ak34 = data[33], ak35 = data[34], ak36 = data[35], ak37 = data[36], ak38 = data[37], ak39 = data[38], ak40 = data[39], ak41 = data[40], ak42 = data[41], ak43 = data[42], ak44 = data[43], ak45 = data[44], ak46 = data[45], ak47 = data[46], ak48 = data[47], ak49 = data[48], ak50 = data[49], ak51 = data[50], ak52 = data[51], ak53 = data[52], ak54 = data[53], ak55 = data[54], ak56 = data[55], ak57 = data[56], ak58 = data[57], ak59 = data[58], ak60 = data[59]; //lak1 = ak1.length, lak2 = ak2.length, lak3 = ak3.length, lak4 = ak4.length, lak5 = ak5.length, lak6 = ak6.length, lak7 = ak7.length, lak8 = ak8.length, lak9 = ak9.length, lak10 = ak10.length, lak11 = ak11.length, lak12 = ak12.length, lak13 = ak13.length, lak14 = ak14.length, lak15 = ak15.length, lak16 = ak16.length, lak17 = ak17.length, lak18 = ak18.length, lak19 = ak19.length, lak20 = ak20.length, lak21 = ak21.length, lak22 = ak22.length, lak23 = ak23.length, lak24 = ak24.length, lak25 = ak25.length, lak26 = ak26.length, lak27 = ak27.length, lak28 = ak28.length, lak29 = ak29.length, lak30 = ak30.length, lak31 = ak31.length, lak32 = ak32.length, lak33 = ak33.length, lak34 = ak34.length, lak35 = ak35.length, lak36 = ak36.length, lak37 = ak37.length, lak38 = ak38.length, lak39 = ak39.length, lak40 = ak40.length, lak41 = ak41.length, lak42 = ak42.length, lak43 = ak43.length, lak44 = ak44.length, lak45 = ak45.length, lak46 = ak46.length, lak47 = ak47.length, lak48 = ak48.length, lak49 = ak49.length, lak50 = ak50.length, lak51 = ak51.length, lak52 = ak52.length, lak53 = ak53.length, lak54 = ak54.length, lak55 = ak55.length, lak56 = ak56.length, lak57 = ak57.length, lak58 = ak58.length, lak59 = ak59.length, lak60 = ak60.length, lak61 = ak61.length;
-            console.log(ak27);
+			var ak1 = data[0], ak2 = data[1], ak3 = data[2], ak4 = data[3], ak5 = data[4], ak6 = data[5], ak7 = data[6], ak8 = data[7], ak9 = data[8], ak10 = data[9], ak11 = data[10], ak12 = data[11], ak13 = data[12], ak14 = data[13], ak15 = data[14], ak16 = data[15], ak17 = data[16], ak18 = data[17], ak19 = data[18], ak20 = data[19], ak21 = data[20], ak22 = data[21], ak23 = data[22], ak24 = data[23], ak25 = data[24], ak26 = data[25], ak27 = data[26], ak28 = data[27], ak29 = data[28], ak30 = data[29], ak31 = data[30], ak32 = data[31], ak33 = data[32], ak34 = data[33], ak35 = data[34], ak36 = data[35], ak37 = data[36], ak38 = data[37], ak39 = data[38], ak40 = data[39], ak41 = data[40], ak42 = data[41], ak43 = data[42], ak44 = data[43], ak45 = data[44], ak46 = data[45], ak47 = data[46], ak48 = data[47], ak49 = data[48], ak50 = data[49], ak51 = data[50], ak52 = data[51], ak53 = data[52], ak54 = data[53], ak55 = data[54], ak56 = data[55], ak57 = data[56], ak58 = data[57], ak59 = data[58], ak60 = data[59]; //lak1 = ak1.length; lak2 = ak2.length, lak3 = ak3.length, lak4 = ak4.length, lak5 = ak5.length, lak6 = ak6.length, lak7 = ak7.length, lak8 = ak8.length, lak9 = ak9.length, lak10 = ak10.length, lak11 = ak11.length, lak12 = ak12.length, lak13 = ak13.length, lak14 = ak14.length, lak15 = ak15.length, lak16 = ak16.length, lak17 = ak17.length, lak18 = ak18.length, lak19 = ak19.length, lak20 = ak20.length, lak21 = ak21.length, lak22 = ak22.length, lak23 = ak23.length, lak24 = ak24.length, lak25 = ak25.length, lak26 = ak26.length, lak27 = ak27.length, lak28 = ak28.length, lak29 = ak29.length, lak30 = ak30.length, lak31 = ak31.length, lak32 = ak32.length, lak33 = ak33.length, lak34 = ak34.length, lak35 = ak35.length, lak36 = ak36.length, lak37 = ak37.length, lak38 = ak38.length, lak39 = ak39.length, lak40 = ak40.length, lak41 = ak41.length, lak42 = ak42.length, lak43 = ak43.length, lak44 = ak44.length, lak45 = ak45.length, lak46 = ak46.length, lak47 = ak47.length, lak48 = ak48.length, lak49 = ak49.length, lak50 = ak50.length, lak51 = ak51.length, lak52 = ak52.length, lak53 = ak53.length, lak54 = ak54.length, lak55 = ak55.length, lak56 = ak56.length, lak57 = ak57.length, lak58 = ak58.length, lak59 = ak59.length, lak60 = ak60.length, lak61 = ak61.length;
+            
+            
+            console.log(ak1);
 			
 		//	$('input#inputq-1').attr({'maxlength': +lak1});
         //    $('input#inputq-2').attr({'maxlength': +lak2});
@@ -88,135 +90,135 @@
 			$('#evalEjerBtn').click(function (e) {
 				e.preventDefault();
 				// gather user's answers in variables
-				var uinput1 = $('#inputq1').val(), uinput2 = $('#inputq2').val(), uinput3 = $('#inputq3').val(), uinput4 = $('#inputq4').val(), uinput5 = $('#inputq5').val(), uinput6 = $('#inputq6').val(), uinput7 = $('#inputq7').val(), uinput8 = $('#inputq8').val(), uinput9 = $('#inputq9').val(), uinput10 = $('#inputq10').val(), uinput11 = $('#inputq11').val(), uinput12 = $('#inputq12').val(), uinput13 = $('#inputq13').val(), uinput14 = $('#inputq14').val(), uinput15 = $('#inputq15').val(), uinput16 = $('#inputq16').val(), uinput17 = $('#inputq17').val(), uinput18 = $('#inputq18').val(), uinput19 = $('#inputq19').val(), uinput20 = $('#inputq20').val(), uinput21 = $('#inputq21').val(), uinput22 = $('#inputq22').val(), uinput23 = $('#inputq23').val(), uinput24 = $('#inputq24').val(), uinput25 = $('#inputq25').val(), sugerencias_attr = $('div#sugerencias').attr('style');
+				var uinput1 = $('#inputq-1').val(), uinput2 = $('#inputq-2').val(), uinput3 = $('#inputq-3').val(), uinput4 = $('#inputq-4').val(), uinput5 = $('#inputq-5').val(), uinput6 = $('#inputq-6').val(), uinput7 = $('#inputq-7').val(), uinput8 = $('#inputq-8').val(), uinput9 = $('#inputq-9').val(), uinput10 = $('#inputq-10').val(), uinput11 = $('#inputq-11').val(), uinput12 = $('#inputq-12').val(), uinput13 = $('#inputq-13').val(), uinput14 = $('#inputq-14').val(), uinput15 = $('#inputq-15').val(), uinput16 = $('#inputq-16').val(), uinput17 = $('#inputq-17').val(), uinput18 = $('#inputq-18').val(), uinput19 = $('#inputq-19').val(), uinput20 = $('#inputq-20').val(), uinput21 = $('#inputq-21').val(), uinput22 = $('#inputq-22').val(), uinput23 = $('#inputq-23').val(), uinput24 = $('#inputq-24').val(), uinput25 = $('#inputq-25').val(), sugerencias_attr = $('div#sugerencias').attr('style');
 				
 				if (sugerencias_attr === 'display:none') {
 					$('.msg').html('<small class="text-danger bg-danger">' + loggedUser + ' lee las Reglas Gramaticales</small>').fadeIn(400);
 					}  else {
 					if (uinput1 === ak1) {
-						$('#inputq1').addClass("good");
+						$('#inputq-1').addClass("good");
 						} else {
-						$('#inputq1').addClass("bad");
+						$('#inputq-1').addClass("bad");
                     }
 					if (uinput2 === ak2) {
-						$('#inputq2').addClass("good");
+						$('#inputq-2').addClass("good");
 						} else {
-						$('#inputq2').addClass("bad");
+						$('#inputq-2').addClass("bad");
                     }
 					if (uinput3 === ak3) {
-						$('#inputq3').addClass("good");
+						$('#inputq-3').addClass("good");
 						} else {
-						$('#inputq3').addClass("bad");
+						$('#inputq-3').addClass("bad");
                     }
 					if (uinput4 === ak4) {
-						$('#inputq4').addClass("good");
+						$('#inputq-4').addClass("good");
 						} else {
-						$('#inputq4').addClass("bad");
+						$('#inputq-4').addClass("bad");
                     }
 					if (uinput5 === ak5) {
-						$('#inputq5').addClass("good");
+						$('#inputq-5').addClass("good");
 						} else {
-						$('#inputq5').addClass("bad");
+						$('#inputq-5').addClass("bad");
                     }
 					if (uinput6 === ak6) {
-						$('#inputq6').addClass("good");
+						$('#inputq-6').addClass("good");
 						} else {
-						$('#inputq6').addClass("bad");
+						$('#inputq-6').addClass("bad");
                     }
 					if (uinput7 === ak7) {
-						$('#inputq7').addClass("good");
+						$('#inputq-7').addClass("good");
 						} else {
-						$('#inputq7').addClass("bad");
+						$('#inputq-7').addClass("bad");
                     }
 					if (uinput8 === ak8) {
-						$('#inputq8').addClass("good");
+						$('#inputq-8').addClass("good");
 						} else {
-						$('#inputq8').addClass("bad");
+						$('#inputq-8').addClass("bad");
                     }
 					if (uinput9 === ak9) {
-						$('#inputq9').addClass("good");
+						$('#inputq-9').addClass("good");
 						} else {
-						$('#inputq9').addClass("bad");
+						$('#inputq-9').addClass("bad");
                     }
 					if (uinput10 === ak10) {
-						$('#inputq10').addClass("good");
+						$('#inputq-10').addClass("good");
 						} else {
-						$('#inputq10').addClass("bad");
+						$('#inputq-10').addClass("bad");
                     }
 					if (uinput11 === ak11) {
-						$('#inputq11').addClass("good");
+						$('#inputq-11').addClass("good");
 						} else {
-						$('#inputq11').addClass("bad");
+						$('#inputq-11').addClass("bad");
                     }
 					if (uinput12 === ak12) {
-						$('#inputq12').addClass("good");
+						$('#inputq-12').addClass("good");
 						} else {
-						$('#inputq12').addClass("bad");
+						$('#inputq-12').addClass("bad");
                     }
 					if (uinput13 === ak13) {
-						$('#inputq13').addClass("good");
+						$('#inputq-13').addClass("good");
 						} else {
-						$('#inputq13').addClass("bad");
+						$('#inputq-13').addClass("bad");
                     }
 					if (uinput14 === ak14) {
-						$('#inputq14').addClass("good");
+						$('#inputq-14').addClass("good");
 						} else {
-						$('#inputq14').addClass("bad");
+						$('#inputq-14').addClass("bad");
                     }
 					if (uinput15 === ak15) {
-						$('#inputq15').addClass("good");
+						$('#inputq-15').addClass("good");
 						} else {
-						$('#inputq15').addClass("bad");
+						$('#inputq-15').addClass("bad");
                     }
 					if (uinput16 === ak16) {
-						$('#inputq16').addClass("good");
+						$('#inputq-16').addClass("good");
 						} else {
-						$('#inputq16').addClass("bad");
+						$('#inputq-16').addClass("bad");
                     }
 					if (uinput17 === ak17) {
-						$('#inputq17').addClass("good");
+						$('#inputq-17').addClass("good");
 						} else {
-						$('#inputq17').addClass("bad");
+						$('#inputq-17').addClass("bad");
                     }
 					if (uinput18 === ak18) {
-						$('#inputq18').addClass("good");
+						$('#inputq-18').addClass("good");
 						} else {
-						$('#inputq18').addClass("bad");
+						$('#inputq-18').addClass("bad");
                     }
 					if (uinput19 === ak19) {
-						$('#inputq19').addClass("good");
+						$('#inputq-19').addClass("good");
 						} else {
-						$('#inputq19').addClass("bad");
+						$('#inputq-19').addClass("bad");
                     }
 					if (uinput20 === ak20) {
-						$('#inputq20').addClass("good");
+						$('#inputq-20').addClass("good");
 						} else {
-						$('#inputq20').addClass("bad");
+						$('#inputq-20').addClass("bad");
                     }
 					if (uinput21 === ak21) {
-						$('#inputq21').addClass("good");
+						$('#inputq-21').addClass("good");
 						} else {
-						$('#inputq21').addClass("bad");
+						$('#inputq-21').addClass("bad");
                     }
 					if (uinput22 === ak22) {
-						$('#inputq22').addClass("good");
+						$('#inputq-22').addClass("good");
 						} else {
-						$('#inputq22').addClass("bad");
+						$('#inputq-22').addClass("bad");
                     }
 					if (uinput23 === ak23) {
-						$('#inputq23').addClass("good");
+						$('#inputq-23').addClass("good");
 						} else {
-						$('#inputq23').addClass("bad");
+						$('#inputq-23').addClass("bad");
                     }
 					if (uinput24 === ak24) {
-						$('#inputq24').addClass("good");
+						$('#inputq-24').addClass("good");
 						} else {
-						$('#inputq24').addClass("bad");
+						$('#inputq-24').addClass("bad");
                     }
 					if (uinput25 === ak25) {
-						$('#inputq25').addClass("good");
+						$('#inputq-25').addClass("good");
 						} else {
-						$('#inputq25').addClass("bad");
+						$('#inputq-25').addClass("bad");
                     }        
                 }
             });// Ends #checkBtn.click()

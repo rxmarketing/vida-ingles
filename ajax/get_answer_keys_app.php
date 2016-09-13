@@ -20,6 +20,9 @@
             echo "Fallo obteniendo los resultados. (" . $db_conx->errno . ") " . $db_conx->error;
             exit;
         }
+   // while($fila = $resultado->fetch_array(MYSQLI_NUM)) {
+   //     $resultados[] = $fila;
+   // }
     $array = $resultado->fetch_array();
     echo json_encode($array);
 ?>
