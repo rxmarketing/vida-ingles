@@ -130,7 +130,7 @@
 					<span class="glyphicon glyphicon-tags" aria‐hidden="true"></span>
 					 <li>temario <?php echo $cursoName ?></li>
 					</ul>
-                    <a class="btn btn-primary" href="http://localhost/vidaingles/contacto" role="button">Solicita m&aacute;s informaci&oacute;n &raquo;</a>
+                    <a class="btn btn-primary" href="<?php echo $domain; ?>/contacto" role="button">Solicita m&aacute;s informaci&oacute;n &raquo;</a>
 					</article>
 					<hr class="featurette-divider noprint">
 					<?php include_once('ads/ad_responsive.php')?>
