@@ -7,7 +7,7 @@
 		//$u = preg_replace('#[^a-z0-9]#i', '', $_GET['u']);
 		$courseid = preg_replace('#[^0-9]#', '', $_GET['id']);
 		} else {
-    header("location: vi_login.php");
+    header("location: login.php");
     exit();	
 	}
 	
@@ -46,7 +46,7 @@
 		<title>Curso <?php echo $coursename ?></title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="shortcut icon" href="../../favicon.ico">
 		<meta name="Author" content="Ricardo Maldonado" />
 		<meta name="keywords" content="" />
 		<meta name="description" content="" />
@@ -81,7 +81,7 @@
 					</div>
 					<?php echo $course_desc ?>
 					<?php echo $competences ?>
-					<a class="btn btn-primary" href="http://localhost/vidaingles/contacto" role="button">Solicita m&aacute;s informaci&oacute;n &raquo;</a><?php echo $temario_link; ?>
+					<a class="btn btn-primary" href="<?php echo $domain; ?>/contacto" role="button">Solicita m&aacute;s informaci&oacute;n &raquo;</a><?php echo $temario_link; ?>
 					<?php include_once('ads/ad_responsive.php')?>
 				</div><!-- Ends col-md-8 -->
 				<!-- SIDE BAR 
