@@ -19,6 +19,29 @@
 	WHERE cursos.courseid ='$courseid'
 	LIMIT 1
 	";
+    // PAYMENT LOGIC ============================
+    // weeks per unit = $total_weeks / total_units
+    // hours_per_forknight = hours_per_week * 2
+    // hours_per_month = hours_per_week * 4
+    // $total_hours = hours_per_week * total_units
+    // total_weeks = total_hours / hours_per_week
+    // total_price = total_hours * price_per_hour
+    // monthly_payment = price_per_hour * hours_per_month
+    // forknight_payment = price_per_hour * hours_per_forknight
+    // weekly_payment = price_per_hour * hours_per_week
+    // -------------------------------------------------------
+    
+    // DISCOUNTS LOGIC
+    
+    // if pay monthly: 20% disc.
+        // monthly_payment - (monthly_payment * .2)
+        
+    // if pay forknight: 10% disc.
+        // forknight_payment - (forknight_payment * .1)
+        
+    // if pay weekly: 0% disc.
+        // weekly_payment - (weekly_payment * .0)
+    
 	$course_query = mysqli_query($db_conx,$sql);
 	while ($row = mysqli_fetch_array($course_query, MYSQLI_ASSOC)) {
 		$course_id = $row["courseid"];
