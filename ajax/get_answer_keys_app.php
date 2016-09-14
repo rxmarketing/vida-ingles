@@ -8,7 +8,7 @@
         exit;
     }
     $eid = $_GET['id'];
-    $consulta = "SELECT answer FROM ejercicios_detalles WHERE ejerid='1'";
+    $consulta = "SELECT answer FROM ejercicios_detalles WHERE ejerid='$eid'";
     if(!$sql = $db_conx->prepare($consulta)){
         echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.";
         echo "Fallo la preparacion (" . $db_conx->errno . ") " . $db_conx->error;

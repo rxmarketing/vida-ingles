@@ -94,7 +94,7 @@
 				var uinput1 = $('#inputq-1').val(), uinput2 = $('#inputq-2').val(), uinput3 = $('#inputq-3').val(), uinput4 = $('#inputq-4').val(), uinput5 = $('#inputq-5').val(), uinput6 = $('#inputq-6').val(), uinput7 = $('#inputq-7').val(), uinput8 = $('#inputq-8').val(), uinput9 = $('#inputq-9').val(), uinput10 = $('#inputq-10').val(), uinput11 = $('#inputq-11').val(), uinput12 = $('#inputq-12').val(), uinput13 = $('#inputq-13').val(), uinput14 = $('#inputq-14').val(), uinput15 = $('#inputq-15').val(), uinput16 = $('#inputq-16').val(), uinput17 = $('#inputq-17').val(), uinput18 = $('#inputq-18').val(), uinput19 = $('#inputq-19').val(), uinput20 = $('#inputq-20').val(), uinput21 = $('#inputq-21').val(), uinput22 = $('#inputq-22').val(), uinput23 = $('#inputq-23').val(), uinput24 = $('#inputq-24').val(), uinput25 = $('#inputq-25').val(), uinput26 = $('#inputq-26').val(), uinput27 = $('#inputq-27').val(), uinput28 = $('#inputq-28').val(), uinput29 = $('#inputq-29').val(), uinput30 = $('#inputq-30').val(), uinput31 = $('#inputq-31').val(), uinput32 = $('#inputq-32').val(), uinput33 = $('#inputq-33').val(), uinput34 = $('#inputq-34').val(), uinput35 = $('#inputq-35').val(), uinput36 = $('#inputq-36').val(), uinput37 = $('#inputq-37').val(), uinput38 = $('#inputq-38').val(), uinput39 = $('#inputq-39').val(), uinput40 = $('#inputq-40').val(), uinput41 = $('#inputq-41').val(), uinput42 = $('#inputq-42').val(), uinput43 = $('#inputq-43').val(), uinput44 = $('#inputq-44').val(), uinput45 = $('#inputq-45').val(), uinput46 = $('#inputq-46').val(), uinput47 = $('#inputq-47').val(), uinput48 = $('#inputq-48').val(), uinput49 = $('#inputq-49').val(), uinput50 = $('#inputq-50').val(), uinput51 = $('#inputq-51').val(), uinput52 = $('#inputq-52').val(), uinput53 = $('#inputq-53').val(), uinput54 = $('#inputq-54').val(), uinput55 = $('#inputq-55').val(), uinput56 = $('#inputq-56').val(), uinput57 = $('#inputq-57').val(), uinput58 = $('#inputq-58').val(), uinput59 = $('#inputq-59').val(), uinput60 = $('#inputq-60').val(), sugerencias_attr = $('div#sugerencias').attr('style');
 				
 				if (sugerencias_attr === 'display:none') {
-					$('.msg').html('<stron class="text-danger bg-danger">' + loggedUser + ' lee las Reglas Gramaticales</strong>').fadeIn(400);
+					$('.msg').html('<strong class="text-danger bg-danger">' + loggedUser + ' lee las Reglas Gramaticales</strong>').fadeIn(400);
 					}  else {
 					if (uinput1 === ak1) {
 						$('#inputq-1').addClass("good");
@@ -150,6 +150,11 @@
 						$('#inputq-11').addClass("good");
 						} else {
 						$('#inputq-11').addClass("bad");
+                    }
+                    if (uinput12 === ak12) {
+						$('#inputq-12').addClass("good");
+						} else {
+						$('#inputq-12').addClass("bad");
                     }
 					if (uinput13 === ak13) {
 						$('#inputq-13').addClass("good");
