@@ -57,6 +57,7 @@
 		$ejer_answer = $row["answer"];
 		$neg_prompt_list .= '<br /><li><span class="form-group"><label for="inputq-'.$ejer_det_id.'">'. $ejer_prompt .'</label><input type="text" class="form-control" id="inputq-'.$ejer_det_id.'" name="inputq-'.$ejer_det_id.'" placeholder=""></span></li>';
 	}
+    //hola
 ?>
 <!DOCTYPE HTML>
 <html lang="es" translate="no">
