@@ -1,8 +1,8 @@
-app-backup/
-misc/
-pdf/
-presentations/
-sql/
-code/
-audio/
+app-backup/**
+misc/**
+pdf/**
+presentations/**
+sql/**
+code/**
+audio/**
 .htaccess
