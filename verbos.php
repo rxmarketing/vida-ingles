@@ -11,7 +11,7 @@
 		<title>Lista de Verbos Irregulares</title>
 		<?php include("css/css_includes.php") ?>
 		<?php include("js/javascript_includes.php") ?>
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -29,7 +29,7 @@
 					<!-- ================== BEGINS MAIN-CONTENT-LEFT EDITABLE SECTION ===================================-->
 					<h1 class="mute ucase-text">Lista de Verbos</h1>
 					<h3 id="exam-name">Verbos Irregulares</h3>
-					<div id="lista-verbos">
+					<div id="lista-verbo">
 						<h4>Categoria 1. Iguales las tres formas</h4>
 						<div>
 							<table class="table">
@@ -71,11 +71,28 @@
 									</tr>
 								</thead>
 								<tbody>
-									<?php echo $verb3_list ?>
+									<?php echo $verb3_list; ?>
 								</tbody>
 							</table>
 						</div>
+                        
 					</div>
+                    <h3 id="exam-name">Verbos Regulares</h3>
+                        <h4></h4>
+						<div>
+							<table class="table">
+								<thead>
+									<tr>
+										<th>Forma Base</th>
+										<th>Pasado Simple</th>
+										<th>Pasado Participio</th>
+									</tr>
+								</thead>
+								<tbody>
+									<?php echo $verb_r_list; ?>
+								</tbody>
+							</table>
+						</div>
 					<!-- ==================== ENDS MAIN-CONTENT-LEFT EDITABLE SECTION ================================================================== -->
 				</div> <!-- ends main-content-left div -->
 				<!-- BEGINS SIDE BAR RIGHT -->

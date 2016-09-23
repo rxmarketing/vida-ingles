@@ -330,6 +330,20 @@
 		<td>'.$verb3_base.'</td><td>'.$verb3_past.'</td><td>'.$verb3_participle.'</td>
 		</tr>';
     }
+    $verb_r_list = "";
+	$sql = "SELECT * FROM verbos WHERE verbCat='4' ORDER BY RAND() ";
+	$test_query = mysqli_query($db_conx,$sql);
+	while ($row = mysqli_fetch_array($test_query, MYSQLI_ASSOC)) {
+		$verb_r_id = $row["verbID"];
+		$verb_r_name = $row["verbName"];
+		$verb_r_base = $row["baseForm"];
+		$verb_r_past = $row["pastSimple"];
+		$verb_r_participle = $row["pastParticiple"];
+		$verb_r_cat = $row["verbCat"];
+		$verb_r_list .= '<tr>
+		<td>'.$verb_r_base.'</td><td>'.$verb_r_past.'</td><td>'.$verb_r_participle.'</td>
+		</tr>';
+    }
 	//showcase
 	$showcase = "";
 	if ($user_ok == true) {
