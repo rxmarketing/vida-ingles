@@ -6,3 +6,9 @@ sql/**
 code/**
 audio/**
 .htaccess
+
+#files
+rsss.php
+todas_lecciones-with-infinite-scroll.php
+ejercicio_backup-03-07-2016.php
+ejercicio_backup.php
