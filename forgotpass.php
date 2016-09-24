@@ -33,18 +33,34 @@
 			while($row = $resultado->fetch_assoc()){
 				$id = $row['userid'];
             }
+            //SET password field to temporary password
             $consulta = $db_conx->prepare('UPDATE usuarios SET password=? WHERE userid=? AND username=? LIMIT 1');
+            if(!$consulta){
+                echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.<br />";
+                echo "Fallo la preparacion (" . $db_conx->errno . ") " . $db_conx->error;
+                exit; 
+            }
             $consulta->bind_param('sds',$temppasshash,$id,$u);
             $consulta->execute();
+            $affectedRows = $consulta->affected_rows;
+            if($affectedRows == FALSE ){
+                echo "Could not update password column.";
+                exit;
+            }
             //SET temp_pass to nothing
             $consulta1 = $db_conx->prepare("UPDATE usuarios SET temp_pass='' WHERE username='$u' LIMIT 1");
-            //$consulta1->bind_param('s','');
+            if(!$consulta1){
+                echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.<br />";
+                echo "Fallo la preparacion (" . $db_conx->errno . ") " . $db_conx->error;
+                exit; 
+            }
             $consulta1->execute();
-			//$sql1 = "UPDATE usuarios SET password='$temppasshash' WHERE userid='$id' AND username='$u' LIMIT 1";
-			//$query1 = mysqli_query($db_conx, $sql1);
-			//$sql2 = "UPDATE usuarios SET temp_pass='' WHERE username='$u' LIMIT 1";
-			//$query2 = mysqli_query($db_conx, $sql2);
-			header("location: /iniciar");
+			$affectedRows = $consulta1->affected_rows;
+            if($affectedRows == FALSE ){
+                echo "Could not update temp_pass column.";
+                exit;
+            }
+			header("location: $domain/iniciar");
 			//exit();
         }
     }
@@ -106,4 +122,4 @@
             <script src="js/ie10-viewport-bug-workaround.js"></script>
             <?php include_once('includes/ga.php') ?>
         </body>
-    </html>	    
+    </html>	            
