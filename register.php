@@ -104,7 +104,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
 		<link rel="shortcut icon" href="favicon.ico">
-		<title>Reg&iacute;strate a Vida Ingl&eacute;s</title>
+		<title>Reg&iacute;strate a Vida Ingles</title>
 		<?php include("css/css_includes.php") ?>
 		<?php include("js/javascript_includes.php") ?>
 		<!--[if lt IE 9]>
@@ -193,28 +193,28 @@
 					<form method="post" class="form-register" name="signupform" id="signupform" role="form">
 						<h2 class="form-register-heading">Reg&iacute;strate <small class="text-muted">es gr&aacute;tis</small></h2>
 						
-						<div><label for="username" class="control-label">Crea tu nombre de usuario</label></div>
+						<div><label for="username" class="control-label sr-only">Crea tu nombre de usuario</label></div>
 						<input id="username" name="username" class="form-control" autofocus="" type="text" placeholder="Crea tu nombre de usuario" maxlength="16">
 						<div id="unamestatus"></div>
-						<div class=""><label for="email" class="control-label">Tu correo electr&oacute;nico</label></div>
+						<div class=""><label for="email" class="control-label sr-only">Tu correo electr&oacute;nico</label></div>
 						<input id="email" name="email" class="form-control" type="email" placeholder="Tu correo electr&oacute;nico" maxlength="88" />
 						<div id="email_msg"></div>
-						<div><label for="pass1"class="control-label">Crea tu contrase&ntilde;a</label></div>
+						<div><label for="pass1"class="control-label sr-only">Crea tu contrase&ntilde;a</label></div>
 						<input id="pass1" name="pass1" class="form-control" type="password" placeholder="Nueva contrase&ntilde;a" maxlength="16"/>
 						<div>
-						<label for="pass2"class="control-label">Escribe otra vez tu contrase&ntilde;a</label></div>
+						<label for="pass2"class="control-label sr-only">Escribe otra vez tu contrase&ntilde;a</label></div>
 						<input id="pass2" name="pass2" class="form-control" type="password" placeholder="Escribe de nuevo tu contrase&ntilde;a" maxlength="16"/>
 						<div>
-						<label for="gender" class="control-label">Sexo</label></div>
+						<label for="gender" class="control-label sr-only">Sexo</label></div>
 						<select id="gender" name="gender" class="form-control">
-							<option value="" selected disabled="disabled">--- Elige uno de la lista ------------</option>
+							<option value="" selected disabled="disabled">--- Elige tu sexo ------------</option>
 							<option value="m">Hombre</option>
 							<option value="f">Mujer</option>
 						</select>
 						<div>
-						<label for="country" id="" class="control-label">Pa&iacute;s</label></div>
+						<label for="country" id="" class="control-label sr-only">Pa&iacute;s</label></div>
 						<select id="country" name="country" class="form-control">
-							<option value="" selected disabled="disabled">--- Elige uno de la lista ------------</option>
+							<option value="" selected disabled="disabled">--- Elige tu pais ------------</option>
 							<?php include_once('templates/template_country_list.php'); ?>
 						</select>
 						<div class="termsLink">
