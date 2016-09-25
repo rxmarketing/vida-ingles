@@ -46,7 +46,7 @@
 		$ejer_answer = $row["answer"];
 		$pos_prompt_list .= '<br /><li><span class="form-group"><label for="inputq-'.$ejer_det_id.'">'. $ejer_prompt .'</label><input type="text" class="form-control" id="inputq-'.$ejer_det_id.'" name="inputq-'.$ejer_det_id.'" placeholder=""></span></li>';
 	}
-	// GATHER NEGATIVE PROMPTS FROM ejercicios TABLE into variables
+	// GATHER NEGATIVE PROMPTS FROM ejercicios_detalles TABLE into variables
     $neg_prompt_list = null;
 	$sql = "SELECT * FROM ejercicios_detalles WHERE ejerid='$ejerid' AND ejer_form='negative' ORDER BY RAND() LIMIT 5";
 	$test_query = mysqli_query($db_conx,$sql);
@@ -57,7 +57,17 @@
 		$ejer_answer = $row["answer"];
 		$neg_prompt_list .= '<br /><li><span class="form-group"><label for="inputq-'.$ejer_det_id.'">'. $ejer_prompt .'</label><input type="text" class="form-control" id="inputq-'.$ejer_det_id.'" name="inputq-'.$ejer_det_id.'" placeholder=""></span></li>';
 	}
-    //hola
+    // GATHER QUESTION PROMPTS FROM ejercicios_detalles TABLE into variables
+    $ques_prompt_list = null;
+	$sql = "SELECT * FROM ejercicios_detalles WHERE ejerid='$ejerid' AND ejer_form='pregunta' ORDER BY RAND() LIMIT 5";
+	$test_query = mysqli_query($db_conx,$sql);
+	while ($row = mysqli_fetch_array($test_query, MYSQLI_ASSOC)) {
+		$ejer_det_id = $row["ejerdet_id"];
+		$ejer_id = $row["ejerid"];
+		$ejer_prompt = $row["prompt"];
+		$ejer_answer = $row["answer"];
+		$ques_prompt_list .= '<br /><li><span class="form-group"><label for="inputq-'.$ejer_det_id.'">'. $ejer_prompt .'</label><input type="text" class="form-control" id="inputq-'.$ejer_det_id.'" name="inputq-'.$ejer_det_id.'" placeholder=""></span></li>';
+	}
 ?>
 <!DOCTYPE HTML>
 <html lang="es" translate="no">
@@ -108,6 +118,8 @@
 							<?php echo $pos_prompt_list; ?>
                             <h2>Forma negativa</h2>
 							<?php echo $neg_prompt_list; ?>
+                            <h2>Forma Interrogativa</h2>
+                            <?php echo $ques_prompt_list;?>
 							</ol>
 							<small class="cef">Actualizado: <abbr class="timeago" title="<?php echo $emodified ?>"><?php echo $emodified ?></abbr></small>
 
