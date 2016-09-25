@@ -15,8 +15,8 @@
         }
 		$consulta = "SELECT userid FROM usuarios WHERE username='$u' AND temp_pass='$temppasshash' LIMIT 1";
 		if(!$sql = $db_conx->prepare($consulta)){
-            echo "Los sentimos, el sitio esta experimentando problemas. Intentalo mas tarde.";
-            echo "Fallo en la preparacon (" . $db_conx->errno . ") " . $db_conx->error;
+            echo "Los sentimos, el sitio esta experimentando problemas. Intentalo mas tarde.<br />";
+            echo "Fallo en la preparacion (" . $db_conx->errno . ") " . $db_conx->error;
             exit;
         }
         $sql->execute();
@@ -37,10 +37,10 @@
             $consulta = $db_conx->prepare('UPDATE usuarios SET password=? WHERE userid=? AND username=? LIMIT 1');
             if(!$consulta){
                 echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.<br />";
-                echo "Fallo la preparacion (" . $db_conx->errno . ") " . $db_conx->error;
+                echo "Could not set temporary password: (" . $db_conx->errno . ") " . $db_conx->error;
                 exit; 
             }
-            $consulta->bind_param('sds',$temppasshash,$id,$u);
+            $consulta->bind_param('sis',$temppasshash,$id,$u);
             $consulta->execute();
             $affectedRows = $consulta->affected_rows;
             if($affectedRows == FALSE ){
