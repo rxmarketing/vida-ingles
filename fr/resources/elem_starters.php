@@ -12,6 +12,20 @@
 		<script src="http://localhost/vidaingles/js/bootstrap.min.js"></script>
 		<script src="http://localhost/vidaingles/js/docs.min.js"></script>
 		<script src="http://localhost/vidaingles/fr/resources/js/resources.js"></script>
+		<style>	
+			body {
+				background-color: #111111;
+				color: #eee;
+				ffont-size: 16px;
+			}
+			b {
+			color: #4c79ff;
+			}
+			
+			em {
+				color: #40ff00;
+			}
+		</style>
 	</head>
 	<body data-spy="scroll" data-target="#main-nav" data-offset="0">
     <!-- Fixed navbar -->
@@ -92,7 +106,7 @@
 							</ul>
 						</li>
 					</ul>
-				</div><!--/.nav-collapse -->
+					</div><!--/.nav-collapse -->
 			</div>
 		</nav>
 		<div class="container" id="theContent" style="position:relative;">
