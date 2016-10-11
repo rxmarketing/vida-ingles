@@ -8,7 +8,7 @@ a[href$='.pdf'] {
     padding-right: 28px; /* or the width of your icon */
     background-image: url(../../../../vidaingles/i/pdf-xs.png);
     background-repeat: no-repeat;
-      background-position: right center; /* Adjust if needed */
+	background-position: right center; /* Adjust if needed */
 }
 .padTop50 {
 	padding-top: 50px;
@@ -23,6 +23,8 @@ ul.syntax {
 }
 .syntax {
 	font-family: monospace, tahoma;
+	color: #ae81e1;
+	GGcolor: #f92672;
 }
 span.tradu {
 	font-size: 11px;
@@ -46,3 +48,33 @@ ul.example-lists > li > ul > li {
 nav.bs-docs-sidebar ul li ul {
 	padding-left: 10px;
 }
+
+body {
+	font-family: Verdana, Arial;
+	background-color: #111111;
+	color: #eee;
+	font-size: 16px;
+}
+b {
+	color: #66d9ef;
+}
+
+em {
+	color: #66d9ef;
+}
+h3,h4,h5 {
+	color: #a6e22e;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+	background-color: #333333;
+}
+.featurette-divider {
+	margin-top:50px; 
+}
+
+.well, .bg-warning {
+	background-color: #333;
+	
+	}
+	

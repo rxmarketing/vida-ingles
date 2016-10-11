@@ -13,37 +13,27 @@
 		<script src="http://localhost/vidaingles/js/docs.min.js"></script>
 		<script src="http://localhost/vidaingles/fr/resources/js/resources.js"></script>
 		<style>	
-			body {
-				background-color: #111111;
-				color: #eee;
-				ffont-size: 16px;
-			}
-			b {
-			color: #4c79ff;
-			}
 			
-			em {
-				color: #40ff00;
-			}
+			
 		</style>
 	</head>
 	<body data-spy="scroll" data-target="#main-nav" data-offset="0">
-    <!-- Fixed navbar -->
-    <nav id="arriva" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+		<!-- Fixed navbar -->
+		<nav id="arriva" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
 					</button>
-          <a class="navbar-brand" href="#">Elementary Starter A & B</a>
+					<a class="navbar-brand" href="#">Elementary Starter A & B</a>
 				</div>
-        <div class="navbar-collapse collapse">
+				<div class="navbar-collapse collapse">
 					<a href="pdf/for_real_elem_starter_wb.pdf" target="_blank" class="btn btn-info navbar-btn navbar-right">Download Workbook</a>
-          <ul class="nav navbar-nav" >
-            <li>
+					<ul class="nav navbar-nav" >
+						<li>
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Unit 1 <span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li class="dropdown-header">Grammar</li>
@@ -58,7 +48,7 @@
 								<li><a href="#countries-and-nationalities">Countries and Nationalities</a></li>
 							</ul>
 						</li>
-            <li>
+						<li>
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Unit 2 <span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li class="dropdown-header">Grammar</li>
@@ -75,7 +65,7 @@
 								<li><a href="#classroom-things">Classroom things</a></li>
 							</ul>
 						</li>
-            <li>
+						<li>
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Unit 3 <span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li class="dropdown-header">Grammar</li>
@@ -84,29 +74,29 @@
 								<li><a href="#present-simple-negative">Present simple negative</a></li>
 								<li><a href="#present-simple-questions-and-short-answers">Present simple questions and short answers</a></li>
 								<li><a href="#lets">Let’s</a></li>
-                <li role="separator" class="divider"></li>
+								<li role="separator" class="divider"></li>
 								<li class="dropdown-header">Vocabulary</li>
 								<li><a href="#days">Days</a></li>
 								<li><a href="#months">Months</a></li>
 								<li><a href="#free-time-activities">Free-time activities</a></li>
 							</ul>
 						</li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Unit 4 <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-header">Grammar</li>
-                <li><a href="#modal-verb-can">Modal verb can</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Unit 4 <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li class="dropdown-header">Grammar</li>
+								<li><a href="#modal-verb-can">Modal verb can</a></li>
 								<li><a href="#interested-in-good-at-terrible-at">interested in / good at / terrible at</a></li>
 								<li><a href="#present-continuous-positive">Present continuous positive</a></li>
 								<li><a href="#possessive-s">Possessive ’s</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Vocabulary</li>
-                <li><a href="#abilities">Abilities</a></li>
+								<li role="separator" class="divider"></li>
+								<li class="dropdown-header">Vocabulary</li>
+								<li><a href="#abilities">Abilities</a></li>
 								<li><a href="#family">Family</a></li>
 							</ul>
 						</li>
 					</ul>
-					</div><!--/.nav-collapse -->
+				</div><!--/.nav-collapse -->
 			</div>
 		</nav>
 		<div class="container" id="theContent" style="position:relative;">
@@ -149,7 +139,7 @@
 									</ul>
 									<h4>Contracciones</h4>
 									<p>Estas son las contracciones que se pueden hacer:</p>
-									<table class="table table-striped">
+									<table class="table table-bordered table-striped">
 										<thead>
 											<th>Forma larga</th>
 											<th>Forma corta 1</th>
@@ -230,6 +220,7 @@
 									</table>
 								</span>
 							</article>
+							<hr class="featurette-divider">
 							<article id="subject-pronouns" class="padTop50">
 								<h3>Subject pronouns</h3>
 								<p>Los <b>pronombres personales</b> (subject pronouns) en Inglés son ocho: <b>I, You, He, She, It, We, You, They</b> (personal pronouns)</p>
@@ -268,16 +259,97 @@
 									<li>son ocho: <b>I</b> (Yo), <b>You</b> (Tu / Usted), <b>He</b> (El), <b>She</b> (Ella), <b>It</b> (Eso / Aquello), <b>We</b> (Nosotros), <b>You</b> (Ustedes), <b>They</b> (Ellos)</li>
 								</ul>
 							</article>
+							<hr class="featurette-divider">
 							<article id="question-words" class="padTop50">
 								<h3>Question words</h3>
+								<p>Utiliza <em>question words</em> para preguntar por diferentes cosas.</p>
+								<table class="table table-bordered table-striped">
+									<thead>
+										<tr>
+											<td>Question word</td>
+											<td>pregunta por</td>
+											<td>Ejemplo</td>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><em>what</em></td>
+											<td>objeto(s), cosa(s)</td>
+											<td><em>What</em> is your name?</td>
+										</tr>
+										<tr>
+											<td><em>where</em></td>
+											<td>lugar(es)</td>
+											<td><em>Where</em> are my keys?</td>
+										</tr>
+										<tr>
+											<td><em>who</em></td>
+											<td>persona(s)</td>
+											<td><em>Who</em> is she?</td>
+										</tr>
+										<tr>
+											<td><em>when</em></td>
+											<td>hora, fecha</td>
+											<td><em>when</em> is lunch?</td>
+										</tr>
+										<tr>
+											<td><em>why</em></td>
+											<td>motivo(s), razón(es)</td>
+											<td><em>Why</em> are you here?</td>
+										</tr>
+										<tr>
+											<td><em>which</em></td>
+											<td>opción(es)</td>
+											<td><em>Which</em> is your pen, the blue or the red one?</td>
+										</tr>
+										<tr>
+											<td><em>how</em></td>
+											<td>salud, cómo se hace algo</td>
+											<td><em>How</em> is she? / <em>How</em> do you make Kibis?</td>
+										</tr>
+										<tr>
+											<td><em>how old</em></td>
+											<td>edad</td>
+											<td><em>How old</em> is Donald?</td>
+										</tr>
+									</tbody>
+								</table>
 							</article>
+							<hr class="featurette-divider">
 							<article id="articles" class="padTop50">
-								<h3>Articles</h3>
+								<h3>Articles</h3> 
+								<p>En ingles solo hay tres artículos; el definido <em>the</em>, y los indefinidos <em>a, an</em>.</p>
+								<p>Utiliza el artículo definido <em>the</em> para:</p>
+								<ul class="example-lists">
+									<li>algo específico, cosas que yá se conocen:</li>
+										<ul>
+											<li><em>The</em> English teacher. <span class="tradu"><em>El</em> maestro de Inglés.</span></li>
+											<li><em>The</em> books on the desk. <span class="tradu"><em>Los</em> libros sobre la mesa.</span> </li>
+										</ul>
+									<li>cosas que son únicas:</li>
+									<ul>
+										<li><em>The</em> sun. <span class="tradu"><em>El</em> sol.</span></li>
+										<li><em>The</em> Earth. <span class="tradu"><em>La</em> Tierra.</span></li>
+									</ul>
+								</ul>
+								<p>Utiliza los artículos indefinidos <em>a, an</em> para:</p>
+								<ul class="example-lists">
+									<li>cosas en general, cuando no se sabe cual, o no es importante</li>
+									<ul>
+									<li>Brenda lives in <em>a</em> flat. <span class="tradu">Brenda vive en <em>un</em> departamento.</span></li>
+									<li>They play in <em>a</em> band. <span class="tradu">Ellos tocan en <em>una</em> banda.</span></li>
+									<li><em>An</em> orange. <span class="tradu"><em>Una</em> naranja.</span></li>
+									</ul>
+								</ul>
 							</article>
+							<hr class="featurette-divider">
 							<article id="plural-nouns" class="padTop50">
 								<h3>Plural nouns</h3>
-								<span itemprop="description"><p>Para hacer el plural de los sustantivos en Inglés añade <em>s</em> a la mayoría de ellos. Si el sustantivo termina con: <i>o, x, s, ss, tch, sh</i> añade <em>es</em> al final. Si termina en <i>consonante + y</i>, cambia la <i>y</i> a <i>i</i> latina y luego añade <em>es</em>. Si termina en <i>f</i> o <i>fe</i> cambialas a <i>v</i> y luego añade <em>es</em>. Muy pocos sustantivos en inglés no siguen estas reglas.</p> <h4>Añade <em>s</em> a la mayoría de los sustantivos.</h4> <p>Ejemplos:</p> 
-									<table class="table"> 
+								<span itemprop="description">
+									<p>Para hacer el plural de los sustantivos en Inglés añade <em>s</em> a la mayoría de ellos. Si el sustantivo termina con: <i>o, x, s, ss, tch, sh</i> añade <em>es</em> al final. Si termina en <i>consonante + y</i>, cambia la <i>y</i> a <i>i</i> latina y luego añade <em>es</em>. Si termina en <i>f</i> o <i>fe</i> cambialas a <i>v</i> y luego añade <em>es</em>. Muy pocos sustantivos en inglés no siguen estas reglas.</p> 
+									<h4>Añade <em>s</em> a la mayoría de los sustantivos.</h4> 
+									<p>Ejemplos:</p> 
+									<table class="table table-striped table-bordered"> 
 										<thead> 
 											<tr> 
 												<th>Singular</th> 
@@ -286,117 +358,136 @@
 										</thead> 
 										<tbody> 
 											<tr> 
-												<td>cat</td> <td>cat<b>s</b></td> </tr> <tr> <td>chair</td> <td>chair<b>s</b></td> </tr> <tr> <td>toy</td> <td>toy<b>s</b></td> </tr> </tbody> </table> <h3>Añade <em>es</em></h3> <p>A sustantivos que terminan con <b>x, o, s, ss, sh, tch</b> añade <b>e</b> antes de la <b>s</b></p> <p>Ejemplos:</p> <table class="table"> <thead> <tr> <th>Singular</th> <th>Plural</th> </tr> </thead> <tbody> <tr> <td>bo<b>x</b></td> <td>box<b>es</b></td> </tr> <tr> <td>tomat<b>o</b></td> <td>tomato<b>es</b></td> </tr> <tr> <td>bu<b>s</b></td> <td>bus<b>es</b></td> </tr> <tr> <td>ki<b>ss</b></td> <td>kisses</td> </tr> <tr> <td>wi<b>sh</b></td> <td>wish<b>es</b></td> </tr> <tr> <td>wi<b>tch</b></td> <td>witch<b>es</b></td> </tr> </tbody> </table> <h4>Añade <em>ies</em></h4> <p>Sustantivos que terminan en <b class="i">consonante</b> + <b class="i">y</b>, cambia la <b>y</b> a <b>i</b> latina y luego añade <b>es</b></p> <p>Ejemplos:</p> <table class="table"> <thead> <tr> <th>Singular</th> <th>Plural</th> </tr> </thead> <tbody> <tr> <td>part<b>y</b></td> <td>part<b>ies</b></td> </tr> <tr> <td>bab<b>y</b></td> <td>bab<b>ies</b></td> </tr> </tbody> </table> <h4>Añade <em>ves</em></h4> <p>A sustantivos que terminan con <b>f</b> o <b>fe</b> cambia <b>f/fe</b> a <b>v</b> y luego añade <b class="i">es</b>.</p> <p>Ejemplos:</p> <table class="table"> <thead> <tr> <th>Singular</th> <th>Plural</th> </tr> </thead> <tbody> <tr> <td>wi<b>fe</b></td> <td>wi<b>ves</b></td> </tr> <tr> <td>hal<b>f</b></td> <td>hal<b>ves</b></td> </tr> <tr> <td>cal<b>f</b></td> <td>cal<b>ves</b></td> </tr> </tbody> </table> <h4>Estos sustantivos en ingles no siguen las reglas de arriba.</h4> <p>Pocos sustantivos no siguen las reglas anteriores.</p> <p>Ejemplos:</p> <table class="table"> <thead> <tr> <th>Singular</th> <th>Plural</th> </tr> </thead> <tbody> <tr> <td>radi<b>o</b></td> <td>radio<b>s</b></td> </tr> <tr> <td>vide<b>o</b></td> <td>video<b>s</b></td> </tr> <tr> <td>roo<b>f</b></td> <td>roof<b>s</b></td> </tr> </tbody> </table> <h4>Sustantivos <em>Irregulares</em></h4> <p>Algunos sustantivos tienen sus plurales irregulares y tienes que memorizarlos</p> <p>Ejemplos:</p> <table class="table"> <thead> <tr> <th>Singular</th> <th>Plural</th> </tr> </thead> <tbody> <tr> <td>child</td> <td>children</td> </tr> <tr> <td>person</td> <td>people</td> </tr> <tr> <td>mouse</td> <td>mice</td> </tr> <tr> <td>man</td> <td>men</td> </tr> <tr> <td>woman</td> <td>women</td> </tr> <tr> <td>sheep</td> <td>sheep</td> </tr> <tr> <td>fish</td> <td>fish</td> </tr> <tr> <td>tooth</td> <td>teeth</td> </tr> <tr> <td>foot</td> <td>feet</td> 
+											<td>cat</td> <td>cat<b>s</b></td> </tr> 
+											<tr> <td>chair</td> <td>chair<b>s</b></td> </tr> 
+											<tr> <td>toy</td> <td>toy<b>s</b></td> </tr> 
+										</tbody> 
+									</table>    
+									<h3>Añade <em>es</em></h3> <p>A sustantivos que terminan con <b>x, o, s, ss, sh, tch</b> añade <b>e</b> antes de la <b>s</b></p> <p>Ejemplos:</p> 
+									<table class="table table-striped table-bordered"> <thead> <tr> <th>Singular</th> <th>Plural</th> </tr> </thead> <tbody> <tr> <td>bo<b>x</b></td> <td>box<b>es</b></td> </tr> <tr> <td>tomat<b>o</b></td> <td>tomato<b>es</b></td> </tr> <tr> <td>bu<b>s</b></td> <td>bus<b>es</b></td> </tr> <tr> <td>ki<b>ss</b></td> <td>kisses</td> </tr> <tr> <td>wi<b>sh</b></td> <td>wish<b>es</b></td> </tr> <tr> <td>wi<b>tch</b></td> <td>witch<b>es</b></td> </tr> </tbody> 
+									</table>
+									
+									<h4>Añade <em>ies</em></h4> <p>Sustantivos que terminan en <b class="i">consonante</b> + <b class="i">y</b>, cambia la <b>y</b> a <b>i</b> latina y luego añade <b>es</b></p> <p>Ejemplos:</p> <table class="table table-striped table-bordered"> <thead> <tr> <th>Singular</th> <th>Plural</th> </tr> </thead> <tbody> <tr> <td>part<b>y</b></td> <td>part<b>ies</b></td> </tr> <tr> <td>bab<b>y</b></td> <td>bab<b>ies</b></td> </tr> </tbody> </table> 
+									
+									<h4>Añade <em>ves</em></h4> <p>A sustantivos que terminan con <b>f</b> o <b>fe</b> cambia <b>f/fe</b> a <b>v</b> y luego añade <b class="i">es</b>.</p> <p>Ejemplos:</p> <table class="table table-striped table-bordered"> <thead> <tr> <th>Singular</th> <th>Plural</th> </tr> </thead> <tbody> <tr> <td>wi<b>fe</b></td> <td>wi<b>ves</b></td> </tr> <tr> <td>hal<b>f</b></td> <td>hal<b>ves</b></td> </tr> <tr> <td>cal<b>f</b></td> <td>cal<b>ves</b></td> </tr> </tbody> </table>
+									
+									<h4>Estos sustantivos en ingles no siguen las reglas de arriba.</h4> <p>Pocos sustantivos no siguen las reglas anteriores.</p> <p>Ejemplos:</p> <table class="table table-striped table-bordered"> <thead> <tr> <th>Singular</th> <th>Plural</th> </tr> </thead> <tbody> <tr> <td>radi<b>o</b></td> <td>radio<b>s</b></td> </tr> <tr> <td>vide<b>o</b></td> <td>video<b>s</b></td> </tr> <tr> <td>roo<b>f</b></td> <td>roof<b>s</b></td> </tr> </tbody> </table>
+									
+									<h4>Sustantivos <em>Irregulares</em></h4> 
+									<p>Algunos sustantivos tienen sus plurales irregulares y tienes que memorizarlos</p> 
+									<p>Ejemplos:</p> 
+									<table class="table table-striped table-bordered"> 
+										<thead> 
+											<tr> 
+												<th>Singular</th> 
+												<th>Plural</th> 
+											</tr> 
+										</thead> 
+										<tbody> 
+											<tr> 
+												<td>child</td> 
+												<td>children</td> 
+												</tr> <tr> 
+												<td>person</td> <td>people</td> </tr> <tr> <td>mouse</td> <td>mice</td> </tr> <tr> <td>man</td> <td>men</td> </tr> <tr> <td>woman</td> <td>women</td> </tr> <tr> <td>sheep</td> <td>sheep</td> </tr> <tr> <td>fish</td> <td>fish</td> </tr> <tr> <td>tooth</td> <td>teeth</td> </tr> <tr> <td>foot</td> <td>feet</td> 
 											</tr> 
 										</tbody> 
-									</table></span>
+									</table>
+									
+								</span>
 							</article>
+							<hr class="featurette-divider">
 							<article id="numbers" class="padTop50">
 								<h3>Numbers</h3>
 								<span itemprop="description">
 									<p><span itemprop="description">Aprender los números en Inglés es fácil. Solamente tienes que memorizar los números del uno al veinte y luego contar de diez en diez; del veinte al número cien.</span></p>
-									<table class="table">
+									<table class="table table-striped table-bordered">
 										<tbody>
 											<tr>
-												<td>One 1</td>
+												<td>One <sup>1</sup></td>
 											</tr>
 											<tr>
-												<td>Two 2</td>
+												<td>Two <sup>2</sup></td>
 											</tr>
 											<tr>
-												<td>Three 3</td>
+												<td>Three <sup>3</sup></td>
 											</tr>
 											<tr>
-												<td>Four 4</td>
+												<td>Four <sup>4</sup></td>
 											</tr>
 											<tr>
-												<td>Five 5</td>
+												<td>Five <sup>5</sup></td>
 											</tr>
 											<tr>
-												<td>Six 6</td>
+												<td>Six <sup>6</sup></td>
 											</tr>
 											<tr>
-												<td>Seven 7</td>
+												<td>Seven <sup>7</sup></td>
 											</tr>
 											<tr>
-												<td>Eight 8</td>
+												<td>Eight <sup>8</sup></td>
 											</tr>
 											<tr>
-												<td>Nine 9</td>
+												<td>Nine <sup>9</sup></td>
 											</tr>
 											<tr>
-												<td>Ten 10</td>
+												<td>Ten <sup>10</sup></td>
 											</tr>
 											<tr>
-												<td>Eleven 11</td>
+												<td>Eleven <sup>11</sup></td>
 											</tr>
 											<tr>
-												<td>Twelve 12</td>
+												<td>Twelve <sup>12</sup></td>
 											</tr>
 											<tr>
-												<td>Thir
-												<span class="vi-em">teen</span> 13</td>
-												<td>Thir
-												<span class="vi-em">ty</span> 30</td>
+												<td>Thir<b>teen</b> <sup>13</sup></td>
+												<td>Thir<b>ty</b> <sup>30</sup></td>
 											</tr>
 											<tr>
-												<td>Four
-												<span class="vi-em">teen</span> 14</td>
-												<td>For
-												<span class="vi-em">ty</span> 40</td>
+												<td>Four<b>teen</b> <sup>14</sup></td>
+												<td>For<b>ty</b> <sup>40</sup></td>
 											</tr>
 											<tr>
-												<td>Fif
-												<span class="vi-em">teen</span> 15</td>
-												<td>Fif
-												<span class="vi-em">ty</span> 50</td>
+												<td>Fif<b>teen</b> <sup>15</sup></td>
+												<td>Fif<b>ty</b> <sup>50</sup></td>
 											</tr>
 											<tr>
-												<td>Six
-												<span class="vi-em">teen</span> 16</td>
-												<td>Six
-												<span class="vi-em">ty</span> 60</td>
+												<td>Six<b>teen</b> <sup>16</sup></td>
+												<td>Six<b>ty</b> <sup>60</sup></td>
 											</tr>
 											<tr>
-												<td>Seven
-												<span class="vi-em">teen</span> 17</td>
-												<td>Seven
-												<span class="vi-em">ty</span> 70</td>
+												<td>Seven<b>teen</b> <sup>17</sup></td>
+												<td>Seven<b>ty</b> <sup>70</sup></td>
 											</tr>
 											<tr>
-												<td>Eigh
-												<span class="vi-em">teen</span> 18</td>
-												<td>Eigh
-												<span class="vi-em">ty</span> 80</td>
+												<td>Eigh<b>teen</b> <sup>18</sup></td>
+												<td>Eigh<b>ty</b> <sup>80</sup></td>
 											</tr>
 											<tr>
-												<td>Nine
-												<span class="vi-em">teen</span> 19</td>
-												<td>Nine
-												<span class="vi-em">ty</span> 90</td>
+												<td>Nine<b>teen</b> <sup>19</sup></td>
+												<td>Nine<b>ty</b> <sup>90</sup></td>
 											</tr>
 											<tr>
-												<td>Twen
-												<span class="vi-em">ty</span> 20</td>
+												<td>Twenty <sup>20</sup></td>
 											</tr>
 											<tr>
-												<td>Hundred (cien)</td>
+												<td>Hundred <sup>(cien)</sup></td>
 											</tr>
 											<tr>
-												<td>Thousand (mil)</td>
+												<td>Thousand <sup>(mil)</sup></td>
 											</tr>
 											<tr>
-												<td>Million (millón)</td>
+												<td>Million <sup>(millón)</sup></td>
 											</tr>
 										</tbody>
 									</table>
 									<p>Los números de arriba son los únicos que tienes que memorizar. El resto son la combinación entre ellos.</p>
 								</span>
 							</article>
+							<hr class="featurette-divider">
 							<article id="countries-and-nationalities" class="padTop50">
 								<h3>Countries and nationalities</h3>
-								<small><sup>(Elementary Starter A Unit 1)</sup></small>
-								<table class="table">
+								
+								<table class="table table-bordered table-striped">
 									<thead>
 										<th>Country</th>
 										<th>Nationality</th>
@@ -502,7 +593,26 @@
 							</article>
 							<article id="possessive-adjectives" class="padTop50">
 								<h3>Possessive adjectives</h3>
-								<span itemprop="description"><p>Los adjetivos posesivos en ingles (possesive adjectives) son ocho: <b>my, your, his, her, its, our, your, their</b>. No confundas los <strong>adjetivos posesivos</strong> con <a href="http://vidaingles.com/lecciones/6/pronombres-personales-en-ingles" title="Los Pronombres Personales en Ingles" target="_blank">los pronombres personales en ingles (subject pronouns)</a>.</p> <p>La tabla siguiente compara <b>los adjetivos posesivos</b> con <i>los pronombres personales</i>. Son un poco parecidos.</p> <table class="table stripped lesson-tbl"><thead><th>Pronombres Personales</th><th>Adjetivos Posesivos</th></thead><tbody><tr><td>I</td><td>my</td></tr><tr><td>you</td><td>your</td></tr><tr><td>he</td><td>his</td></tr><tr><td>she</td><td>her</td></tr><tr><td>it</td><td>its</td></tr><tr><td>we</td><td>our</td></tr><tr><tr><td>you</td><td>your</td></tr><td>they</td><td>their</td></tr></tbody></table> <h3>Cómo usar los <em>adjetivos posesivos</em></h3> <p>Los adjetivos posesivos siempre van antes de un sustantivo en singular o plural.</p> <p>Si el poseedor es uno mismo usa <b>my</b></p><ul class="example-lists"><li>Hey Alex! Have you got <b>my</b> money?<span class="tradu">Hey Alex! ¿Tienes <b>mi</b> dinero?</span></li></ul><p>Si el poseedor es masculino, usa <b class="i">his</b></p><ul class="example-lists"><li>Where is Daniel? I've got <b>his</b> money.<span class="tradu">¿Donde está Daniel? Tengo <b>su</b> dinero.</span></li></ul><p>Si es femenino usa <b class="i">her</b>.</p><ul class="example-lists"><li>Where's Vanessa? I've got <b>her</b> money.<span class="tradu">¿Dónde está Vanessa? Tengo <b>su</b> dinero.</span></li></ul><p>Si los poseedores son "ellos" usa: <b>their</b></p><ul class="example-lists"><li>Where are the kids? I've got <b>their</b> presents.<span class="tradu">¿Dónde estan los niños? Tengo <b>sus</b> regalos.</span></li></ul><p>Si el poseedor es un objeto o animal usa: <b class="i">its</b></p><ul class="example-lists"><li>Where's the dog? I've got <b>its</b> dinner.<span class="tradu">¿Dónde esta el perro? Tengo <b>su</b> cena.</span></li></ul><p>Si son <b>"nosotros"</b> utiliza <b>our</b></p><ul class="example-lists"><li><b>Our</b> English teacher this year is very nice.<span class="tradu"><b>Nuestro</b> maestro de Inglés este año es muy agradable.</span></li></ul><p>Si es "tu" o "usted" usa: <b>your</b></p><ul class="example-lists"><li><b>Your</b> face is red.<span class="tradu"><b>Su/Tu</b> cara esta roja.</span></li></ul><p>Si es "ustedes" usa: <b>your</b></p><ul class="example-lists"><li>Ok kids. You can open <b>your</b> presents now.<span class="tradu">Ok niños. Pueden abrir <b>sus</b> regalos ahora.</span></li></ul></span>
+								<span itemprop="description">
+									<p>Los adjetivos posesivos en ingles (possesive adjectives) son ocho: <b>my, your, his, her, its, our, your, their</b>. No confundas los <strong>adjetivos posesivos</strong> con <a href="http://vidaingles.com/lecciones/6/pronombres-personales-en-ingles" title="Los Pronombres Personales en Ingles" target="_blank">los pronombres personales en ingles (subject pronouns)</a>.</p> 
+									<p>La tabla siguiente compara <b>los adjetivos posesivos</b> con <i>los pronombres personales</i>. Son un poco parecidos.</p> 
+								<table class="table table-bordered table-striped">
+								<thead>
+								<th>Pronombres Personales</th>
+								<th>Adjetivos Posesivos</th>
+								</thead>
+								<tbody>
+								<tr><td>I</td><td>my</td></tr>
+								<tr><td>you</td><td>your</td></tr>
+								<tr><td>he</td><td>his</td></tr>
+								<tr><td>she</td><td>her</td></tr>
+								<tr><td>it</td><td>its</td></tr>
+								<tr><td>we</td><td>our</td></tr>
+								<tr><td>you</td><td>your</td></tr>
+								<tr><td>they</td><td>their</td></tr>
+								</tbody>
+								</table> 
+								<h3>Cómo usar los <em>adjetivos posesivos</em></h3> <p>Los adjetivos posesivos siempre van antes de un sustantivo en singular o plural.</p> <p>Si el poseedor es uno mismo usa <b>my</b></p><ul class="example-lists"><li>Hey Alex! Have you got <b>my</b> money?<span class="tradu">Hey Alex! ¿Tienes <b>mi</b> dinero?</span></li></ul><p>Si el poseedor es masculino, usa <b class="i">his</b></p><ul class="example-lists"><li>Where is Daniel? I've got <b>his</b> money.<span class="tradu">¿Donde está Daniel? Tengo <b>su</b> dinero.</span></li></ul><p>Si es femenino usa <b class="i">her</b>.</p><ul class="example-lists"><li>Where's Vanessa? I've got <b>her</b> money.<span class="tradu">¿Dónde está Vanessa? Tengo <b>su</b> dinero.</span></li></ul><p>Si los poseedores son "ellos" usa: <b>their</b></p><ul class="example-lists"><li>Where are the kids? I've got <b>their</b> presents.<span class="tradu">¿Dónde estan los niños? Tengo <b>sus</b> regalos.</span></li></ul><p>Si el poseedor es un objeto o animal usa: <b class="i">its</b></p><ul class="example-lists"><li>Where's the dog? I've got <b>its</b> dinner.<span class="tradu">¿Dónde esta el perro? Tengo <b>su</b> cena.</span></li></ul><p>Si son <b>"nosotros"</b> utiliza <b>our</b></p><ul class="example-lists"><li><b>Our</b> English teacher this year is very nice.<span class="tradu"><b>Nuestro</b> maestro de Inglés este año es muy agradable.</span></li></ul><p>Si es "tu" o "usted" usa: <b>your</b></p><ul class="example-lists"><li><b>Your</b> face is red.<span class="tradu"><b>Su/Tu</b> cara esta roja.</span></li></ul><p>Si es "ustedes" usa: <b>your</b></p><ul class="example-lists"><li>Ok kids. You can open <b>your</b> presents now.<span class="tradu">Ok niños. Pueden abrir <b>sus</b> regalos ahora.</span></li></ul></span>
 							</article>
 							<article id="there-is-there-are" class="padTop50">
 								<h3>there is / there are</h3>
