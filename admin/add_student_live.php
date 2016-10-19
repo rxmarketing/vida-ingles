@@ -9,7 +9,7 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
-        <title>Add student live table</title>
+        <title>Add, edit student live table</title>
         <link rel="stylesheet" href="../css/bootstrap.min.css" />
       
         <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
@@ -35,7 +35,7 @@
         <div class="container">
             <div class="stud-form-wrapper">
 				<div class="table-responsive">
-					<h3>Add, edit, delete student</h3>
+					<h3>Add, edit student</h3>
 					<div id="live_data"></div>
 				
 				</div>

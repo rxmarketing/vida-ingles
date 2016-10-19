@@ -5,7 +5,7 @@
 	$result = mysqli_query($db_conx, $stmt);
 	$output .= '
 				<div class="table-responsive">
-					<table class="table table-bordered">
+					<table class="table table-bordered table-striped">
 						<thead>
 							<tr>
 								<th>ID</th>
