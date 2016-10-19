@@ -305,5 +305,47 @@
 			live_edit_stud(id, s_dom2, "estud_domicilio2")
 		});
 		
+		$(document).on('blur', '.s_fb',function(){
+			var id = $(this).data("id25");
+			var s_fb = $(this).text();
+			live_edit_stud(id, s_fb, "estud_fb_id")
+		});
+		
+		$(document).on('blur', '.s_twitter',function(){
+			var id = $(this).data("id26");
+			var s_twitter = $(this).text();
+			live_edit_stud(id, s_twitter, "estud_twitter")
+		});
+		
+		$(document).on('blur', '.s_youtube',function(){
+			var id = $(this).data("id27");
+			var s_youtube = $(this).text();
+			live_edit_stud(id, s_youtube, "estud_youtube")
+		});
+		
+		$(document).on('blur', '.s_skype',function(){
+			var id = $(this).data("id28");
+			var s_skype = $(this).text();
+			live_edit_stud(id, s_skype, "estud_skype")
+		});
+		
+		$(document).on('blur', '.s_cyberh_id',function(){
+			var id = $(this).data("id29");
+			var s_cyberh_id = $(this).text();
+			live_edit_stud(id, s_cyberh_id, "estud_cyberh_id")
+		});
+		
+		$(document).on('blur', '.s_cyberh_pass',function(){
+			var id = $(this).data("id30");
+			var s_cyberh_pass = $(this).text();
+			live_edit_stud(id, s_cyberh_pass, "estud_cyberh_pass")
+		});
+		
+		$(document).on('blur', '.s_notas',function(){
+			var id = $(this).data("id31");
+			var s_notas = $(this).text();
+			live_edit_stud(id, s_notas, "estud_notas")
+		});
+		
 	});
 </script>
