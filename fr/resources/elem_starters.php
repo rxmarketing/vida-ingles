@@ -5,8 +5,10 @@
 		<title>Elementary A - Starter A and B</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="http://localhost/vidaingles/css/bootstrap.min.css">
-		<link rel="stylesheet" href="http://localhost/vidaingles/css/docs.min.css">
+		<link rel="stylesheet" href="http://localhost/vidaingles/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="http://localhost/vidaingles/css/jquery-ui.min.css"/>
+		<link rel="stylesheet" href="http://localhost/vidaingles/css/vi_core.css"/>
+		<link rel="stylesheet" href="ffr-pacing-chart.css">
 		<link rel="stylesheet" href="css/fr-resources-styles.css">
 		<script src="http://localhost/vidaingles/js/jquery-1.11.3.min.js"></script>
 		<script src="http://localhost/vidaingles/js/bootstrap.min.js"></script>
