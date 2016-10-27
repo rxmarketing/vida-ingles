@@ -5,14 +5,14 @@
 				<span class="caret"></span>
 				<span class="sr-only">Toggle navigation</span>
 			</button>
-			<a href="index.php" class="navbar-brand">Vida Inglés App</a>
+			<a href="http://vidaingles.com/" class="navbar-brand">Vida Inglés</a>
 		</div>
 		<div class="collapse navbar-collapse noprint">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="index.php">Inicio</a></li>
-				<li><a href="index.php">Ejercicios</a></li>
+				<li class="active"><a href="http://vidaingles.com/app">Inicio</a></li>
+				<li><a href="http://vidaingles.com/app">Ejercicios</a></li>
 				<li><a href="https://www.facebook.com/pages/Vida-Inglés/239817616123537">Nosotros</a></li>
-				<li><a href="https://www.facebook.com/pages/Vida-Inglés/239817616123537">Contacto</a></li>
+				<li><a href="http://vidaingles.com/contacto">Contacto</a></li>
 			</ul>
 		</div>
 	</div>

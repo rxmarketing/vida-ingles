@@ -10,11 +10,11 @@
 		//  $(document).on("cut copy paste","#txtInput",function(e) {
 		//     e.preventDefault();
 		// });
-//		$("input").attr( "autocomplete", "off" );
-//    jQuery(document).bind("contextmenu cut copy",function(e){
-//			e.preventDefault();
-//			alert('Copiar no esta permitido.');
-//		});
+		$("input").attr( "autocomplete", "off" );
+    jQuery(document).bind("contextmenu cut copy",function(e){
+			e.preventDefault();
+			alert('Copiar no esta permitido.');
+		});
 		
 		$('#ceflevels, #estructuras, #lista-verbos').accordion({
 			animate: 900,

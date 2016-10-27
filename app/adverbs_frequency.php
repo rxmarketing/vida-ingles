@@ -56,7 +56,7 @@
 								</li>
 								<li>
 									<div class="form-group">
-										<label for="q2">The teacher give us any homework. (never)</label>
+										<label for="q2">The teacher gives us any homework. (never)</label>
 										<input type="text" class="form-control" id="q2" placeholder="">
 									</div>
 								</li>
@@ -98,7 +98,7 @@
 								</li>
 								<li>
 									<div class="form-group">
-										<label for="q9">Do you do you homework in your bedroom? (always)</label>
+										<label for="q9">Do you do your homework in your bedroom? (always)</label>
 										<input type="text" class="form-control" id="q9" placeholder="">
 									</div>
 								</li>

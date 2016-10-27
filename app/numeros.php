@@ -4,7 +4,7 @@
 <!DOCTYPE HTML>
 <html lang="es" translate="no">
 	<head>
-		<title>Números</title>
+		<title>Los números en Inglés</title>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,7 +37,9 @@
 						<form role="form">
 							<h3>Los Números en Inglés</h3>
 							<div class="fb-like"></div>
-							<?php include_once('includes/app_ads.php') ?>
+							<div id="top-ad">
+								<?php include_once('includes/app_ads.php') ?>
+							</div>
 							<div class="form-inline">
 								<div class="form-group">
 									<label for="nombre">Nombre: </label> <input type="text" autofocus="" class="form-control" id="nombre" placeholder="Primer nombre"/>
@@ -197,7 +199,9 @@
 				</div>
 			</div><!-- Ends container -->
 		</div>
+		
 		<!-- FOOTER =========================================================================== -->
+		
 		<?php include('includes/template_footer.php') ?>
 		<script async src="js/numeros.js"></script>
 	</body>

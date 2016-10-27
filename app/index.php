@@ -30,22 +30,30 @@
 		<?php include_once('includes/template_top_navbar.php') ?>
 		<!-- CONTENT ==================================================================== -->
 		<div class="container">
-		<?php echo $useragent ?>
 			<div class="row">
 				<div class="col-md-9 marketing">
 					<section>
 						<h1>Ejercicios</h1>
 						<h3></h3>
-						<div class="fb-like"></div>
+						
+
+
+<p></p>
+    <h2>The best aplication for teachers and students.</h2>
+    
+    <div class="fb-quote"></div>
 						<?php include_once('includes/nav-links.php') ?>
 					</section>
 				</div>
 				<div class="col-md-3 marketing">
 				</div>
 				<div class="fb-share-button" data-href="<?php echo canonical() ?>" data-layout="button_count"></div>
+    
+    
 			</div>
 		</div><!-- Ends container -->
 		<!-- FOOTER =========================================================================== -->
 		<?php include('includes/template_footer.php') ?>
+		<?php include('includes/fb_sdkk.php') ?>
 	</body>
 </html>

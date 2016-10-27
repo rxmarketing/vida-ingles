@@ -33,7 +33,9 @@
 						<h1>Ejercicios</h1>
 						<form role="form">
 							<h3>Adjetivos Comparativos</h3>
-							<div class="fb-like"></div>
+							<div class="col-md-1">
+								<div class="fb-share-button text-right" data-href="<?php echo canonical() ?>" data-layout="button_count"></div>
+							</div>
 							<?php include_once('includes/app_ads.php') ?>
 							<div class="form-inline">
 								<div class="form-group">
@@ -202,8 +204,9 @@
 							<div class="col-md-8">
 								<button type="submit" class="btn btn-primary noprint" id="checkBtn">Check Answers</button> <span class="msg"></span>
 							</div>
-							<div class="col-md-1">
-								<div class="fb-share-button text-right" data-href="<?php echo canonical() ?>" data-layout="button_count"></div>
+							
+							<div class="row">
+								<div class="fb-like"></div>
 							</div>
 						</form>
 					</section>

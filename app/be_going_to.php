@@ -95,7 +95,7 @@
 								</li>
 								<li>
 									<div class="form-group">
-										<label for="q8">My cousing / visit / me next year.</label>
+										<label for="q8">My cousins / not visit / me next year.</label>
 										<input type="text" class="form-control" id="q8" placeholder="">
 									</div>
 								</li>

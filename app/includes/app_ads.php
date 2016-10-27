@@ -1,4 +1,4 @@
-<div class="col-md-12 ads">
+<div class="col-md-12 ads noprint">
  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <!-- vi_core_responsive_1 -->
   <ins class="adsbygoogle"

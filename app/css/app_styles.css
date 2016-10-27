@@ -1,15 +1,37 @@
+
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro';
+
 body {
+	font-family: 'Source Sans Pro', sans-serif;
   margin-top: 51px;
-	font-size: 16px; important!
+		    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.45;
+	/* font-size: 16px; important! */
 }
 
+
+
 .marketing, .footer {
-	text-shadow: 1px 1px 2px #b2b2b2;
+	/* text-shadow: 1px 1px 2px #b2b2b2; */
   
+}
+
+aside {
+	font-size: 1.6rem;
+	
+}
+
+#checkBtn {
+	margin-bottom: 16px;
 }
 
 #right-sidebar ul li {
 	padding-bottom: 8px;
+}
+
+.ads {
+	margin: 14px 0px;
 }
 
 .syntax {
@@ -32,7 +54,7 @@ body {
 	margin: 20px 0px;
 }
 label {
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 
 em {
@@ -49,22 +71,27 @@ em {
   color: #B85CA1;
   font-weight: bold;
 }
-
+ 
 .compl {
   color: #5BB35B;
   font-weight: bold;
 }
 
-h1,h2,h3,h4,h5 {
+h1,h2,h3,h5 {
 	color:#777;
   letter-spacing: -1px;
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 50px;
   color: #4C79FF;
 }
 .formula {
 	color: green;
   font-style: bold;
+}
+
+input.form-control {
+	font-size: 16px;
+	
 }
