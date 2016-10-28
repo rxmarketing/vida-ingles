@@ -3,7 +3,6 @@ Thursday October 27th 2016
 	- Let's
 	- interested in, good at, terrible at
 	- Modal verb "can"
-	- Possessive 's
 	- Present continuous (all forms)
 	- Vocabulary
 	
@@ -16,10 +15,14 @@ Thursday October 27th 2016
 		Ejemplos:
 		
 			Let's watch a movie.
+			
+			Let's play Loteria.
+			
+			Let's not play basketball.
+			
+			Let's have a party.
 	
-	
-	
-	
+
 	
 ============================================================
 
@@ -37,9 +40,84 @@ Thursday October 27th 2016
 			
 			He is terrible at playing football.
 			
-			
+			Are you good at -ing?
+			No, I'm not. I'm not good at -ing.
 
-=======================================================================	
+	around the world
+	
+	
+=========================================
+
+	modal verb "can"
+	
+		Usa el verbo modal "can" para hablar de habilidades.
+	
+			I can swim.
+			She can go to the park.
+			They can't play the guitar.
+			Can you remember birhtdays?
+			Yes, I can. No, I can't.
+
+===================================================================	
+	
+	Present continuous (all forms)
+	
+		Usos:
+		
+			1. Para expresar lo que esta sucediendo en el momento de hablar.
+			
+			2. Para expresar situaciones temporales.
+			
+			3. Para expresar un evento futuro planeado.
+			
+		Positivo
+		
+			sujeto + be (am, is, are) + verb-ing + complemento.
+			
+			Ejemplos:
+			
+				I am going to my brother's house tomorrow. (evento futuro)
+				
+				My son is doing his homework. (actividad en marcha)
+				
+				I am taking salsa lessons. (actividad temporal)
+				
+		Negativo
+		
+			sujeto + be (am, is, are) + not + verb-ing + complemento.
+			
+			Ejemplos:
+			
+				She isn't listening to me.
+				
+				Carlos isn't going to my brother's house tomorrow.
+				
+				We aren't doing our homework right now.
+				
+		Pregunta
+		
+			Be (am, is, are) + sujeto + verb-ing + complemento?
+			
+			Ejemplos:
+			
+				Are you copying the examples? Yes, I am. / No, I'm not.
+				
+				Is Carmen going to your brother's house tomorrow?
+				
+					Yes, she is. / No, she isn't.
+					
+					listening
+					
+============================================================
+				
+				
+				
+		
+			
+		Am I?
+	
+================================================
+	
 	Vocabulary: Abilities
 	
 		act
