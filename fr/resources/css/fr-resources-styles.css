@@ -4,7 +4,7 @@ body {
 	position: relative;
 }
 
-a[href$='.pdf'] {  
+a[href$='.pdf'] {
     padding-right: 28px; /* or the width of your icon */
     background-image: url(../../../../vidaingles/i/pdf-xs.png);
     background-repeat: no-repeat;
@@ -39,7 +39,6 @@ ul.example-lists > li {
 	margin-bottom: 8px;
 	list-style: square;
 }
-
 ul.example-lists > li > ul > li {
 	margin-bottom: 8px;
 	list-style: square;
@@ -51,9 +50,9 @@ nav.bs-docs-sidebar ul li ul {
 
 body {
 	font-family: Verdana, Arial;
-	background-color: #111111;
-	color: #eee;
-	font-size: 16px;
+	background-color: #222;
+	color: #999;
+	font-size: 12px;
 }
 b {
 	color: #66d9ef;
@@ -67,15 +66,15 @@ h3,h4,h5 {
 }
 
 .table-striped>tbody>tr:nth-of-type(odd) {
-	background-color: #333333;
+	background-color: #3333433;
 }
 .featurette-divider {
-	margin-top:50px; 
+	margin-top:50px;
 }
 
 .well, .bg-warning {
 	background-color: #333;
-	
+
 	}
 ol li i {
 	color: #ae81e1;

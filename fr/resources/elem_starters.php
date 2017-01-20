@@ -7,17 +7,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="http://localhost/vidaingles/css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="http://localhost/vidaingles/css/jquery-ui.min.css"/>
-		<link rel="stylesheet" href="http://localhost/vidaingles/css/vi_core.css"/>
-		<link rel="stylesheet" href="ffr-pacing-chart.css">
+		<link rel="stylesheet" href="http://localhost/vidaingles/css/docs.min.css">
 		<link rel="stylesheet" href="css/fr-resources-styles.css">
 		<script src="http://localhost/vidaingles/js/jquery-1.11.3.min.js"></script>
 		<script src="http://localhost/vidaingles/js/bootstrap.min.js"></script>
 		<script src="http://localhost/vidaingles/js/docs.min.js"></script>
 		<script src="http://localhost/vidaingles/fr/resources/js/resources.js"></script>
-		<style>	
-			
-			
-		</style>
 	</head>
 	<body data-spy="scroll" data-target="#main-nav" data-offset="0">
 		<!-- Fixed navbar -->
@@ -115,28 +110,28 @@
 									<h4>Forma positiva.</h4>
 									<p>Estructura: <code>sujeto + be + complemento</code>.</p>
 									<p>Ejemplos:</p>
-									<ul class="example-lists">	
-										<li>She <b>is</b> Brenda. <span class="tradu">Ella <b>es</b> Brenda.</span></li> 
-										<li>I <b>am</b> in the kitchen. <span class="tradu">Yo <b>estoy</b> en la cocina.</span></li> 
-										<li>They <b>are</b> 22 years old. <span class="tradu">Ellos <b>tienen</b> 22 años de edad.</span></li> 
+									<ul class="example-lists">
+										<li>She <b>is</b> Brenda. <span class="tradu">Ella <b>es</b> Brenda.</span></li>
+										<li>I <b>am</b> in the kitchen. <span class="tradu">Yo <b>estoy</b> en la cocina.</span></li>
+										<li>They <b>are</b> 22 years old. <span class="tradu">Ellos <b>tienen</b> 22 años de edad.</span></li>
 										<li>It <b>is</b> cold today. <span class="tradu">Hoy <b>hace</b> frio.</span></li>
 									</ul>
 									<h4>Forma negativa</h4>
 									<p>Estructura: <code>sujeto + be + not + complemento.</code></p>
 									<p>Ejemplos:</p>
-									<ul class="example-lists">	
-										<li>Maribel <b>is not</b> my sister. <span class="tradu">Maribel <b>no es</b> mi hermana.</span></li>	
-										<li>I <b>am not</b> at work. <span class="tradu">Yo <b>no estoy</b> en el trabajo.</span></li>	
-										<li>Alex and Jim <b>are not</b> here. <span class="tradu">Alex y Jim <b>no estan</b> aquí.</span></li> 
+									<ul class="example-lists">
+										<li>Maribel <b>is not</b> my sister. <span class="tradu">Maribel <b>no es</b> mi hermana.</span></li>
+										<li>I <b>am not</b> at work. <span class="tradu">Yo <b>no estoy</b> en el trabajo.</span></li>
+										<li>Alex and Jim <b>are not</b> here. <span class="tradu">Alex y Jim <b>no estan</b> aquí.</span></li>
 										<li>It <b>is not </b> hot today. <span class="tradu"><b>No hace</b> calor hoy.</span></li>
 									</ul>
 									<h4>Forma interrogativa</h4>
-									<p>Estructura: <code>Be + sujeto + complemento?</code></p> 
+									<p>Estructura: <code>Be + sujeto + complemento?</code></p>
 									<p>Ejemplos:</p>
-									<ul class="example-lists">	
-										<li><b>Is</b> she your wife? <span class="tradu">¿<b>Es</b> ella tu esposa?</span></li>	
-										<li><b>Am</b> I the winner? <span class="tradu">¿<b>Soy</b> yo el ganador?</span></li>	
-										<li><b>Are</b> they your relatives? <span class="tradu">¿<b>Son</b> ellos tus parientes?</span></li>	
+									<ul class="example-lists">
+										<li><b>Is</b> she your wife? <span class="tradu">¿<b>Es</b> ella tu esposa?</span></li>
+										<li><b>Am</b> I the winner? <span class="tradu">¿<b>Soy</b> yo el ganador?</span></li>
+										<li><b>Are</b> they your relatives? <span class="tradu">¿<b>Son</b> ellos tus parientes?</span></li>
 										<li><b>Is</b> it cold outside? <span class="tradu">¿<b>Hace</b> frio afuera?</span></li>
 									</ul>
 									<h4>Contracciones</h4>
@@ -319,7 +314,7 @@
 							</article>
 							<hr class="featurette-divider">
 							<article id="articles" class="padTop50">
-								<h3>Articles</h3> 
+								<h3>Articles</h3>
 								<p>En ingles solo hay tres artículos; el definido <em>the</em>, y los indefinidos <em>a, an</em>.</p>
 								<p>Utiliza el artículo definido <em>the</em> para:</p>
 								<ul class="example-lists">
@@ -348,53 +343,53 @@
 							<article id="plural-nouns" class="padTop50">
 								<h3>Plural nouns</h3>
 								<span itemprop="description">
-									<p>Para hacer el plural de los sustantivos en Inglés añade <em>s</em> a la mayoría de ellos. Si el sustantivo termina con: <i>o, x, s, ss, tch, sh</i> añade <em>es</em> al final. Si termina en <i>consonante + y</i>, cambia la <i>y</i> a <i>i</i> latina y luego añade <em>es</em>. Si termina en <i>f</i> o <i>fe</i> cambialas a <i>v</i> y luego añade <em>es</em>. Muy pocos sustantivos en inglés no siguen estas reglas.</p> 
-									<h4>Añade <em>s</em> a la mayoría de los sustantivos.</h4> 
-									<p>Ejemplos:</p> 
-									<table class="table table-striped table-bordered"> 
-										<thead> 
-											<tr> 
-												<th>Singular</th> 
-												<th>Plural</th> 
-											</tr> 
-										</thead> 
-										<tbody> 
-											<tr> 
-											<td>cat</td> <td>cat<b>s</b></td> </tr> 
-											<tr> <td>chair</td> <td>chair<b>s</b></td> </tr> 
-											<tr> <td>toy</td> <td>toy<b>s</b></td> </tr> 
-										</tbody> 
-									</table>    
-									<h3>Añade <em>es</em></h3> <p>A sustantivos que terminan con <b>x, o, s, ss, sh, tch</b> añade <b>e</b> antes de la <b>s</b></p> <p>Ejemplos:</p> 
-									<table class="table table-striped table-bordered"> <thead> <tr> <th>Singular</th> <th>Plural</th> </tr> </thead> <tbody> <tr> <td>bo<b>x</b></td> <td>box<b>es</b></td> </tr> <tr> <td>tomat<b>o</b></td> <td>tomato<b>es</b></td> </tr> <tr> <td>bu<b>s</b></td> <td>bus<b>es</b></td> </tr> <tr> <td>ki<b>ss</b></td> <td>kisses</td> </tr> <tr> <td>wi<b>sh</b></td> <td>wish<b>es</b></td> </tr> <tr> <td>wi<b>tch</b></td> <td>witch<b>es</b></td> </tr> </tbody> 
+									<p>Para hacer el plural de los sustantivos en Inglés añade <em>s</em> a la mayoría de ellos. Si el sustantivo termina con: <i>o, x, s, ss, tch, sh</i> añade <em>es</em> al final. Si termina en <i>consonante + y</i>, cambia la <i>y</i> a <i>i</i> latina y luego añade <em>es</em>. Si termina en <i>f</i> o <i>fe</i> cambialas a <i>v</i> y luego añade <em>es</em>. Muy pocos sustantivos en inglés no siguen estas reglas.</p>
+									<h4>Añade <em>s</em> a la mayoría de los sustantivos.</h4>
+									<p>Ejemplos:</p>
+									<table class="table table-striped table-bordered">
+										<thead>
+											<tr>
+												<th>Singular</th>
+												<th>Plural</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+											<td>cat</td> <td>cat<b>s</b></td> </tr>
+											<tr> <td>chair</td> <td>chair<b>s</b></td> </tr>
+											<tr> <td>toy</td> <td>toy<b>s</b></td> </tr>
+										</tbody>
 									</table>
-									
-									<h4>Añade <em>ies</em></h4> <p>Sustantivos que terminan en <b class="i">consonante</b> + <b class="i">y</b>, cambia la <b>y</b> a <b>i</b> latina y luego añade <b>es</b></p> <p>Ejemplos:</p> <table class="table table-striped table-bordered"> <thead> <tr> <th>Singular</th> <th>Plural</th> </tr> </thead> <tbody> <tr> <td>part<b>y</b></td> <td>part<b>ies</b></td> </tr> <tr> <td>bab<b>y</b></td> <td>bab<b>ies</b></td> </tr> </tbody> </table> 
-									
+									<h3>Añade <em>es</em></h3> <p>A sustantivos que terminan con <b>x, o, s, ss, sh, tch</b> añade <b>e</b> antes de la <b>s</b></p> <p>Ejemplos:</p>
+									<table class="table table-striped table-bordered"> <thead> <tr> <th>Singular</th> <th>Plural</th> </tr> </thead> <tbody> <tr> <td>bo<b>x</b></td> <td>box<b>es</b></td> </tr> <tr> <td>tomat<b>o</b></td> <td>tomato<b>es</b></td> </tr> <tr> <td>bu<b>s</b></td> <td>bus<b>es</b></td> </tr> <tr> <td>ki<b>ss</b></td> <td>kisses</td> </tr> <tr> <td>wi<b>sh</b></td> <td>wish<b>es</b></td> </tr> <tr> <td>wi<b>tch</b></td> <td>witch<b>es</b></td> </tr> </tbody>
+									</table>
+
+									<h4>Añade <em>ies</em></h4> <p>Sustantivos que terminan en <b class="i">consonante</b> + <b class="i">y</b>, cambia la <b>y</b> a <b>i</b> latina y luego añade <b>es</b></p> <p>Ejemplos:</p> <table class="table table-striped table-bordered"> <thead> <tr> <th>Singular</th> <th>Plural</th> </tr> </thead> <tbody> <tr> <td>part<b>y</b></td> <td>part<b>ies</b></td> </tr> <tr> <td>bab<b>y</b></td> <td>bab<b>ies</b></td> </tr> </tbody> </table>
+
 									<h4>Añade <em>ves</em></h4> <p>A sustantivos que terminan con <b>f</b> o <b>fe</b> cambia <b>f/fe</b> a <b>v</b> y luego añade <b class="i">es</b>.</p> <p>Ejemplos:</p> <table class="table table-striped table-bordered"> <thead> <tr> <th>Singular</th> <th>Plural</th> </tr> </thead> <tbody> <tr> <td>wi<b>fe</b></td> <td>wi<b>ves</b></td> </tr> <tr> <td>hal<b>f</b></td> <td>hal<b>ves</b></td> </tr> <tr> <td>cal<b>f</b></td> <td>cal<b>ves</b></td> </tr> </tbody> </table>
-									
+
 									<h4>Estos sustantivos en ingles no siguen las reglas de arriba.</h4> <p>Pocos sustantivos no siguen las reglas anteriores.</p> <p>Ejemplos:</p> <table class="table table-striped table-bordered"> <thead> <tr> <th>Singular</th> <th>Plural</th> </tr> </thead> <tbody> <tr> <td>radi<b>o</b></td> <td>radio<b>s</b></td> </tr> <tr> <td>vide<b>o</b></td> <td>video<b>s</b></td> </tr> <tr> <td>roo<b>f</b></td> <td>roof<b>s</b></td> </tr> </tbody> </table>
-									
-									<h4>Sustantivos <em>Irregulares</em></h4> 
-									<p>Algunos sustantivos tienen sus plurales irregulares y tienes que memorizarlos</p> 
-									<p>Ejemplos:</p> 
-									<table class="table table-striped table-bordered"> 
-										<thead> 
-											<tr> 
-												<th>Singular</th> 
-												<th>Plural</th> 
-											</tr> 
-										</thead> 
-										<tbody> 
-											<tr> 
-												<td>child</td> 
-												<td>children</td> 
-												</tr> <tr> 
-												<td>person</td> <td>people</td> </tr> <tr> <td>mouse</td> <td>mice</td> </tr> <tr> <td>man</td> <td>men</td> </tr> <tr> <td>woman</td> <td>women</td> </tr> <tr> <td>sheep</td> <td>sheep</td> </tr> <tr> <td>fish</td> <td>fish</td> </tr> <tr> <td>tooth</td> <td>teeth</td> </tr> <tr> <td>foot</td> <td>feet</td> 
-											</tr> 
-										</tbody> 
+
+									<h4>Sustantivos <em>Irregulares</em></h4>
+									<p>Algunos sustantivos tienen sus plurales irregulares y tienes que memorizarlos</p>
+									<p>Ejemplos:</p>
+									<table class="table table-striped table-bordered">
+										<thead>
+											<tr>
+												<th>Singular</th>
+												<th>Plural</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>child</td>
+												<td>children</td>
+												</tr> <tr>
+												<td>person</td> <td>people</td> </tr> <tr> <td>mouse</td> <td>mice</td> </tr> <tr> <td>man</td> <td>men</td> </tr> <tr> <td>woman</td> <td>women</td> </tr> <tr> <td>sheep</td> <td>sheep</td> </tr> <tr> <td>fish</td> <td>fish</td> </tr> <tr> <td>tooth</td> <td>teeth</td> </tr> <tr> <td>foot</td> <td>feet</td>
+											</tr>
+										</tbody>
 									</table>
-									
+
 								</span>
 							</article>
 							<hr class="featurette-divider">
@@ -488,7 +483,7 @@
 							<hr class="featurette-divider">
 							<article id="countries-and-nationalities" class="padTop50">
 								<h3>Countries and nationalities</h3>
-								
+
 								<table class="table table-bordered table-striped">
 									<thead>
 										<th>Country</th>
@@ -596,8 +591,8 @@
 							<article id="possessive-adjectives" class="padTop50">
 								<h3>Possessive adjectives</h3>
 								<span itemprop="description">
-									<p>Los adjetivos posesivos en ingles (possesive adjectives) son ocho: <b>my, your, his, her, its, our, your, their</b>. No confundas los <strong>adjetivos posesivos</strong> con <a href="http://vidaingles.com/lecciones/6/pronombres-personales-en-ingles" title="Los Pronombres Personales en Ingles" target="_blank">los pronombres personales en ingles (subject pronouns)</a>.</p> 
-									<p>La tabla siguiente compara <b>los adjetivos posesivos</b> con <i>los pronombres personales</i>. Son un poco parecidos.</p> 
+									<p>Los adjetivos posesivos en ingles (possesive adjectives) son ocho: <b>my, your, his, her, its, our, your, their</b>. No confundas los <strong>adjetivos posesivos</strong> con <a href="http://vidaingles.com/lecciones/6/pronombres-personales-en-ingles" title="Los Pronombres Personales en Ingles" target="_blank">los pronombres personales en ingles (subject pronouns)</a>.</p>
+									<p>La tabla siguiente compara <b>los adjetivos posesivos</b> con <i>los pronombres personales</i>. Son un poco parecidos.</p>
 								<table class="table table-bordered table-striped">
 								<thead>
 								<th>Pronombres Personales</th>
@@ -613,7 +608,7 @@
 								<tr><td>you</td><td>your</td></tr>
 								<tr><td>they</td><td>their</td></tr>
 								</tbody>
-								</table> 
+								</table>
 								<h3>Cómo usar los <em>adjetivos posesivos</em></h3> <p>Los adjetivos posesivos siempre van antes de un sustantivo en singular o plural.</p> <p>Si el poseedor es uno mismo usa <b>my</b></p><ul class="example-lists"><li>Hey Alex! Have you got <b>my</b> money?<span class="tradu">Hey Alex! ¿Tienes <b>mi</b> dinero?</span></li></ul><p>Si el poseedor es masculino, usa <b class="i">his</b></p><ul class="example-lists"><li>Where is Daniel? I've got <b>his</b> money.<span class="tradu">¿Donde está Daniel? Tengo <b>su</b> dinero.</span></li></ul><p>Si es femenino usa <b class="i">her</b>.</p><ul class="example-lists"><li>Where's Vanessa? I've got <b>her</b> money.<span class="tradu">¿Dónde está Vanessa? Tengo <b>su</b> dinero.</span></li></ul><p>Si los poseedores son "ellos" usa: <b>their</b></p><ul class="example-lists"><li>Where are the kids? I've got <b>their</b> presents.<span class="tradu">¿Dónde estan los niños? Tengo <b>sus</b> regalos.</span></li></ul><p>Si el poseedor es un objeto o animal usa: <b class="i">its</b></p><ul class="example-lists"><li>Where's the dog? I've got <b>its</b> dinner.<span class="tradu">¿Dónde esta el perro? Tengo <b>su</b> cena.</span></li></ul><p>Si son <b>"nosotros"</b> utiliza <b>our</b></p><ul class="example-lists"><li><b>Our</b> English teacher this year is very nice.<span class="tradu"><b>Nuestro</b> maestro de Inglés este año es muy agradable.</span></li></ul><p>Si es "tu" o "usted" usa: <b>your</b></p><ul class="example-lists"><li><b>Your</b> face is red.<span class="tradu"><b>Su/Tu</b> cara esta roja.</span></li></ul><p>Si es "ustedes" usa: <b>your</b></p><ul class="example-lists"><li>Ok kids. You can open <b>your</b> presents now.<span class="tradu">Ok niños. Pueden abrir <b>sus</b> regalos ahora.</span></li></ul></span>
 							</article>
 							<article id="there-is-there-are" class="padTop50">
@@ -621,32 +616,32 @@
 								<span itemprop="description"><p><b>There is</b> y <b>There are</b> se utiliza para decir o preguntar lo que "hay/existe" o "no hay/existe" en algun lugar. Utiliza <b>there is</b> para describir en <i>singular</i> y <b>there are</b> para describir en <i>plural</i>. Su forma negativa es <b>there isn't</b> y <b>there aren't</b>. Para preguntar escribe <i>is</i> o <i>are</i> antes de <i>there</i>; <b>Is there...? Are there...?</b></p>
 									<h4><em>there is / there are</em> forma positiva</h4>
 									<p>Vamos a describir lo que existe en una habitación.</p>
-									<ul class="example-lists">	
-										<li><b>There is</b> a bed in my bedroom. <small>(singular)</small> <span class="tradu"><b>Hay</b> una cama en mi habitación.</span></li>	
+									<ul class="example-lists">
+										<li><b>There is</b> a bed in my bedroom. <small>(singular)</small> <span class="tradu"><b>Hay</b> una cama en mi habitación.</span></li>
 									<li><b>There is</b> a TV in my bedroom. <small>(singular)</small> <span class="tradu"><b>Hay</b> una TV en mi habitación.</span></li>	<li><b>There are</b> two windows. <small>(plural)</small> <span class="tradu"><b>Hay</b> dos ventanas.</span></li>	<li><b>There are</b> some shoes. <small>(plural)</small><span class="tradu"><b>Hay</b> algunos zapatos en mi habitación.</span></li></ul>
 									<h4><em>there is / there are</em> forma negativa</h4>
 									<p>Ahora vamos a describir lo que <i>no</i> hay en una habitación</p>
-									<ul class="example-lists">	
+									<ul class="example-lists">
 										<li><b>There isn't</b> a computer in my bedroom. <small>(singular)</small> <span class="tradu"><b>No hay</b> una computadora en mi habitación.</span>
-										</li> <li><b>There isn't</b> an elephant. <small>(singular)</small> <span class="tradu"><b>No hay</b> un elefante en mi habitación.</span></li> 
-										<li><b>There aren't</b> any spiders. <small>(plural)</small> <span class="tradu"><b>No hay</b> ningunas arañas.</span></li> 
+										</li> <li><b>There isn't</b> an elephant. <small>(singular)</small> <span class="tradu"><b>No hay</b> un elefante en mi habitación.</span></li>
+										<li><b>There aren't</b> any spiders. <small>(plural)</small> <span class="tradu"><b>No hay</b> ningunas arañas.</span></li>
 										<li><b>There aren't</b> any posters in my bedroom. <small>(plural)</small> <span class="tradu"><b>No hay</b> ningunos posters en mi habitación.</span>
 										</li>
 									</ul>
 									<h4><em>there is / there are</em> forma interrogativa/pregunta</h4>
 									<p>A continuación, vamos a <i>preguntar</i> lo que existe respondiendo en positivo o negativo</p>
-									<ul class="example-lists">	
-										<li><b>Is there</b> a desk? Yes, <b>there is</b>. <span class="tradu">¿<b>Hay</b> un escritorio? Sí <b>hay</b>.</span></li> 
+									<ul class="example-lists">
+										<li><b>Is there</b> a desk? Yes, <b>there is</b>. <span class="tradu">¿<b>Hay</b> un escritorio? Sí <b>hay</b>.</span></li>
 										<li><b>Is there</b> a lamp? No, <b>there isn't</b>. <span class="tradu">¿<b>Hay</b> una lampara? <b>No hay</b>.</span></li>
-									</ul>  
-									<div> 
-										<ul class="well syntax"> 
-											<h4>Estructura <em>there is / there are</em></h4> 
-											<li>(+) There is/are + objeto(s) + complemento.</li> 
-											<li>(-) There isn't/aren't + objeto(s) + complemento.</li> 
-											<li>(?) Is/Are there + objeto + complemento?</li> 
-											<li>(=) Yes, + there is/are. / No, + there isn't/aren't.</li> 
-										</ul> 
+									</ul>
+									<div>
+										<ul class="well syntax">
+											<h4>Estructura <em>there is / there are</em></h4>
+											<li>(+) There is/are + objeto(s) + complemento.</li>
+											<li>(-) There isn't/aren't + objeto(s) + complemento.</li>
+											<li>(?) Is/Are there + objeto + complemento?</li>
+											<li>(=) Yes, + there is/are. / No, + there isn't/aren't.</li>
+										</ul>
 									</div>
 								</span>
 							</article>
@@ -669,7 +664,7 @@
 								<ul class="example-lists">
 									<li>My room is <em>big</em>. NO <del>My room <em>big</em> is.</del></li>
 								</ul>
-							</article>  
+							</article>
 							<article id="possessions" class="padTop50">
 								<h3>Vocabulary: Possessions</h3>
 								<ul>
@@ -763,8 +758,8 @@
 									<span itemprop="description">Presente Simple Positivo</span>
 								</h4>
 								<p>
-									<span itemprop="description">Forma el 
-										<b>presente simple positivo</b> con: 
+									<span itemprop="description">Forma el
+										<b>presente simple positivo</b> con:
 									<code>sujeto + verbo en su forma base + complemento.</code></span>
 								</p>
 								<p>Ejemplos:</p>
@@ -779,26 +774,26 @@
 								<div class="well">
 									<h4>Terceras Personas Singular (he, she, it)</h4>
 									<p>Aquí estan los cambios que sufren los verbos cuando el sujeto es una tercera persona. Recuerda; estos cambios se aplican
-										solamente a la forma 
+										solamente a la forma
 									<em>positiva</em> del presente simple.</p>
-									<p>Si el sujeto es 
+									<p>Si el sujeto es
 									<em>tercera persona singular</em> (he, she, it) modifica el verbo:</p>
 									<ul>
-										<li>añadiendo 
+										<li>añadiendo
 										<b>s</b> a la mayoría de los verbos.</li>
 										<li style="list-style: none; display: inline">
 											<p>Ejemplos:</p>
 											<ul>
-												<li>She love<b>s</b> English. 
-													<span class="tradu">Ella 
+												<li>She love<b>s</b> English.
+													<span class="tradu">Ella
 													<b>ama</b> el Inglés.</span></li>
-													<li>My teacher like<b>s</b> rock music. 
-														<span class="tradu">A mi maestro/a le 
+													<li>My teacher like<b>s</b> rock music.
+														<span class="tradu">A mi maestro/a le
 														<b>gusta</b> la música rock.</span></li>
 											</ul>
 										</li>
-										<li>si el verbo, en su forma base, terminan con 
-											<b>-o, -ch, -sh, -x, -s, -z</b> añade 
+										<li>si el verbo, en su forma base, terminan con
+											<b>-o, -ch, -sh, -x, -s, -z</b> añade
 										<b>es</b> al final del verbo.</li>
 										<li style="list-style: none; display: inline">
 											<p>Ejemplos:</p>
@@ -811,31 +806,31 @@
 												<li>buzz ------&gt; buzz<b>es</b></li>
 											</ul>
 										</li>
-										<li>si el verbo, en su forma base, termina con 
-											<b>consonante + y</b>, cambia la 
-											<b>y</b> a 
-											<b>i</b> latina y añade 
+										<li>si el verbo, en su forma base, termina con
+											<b>consonante + y</b>, cambia la
+											<b>y</b> a
+											<b>i</b> latina y añade
 										<b>es</b>.</li>
 										<li style="list-style: none; display: inline">
 											<p>Ejemplos:</p>
 											<ul class="example-lists">
 												<li>try -------&gt; tr<b>ies</b>
 													<ul>
-														<li>Julieta <b>tries</b> to loose weight. 
+														<li>Julieta <b>tries</b> to loose weight.
 														<span class="tradu">Julieta <b>trata</b> de perder peso.</span></li>
 													</ul></li>
 													<li>cry -------&gt; cr<b>ies</b>
 														<ul>
-															<li>My sister 
-																<b>cries</b> when she&#39;s hungry. 
-																<span class="tradu">Mi hermana 
+															<li>My sister
+																<b>cries</b> when she&#39;s hungry.
+																<span class="tradu">Mi hermana
 																<b>llora</b> cuando tiene hambre.</span></li>
 														</ul></li>
 														<li>reply -----&gt; repl<b>ies</b>
 															<ul>
-																<li>My friend Rick always 
-																	<b>replies</b> to my messages. 
-																	<span class="tradu">Mi amigo Rick siempre 
+																<li>My friend Rick always
+																	<b>replies</b> to my messages.
+																	<span class="tradu">Mi amigo Rick siempre
 																	<b>responde</b> a mis mensajes.</span></li>
 															</ul></li>
 											</ul>
@@ -850,34 +845,34 @@
 								<p>Forma el <i>presente simple negativo</i> con: <code>sujeto + don&#39;t/doesn&#39;t + forma base del verbo + complemento</code> Se usa <b>do</b> o <b>does</b> antes de la negación <b>not</b> como verbo auxiliar y no se traduce. Utiliza <b>does</b> únicamente con terceras personas singular. La contraccion de <b>do not</b> es <b>don&#39;t</b> y <b>does not</b> es <b>doesn&#39;t</b>.</p>
 								<p>Ejemplos:</p>
 								<ul class="example-lists">
-									<li>I 
-										<b>don&#39;t like</b> pizza. 
-										<span class="tradu">A mi 
+									<li>I
+										<b>don&#39;t like</b> pizza.
+										<span class="tradu">A mi
 										<b>no me gusta</b> la pizza.</span></li>
-										<li>She 
-											<b>doesn&#39;t like</b> hot dogs. 
-											<span class="tradu">A ella 
+										<li>She
+											<b>doesn&#39;t like</b> hot dogs.
+											<span class="tradu">A ella
 											<b>no le gustan</b> los hotdogs.</span></li>
-											<li>We 
-												<b>don&#39;t watch</b> TV. 
-												<span class="tradu">Nosotros 
+											<li>We
+												<b>don&#39;t watch</b> TV.
+												<span class="tradu">Nosotros
 												<b>no vemos</b> TV.</span></li>
 								</ul>
 								<div class="bg-warning">
 									<p>Fíjate que, en la forma <i>negativa e interrogativa</i>, a las terceras personas singular (he, she, it) no se añade <b>s</b> o <b>es</b> al verbo.</p>
 									<ul class="example-lists">
-										<li>My mum doesn&#39;t 
+										<li>My mum doesn&#39;t
 										<b>like</b> Facebook.</li>
-										<li>NO: 
-											<del>My mum doesn&#39;t 
+										<li>NO:
+											<del>My mum doesn&#39;t
 											<b>likes</b> Facebook.</del></li>
 									</ul>
 								</div>
 								<p>
-									<b>do/does</b> sirve como 
-									<em>verbo auxiliar</em> y no tiene traducción y debe ir siempre antes de la negación 
-									<b>not</b>. Utiliza 
-									<b>does</b> unicamente cuando el sujeto es una 
+									<b>do/does</b> sirve como
+									<em>verbo auxiliar</em> y no tiene traducción y debe ir siempre antes de la negación
+									<b>not</b>. Utiliza
+									<b>does</b> unicamente cuando el sujeto es una
 								<i>tercera persona singular</i>.</p>
 							</article>
 							<article id="present-simple-questions-and-short-answers" class="padTop50">
@@ -895,16 +890,16 @@
 								<p>Ejemplos:</p>
 								<ul class="example-lists">
 									<li>
-										<b>Do</b> you eat meat? Yes, I 
-										<b>do</b>. / No, I 
+										<b>Do</b> you eat meat? Yes, I
+										<b>do</b>. / No, I
 									<b>don&#39;t</b>.</li>
 									<li>
-										<b>Does</b> Yasuni play the guitar? Yes, she 
-										<b>does</b>. / No, she 
+										<b>Does</b> Yasuni play the guitar? Yes, she
+										<b>does</b>. / No, she
 									<b>doesn&#39;t</b>.</li>
 									<li>
-										<b>Do</b> Eduardo and Ileana study English? Yes, they 
-										<b>do</b>. / No, they 
+										<b>Do</b> Eduardo and Ileana study English? Yes, they
+										<b>do</b>. / No, they
 									<b>don&#39;t</b>.</li>
 								</ul>
 								<h4>Contracciones (short form)</h4>
@@ -963,7 +958,7 @@
 									<li>November</li>
 									<li>December</li>
 								</ul>
-							</article>                    
+							</article>
 							<article id="free-time-activities" class="padTop50">
 								<h3>Vocabulary: Free-time activities</h3>
 								<ul>
@@ -999,14 +994,14 @@
 										<p><strong>OJO:</strong> En Español, no utilizamos el <em>presente contínuo</em> para expresar un evento en el futuro planeado como se hace en Inglés.</p>
 									</div>
 								</span>
-								<div>								
-									<ul class="well syntax">									
-										<h4>Estructura del presente contínuo</h4>							
-										<li>(+) Sujeto + be + verbo -ing + complemento.</li>									
-										<li>(-) Sujeto + be + not + verbo -ing + complemento.</li>									
-										<li>(?) Be + sujeto + verbo -ing + complemento?</li>									
-										<li>(=) Yes, + sujeto** + be. / No, + sujeto** + be + not.</li>								
-									</ul>							
+								<div>
+									<ul class="well syntax">
+										<h4>Estructura del presente contínuo</h4>
+										<li>(+) Sujeto + be + verbo -ing + complemento.</li>
+										<li>(-) Sujeto + be + not + verbo -ing + complemento.</li>
+										<li>(?) Be + sujeto + verbo -ing + complemento?</li>
+										<li>(=) Yes, + sujeto** + be. / No, + sujeto** + be + not.</li>
+									</ul>
 								</div>
 							</article>
 							<article id="possessive-s" class="padTop50">
@@ -1154,7 +1149,7 @@
 			<div id="selectedMenu"></div>
 		</div>
 		<script>
-			
+
 		</script>
 	</body>
 </html>
