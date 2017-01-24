@@ -44,7 +44,7 @@
 					$('#aviso').html('<small class="text-danger bg-danger">' + loggedUser + ' lee las Reglas Gramaticales</small>').fadeIn(400);
 					// if visitor isn't logged in tell them to do so, or register
           } else if (loggedUser == false) {
-					$('#aviso').html('<small bg-info text-info><a href="http://localhost/vidaingles/iniciar">inicia sesión</a> para ver resultados. <a href="http://localhost/vidaingles/registrar">Regístrate</a></small>').fadeIn(400);
+					$('#aviso').html('<small bg-info text-info><a href="http://localhost/vidaingles/iniciar">inicia sesiï¿½n</a> para ver resultados. <a href="http://localhost/vidaingles/registrar">Regï¿½strate</a></small>').fadeIn(400);
           } else {
 					$.ajax({
 						type: 'post',
@@ -126,7 +126,7 @@
 						}
 					})
 					.done(function () {
-						
+
 					})
 					.fail(function () {
 						alert("Something went wrong");
