@@ -24,7 +24,10 @@
 			}
 			em {
 			font-weight:500;
-			color: #3c5faf
+			}
+			.alert-info em {
+			font-weight:700;
+			color: #3c5faf;
 			}
 		</style>
 	</head>
@@ -48,7 +51,7 @@
 			</div>
 			<div class="jumbotron">
 				<h1 class="display-3">Ingles Intermedio</h1>
-				<p class="lead">Facultad de Derecho UADY.</p>
+				<p class="lead">Facultad de Derecho <abbr title="Universidad Autonoma de Yucatan">UADY</abbr></p>
 				<small><i>By: Ricardo Maldonado</i></small><br />
 				<small><a href="https://twitter.com/intent/tweet?screen_name=ramaldonado" class="twitter-mention-button" data-related="vidaingles" data-show-count="false">Tweet to @ramaldonado</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></small>
 			</div>
@@ -158,7 +161,7 @@
 								</ul>
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg">  EXERCISE 4:</span> Match these multi-word verbs with the definitions.
-									</div>
+								</div>
 								<ul class="list-inline">
 									<li>take off</li>
 									<li>look after</li>
@@ -335,7 +338,7 @@
 									<li><strong>Are you going</strong> to Cancun next week?</li>
 								</ul>
 								<div class="alert alert-info">
-									<strong>EXERCISE 1: </strong> Write sentences with <em>be going to</em>.
+									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE 1:</span> Write sentences with <em>be going to</em>.
 								</div>
 								<small>
 									<code>	
@@ -415,8 +418,10 @@
 									<li>Zero conditional</li>
 									<li>Conditional + imperative</li>
 									<li><em>when, as soon as, unless</em></li>
+									<li><em>First conditional</em></li>
 								</ul>
-								<h3>Zero conditional</h3>
+								<hr class="featurette-divider">
+								<h4>Zero conditional</h4>
 								<p>Usa el <strong>cero condicional</strong> para expresar lo que sucede en ciertas situaciones. Como todos los condicionales, el cero condicional tiene dos clausulas. La clausula de la <em>condición</em>, que se escribe en presente simple, y la clausula del <em>resultado</em> que también va en presente simple. Ejemplos:</p>
 								<ul>
 									<li>If I <strong>go</strong> to bed late, I <strong>am</strong> tired in the morning.</li>
@@ -432,9 +437,9 @@
 									<li>Do you <strong>spend</strong> it on clothes if your parents <strong>give</strong> you pocket money?</li>
 								</ul>
 								<div class="alert alert-danger">
-									<strong>NOTA: </strong> Si la frase comienza con la <em>condición</em> usa la <em>coma (,)</em> para separar la condición del resultado. Si comienza con el <em>resultado</em> la coma <strong>se omite</strong>. 
+									<span class="fa fa-warning fa-lg"></span> <small>Si la frase comienza con la <em>condición</em> usa la <em>coma (,)</em> para separar la condición del resultado. Si comienza con el <em>resultado</em> la coma <strong>se omite</strong>.</small> 
 								</div>
-								<h3>Condicional + imperativo</h3>
+								<h4>Condicional + imperativo</h4>
 								<p>Utiliza <strong>condicional + imperativo</strong> para dar ordenes o instrucciones bajo ciertas condiciones. La cláusula de la condición va en <em>presente simple</em> y la orden o instrucción también va en <em>presente simple</em>. Ejemplos:</p>
 								<ul>
 									<li>If you <strong>see</strong> John, <strong>tell</strong> him to call his parents.</li>
@@ -460,21 +465,61 @@
 									<li>Judith doesn't bring an umbrella <strong>unless</strong> it rains.</li>
 								</ul>
 								<div class="alert alert-info">
-									<strong>EXERCISE 1 - Zero conditional: </strong> Write sentences in the <em>zero conditional</em>. 
+									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE 1:</span> Write sentences in the <em>zero conditional</em>. 
 								</div>
 								<ol>
 									<li>My little sister / do / well in school, / she / go / to Disneyland.<br /><u><i>If my little sister does well in school, she goes to Disneyland.</i></u></li>
 									<li>I / not know / the answer, / I / ask / the teacher .<br />____________________________________________</li>
 									<li>Daniela / eat / nuts, / she / feel / ill .<br />___________________________________________________</li>
 									<li>They / go / to the beach, / they / always bring / a volleyball .<br />___________________________________________________</li>
+									<li>Mike / not do / his homework, / his mom / yell / at him.<br />___________________________________________________</li>
+									<li>We / play / football this Sunday, / we / not play / next week.<br />___________________________________________________</li>
 								</ol>
 								<div class="alert alert-info">
-									<strong>EXERCISE 2 - Conditional + imperative; </strong> Write sentences in the <em>conditional + imperative</em>. 
+									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE 2:</span> Write sentences in the <em>conditional + imperative</em>.
 								</div>
+								<ol>
+									<li>My little sister / do / well in school, / she / go / to Disneyland.<br /><u><i>If my little sister does well in school, she goes to Disneyland.</i></u></li>
+									<li>It / rain, / take an umbrella.<br />____________________________________________</li>
+									<li>A fire / break out, / call / the firebrigade.<br />___________________________________________________</li>
+									<li>You / talk / to John, / say / hi to him.<br />___________________________________________________</li>
+									<li>You / have / an accident, / call / the insurance company.<br />___________________________________________________</li>
+									<li>I / not get up / on time, / give / me a shout. <br />___________________________________________________</li>
+								</ol>
 								<div class="alert alert-info">
-									<strong>EXERCISE 3 - <em>when, as soon as, unless</em>:</strong>. 
+									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE 3:</span> Circle the right option. 
 								</div>
-								<span class="fa-camera-retro"></span>
+								<ol> 
+									<li>I don't usually wear a coat <strong><i>as soon as/unless</i></strong> it's really cold outside.</li>
+									<li><strong><i>When/Unless</i></strong> there are more than 100 guests, they always open the door to the other room.</li>
+									<li><strong><i>As soon as/Unless</i></strong> it gets dark, the lights come on.</li>
+									<li><strong><i>As soon as/Unless</i></strong> she feels ill, she goes for a run every morning.</li>
+									<li>I can check my email, <strong><i>as soon as/unless</i></strong> I get home.</li>
+									<li>I always get up early, <strong><i>when/unless</i></strong> I go to bed after midnight.</li>
+								</ol>
+								<hr class="featurette-divider">
+								<h4>First conditional</h4>
+								<p>Utiliza el <strong>primer condicional</strong> para decir lo que sucederá en un futuro bajo cierta condición. La cláusula de la condición va en <em>presente simple</em>, y la cláusula del resultado con <em>will/won't + forma base del verbo</em>. Ejemplos:</p>
+								<ul>
+									<li>If we <strong>go</strong> to the movies, we <strong>will get</strong> home late. <span class="tradu">(Si <strong>vamos</strong> al cine, <strong>regresaremos</strong> tarde a casa.)</span></li>
+									<li>If I <strong>find</strong> the right phone, I <strong>will buy</strong> it. <span class="tradu">(Si <strong>encuentro</strong> el telefono correcto, lo <strong>compraré</strong>.)</span></li>
+									<li>Dad <strong>will be</strong> very upset if you <strong>break</strong> his phone. <span class="tradu">(Papá se <strong>enojará</strong> si <strong>rompes</strong> su teléfono.)</span></li>
+								</ul>
+								<div class="alert alert-info">
+									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE 4:</span> Write sentences in the <em>first conditional</em>. 
+								</div>
+								<ol>
+									<li>The students / not finish / the task, / they / not go / on recess.<br /><small><u><i>If the students <strong>don't finish</strong> the task, they <strong>won't go</strong> on recess.</i></u></small></li>
+									<li>We / not hurry, / we / miss / the bus.<br />____________________________________________</li>
+									<li>It / not rain, / we / have / a picnic.<br />____________________________________________</li>
+									<li>I / study / hard, / I / pass / my exam.<br />____________________________________________</li>
+									<li>Rosa / be / late, / her mom / get / upset.<br />____________________________________________</li>
+									<li>You / not come / to my birthday party, / I / not speak / to you again.<br />________________________________________</li>
+									<li>You / go / shopping today, / I / go / with you.<br />____________________________________________</li>
+									<li>They / see / a scary film, / they / not sleep / well tonight.<br />____________________________________________</li>
+									<li>You / find / an iPhone, you / keep / it?<br />____________________________________________</li>
+									
+								</ol>
 							</div> <!-- Ends .card-block -->
 						</div> <!-- Ends #feb-05-2017 -->
 					</div> <!-- Ends .card -->
@@ -531,46 +576,46 @@
 									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE:</span> Complete the sentences with <em>must, may not</em> or <em>can't</em>.
 								</div>
 								<ol>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher .<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher .<br />________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />_________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />_________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />_________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />_________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />_________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />__________________________________________________</li>
 								</ol>
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE:</span> Complete the sentences with <em>must, may not</em> or <em>can't</em>.
 								</div>
 								<ol>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher .<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher .<br />________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />_________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />_________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />_________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />_________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />_________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />__________________________________________________</li>
 								</ol>
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE:</span> Complete the sentences with <em>must, may not</em> or <em>can't</em>.
 								</div>
 								<ol>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher .<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
-									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher .<br />________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />_________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />_________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />_________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />_________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />_________________________________________________</li>
+									<li>I / not know / the answer, / I / ask / the teacher.<br />__________________________________________________</li>
 								</ol>
 							</div><!-- Ends .card-block -->
 						</div><!-- Ends #date -->
@@ -578,10 +623,10 @@
 					<div class="card">
 						<div class="card-header">
 							<h5>
-								<a href="#date" data-toggle="collapse" data-parent="#acordion" aria-expanded="true">Date</a>
+								<a href="#date2" data-toggle="collapse" data-parent="#acordion" aria-expanded="true">Date</a>
 							</h5>
 						</div><!-- Ends .card-header -->
-						<div id="date" role="tabpanel" class="collapse">
+						<div id="date2" role="tabpanel" class="collapse">
 							<div class="card-block">
 								<h6>Objectives</h6>
 								<ul>
