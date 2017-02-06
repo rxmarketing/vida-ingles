@@ -1,0 +1,23 @@
+strong {
+  font-weight: 600; }
+
+.tradu {
+  font-size: .75rem;
+  color: #888;
+  word-spacing: -1px;
+  display: block;
+  font-style: italic;
+  margin-top: -2px; }
+  .tradu em {
+    font-weight: 600; }
+
+.alert-info em {
+  font-weight: 700;
+  color: #3c5faf; }
+
+.exercise-text {
+  font-size: 0.95rem; }
+  .exercise-text em {
+    font-weight: 600; }
+
+/*# sourceMappingURL=fac-styles.css.map */

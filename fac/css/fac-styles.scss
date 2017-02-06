@@ -1,0 +1,28 @@
+$tradu-text-color: #888;
+$tradu-text-emphasis-weight: 600;
+$exercise-list-text-size: .95rem;
+
+strong {
+	font-weight: 600;
+}
+.tradu {
+	font-size: .75rem;
+	color: $tradu-text-color;
+	word-spacing: -1px;
+	display: block;
+	font-style: italic;
+	margin-top: -2px;
+	em {
+		font-weight:$tradu-text-emphasis-weight;
+	}
+}	
+.alert-info em {
+	font-weight:700;
+	color: #3c5faf; }
+	
+.exercise-text {
+	font-size: $exercise-list-text-size;
+	em {
+		font-weight:$tradu-text-emphasis-weight;
+	}
+}
