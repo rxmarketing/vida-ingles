@@ -12,24 +12,7 @@
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<!-- Custom styles for this template -->
 		<link href="../css/jumbotron-narrow.css" rel="stylesheet">
-		<style>
-			span.tradu {
-			font-size: 10px;
-			font-family: Verdana, tahoma;
-			color: rgba(136, 136, 136, 0.9);
-			word-spacing: -1px;
-			display: block;
-			font-style: italic;
-			margin-top: -2px;
-			}
-			em {
-			font-weight:500;
-			}
-			.alert-info em {
-			font-weight:700;
-			color: #3c5faf;
-			}
-		</style>
+		<link href="css/fac-styles.css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="container">
@@ -74,7 +57,7 @@
 								<h4>Modal verbs <em>may, might, could, must, can</em></h4>
 								<p>Existen varias maneras de expresar posibilidad en el pasado, presente y futuro.</p>
 								<h5>Expresar <i>posibildad en el presente o futuro</i>.</h5>
-								<p>Use <strong>may, might, could + infinitivo</strong> para decir que algo <i>es posible</i>. Ejemplo:</p>
+								<p>Use <strong>may, might, could + infinitivo</strong> para decir que algo <i>es una posibilidad</i>. Ejemplo:</p>
 								<ul>
 									<li>Justin <strong>may/might/could leave </strong> his job soon. <span class="tradu">(Justin <em>podria dejar</em>  su trabajo pronto.)</span></li>
 								</ul>
@@ -82,7 +65,7 @@
 								<ul>
 									<li>You <strong>must be</strong> Tina's brother! <span class="tradu">(Tu <em>debes ser</em>  el hermano de Tina!)</span></li>
 								</ul>
-								<p>Usa <strong>can't + be</strong> para expresar que algo <i>es imposible</i>. Ejemplo:</p>
+								<p>Usa <strong>can't + be</strong> para expresar que algo <i>es una imposibilidad</i>. Ejemplo:</p>
 								<ul>
 									<li>This <strong>can't be</strong> Rob's car. He's got a Fiat, not a Renault. <span class="tradu">(Este <em>no puede ser</em> el coche de Rob. El tiene un Fiat, no un Renault.)</span></li>
 								</ul>
@@ -98,7 +81,7 @@
 								<p>Usa <strong>may/might/must/can't + have + pasado participio</strong> del verbo para expresar posibilidad en el <i>pasado</i>.
 								Para expresar capacidad no realizada en el pasado usa <strong>could have + pasado participio</strong>. Ejemplo: </p>
 								<ul>
-									<li>Jim <em>could have sent</em> us a text message. <span class="tradu">Jim <em>pudo habernos enviado</em> un mensaje de texto.</span></li>
+									<li>Jim <strong>could have sent</strong> us a text message. <span class="tradu">Jim <em>pudo habernos enviado</em> un mensaje de texto.</span></li>
 								</ul>
 								<p>Usa <strong>must have + past participle</strong> para expresar <i>posibilidad</i> o <i>certidumbre</i> sobre el pasado. Ejemplo:</p>
 								<ul>
@@ -112,7 +95,7 @@
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE 1:</span> Complete the sentences with <em>must, may not</em> or <em>can't</em>.
 								</div>
-								<ol>
+								<ol class="exercise-text">
 									<li>This _____ be Mr. Allen's house. His car is parked outside.</li>
 									<li>She _____ be David's sister. He hasn't got any sisters. </li>
 									<li>I _____ play football this afternoon. I don't feel very well.</li>
@@ -123,7 +106,7 @@
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE 2:</span> Write possible explanations with <em>may</em> or <em>might</em>.
 								</div>
-								<ol>
+								<ol class="exercise-text">
 									<li>Eva isn't answering my text messages. <span class="tradu">She might be on holiday.</span></li>
 									<li>My computer is making strange noises. <span class="tradu">____________________________________________</span></li>
 									<li>My cat has disappeared. <span class="tradu">____________________________________________</span></li>
@@ -133,7 +116,7 @@
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE 3:</span> Circle the correct modal verb.
 								</div>
-								<ol>
+								<ol class="exercise-text">
 									<li>Diana <em>may/can't</em> take a year out before university. She hasn't decided yet.</li>
 									<li>This computer is $25,000 pesos. I <em>may/can't</em> afford that!.</li>
 									<li>There <em>might/must</em> be some milk in the fridge. I bought four cartons yesterday.</li>
@@ -143,7 +126,7 @@
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE 3:</span> Complete the sentences with <em>must have</em> or <em>can't have</em> and the correct form of the verb in brackets.
 								</div>
-								<ol>
+								<ol class="exercise-text">
 									<li>Look at the broken window. The thief <em><u>must have got</u></em> in here. (get)</li>
 									<li> James got 100% in his Maths test. He ____________ hard. (study)</li>
 									<li>It's impossible! I ____________ all my money! (spend)</li>
@@ -162,8 +145,9 @@
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg">  EXERCISE 4:</span> Match these multi-word verbs with the definitions.
 								</div>
-								<ul class="list-inline">
-									<li>take off</li>
+								
+								<ul class="inline-list">
+									<li class="inline-list-item">take off</li>
 									<li>look after</li>
 									<li>look for</li>
 									<li>come across</li>
@@ -173,7 +157,7 @@
 									<li>turn off</li>
 									<li>pick up</li>
 								</ul>
-								<ol>
+								<ol class="exercise-text">
 									<li>take care of</li>
 									<li>return a thing to its owner</li>
 									<li>try to find a thing or a person</li>
@@ -222,7 +206,7 @@
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE:</span> Completa las frases con el <i>object pronouns</i> correcto.
 								</div>
-								<ol>
+								<ol class="exercise-text">
 									<li>I want the book. Please give _____ to _____.</li>
 									<li>Are these flowers for Jake? Yes, we bought _____ for _____.</li>
 									<li>Leona has the suitcase now. I took _____ to _____.</li>
@@ -271,7 +255,7 @@
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE 1:</span> Complete the sentences with <em>will</em> and the verbs in brackets.
 								</div>
-								<ol>
+								<ol class="exercise-text">
 									<li>Erica _____ probably _____ me an email tomorrow. (send)</li>
 									<li>In a few year's time nobody _____ to work. (drive)</li>
 									<li>My birthday _____ on a Tuesday next year. (be)</li>
@@ -282,20 +266,20 @@
 									<li>It _____ tomorrow, I heard it on the radio. (not rain)</li>
 								</ol>
 								<div class="alert alert-info">
-									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE 2:</span> Write <i>questions</i> and <i>short answers</i> using <i>will</i>.
+									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE 2:</span> Write <i>questions</i> and <i>short answers</i> using <em>will</em>.
 								</div>
-								<ol>
-									<li>your / pass your exam / next month <span>(Y)</span> <br /> <small class="text-muted">Will you pass your exam next month? Yes, I will.</small></li>
-									<li>the President / win / the next election. <span>(N)</span> <br />_____________________________________</li>
-									<li>Jerry / become / a famous actor <span>(Y)</span> <br />_____________________________________</li>
-									<li>the government / build / a new motorway <span>(Y)</span> <br />_____________________________________</li>
-									<li>Olivia / spand a year abroad <span>(N)</span> <br />_____________________________________</li>
-									<li>we / be able to / travel to Mars / in the future <span>(Y)</span> <br />_____________________________________</li>
+								<ol class="exercise-text">
+									<li>your / pass your exam / next month <span class="fa fa-check"></span> <br /> <small class="text-muted">Will you pass your exam next month? Yes, I will.</small></li>
+									<li>the President / win / the next election. <span class="fa fa-remove"></span> <br />_____________________________________</li>
+									<li>Jerry / become / a famous actor <span class="fa fa-check"></span> <br />_____________________________________</li>
+									<li>the government / build / a new motorway <span class="fa fa-check"></span> <br />_____________________________________</li>
+									<li>Olivia / spand a year abroad <span class="fa fa-remove"></span> <br />_____________________________________</li>
+									<li>we / be able to / travel to Mars / in the future <span class="fa fa-check"></span> <br />_____________________________________</li>
 								</ol>
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE 3:</span> Write two promises, two intentions, two predictions and two requests of your own.
 								</div>
-								<ol>
+								<ol class="exercise-text">
 									<li>____________________________________________</li>
 									<li>____________________________________________</li>
 									<li>____________________________________________</li>
@@ -350,7 +334,7 @@
 										</ul>
 									</code>
 								</small>
-								<ol>
+								<ol class="exercise-text">
 									<li>You / join / us for dinner tonight? <br />
 									_____________________________________</li>
 									<li>I / study / really hard for my English test.  <br />
@@ -371,7 +355,7 @@
 								<div class="alert alert-info">
 									<strong>EXERCISE 2: </strong> Write sentences with the <em>present continuous</em>.
 								</div>
-								<ol>
+								<ol class="exercise-text">
 									<li>They / buy / computers next month. <br />
 									_____________________________________</li>
 									<li>I / have / lunch with Lupita tomorrow.  <br />
@@ -392,7 +376,7 @@
 								<div class="alert alert-info">
 									<strong>EXERCISE 3: </strong> Write sentences with the <em>present continuous <small>(fixed plan)</small></em> or <em>be going to <small>(intention)</small></em>. Use the verb in brackets. 
 								</div>
-								<ol>
+								<ol class="exercise-text">
 									<li>They _____ computers in all our classrooms. But we don't know when. (install)</li>
 									<li>I want to study Japanese. I _____ lessons. (have)</li>
 									<li>Jessica _____ the lawyer at 10:20 tomorrow. (meet)</li>
@@ -467,7 +451,7 @@
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE 1:</span> Write sentences in the <em>zero conditional</em>. 
 								</div>
-								<ol>
+								<ol class="exercise-text">
 									<li>My little sister / do / well in school, / she / go / to Disneyland.<br /><u><i>If my little sister does well in school, she goes to Disneyland.</i></u></li>
 									<li>I / not know / the answer, / I / ask / the teacher .<br />____________________________________________</li>
 									<li>Daniela / eat / nuts, / she / feel / ill .<br />___________________________________________________</li>
@@ -478,7 +462,7 @@
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE 2:</span> Write sentences in the <em>conditional + imperative</em>.
 								</div>
-								<ol>
+								<ol class="exercise-text">
 									<li>My little sister / do / well in school, / she / go / to Disneyland.<br /><u><i>If my little sister does well in school, she goes to Disneyland.</i></u></li>
 									<li>It / rain, / take an umbrella.<br />____________________________________________</li>
 									<li>A fire / break out, / call / the firebrigade.<br />___________________________________________________</li>
@@ -489,7 +473,7 @@
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE 3:</span> Circle the right option. 
 								</div>
-								<ol> 
+								<ol class="exercise-text"> 
 									<li>I don't usually wear a coat <strong><i>as soon as/unless</i></strong> it's really cold outside.</li>
 									<li><strong><i>When/Unless</i></strong> there are more than 100 guests, they always open the door to the other room.</li>
 									<li><strong><i>As soon as/Unless</i></strong> it gets dark, the lights come on.</li>
@@ -508,7 +492,7 @@
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE 4:</span> Write sentences in the <em>first conditional</em>. 
 								</div>
-								<ol>
+								<ol class="exercise-text">
 									<li>The students / not finish / the task, / they / not go / on recess.<br /><small><u><i>If the students <strong>don't finish</strong> the task, they <strong>won't go</strong> on recess.</i></u></small></li>
 									<li>We / not hurry, / we / miss / the bus.<br />____________________________________________</li>
 									<li>It / not rain, / we / have / a picnic.<br />____________________________________________</li>
@@ -575,7 +559,7 @@
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE:</span> Complete the sentences with <em>must, may not</em> or <em>can't</em>.
 								</div>
-								<ol>
+								<ol class="exercise-text">
 									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________</li>
 									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________</li>
 									<li>I / not know / the answer, / I / ask / the teacher .<br />________________________________________________</li>
@@ -590,7 +574,7 @@
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE:</span> Complete the sentences with <em>must, may not</em> or <em>can't</em>.
 								</div>
-								<ol>
+								<ol class="exercise-text">
 									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________</li>
 									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________</li>
 									<li>I / not know / the answer, / I / ask / the teacher .<br />________________________________________________</li>
@@ -605,7 +589,7 @@
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE:</span> Complete the sentences with <em>must, may not</em> or <em>can't</em>.
 								</div>
-								<ol>
+								<ol class="exercise-text">
 									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________</li>
 									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________</li>
 									<li>I / not know / the answer, / I / ask / the teacher .<br />________________________________________________</li>
@@ -672,7 +656,7 @@
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE:</span> Complete the sentences with <em>must, may not</em> or <em>can't</em>.
 								</div>
-								<ol>
+								<ol class="exercise-text">
 									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
 									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
 									<li>I / not know / the answer, / I / ask / the teacher .<br />________________________________________________________</li>
@@ -687,7 +671,7 @@
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE:</span> Complete the sentences with <em>must, may not</em> or <em>can't</em>.
 								</div>
-								<ol>
+								<ol class="exercise-text">
 									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
 									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
 									<li>I / not know / the answer, / I / ask / the teacher .<br />________________________________________________________</li>
@@ -702,7 +686,7 @@
 								<div class="alert alert-info">
 									<span class="fa fa-pencil-square-o fa-lg"> EXERCISE:</span> Complete the sentences with <em>must, may not</em> or <em>can't</em>.
 								</div>
-								<ol>
+								<ol class="exercise-text">
 									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
 									<li>I / not know / the answer, / I / ask / the teacher.<br />________________________________________________________</li>
 									<li>I / not know / the answer, / I / ask / the teacher .<br />________________________________________________________</li>
