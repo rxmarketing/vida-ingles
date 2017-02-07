@@ -517,10 +517,31 @@
 							<div class="card-block">
 								<h6>Objectives</h6>
 								<ul>
-									<li>Objective 1</li>
+									<li><a href="#objective1" data-toggle="modal" data-target="#objective1">Objective 1</a></li>
 									<li>Objective 2</li>
 									<li>Objective 3</li>
 								</ul>
+								<div class="modal fade" id="objective1">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">Objective 1</h5>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													&times;
+												</button>
+											</div>
+											<div class="modal-body">
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, enim, dicta commodi velit culpa eius molestiae veritatis nam libero facere quibusdam iure. Exercitationem autem ut nobis esse at beatae natus!</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, enim, dicta commodi velit culpa eius molestiae veritatis nam libero facere quibusdam iure. Exercitationem autem ut nobis esse at beatae natus!</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								
 								<h4>Objective 1</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, minima adipisci amet. Tenetur, unde, architecto, minima, voluptatum perferendis doloribus natus ad delectus id animi inventore quos enim modi ipsum consequuntur. Ejemplos:</p>
 								<ul>
