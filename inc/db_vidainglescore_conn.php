@@ -6,7 +6,7 @@
 // mysqli_set_charset($db_conx,"utf8");
 // 
 //}
-    $db_conx = new mysqli("localhost","ricardo","tio51tony50","vidaingles");
+    $db_conx = new mysqli("localhost","ricardo","tiotony","vidaingles");
     //$db_conx->set_charset("utf8");
     if($db_conx->connect_errno) {
         echo "Lo sentimos, este sitio esta teniendo problemas, intentelo mas tarde. <br />";
