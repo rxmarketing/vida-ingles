@@ -10006,32 +10006,38 @@ body {
 }
 
 /* line 49, C:/xampp/htdocs/vidaingles/follow-ups/scss/_custom.scss */
+.dropdown-menu {
+  height: 10rem;
+  overflow-y: scroll;
+}
+
+/* line 55, C:/xampp/htdocs/vidaingles/follow-ups/scss/_custom.scss */
 .marketing .fa {
   font-size: 5rem;
 }
 
-/* line 53, C:/xampp/htdocs/vidaingles/follow-ups/scss/_custom.scss */
+/* line 59, C:/xampp/htdocs/vidaingles/follow-ups/scss/_custom.scss */
 .vi-fa {
   font-size: 1rem !important;
 }
 
-/* line 57, C:/xampp/htdocs/vidaingles/follow-ups/scss/_custom.scss */
+/* line 63, C:/xampp/htdocs/vidaingles/follow-ups/scss/_custom.scss */
 .vi-divider {
   margin: 80px 0;
 }
 
-/* line 61, C:/xampp/htdocs/vidaingles/follow-ups/scss/_custom.scss */
+/* line 67, C:/xampp/htdocs/vidaingles/follow-ups/scss/_custom.scss */
 .vi-divider-50 {
   margin: 50px 0;
 }
 
-/* line 65, C:/xampp/htdocs/vidaingles/follow-ups/scss/_custom.scss */
+/* line 71, C:/xampp/htdocs/vidaingles/follow-ups/scss/_custom.scss */
 .card {
   margin-bottom: 1rem;
 }
 
 /* follow-up styles */
-/* line 70, C:/xampp/htdocs/vidaingles/follow-ups/scss/_custom.scss */
+/* line 76, C:/xampp/htdocs/vidaingles/follow-ups/scss/_custom.scss */
 .thead-inverse th {
   color: #fff;
   background-color: rgba(41, 43, 44, 0.85) !important;

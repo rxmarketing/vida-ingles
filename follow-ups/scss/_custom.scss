@@ -46,6 +46,12 @@ html {
 				color: $navbar-inverse-hover-color;
 			}
 			
+			.dropdown-menu {
+					height: 10rem;
+					overflow-y: scroll;
+					
+				}
+			
 			.marketing .fa {
 				font-size: 5rem ;
 				}
@@ -70,4 +76,6 @@ html {
 			.thead-inverse th {
     color: #fff;
     background-color: rgba(41,43,44,.85)!important;
-}
+		}
+		
+		
