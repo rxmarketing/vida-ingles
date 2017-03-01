@@ -1,0 +1,98 @@
+html {
+	font: 100%/1.3 Helvetica, verdana, san-serif;
+	color: #333;
+}
+
+div#income, div#payments, div#groups {
+	width: 350px;
+	font-size: 14px;
+	background: #555;
+	color: #fff;
+}
+
+.form-signin {
+    max-width: 430px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-control {
+    margin-bottom: 10px;
+}
+fieldset {
+    margin-bottom: 20px;
+}
+
+table.snapshot-table {
+	width: 100%;
+	
+}
+
+table.snapshot-table > tbody > tr > th {
+	background: #000;
+	color: #fff;
+}
+
+#addHoursDiv {
+	background: #d2d2d2;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #d2d2d2;
+	font-size: 0.88888em;
+}
+
+table > thead > tr > th {
+    padding: 5px 10px;
+}
+
+table > tbody > tr > th {
+	background: #d2d2d2;
+	padding: 5px;
+	border: 1px solid #f2f2f2;
+}
+
+table > tbody > tr, td {
+	border: 1px solid #d2d2d2;
+}
+
+table > tbody > tr > td {
+	padding: 5px;
+}
+
+.hightlight {
+	background: #f2f2f2;
+}
+
+.mouseover {
+	background: rgba(33, 35, 34, 0.63);
+	color: #f2f2f2;
+}
+
+.elem-bground, .preint-bground, .int-bground {
+	color: #fff;
+}
+.elem-bground {
+	background: #00447C;
+}
+
+.preint-bground {
+	background: #AE0917;
+}
+
+.int-bground {
+	background: #02817A;
+}
+
+.gg-bground {
+	background: yellow;
+}
+
+div.ui-dialog {
+    background-color: #fff;
+}
