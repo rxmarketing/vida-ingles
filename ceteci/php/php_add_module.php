@@ -58,10 +58,10 @@
 			VALUES (?,?,?,?,?,?,?,?,?,?,?,?,NOW(),NOW())");
 			if(!$stmt){
 				$addMod_msg = "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.<br />";
-                $addMod_msg .= "Fallo la preparacion (" . $db_conx->errno . ") " . $db_conx->error;
+				$addMod_msg .= "Fallo la preparacion (" . $db_conx->errno . ") " . $db_conx->error;
 				$addModJson = array("mensaje" => $addMod_msg);
 				echo json_encode($addModJson);
-                exit;
+				exit;
 			}
 			$stmt->bind_param('ddddsssssdds'
 			,$mod_scl_id
@@ -79,8 +79,8 @@
 			);
 			$stmt->execute();
 			$numRecordsInserted = $stmt->affected_rows;
-            $idUltimoRecord = $stmt->insert_id;
-            //echo "Numero de registros insertados: ". $numRecordsInserted . "<br /> ID del ultimo registro insertado: ". $idUltimoRecord;
+			$idUltimoRecord = $stmt->insert_id;
+			//echo "Numero de registros insertados: ". $numRecordsInserted . "<br /> ID del ultimo registro insertado: ". $idUltimoRecord;
 			// UPDATE modulo_id COLUMN IN grupos TABLE
 			$stmt = "UPDATE grupos SET modulo_id = '$idUltimoRecord' WHERE grp_id = '$group_id' LIMIT 1";
 			if(!$sql = $db_conx->query($stmt)) {
@@ -123,5 +123,5 @@
 		exit();
 	}
 	$addModJson = array("mensaje" => $addMod_msg);
-    echo json_encode($addModJson);
+	echo json_encode($addModJson);
 ?>
