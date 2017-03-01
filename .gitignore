@@ -5,6 +5,7 @@ presentations/**
 sql/**
 code/**
 audio/**
+ceteci/inc/db_ceteci_conn.php
 .htaccess
 
 #files
