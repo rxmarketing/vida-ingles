@@ -42,9 +42,18 @@
 					<fieldset>
 						<legend>Module Info</legend>
 						<div class="form-group">
+							<label class="control-label col-md-5" for="groupID">Group</label>
+							<div class="col-md-4">
+								<select name="groupID" class="form-control" id="groupID" autofocus required="required">
+									<option value="" selected disabled>--- Select one from the list ----</option>
+									<?php echo groupOptList($db_conx); ?>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
 							<label class="control-label col-md-5 col-md-5" for="mod_cat_id">Category</label>
 							<div class="col-md-4">
-								<select class="form-control" name="mod_cat_id" id="mod_cat_id" required="required" autofocus>
+								<select class="form-control" name="mod_cat_id" id="mod_cat_id" required="required">
 									<option value="" selected disabled>--- Select a category ----</option>
 									<?php echo select_mod_cat($db_conx); ?>
 								</select>
@@ -93,15 +102,7 @@
 								<input class="form-control" type="time" name="timeout" id="timeout">
 							</div>
 						</div>
-						<div class="form-group">
-							<label class="control-label col-md-5" for="groupID">Group</label>
-							<div class="col-md-4">
-								<select name="groupID" class="form-control" id="groupID" class="select">
-									<option value="" selected disabled>--- Select one from the list ----</option>
-									<?php echo groupOptList($db_conx); ?>
-								</select>
-							</div>
-						</div>
+						
 						<div class="form-group">
 							<label class="control-label col-md-5" for="modWeeks"># of weeks:</label>
 							<div class="col-md-4">
