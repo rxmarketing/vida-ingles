@@ -34,6 +34,7 @@
         $grupotimeout = date_create($row['grupo_timeout']);
         $grupodias = $row['grupo_dias'];
         $grupohorario = date_format($grupotimein,'g:ia') . ' - '. date_format($grupotimeout,'g:ia') . ' / ' . $grupodias;
+        $fechainicio = $row['grupo_fecha_inicio'];
         $fechacreada = $row['grp_fecha_creada'];
         $grp_fechacreada = strftime('%d %b, %Y', strtotime($fechacreada));
         $fechamodificada = $row['grp_fecha_modificacion'];
@@ -46,6 +47,7 @@
         
         $group_list .= '<tr class="'.returnModule($module_name).'">
         <td class="text-center">'.$groupid.'</td>
+        <td>'.$fechainicio.'</td>
         <td>'.$grupoclave.'</td>
         <td class="text-center">'.$maestroid.'</td>
         <td class="text-center">'.$studCount.'</td>
@@ -54,8 +56,6 @@
         <td class="text-center">'.$moduloid.'</td>
         <td class="text-center">'.$escuelaid.'</td>
         <td>'.$gruponotas.'</td>
-        <td>'.$grp_fechacreada.'</td>
-        <td>'.$grp_fechamodificada.'</td>
         <td><a href="group_details.php?id='.$groupid.'">Details</a></td>
         </tr>';
     }
@@ -104,6 +104,7 @@
             <table class="table-data">
                 <thead>
                     <th>ID Grupo</th>
+                    <th>Fecha inicio</th>
                     <th>Clave</th>
                     <th>ID Maestro</th>
                     <th># estudiantes</th>
@@ -112,8 +113,6 @@
                     <th>ID Modulo</th>
                     <th>ID Escuela</th>
                     <th>Notas</th>
-                    <th>Creada</th>
-                    <th>Modificada</th>
                     <th>Actions</th>
                 </thead>
                 <tbody>
