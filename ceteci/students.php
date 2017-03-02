@@ -75,7 +75,7 @@ $db_conx = new mysqli("localhost","ricardo","tiotony","ceteci");
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<title>CETECi Students</title>
+	<title>Students</title>
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/cetec.css" />
         <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
