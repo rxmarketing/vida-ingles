@@ -85,7 +85,8 @@
 		<td>'.$grupoclave.'</td>
 		<td>'.$levelNombre.'</td>
 		<td>'.$studestatusnombre.'</td>
-		<td><a href="#" type="button" class="btn btn-primary btn-sm">View</a></td>
+		<td><input type="button" name="view" value="View" id="' . $studid . '" class="btn btn-info btn-xs view-data" /></td>
+		<td><input type="button" name="view" value="Edit" id="' . $studid . '" class="btn btn-info btn-xs edit-data" /></td>
 		</tr>';
 	}
 ?>
@@ -123,7 +124,7 @@
 								<th>Grupo</th>
 								<th>Nivel</th>
 								<th>Estatus</th>
-								<th>View</th>
+								<th colspan="2">Action</th>
 							</thead>
 							<tbody><?php echo $lista_estudiantes; ?></tbody>
 						</table>
@@ -388,3 +389,8 @@
 		<script src="js/add_student.js"></script>
 	</body>
 </html>
+<script>  
+ $(document).ready(function(){  
+    
+	});  
+</script>

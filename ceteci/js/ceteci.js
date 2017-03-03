@@ -95,5 +95,21 @@
 			});
 		}); // ENDS grp_mod_id ON CHANGE FUNCTION
 		
+		// View student details modal
+		$('.view-data').click(function(){  
+			var student_id = $(this).attr('id');
+			//$.ajax({
+			//	url: "php/select-stud-details.php",
+			//	method: "POST",
+			//	data: {studentid:student_id},
+			//	success: function(data){
+			//		$('#student-detail').html(data);
+					$('#view-modal').modal("show");
+		//}
+		//}); // Ends .ajax
+    }); // Ends .click function
+		
+		
+		
 	}); // Ends document on.ready function
 }(jQuery));
