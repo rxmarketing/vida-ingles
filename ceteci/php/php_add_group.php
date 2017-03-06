@@ -19,8 +19,8 @@
 			$stmt = $db_conx->prepare("INSERT INTO grupos (
 			escuela_id
 			,grupo_cat_id
-			,maes_id
-			,grp_clave
+			,maestro_id
+			,grupo_clave
 			,grupo_fecha_inicio
 			,grupo_fecha_final
 			,grupo_timein
@@ -28,8 +28,8 @@
 			,grupo_dias
 			,grupo_estatus_id
 			,grupo_notas
-			,grp_fecha_creada
-			,grp_fecha_modificacion
+			,grupo_fecha_creada
+			,grupo_fecha_modificada
 			) VALUES (?,?,?,?,?,?,?,?,?,?,?,NOW(),NOW())
 			");
 			if(!$stmt){

@@ -145,7 +145,7 @@
     // Group status select option list
     function groupStatusOptList($db_conx) {
         $group_status_list = "";
-        $sql = "SELECT * FROM tbl_group_estatuses";
+        $sql = "SELECT * FROM grupo_estatuses";
         $qry = mysqli_query($db_conx,$sql);
         while($row = mysqli_fetch_array($qry,MYSQLI_ASSOC)) {
             $group_status_id = $row['grupo_estatus_id'];
@@ -158,7 +158,7 @@
     // grupo_categoria select option list
     function grupoCatOptList($db_conx) {
         $grupo_cat_list = null;
-        $consulta = "SELECT * FROM tbl_grupo_categorias";
+        $consulta = "SELECT * FROM grupo_categorias";
         if(!$sql = $db_conx->prepare($consulta)){
             echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.";
             echo "Fallo la preparacion (" . $db_conx->errno . ") " . $db_conx->error;
@@ -199,11 +199,11 @@
 	
     // CLASSROOM SELECT OPTION LIST
 	$classroom_list = "";
-	$sql = "SELECT * FROM tbl_classrooms";
+	$sql = "SELECT * FROM aulas";
 	$classroomlist = mysqli_query($db_conx,$sql);
 	while($row = mysqli_fetch_array($classroomlist, MYSQLI_ASSOC)) {
-		$room_id = $row['classroom_id'];
-		$room_name = $row['classroom_nombre'];
+		$room_id = $row['aula_id'];
+		$room_name = $row['aula_nombre'];
 		$classroom_list .= '<option value="'. $room_id .'">'. $room_name .'</option>';
 	}
     //STUDENT STATUS SELECT OPTION LIST
@@ -221,7 +221,7 @@
     
     // Escuela select option list
     $school_option_list = "";
-    $consulta = "SELECT * FROM schools";
+    $consulta = "SELECT * FROM escuelas";
     if(!$sql = $db_conx->prepare($consulta)) {
         echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.<br />";
         echo "Fallo la preparacion (" . $db_conx->errno . ") " . $db_conx->error;
@@ -233,8 +233,8 @@
         echo "Fallo obteniendo los resultados. (" . $db_conx->errno . ") " . $db_conx->error;
 	}
     while($row = $resultado->fetch_assoc()){
-        $escuelaid = $row['scl_id'];
-        $escuelaName = $row['scl_name'];
+        $escuelaid = $row['esc_id'];
+        $escuelaName = $row['esc_nombre'];
         $school_option_list .= '<option value="'.$escuelaid.'">'.$escuelaName.'</option>';
 	}
     
@@ -309,7 +309,7 @@
     // Teacher select option list
     function select_teacher($db_conx) {
         $teacher_list = "";
-        $sql = "SELECT maes_id, maes_pnombre, maes_snombre, maes_papellido, maes_sapellido FROM tbl_maestros";
+        $sql = "SELECT maes_id, maes_pnombre, maes_snombre, maes_papellido, maes_sapellido FROM maestros";
         $qry = mysqli_query($db_conx,$sql);
         while($row = mysqli_fetch_array($qry, MYSQLI_ASSOC)) {
             $maesid = $row['maes_id'];
