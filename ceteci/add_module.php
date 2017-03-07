@@ -60,11 +60,11 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<label class="control-label col-md-5" for="modNameId">Module name</label>
+							<label class="control-label col-md-5" for="modNameId">Module subcategory</label>
 							<div class="col-md-4">
 								<select class="form-control" name="modNameId" id="modNameId">
-									<option value="" selected disabled>--- Select a name ----</option>
-									<?php echo modNameOptList($db_conx); ?>
+									<option value="" selected disabled>--- Select a subcategory ----</option>
+									<?php echo modSubCatOptList($db_conx); ?>
 								</select>
 							</div>
 						</div>

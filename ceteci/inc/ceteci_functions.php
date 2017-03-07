@@ -98,7 +98,7 @@
 		return $group_list_opt;
 	}
 	// MODULE NAME SELECT OPTION LIST
-	function modNameOptList($db_conx) {
+	function modSubCatOptList($db_conx) {
 		$mod_name_list = "";
 		$consulta = "SELECT * FROM modulo_subcategorias";
 		if(!$sql = $db_conx->prepare($consulta)){
