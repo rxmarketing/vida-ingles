@@ -1,5 +1,5 @@
 <?php 
-	$db_conx = new mysqli("localhost","ricardo","tiotony","ceteci");
+	$db_conx = new mysqli("localhost","ricomx","tiotony","cetec");
 	$db_conx->set_charset("utf8");
 	if($db_conx->connect_errno) {
 		echo "Lo sentimos, este sitio esta teniendo problemas, intentelo mas tarde. <br />";
@@ -27,28 +27,28 @@
 	$lista_estudiantes = null;
 	$consulta = "SELECT 
 	estudiantes.estud_id
-	,schools.scl_clave AS 'Escuela'
+	,escuelas.esc_nombre_corto AS 'Escuela'
 	,estudiantes.grupo_id
 	,estudiantes.estud_matricula
-	,estudiantes.estud_status_id
+	,estudiantes.estud_estatus_id
 	,estudiantes.estud_pnombre
 	,estudiantes.estud_snombre
 	,estudiantes.estud_papellido
 	,estudiantes.estud_sapellido
-	,generos.genero_clave AS 'Genero'
-	,grupos.grp_clave AS 'Grupo'
-	,tbl_estud_estatuses.estud_estatus_nombre AS 'Estatus'
-	,modulos.mod_descripcion_id AS 'Level Id'
-	,module_levels.mod_level_name AS 'Nombre Nivel'
+	,generos.genero_nombre_corto AS 'Genero'
+	,grupos.grupo_clave AS 'Grupo'
+	,estudiante_estatuses.estud_estatus_nombre AS 'Estatus'
+	,modulos.mod_nivel_id AS 'Level Id'
+	,modulo_niveles.modulo_nivel_nombre AS 'Nombre Nivel'
 	
 	FROM estudiantes 
 	
-	INNER JOIN schools ON schools.scl_id = estudiantes.escuela_id
+	INNER JOIN escuelas ON escuelas.esc_id = estudiantes.escuela_id
 	INNER JOIN generos ON generos.genero_id = estudiantes.genero_id
-	INNER JOIN grupos ON grupos.grp_id = estudiantes.grupo_id
-	INNER JOIN tbl_estud_estatuses ON tbl_estud_estatuses.estud_estatus_id = estudiantes.estud_status_id
-	INNER JOIN modulos ON modulos.mod_id = grupos.modulo_id
-	INNER JOIN module_levels ON module_levels.mod_level_id = modulos.mod_descripcion_id
+	INNER JOIN grupos ON grupos.grupo_id = estudiantes.grupo_id
+	INNER JOIN estudiante_estatuses ON estudiante_estatuses.estud_estatus_id = estudiantes.estud_estatus_id
+	INNER JOIN modulos ON modulos.mod_id = grupos.grupo_actual_modulo_id
+	INNER JOIN modulo_niveles ON modulo_niveles.modulo_nivel_id = modulos.mod_nombre_id
 	
 	ORDER BY  grupo_id DESC";
 	

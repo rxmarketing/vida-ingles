@@ -11,10 +11,10 @@
 	$module_name = "";
 	$consulta = "SELECT
 	
-	grp_id AS 'Id'
+	grupo_id AS 'Id'
 	,escuela_id
-	,maes_id
-	,grp_clave
+	,maestro_id
+	,grupo_clave
 	,grupo_fecha_inicio
 	,grupo_fecha_final
 	,grupo_timein AS 'timein'
@@ -23,13 +23,13 @@
 	,grupo_cat_nombre AS 'categoria'
 	,modulos.mod_nombre_id AS 'mod name id'
 	,modulos.mod_fecha_inicio AS 'mod inicio'
-	,module_levels.mod_level_name AS 'nivel'		
+	,modulo_niveles.modulo_nivel_nombre AS 'nivel'		
 	
 	FROM grupos  
 	
 	INNER JOIN grupo_categorias ON grupo_categorias.grupo_cat_id = grupos.grupo_cat_id
-	INNER JOIN modulos ON modulos.mod_id = grupos.modulo_id
-	INNER JOIN module_levels ON module_levels.mod_level_id = modulos.mod_descripcion_id
+	INNER JOIN modulos ON modulos.mod_id = grupos.grupo_actual_modulo_id
+	INNER JOIN modulo_niveles ON modulo_niveles.modulo_nivel_id = modulos.mod_nivel_id
 	
 	WHERE grupo_estatus_id=5
 	
