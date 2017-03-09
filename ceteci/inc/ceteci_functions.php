@@ -366,7 +366,7 @@
 	/* MexStates select option list ---------------------------------------------------------------------------- */
 	function select_states($db_conx) {
 		$state_list = "";
-		$stmt = "SELECT * FROM states";
+		$stmt = "SELECT * FROM estados";
 		if(!$sql = $db_conx->query($stmt)){
 			echo "Lo sentimos, estamos teniendo problemas. Intentalo mas tarde.<br>";
 			echo "Falló la preparación (" . $db_conx->errno . ") " . $db_conx->error;
@@ -390,7 +390,7 @@
 	/* Paises select option list ---------------------------------------------------------------------------- */
 	function select_countries($db_conx) {
 		$country_list = null;
-		$consulta = "SELECT * FROM countries";
+		$consulta = "SELECT * FROM paises";
 		if(!$sql = $db_conx->prepare($consulta)) {
 			echo "Lo sentimos, estamos teniendo problemas, intentelo mas tarde.";
 			echo "Fallo en la preparacion: (" .$db_conx->errno . ") " .$db_conx->error;
