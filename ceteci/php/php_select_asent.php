@@ -8,7 +8,9 @@
         exit;
     }
     
-    //Ajax code executes select asentamientos options
+    
+		/* Ajax code executes select asentamientos options
+		----------------------------------------------------------------------------------------*/
     $muniid = $_POST['muniid'];
     $asentqry = mysqli_query($db_conx, "SELECT * FROM asent WHERE muni_id = '$muniid' ORDER BY asentamiento_nombre");
     if(mysqli_num_rows($asentqry)>0) {

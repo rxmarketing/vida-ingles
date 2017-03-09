@@ -1,53 +1,65 @@
 /*jslint browser: true*/
 (function ($) {
-    "use strict";
-    /*global jQuery, document*/
-    $(document).on("ready", function () {
-        
-        //hightlights even rows
+	"use strict";
+	/*global jQuery, document*/
+	$(document).on("ready", function () {
+		
+		/* hightlights even rows
+		----------------------------------------------------------------------------------------*/
 		$('.table-data tr:even').addClass('hightlight');
-        
-		//changes tr bgrnd color on mouseover
+		
+		
+		/* changes tr bgrnd color on mouseover
+		----------------------------------------------------------------------------------------*/
 		$('.table-data tr').mouseover(function(){
 			$(this).addClass('mouseover');
 		})
-		// removes class mouseover on mouseOut
+		
+		
+		/* removes class mouseover on mouseOut
+		----------------------------------------------------------------------------------------*/
 		$('.table-data tr').mouseout(function(){
 			$(this).removeClass('mouseover');
 		})
-        
-        //dinamic select muni options //////////////////////////////////////////////////////////////////////
-        $('#state').on('change', function(){
-            var eid = $('#state').val();
-            var url = 'php/php_select_munis.php';
-            $.ajax({
-                type:'POST',
-                url:url,
-                data:'eid='+eid,
+		
+		
+		/* dinamic select muni options
+		----------------------------------------------------------------------------------------*/
+		$('#state').on('change', function(){
+			var eid = $('#state').val();
+			var url = 'php/php_select_munis.php';
+			$.ajax({
+				type:'POST',
+				url:url,
+				data:'eid='+eid,
 			}) //ends ajax
-            .always(function (data) {
-                $('#muni option').remove();
-                $('#muni').append(data);
+			.always(function (data) {
+				$('#muni option').remove();
+				$('#muni').append(data);
 			}); //ends always
 		}); //end on change
-        
-        //dinamic select asentamientos options //////////////////////////////////////////////////////////////////////
-        $('#muni').on('change', function(){
-            var muniid = $('#muni').val();
-            alert(muniid);
-            var url = 'php/php_select_asent.php';
-            $.ajax({
-                type:'POST',
-                url:url,
-                data:'muniid='+muniid,
+		
+		
+		/* dinamic select asentamientos options
+		----------------------------------------------------------------------------------------*/
+		$('#muni').on('change', function(){
+			var muniid = $('#muni').val();
+			alert(muniid);
+			var url = 'php/php_select_asent.php';
+			$.ajax({
+				type:'POST',
+				url:url,
+				data:'muniid='+muniid,
 			}) //ends ajax
-            .always(function (data) {
-                $('#asentamiento option').remove();
-                $('#asentamiento').append(data);
+			.always(function (data) {
+				$('#asentamiento option').remove();
+				$('#asentamiento').append(data);
 			}); //ends always
 		}); //end on change
-        
-        // DINAMIC SELECT MODULE NAME
+		
+    
+		/* dinamic select module name
+		----------------------------------------------------------------------------------------*/
 		$('#mod_cat_id').on('change', function(){
 			var modCatId = $('#mod_cat_id').val();
 			//alert(modCatId);
@@ -63,7 +75,9 @@
 			});
 		});
 		
-		// DINAMIC SELECT MODULE ID
+		
+		/* dinamic select module id
+		----------------------------------------------------------------------------------------*/
 		$('#groupID').on('change', function(){
 			var groupId = $('#groupID').val();
 			//alert(groupId);
@@ -77,9 +91,11 @@
 				$('#grp_mod_id option').remove();
 				$('#grp_mod_id').append(data);
 			});
-		}); // ENDS groupID ON CHANGE FUNCTION
+		}); // ends groupid on change function
 		
-		// DINAMIC SELECT UNIT ID
+		
+		/* dinamic select unit id
+		----------------------------------------------------------------------------------------*/
 		$('#grp_mod_id').on('change', function(){
 			var groupModId = $('#grp_mod_id').val();
 			//alert(groupModId);
@@ -93,9 +109,11 @@
 				$('#mod_unit_id option').remove();
 				$('#mod_unit_id').append(data);
 			});
-		}); // ENDS grp_mod_id ON CHANGE FUNCTION
+		}); // ends grp_mod_id on change function
 		
-		// View student details modal
+		
+		/* View student details modal
+		----------------------------------------------------------------------------------------*/
 		$('.view-data').click(function(){  
 			var student_id = $(this).attr('id');
 			//$.ajax({
@@ -104,12 +122,12 @@
 			//	data: {studentid:student_id},
 			//	success: function(data){
 			//		$('#student-detail').html(data);
-					$('#view-modal').modal("show");
+			$('#view-modal').modal("show");
 		//}
-		//}); // Ends .ajax
-    }); // Ends .click function
-		
-		
-		
-	}); // Ends document on.ready function
+	//}); // ends .ajax
+}); // ends .click function
+
+
+
+}); // Ends document on.ready function
 }(jQuery));
