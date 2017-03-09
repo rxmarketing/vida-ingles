@@ -1,6 +1,6 @@
 <?php
 	
-	//GATHER ALL HOURS AND DISPLAY THEM
+	/* gather all hours and display them ----------------------------------------------------------------------------- */
 	function hours($db_cetec_conx){
 		$start_date = "";
 		$end_date = "";
@@ -13,6 +13,9 @@
 		//return $tc_list;
 	}
 	
+	
+	/* totla hours 
+	----------------------------------------------------------------------------- */
 	function totalHours($db_cetec_conx){
 		setlocale(LC_MONETARY, 'es_MX');
 		$start_date = "";
@@ -60,7 +63,9 @@
 		}
 		return $total_row;
 	}
-	// SELECT EMPLOYER OPTION LIST
+	
+	
+	/* select employer option list ----------------------------------------------------------------------------- */
 	function employerOptionList($db_cetec_conx) {
 		$employer_list = "";
 		$sql = "SELECT * FROM tblemployers";
@@ -73,7 +78,8 @@
 		return $employer_list;
 	}// Ends employerOptionList function
 	
-	// GROUP SELECT OPTION LIST
+	
+	/* group select option list ----------------------------------------------------------------------------- */
 	function groupOptList($db_conx) {
 		$group_list_opt = "";
 		$grupoid = "";
@@ -97,7 +103,9 @@
 		}
 		return $group_list_opt;
 	}
-	// MODULE NAME SELECT OPTION LIST
+	
+	
+	/* module name select option list ----------------------------------------------------------------------------- */
 	function modSubCatOptList($db_conx) {
 		$mod_name_list = "";
 		$consulta = "SELECT * FROM modulo_subcategorias";
@@ -119,7 +127,9 @@
 		}
 		return $mod_name_list;
 	}
-	// MODULE STATUS SELECT OPTION LIST
+	
+	
+	/* module status select option list ----------------------------------------------------------------------------- */
 	function modStatusOptList($db_conx) {
 		$mod_status_list = "";
 		$consulta = "SELECT * FROM modulo_estatuses";
@@ -135,245 +145,290 @@
 			exit;
 		}
 		while($row = $resultado->fetch_assoc()) {
-				$mod_status_id = $row['modulo_estatus_id'];
-				$mod_status_name = $row['modulo_estatus_nombre'];
-				$mod_status_list .= '<option value="'.$mod_status_id.'">'.$mod_status_name.'</option>';
-			}
-			return $mod_status_list;
+			$mod_status_id = $row['modulo_estatus_id'];
+			$mod_status_name = $row['modulo_estatus_nombre'];
+			$mod_status_list .= '<option value="'.$mod_status_id.'">'.$mod_status_name.'</option>';
 		}
-    
-    // Group status select option list
-    function groupStatusOptList($db_conx) {
-			$group_status_list = "";
-			$sql = "SELECT * FROM grupo_estatuses";
-			$qry = mysqli_query($db_conx,$sql);
-			while($row = mysqli_fetch_array($qry,MYSQLI_ASSOC)) {
-				$group_status_id = $row['grupo_estatus_id'];
-				$group_status_name = $row['grupo_estatus_nombre'];
-				$group_status_list .= '<option value="'.$group_status_id.'">'.$group_status_name.'</option>';
-			}
-			return $group_status_list;
+		return $mod_status_list;
+	}
+	
+	
+	/* Group status select option list ----------------------------------------------------------------------------- */
+	function groupStatusOptList($db_conx) {
+		$group_status_list = "";
+		$sql = "SELECT * FROM grupo_estatuses";
+		$qry = mysqli_query($db_conx,$sql);
+		while($row = mysqli_fetch_array($qry,MYSQLI_ASSOC)) {
+			$group_status_id = $row['grupo_estatus_id'];
+			$group_status_name = $row['grupo_estatus_nombre'];
+			$group_status_list .= '<option value="'.$group_status_id.'">'.$group_status_name.'</option>';
 		}
+		return $group_status_list;
+	}
+	
+	
+	/* grupo_categoria select option list ----------------------------------------------------------------------------- */
+	function grupoCatOptList($db_conx) {
+		$grupo_cat_list = null;
+		$consulta = "SELECT * FROM grupo_categorias";
+		if(!$sql = $db_conx->prepare($consulta)){
+			echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.";
+			echo "Fallo la preparacion (" . $db_conx->errno . ") " . $db_conx->error;
+			exit;
+		}
+		$sql->execute();
+		if(!$resultado = $sql->get_result()) {
+			echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.<br />";
+			echo "Fallo obteniendo los resultados. (" . $db_conx->errno . ") " . $db_conx->error;
+			exit;
+		}
+		while($row = $resultado->fetch_assoc()) {
+			$grp_cat_id = $row['grupo_cat_id'];
+			$grp_cat_name = $row['grupo_cat_nombre'];
+			$grupo_cat_list .= '<option value="'. $grp_cat_id .'">'. $grp_cat_name .'</option>';
+		}
+		return $grupo_cat_list;
+	}
+	
+	
+	/* module select option list ----------------------------------------------------------------------------- */
+	function moduleOptionList($db_conx){
+		$module_name_list = null;
+		$consulta = "SELECT modulos.mod_id, grupos.grp_clave, module_names.mod_subcat_name 
+		FROM modulos
+		INNER JOIN grupos ON grupos.grp_id = modulos.mod_grupo_id 
+		INNER JOIN module_names ON module_names.mod_subcat_id = modulos.mod_nombre_id 
+		WHERE mod_estatus_id='1'";
+		$modulelist = mysqli_query($db_conx,$consulta);
+		while ($row = mysqli_fetch_array($modulelist, MYSQLI_ASSOC)) {
+			$mod_id = $row['mod_id'];
+			$mod_name = $row['mod_subcat_name'];
+			$mod_groupID = $row['grp_clave'];
+			$module_list .= '<option value="'.$mod_id.'">'.$mod_name.' - ' .$mod_groupID.'</option>';
+		}
+		return $module_list;    
 		
-    // grupo_categoria select option list
-    function grupoCatOptList($db_conx) {
-			$grupo_cat_list = null;
-			$consulta = "SELECT * FROM grupo_categorias";
-			if(!$sql = $db_conx->prepare($consulta)){
-				echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.";
-				echo "Fallo la preparacion (" . $db_conx->errno . ") " . $db_conx->error;
-				exit;
-			}
-			$sql->execute();
-			if(!$resultado = $sql->get_result()) {
-				echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.<br />";
-				echo "Fallo obteniendo los resultados. (" . $db_conx->errno . ") " . $db_conx->error;
-				exit;
-			}
-			while($row = $resultado->fetch_assoc()) {
-				$grp_cat_id = $row['grupo_cat_id'];
-				$grp_cat_name = $row['grupo_cat_nombre'];
-				$grupo_cat_list .= '<option value="'. $grp_cat_id .'">'. $grp_cat_name .'</option>';
-			}
-			return $grupo_cat_list;
-		}
-    
-    // MODULE SELECT OPTION LIST
-    function moduleOptionList($db_conx){
-			$module_name_list = null;
-			$consulta = "SELECT modulos.mod_id, grupos.grp_clave, module_names.mod_subcat_name 
-			FROM modulos
-			INNER JOIN grupos ON grupos.grp_id = modulos.mod_grupo_id 
-			INNER JOIN module_names ON module_names.mod_subcat_id = modulos.mod_nombre_id 
-			WHERE mod_estatus_id='1'";
-			$modulelist = mysqli_query($db_conx,$consulta);
-			while ($row = mysqli_fetch_array($modulelist, MYSQLI_ASSOC)) {
-				$mod_id = $row['mod_id'];
-				$mod_name = $row['mod_subcat_name'];
-				$mod_groupID = $row['grp_clave'];
-				$module_list .= '<option value="'.$mod_id.'">'.$mod_name.' - ' .$mod_groupID.'</option>';
-			}
-			return $module_list;    
-			
-		}
+	}
+	
+	
+	/* classroom select option list ----------------------------------------------------------------------------- */
+	$classroom_list = "";
+	$sql = "SELECT * FROM aulas";
+	$classroomlist = mysqli_query($db_conx,$sql);
+	while($row = mysqli_fetch_array($classroomlist, MYSQLI_ASSOC)) {
+		$room_id = $row['aula_id'];
+		$room_name = $row['aula_nombre'];
+		$classroom_list .= '<option value="'. $room_id .'">'. $room_name .'</option>';
+	}
+	
+	
+	/* student status select option list ----------------------------------------------------------------------------- */
+	function studStatOptList($db_conx) {
+		$stud_status_option = "";
+		$stmt = "SELECT * FROM estudiante_estatuses";
 		
-    // CLASSROOM SELECT OPTION LIST
-		$classroom_list = "";
-		$sql = "SELECT * FROM aulas";
-		$classroomlist = mysqli_query($db_conx,$sql);
-		while($row = mysqli_fetch_array($classroomlist, MYSQLI_ASSOC)) {
-			$room_id = $row['aula_id'];
-			$room_name = $row['aula_nombre'];
-			$classroom_list .= '<option value="'. $room_id .'">'. $room_name .'</option>';
-		}
-    //STUDENT STATUS SELECT OPTION LIST
-    function studStatOptList($db_conx) {
-			$stud_status_option = "";
-			$sql = "SELECT * FROM estudiante_estatuses";
-			$studStatOpt = mysqli_query($db_conx,$sql);
-			while($row = mysqli_fetch_array($studStatOpt, MYSQLI_ASSOC)){
-				$stud_status_id = $row['estud_estatus_id'];
-				$stud_status_name = $row['estud_estatus_nombre'];
-				$stud_status_option .= '<option value="'.$stud_status_id.'">'.$stud_status_name.'</option>';
-			}
-			return $stud_status_option;
-		}
-    
-    // Escuela select option list
-    $school_option_list = "";
-    $consulta = "SELECT * FROM escuelas";
-    if(!$sql = $db_conx->prepare($consulta)) {
+		if(!$sql = $db_conx->query($stmt)) {
 			echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.<br />";
 			echo "Fallo la preparacion (" . $db_conx->errno . ") " . $db_conx->error;
 			exit;
 		}
-    $sql->execute();
-    if(!$resultado = $sql->get_result()) {
+		$rowCount = $sql->num_rows;
+		if($rowCount > 0) {
+			while($row = $sql->fetch_assoc()){
+				$stud_status_id = $row['estud_estatus_id'];
+				$stud_status_name = $row['estud_estatus_nombre'];
+				$stud_status_option .= '<option value="'.$stud_status_id.'">'.$stud_status_name.'</option>';
+			}
+			} else {
+			$stud_status_option .= '<option class="bg-warning text-danger" disabled value="">No existen registros!</option>';
+		}
+		return $stud_status_option;
+	}
+	
+	
+	/* Escuela select option list ----------------------------------------------------------------------------- */
+	$school_option_list = "";
+	$consulta = "SELECT * FROM escuelas";
+	if(!$sql = $db_conx->prepare($consulta)) {
+		echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.<br />";
+		echo "Fallo la preparacion (" . $db_conx->errno . ") " . $db_conx->error;
+		exit;
+	}
+	$sql->execute();
+	if(!$resultado = $sql->get_result()) {
+		echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.<br />";
+		echo "Fallo obteniendo los resultados. (" . $db_conx->errno . ") " . $db_conx->error;
+	}
+	while($row = $resultado->fetch_assoc()){
+		$escuelaid = $row['esc_id'];
+		$escuelaName = $row['esc_nombre'];
+		$school_option_list .= '<option value="'.$escuelaid.'">'.$escuelaName.'</option>';
+	}
+	
+	
+	/* populates option list with asentamientos ----------------------------------------------------------------------------- */
+	function asent_option_list($db_conx) {
+		$asent_list = null;
+		$consulta = "SELECT * FROM asentamientos ORDER BY asentamiento_nombre DESC"; 
+		if(!$sql = $db_conx->prepare($consulta)) {
+			echo "Lo sentimos, estamos teniendo problemas, intentelo mas tarde.";
+			echo "Fallo en la preparacion: (" .$db_conx->errno . ") " .$db_conx->error;
+			exit;
+		}
+		$sql->execute();
+		if(!$resultado = $sql->get_result()) {
 			echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.<br />";
-			echo "Fallo obteniendo los resultados. (" . $db_conx->errno . ") " . $db_conx->error;
+			echo "Fallo obteniendo los resultados. (" . $db_conx->errno . ") " . $db_conx->error;       
 		}
-    while($row = $resultado->fetch_assoc()){
-			$escuelaid = $row['esc_id'];
-			$escuelaName = $row['esc_nombre'];
-			$school_option_list .= '<option value="'.$escuelaid.'">'.$escuelaName.'</option>';
+		while($row = $resultado->fetch_assoc()) {
+			$asentid = $row['asentamiento_id'];
+			$asentnombre = $row['asentamiento_nombre'];
+			$asentcp = $row['asentamiento_cp'];
+			$asent_list .= '<option value="'. $asentid .'">'. $asentnombre .' ( '.$asentcp.' )'.'</option>';
 		}
-    
-    // populates option list with asentamientos
-    function asent_option_list($db_conx) {
-			$asent_list = null;
-			$consulta = "SELECT * FROM asentamientos ORDER BY asentamiento_nombre DESC"; 
-			if(!$sql = $db_conx->prepare($consulta)) {
-				echo "Lo sentimos, estamos teniendo problemas, intentelo mas tarde.";
-				echo "Fallo en la preparacion: (" .$db_conx->errno . ") " .$db_conx->error;
-				exit;
-			}
-			$sql->execute();
-			if(!$resultado = $sql->get_result()) {
-				echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.<br />";
-				echo "Fallo obteniendo los resultados. (" . $db_conx->errno . ") " . $db_conx->error;       
-			}
-			while($row = $resultado->fetch_assoc()) {
-				$asentid = $row['asentamiento_id'];
-				$asentnombre = $row['asentamiento_nombre'];
-				$asentcp = $row['asentamiento_cp'];
-				$asent_list .= '<option value="'. $asentid .'">'. $asentnombre .' ( '.$asentcp.' )'.'</option>';
-			}
-			return $asent_list;
+		return $asent_list;
+	}
+	
+	
+	/* Gathers all payments and display them on a table ----------------------------------------------------------------------------- */
+	function qryPaymentList($db_cetec_conx) {
+		$hon_list = "";
+		$sql = "SELECT tblhonorarios.honID, tblhonorarios.honPeriod, tblemployers.empShortName AS 'Employer', tblhonorarios.payeeID, tblhonorarios.honGrossAmount, tblhonorarios.honISR, tblhonorarios.honNetAmount, tblhonorarios.honNotes FROM tblhonorarios INNER JOIN tblemployers ON tblhonorarios.employerID = tblemployers.employerID ORDER BY honPeriod DESC";
+		$query = mysqli_query($db_cetec_conx,$sql);
+		while($row = mysqli_fetch_array($query, MYSQLI_ASSOC)) {
+			$hon_id = $row['honID'];
+			$hon_date = $row['honPeriod'];
+			$hon_period = strftime('%d %b, %Y',strtotime($hon_date));
+			$emp_id = $row['Employer'];
+			$payee_id = $row['payeeID'];
+			$hon_gross = $row['honGrossAmount'];
+			$hon_isr = $row['honISR'];
+			$isr_percent = $hon_isr / $hon_gross;
+			$hon_net = $row['honNetAmount'];
+			$hon_notes = $row['honNotes'];
+			$hrs_paid = round($hon_gross / 33);
+			$hon_list .= '<tr> <td>'.$hon_period.'</td> <td>'.$emp_id.'</td> <td>'.$hon_gross.'</td> <td>'.$hon_isr.'</td> <td>'.$isr_percent.'</td> <td>'.$hon_net.'</td> <td>'.$hrs_paid.'</td> <td>'.$hon_notes.'</td> <td><a href="edit_payment.php?id='.$hon_id.'">Edit</a></td> </tr>';
 		}
-    
-    
-    // Gathers all payments and display them on a table
-    function qryPaymentList($db_cetec_conx) {
-			$hon_list = "";
-			$sql = "SELECT tblhonorarios.honID, tblhonorarios.honPeriod, tblemployers.empShortName AS 'Employer', tblhonorarios.payeeID, tblhonorarios.honGrossAmount, tblhonorarios.honISR, tblhonorarios.honNetAmount, tblhonorarios.honNotes FROM tblhonorarios INNER JOIN tblemployers ON tblhonorarios.employerID = tblemployers.employerID ORDER BY honPeriod DESC";
-			$query = mysqli_query($db_cetec_conx,$sql);
-			while($row = mysqli_fetch_array($query, MYSQLI_ASSOC)) {
-				$hon_id = $row['honID'];
-				$hon_date = $row['honPeriod'];
-				$hon_period = strftime('%d %b, %Y',strtotime($hon_date));
-				$emp_id = $row['Employer'];
-				$payee_id = $row['payeeID'];
-				$hon_gross = $row['honGrossAmount'];
-				$hon_isr = $row['honISR'];
-				$isr_percent = $hon_isr / $hon_gross;
-				$hon_net = $row['honNetAmount'];
-				$hon_notes = $row['honNotes'];
-				$hrs_paid = round($hon_gross / 33);
-				$hon_list .= '<tr> <td>'.$hon_period.'</td> <td>'.$emp_id.'</td> <td>'.$hon_gross.'</td> <td>'.$hon_isr.'</td> <td>'.$isr_percent.'</td> <td>'.$hon_net.'</td> <td>'.$hrs_paid.'</td> <td>'.$hon_notes.'</td> <td><a href="edit_payment.php?id='.$hon_id.'">Edit</a></td> </tr>';
-			}
-			return $hon_list;
-		}// Ends function qryPaymentList
-    
-    // Municipality select option list
-    function select_muni($db_conx) {
-			$muni_list = "";
-			$consulta = "SELECT * FROM municipios";
-			if(!$sql = $db_conx->prepare($consulta)) {
-				echo "Lo sentimos, estamos teniendo problemas, intentelo mas tarde.";
-				echo "Fallo en la preparacion: (" .$db_conx->errno . ") " .$db_conx->error;
-				exit;          
-			}
-			$sql->execute();
-			if(!$resultado = $sql->get_result()){
-				echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.<br />";
-				echo "Fallo obteniendo los resultados. (" . $db_conx->errno . ") " . $db_conx->error;             
-			}
-			while($row = $resultado->fetch_assoc()){
-				$muniid = $row['muni_id'];
-				$muniname = $row['muni_nombre'];
-				$muni_list .= '<option value="'.$muniid.'">'.$muniname.'</option>';
-			}
-			return $muni_list;
+		return $hon_list;
+	}// Ends function qryPaymentList
+	
+	
+	/* Municipality select option list ----------------------------------------------------------------------------- */
+	function select_muni($db_conx) {
+		$muni_list = "";
+		$consulta = "SELECT * FROM municipios";
+		if(!$sql = $db_conx->prepare($consulta)) {
+			echo "Lo sentimos, estamos teniendo problemas, intentelo mas tarde.";
+			echo "Fallo en la preparacion: (" .$db_conx->errno . ") " .$db_conx->error;
+			exit;          
 		}
-    
-    // Teacher select option list
-    function select_teacher($db_conx) {
-			$teacher_list = "";
-			$sql = "SELECT maes_id, maes_pnombre, maes_snombre, maes_papellido, maes_sapellido FROM maestros";
-			$qry = mysqli_query($db_conx,$sql);
-			while($row = mysqli_fetch_array($qry, MYSQLI_ASSOC)) {
+		$sql->execute();
+		if(!$resultado = $sql->get_result()){
+			echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.<br />";
+			echo "Fallo obteniendo los resultados. (" . $db_conx->errno . ") " . $db_conx->error;             
+		}
+		while($row = $resultado->fetch_assoc()){
+			$muniid = $row['muni_id'];
+			$muniname = $row['muni_nombre'];
+			$muni_list .= '<option value="'.$muniid.'">'.$muniname.'</option>';
+		}
+		return $muni_list;
+	}
+	
+	
+	/* Teacher select option list ----------------------------------------------------------------------------- */
+	function select_teacher($db_conx) {
+		$teacher_list = "";
+		$stmt = "SELECT maes_id, maes_pnombre, maes_snombre, maes_papellido, maes_sapellido FROM maestros";
+		if(!$sql = $db_conx->query($stmt)){
+			echo "Lo sentimos, estamos teniendo problemas. Intentelo mas tarde. <br>";
+			echo $db_conx->errno . ") " . $db_conx->error;
+			exit;
+		}
+		$rowCount = $sql->num_rows;
+		if($rowCount > 0){
+			while($row = $sql->fetch_assoc()){
 				$maesid = $row['maes_id'];
 				$maespnombre = $row['maes_pnombre'];
 				$maessnombre = $row['maes_snombre'];
 				$maespapellido = $row['maes_papellido'];
 				$maessapellido = $row['maes_sapellido'];
-				$teacher_list .= '<option value="'.$maesid.'">'.$maespapellido. ' '. $maessapellido. ' ' . $maespnombre . ' ' . $maessnombre . '</option>'; 
+				$teacher_list .= '<option value="'.$maesid.'">'.$maespapellido. ' '. $maessapellido. ' ' . $maespnombre . ' ' . $maessnombre . '</option>';
 			}
-			return $teacher_list;
+			} else {
+			$teacher_list .= '<option class="bg-warning text-danger" disabled value="">No existen registros en la tabla maestros!</option>';
 		}
-    
-    // Mex States select option list
-    function select_states($db_conx) {
-			$state_list = "";
-			$sql = "SELECT * FROM estados";
-			$qry = mysqli_query($db_conx,$sql);
-			while($row = mysqli_fetch_array($qry, MYSQLI_ASSOC)) {
+		
+		return $teacher_list;
+	}
+	
+	
+	/* MexStates select option list ---------------------------------------------------------------------------- */
+	function select_states($db_conx) {
+		$state_list = "";
+		$stmt = "SELECT * FROM estados";
+		if(!$sql = $db_conx->query($stmt)){
+			echo "Lo sentimos, estamos teniendo problemas. Intentalo mas tarde.<br>";
+			echo "Falló la preparación (" . $db_conx->errno . ") " . $db_conx->error;
+			exit;
+		}
+		$rowCount = $sql->num_rows;
+		if($rowCount > 0){
+			while($row = $sql->fetch_assoc()) {
 				$state_id = $row['estado_id'];
 				$state_name = $row['estado_nombre'];
-				$state_list .= '<option value="'.$state_id.'">'.$state_name.'</option>';
+				$state_short_name = $row['estado_nombre_corto'];
+				$state_list .='<option value="' . $state_id . '">' .$state_name . '</option>';
 			}
-			return $state_list;
+			} else {
+			$state_list = '<option class="bg-warning text-danger" disabled value="">No existen registros en la tabla estados!</option>';
 		}
-    // Paises select option list
-    function select_countries($db_conx) {
-			$country_list = null;
-			$consulta = "SELECT * FROM paises";
-			if(!$sql = $db_conx->prepare($consulta)) {
-				echo "Lo sentimos, estamos teniendo problemas, intentelo mas tarde.";
-				echo "Fallo en la preparacion: (" .$db_conx->errno . ") " .$db_conx->error;
-				exit;
-			}
-			$sql->execute();
-			if(!$resultado = $sql->get_result()){
-				echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.<br />";
-				echo "Fallo obteniendo los resultados. (" . $db_conx->errno . ") " . $db_conx->error;              
-			}
-			while($row = $resultado->fetch_assoc()){
-				$countryid = $row['pais_id'];
-				$countryname = $row['pais_nombre'];
-				$country_list .= '<option value="'.$countryid.'">'.$countryname.'</option>';
-			}
-			return $country_list;
+		return $state_list;
+	}
+	
+	
+	/* Paises select option list ---------------------------------------------------------------------------- */
+	function select_countries($db_conx) {
+		$country_list = null;
+		$consulta = "SELECT * FROM paises";
+		if(!$sql = $db_conx->prepare($consulta)) {
+			echo "Lo sentimos, estamos teniendo problemas, intentelo mas tarde.";
+			echo "Fallo en la preparacion: (" .$db_conx->errno . ") " .$db_conx->error;
+			exit;
 		}
-		//SELECT MODULE CATEGORY OPTION LIST
-		function select_mod_cat($db_conx) {
-			$mod_cat_list = null;
-			$consulta = "SELECT * FROM modulo_categorias";
-			if(!$sql = $db_conx->prepare($consulta)) {
-				echo "Lo sentimos, estamos teniendo problemas, intentelo mas tarde.";
-				echo "Fallo en la preparacion: (" .$db_conx->errno . ") " .$db_conx->error;
-				exit;
-			}
-			$sql->execute();
-			if(!$resultado = $sql->get_result()){
-				echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.<br />";
-				echo "Fallo obteniendo los resultados. (" . $db_conx->errno . ") " . $db_conx->error;              
-			}
-			while($row = $resultado->fetch_assoc()){
-				$mod_cat_id = $row['modulo_cat_id'];
-				$mod_cat_name = $row['modulo_cat_nombre'];
-				$mod_cat_list .= '<option value="'.$mod_cat_id.'">'.$mod_cat_name.'</option>';
-			}
-			return $mod_cat_list;
+		$sql->execute();
+		if(!$resultado = $sql->get_result()){
+			echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.<br />";
+			echo "Fallo obteniendo los resultados. (" . $db_conx->errno . ") " . $db_conx->error;              
 		}
-	?>	
+		while($row = $resultado->fetch_assoc()){
+			$countryid = $row['pais_id'];
+			$countryname = $row['pais_nombre'];
+			$country_list .= '<option value="'.$countryid.'">'.$countryname.'</option>';
+		}
+		return $country_list;
+	}
+	
+	
+	/* select module category option list ---------------------------------------------------------------------------- */
+	function select_mod_cat($db_conx) {
+		$mod_cat_list = null;
+		$consulta = "SELECT * FROM modulo_categorias";
+		if(!$sql = $db_conx->prepare($consulta)) {
+			echo "Lo sentimos, estamos teniendo problemas, intentelo mas tarde.";
+			echo "Fallo en la preparacion: (" .$db_conx->errno . ") " .$db_conx->error;
+			exit;
+		}
+		$sql->execute();
+		if(!$resultado = $sql->get_result()){
+			echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.<br />";
+			echo "Fallo obteniendo los resultados. (" . $db_conx->errno . ") " . $db_conx->error;              
+		}
+		while($row = $resultado->fetch_assoc()){
+			$mod_cat_id = $row['modulo_cat_id'];
+			$mod_cat_name = $row['modulo_cat_nombre'];
+			$mod_cat_list .= '<option value="'.$mod_cat_id.'">'.$mod_cat_name.'</option>';
+		}
+		return $mod_cat_list;
+	}
+?>	
