@@ -134,13 +134,10 @@
 			echo "Fallo obteniendo los resultados. (" . $db_conx->errno . ") " . $db_conx->error;
 			exit;
 		}
-		$resultCount = $resultado->num_rows;
-		//echo $resultCount;
-		
-			while($row = $resultado->fetch_assoc()) {
+		while($row = $resultado->fetch_assoc()) {
 				$mod_status_id = $row['modulo_estatus_id'];
 				$mod_status_name = $row['modulo_estatus_nombre'];
-				$mod_status_list = '<option value="'.$mod_status_id.'">'.$mod_status_name.'<option>';
+				$mod_status_list .= '<option value="'.$mod_status_id.'">'.$mod_status_name.'</option>';
 			}
 			return $mod_status_list;
 		}
