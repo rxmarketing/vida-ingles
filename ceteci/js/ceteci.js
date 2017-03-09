@@ -34,12 +34,12 @@
         //dinamic select asentamientos options //////////////////////////////////////////////////////////////////////
         $('#muni').on('change', function(){
             var muniid = $('#muni').val();
-            //alert(muniid);
+            alert(muniid);
             var url = 'php/php_select_asent.php';
             $.ajax({
                 type:'POST',
                 url:url,
-                data:'muniid=0'+muniid,
+                data:'muniid='+muniid,
 			}) //ends ajax
             .always(function (data) {
                 $('#asentamiento option').remove();

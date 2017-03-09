@@ -28,7 +28,7 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
-		<script src="js/aajax.js"></script>
+		
 		<script src="js/main.js"></script>
 		<script src="js/ceteci.js"></script>
 		<style type="text/css">

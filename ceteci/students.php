@@ -48,13 +48,13 @@
 	INNER JOIN grupos ON grupos.grupo_id = estudiantes.grupo_id
 	INNER JOIN estudiante_estatuses ON estudiante_estatuses.estud_estatus_id = estudiantes.estud_estatus_id
 	INNER JOIN modulos ON modulos.mod_id = grupos.grupo_actual_modulo_id
-	INNER JOIN modulo_niveles ON modulo_niveles.modulo_nivel_id = modulos.mod_nombre_id
+	INNER JOIN modulo_niveles ON modulo_niveles.modulo_nivel_id = modulos.mod_nivel_id
 	
 	ORDER BY  grupo_id DESC";
 	
 	if (!$sql = $db_conx->prepare($consulta)) {
 		echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.<br />";
-		echo "Fallo la preparacion (" . $db_conx->errno . ") " . $db_conx->error;
+		echo "Fallo la preparacionnnnn (" . $db_conx->errno . ") " . $db_conx->error;
 		exit;  
 	}
 	$sql->execute();
