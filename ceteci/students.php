@@ -97,7 +97,8 @@
 		<title>Students</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/cetec.css" />
-		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.4.1.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
 		<script src="js/ceteci.js"></script>

@@ -25,9 +25,10 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Add student</title>
-		<link rel="stylesheet" href="css/bootstrap.min.css" />
-		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap-reboot.min.css"/>
+		<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
 		
 		<script src="js/main.js"></script>
 		<script src="js/ceteci.js"></script>

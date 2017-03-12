@@ -2,7 +2,7 @@
 (function ($) {
   "use strict";
   /*global jQuery, document*/
-  $(document).on("ready", function () {
+  $( document ).ready(function() {
 ////// Check for credential duplicates ///////////////
     $('.cred-aviso').hide();
     $('.cred-loader').hide();
