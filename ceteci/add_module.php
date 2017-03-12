@@ -12,13 +12,12 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Add module</title>
-		<link rel="stylesheet" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" href="css/cetec.css" />
-		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
-		<script src="js/aajax.js"></script>
+		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap-reboot.min.css"/>
+		<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="../bower_components/tether/dist/js/tether.min.js"></script>
+		<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script src="js/main.js"></script>
-		<script src="js/myjavascript.js"></script>
 		<script src="js/ceteci.js"></script>
 		
 		<script>
@@ -63,8 +62,6 @@
 							<label class="control-label col-md-5" for="modNameId">Module subcategory</label>
 							<div class="col-md-4">
 								<select class="form-control" name="modNameId" id="modNameId">
-									<option value="" selected disabled>--- Select a subcategory ----</option>
-									<?php echo modSubCatOptList($db_conx); ?>
 								</select>
 							</div>
 						</div>
