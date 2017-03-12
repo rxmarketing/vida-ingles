@@ -4,25 +4,6 @@
 	/*global jQuery, document*/
 	$( document ).ready( function() {
 		
-		/* hightlights even rows
-		----------------------------------------------------------------------------------------*/
-		$('.table-data tr:even').addClass('hightlight');
-		
-		
-		/* changes tr bgrnd color on mouseover
-		----------------------------------------------------------------------------------------*/
-		$('.table-data tr').mouseover(function(){
-			$(this).addClass('mouseover');
-		})
-		
-		
-		/* removes class mouseover on mouseOut
-		----------------------------------------------------------------------------------------*/
-		$('.table-data tr').mouseout(function(){
-			$(this).removeClass('mouseover');
-		})
-		
-		
 		/* dinamic select muni options
 		----------------------------------------------------------------------------------------*/
 		$('#state').on('change', function(){

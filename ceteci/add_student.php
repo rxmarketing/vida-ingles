@@ -28,13 +28,14 @@
 		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap-reboot.min.css"/>
 		<script src="../bower_components/jquery/dist/jquery.min.js"></script>
-<script src="../js/jquery-migrate-3.js"></script>
+		<script src="../bower_components/tether/dist/js/tether.min.js"></script>
+		<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 		
-		<script src="js/main.js"></script>
+		<!--<script src="../js/jquery-migrate-3.js"></script> 
+		
 		<script src="js/ceteci.js"></script>
-		<style type="text/css">
-			
-		</style>
+			-->
+		<script src="js/main.js"></script>
 		<script>
 			function restrict(elem) {
 				var tf = _(elem);
@@ -79,6 +80,7 @@
 				tf.value = tf.value.replace(rx, "");
 			}
 		</script>
+		
 	</head>
 	<body>
 		<div class="container">

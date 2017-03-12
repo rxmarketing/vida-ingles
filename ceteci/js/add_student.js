@@ -3,9 +3,12 @@
   "use strict";
   /*global jQuery, document*/
   $( document ).ready(function() {
-////// Check for credential duplicates ///////////////
+		
+ /* Check for matricula duplicates
+ -------------------------------------------------------------------------------------- */
     $('.cred-aviso').hide();
     $('.cred-loader').hide();
+		
     $('#cred').blur(function () {
       var cre = $('#cred').val();
       if (cre !== "") {
@@ -29,12 +32,12 @@
           });
       }
     });//Ends cred check
+		
+
     $('#cred').focus(function () {
       $('.cred-aviso').fadeOut(900);
     });
-   // $('#addStudBtn').on('click', function (stu) {
-      //stu.preventDefault();
-      
-    //});//Ends #addStudFrm .on submit
+		 
+		
   });
 }(jQuery));
