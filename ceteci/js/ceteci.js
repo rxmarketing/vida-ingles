@@ -44,7 +44,6 @@
 		----------------------------------------------------------------------------------------*/
 		$('#muni').on('change', function(){
 			var muniid = $('#muni').val();
-			alert(muniid);
 			var url = 'php/php_select_asent.php';
 			$.ajax({
 				type:'POST',

@@ -28,7 +28,7 @@
 		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap-reboot.min.css"/>
 		<script src="../bower_components/jquery/dist/jquery.min.js"></script>
-<script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
+<script src="../js/jquery-migrate-3.js"></script>
 		
 		<script src="js/main.js"></script>
 		<script src="js/ceteci.js"></script>
