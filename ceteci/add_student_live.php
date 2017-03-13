@@ -63,7 +63,7 @@
 		}
 		fetch_data();
 		
-		$(document).on('click', '#btn_add', function(){
+		$(document).click('#btn_add', function(){
 			var p_apellido = $('#p_apellido').text();
 			var s_apellido = $('#s_apellido').text();
 			var p_nombre = $('#p_nombre').text();
