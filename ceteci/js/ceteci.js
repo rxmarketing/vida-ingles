@@ -38,12 +38,12 @@
 		}); //end change
 		
     
-		/* dinamic select module name
+	/* dynamically populate modulo subcat nombre in addModFrm (add_module.php)
 	----------------------------------------------------------------------------------------*/
 		$('#mod_cat_id').change(function(){
 			var modCatId = $('#mod_cat_id').val();
 			//alert(modCatId);
-			var url = 'php/php_select_module_name.php';
+			var url = 'php/php_select_module_name.php'; // modulo_subcategorias table
 			$.ajax({
 				type:'POST',
 				url:url,
@@ -55,45 +55,45 @@
 			});
 		});
 		
-//		
-//		/* dinamic select module id
-//		----------------------------------------------------------------------------------------*/
-//		$('#groupID').on('change', function(){
-//			var groupId = $('#groupID').val();
-//			//alert(groupId);
-//			var url = 'php/php_select_module.php';
-//			$.ajax({
-//				type:'POST',
-//				url: url,
-//				data: 'id=' + groupId,
-//			})
-//			.always(function(data){
-//				$('#grp_mod_id option').remove();
-//				$('#grp_mod_id').append(data);
-//			});
-//		}); // ends groupid on change function
-//		
-//		
-//		/* dinamic select unit id
-//		----------------------------------------------------------------------------------------*/
-//		$('#grp_mod_id').on('change', function(){
-//			var groupModId = $('#grp_mod_id').val();
-//			//alert(groupModId);
-//			var url = 'php/php_select_unit.php';
-//			$.ajax({
-//				type:'POST',
-//				url: url,
-//				data: 'id=' + groupModId,
-//			})
-//			.always(function(data){
-//				$('#mod_unit_id option').remove();
-//				$('#mod_unit_id').append(data);
-//			});
-//		}); // ends grp_mod_id on change function
-//		
-//		
-//		/* View student details modal
-//		----------------------------------------------------------------------------------------*/
+		
+		/* dinamic select module id
+		----------------------------------------------------------------------------------------*/
+		$('#groupID').change(function(){
+			var groupId = $('#groupID').val();
+			//alert(groupId);
+			var url = 'php/php_select_module.php';
+			$.ajax({
+				type:'POST',
+				url: url,
+				data: 'id=' + groupId,
+			})
+			.always(function(data){
+				$('#grp_mod_id option').remove();
+				$('#grp_mod_id').append(data);
+			});
+		}); // ends groupid on change function
+		
+		
+		/* dinamic select unit id
+		----------------------------------------------------------------------------------------*/
+		$('#grp_mod_id').change(function(){
+			var groupModId = $('#grp_mod_id').val();
+			//alert(groupModId);
+			var url = 'php/php_select_unit.php';
+			$.ajax({
+				type:'POST',
+				url: url,
+				data: 'id=' + groupModId,
+			})
+			.always(function(data){
+				$('#mod_unit_id option').remove();
+				$('#mod_unit_id').append(data);
+			});
+		}); // ends grp_mod_id on change function
+		
+		
+		/* View student details modal
+		----------------------------------------------------------------------------------------*/
 //		$('.view-data').click(function(){  
 //			var student_id = $(this).attr('id');
 //			//$.ajax({
@@ -106,8 +106,7 @@
 //		//}
 //		//}); // ends .ajax
 //		}); // ends .click function
-//
-//
 
-}); // Ends document on.ready function
+
+}); // Ends document .ready function
 }(jQuery));
