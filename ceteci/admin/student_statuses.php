@@ -32,7 +32,7 @@
 </html>
 <script>
 	$(document).ready(function() {
-		
+
 		/* fetch group statuses and display them in a table function
 		-------------------------------------------------------------------------------*/
 		function fetch_data(){
@@ -42,17 +42,16 @@
 				success: function(data){
 					$('#live_data').html(data);
 				}
-				
 			});
 		}
 		fetch_data();
-		
-		
+
+
 		/* add new record to db when #btn_add button is clicked
 		-------------------------------------------------------------------------------*/
 		$(document).click('#btn_add', function(){
 			var stud_status_name = $('#estatus_nombre').text();
-			
+
 			if(stud_status_name === ''){
 				alert("Todos los campos son obligatorios");
 				return false;
@@ -70,7 +69,7 @@
 				}
 			});
 		});
-		
+
 		/* edit record
 		-------------------------------------------------------------------------------
 		function live_edit_stud(id, text, column_name){
@@ -86,16 +85,16 @@
 				success: function(data){
 					alert(data);
 				}
-				
+
 			});
 		}
-		
+
 		$(document).on('blur', '.p_apellido',function(){
 			var id = $(this).data("id1");
 			var p_apellido = $(this).text();
 			live_edit_stud(id, p_apellido, "estud_papellido")
 		});
-		
+
 		*/
 	});
 </script>
