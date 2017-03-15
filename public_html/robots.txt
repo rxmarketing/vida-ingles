@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: /cetec/
+Disallow: /inc
+Disallow: /fr/
+Disallow: /includes/
+Disallow: /comp/
+Disallow: /webdevelopment/
+Disallow: /ajax/
+Disallow: /ads/
+Disallow: /admin/
+Disallow: /outline-test/
+Disallow: /presentations/
+Disallow: /modules/
+Disallow: sql_console.php
+
+User-Agent: Googlebot

@@ -1,0 +1,117 @@
+[22-Mar-2016 14:33:08 America/Mexico_City] PHP Warning:  include_once(inc/db_vidainglescore_conn.php): failed to open stream: No such file or directory in /home2/vidaingl/public_html/inc/checar_sesion.php on line 3
+[22-Mar-2016 14:33:08 America/Mexico_City] PHP Warning:  include_once(): Failed opening 'inc/db_vidainglescore_conn.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home2/vidaingl/public_html/inc/checar_sesion.php on line 3
+[22-Mar-2016 14:33:08 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 58
+[22-Mar-2016 14:33:08 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 59
+[22-Mar-2016 14:33:08 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 69
+[22-Mar-2016 14:33:08 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 70
+[22-Mar-2016 14:33:08 America/Mexico_City] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 5
+[22-Mar-2016 14:33:08 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 7
+[22-Mar-2016 14:33:08 America/Mexico_City] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 8
+[22-Mar-2016 14:40:26 America/Mexico_City] PHP Warning:  include_once(inc/db_vidainglescore_conn.php): failed to open stream: No such file or directory in /home2/vidaingl/public_html/inc/checar_sesion.php on line 3
+[22-Mar-2016 14:40:26 America/Mexico_City] PHP Warning:  include_once(): Failed opening 'inc/db_vidainglescore_conn.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home2/vidaingl/public_html/inc/checar_sesion.php on line 3
+[22-Mar-2016 14:40:26 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 58
+[22-Mar-2016 14:40:26 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 59
+[22-Mar-2016 14:40:26 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 69
+[22-Mar-2016 14:40:26 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 70
+[22-Mar-2016 14:40:26 America/Mexico_City] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 5
+[22-Mar-2016 14:40:26 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 7
+[22-Mar-2016 14:40:26 America/Mexico_City] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 8
+[22-Mar-2016 14:50:26 America/Mexico_City] PHP Warning:  include_once(inc/db_vidainglescore_conn.php): failed to open stream: No such file or directory in /home2/vidaingl/public_html/inc/checar_sesion.php on line 3
+[22-Mar-2016 14:50:26 America/Mexico_City] PHP Warning:  include_once(): Failed opening 'inc/db_vidainglescore_conn.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home2/vidaingl/public_html/inc/checar_sesion.php on line 3
+[22-Mar-2016 14:50:26 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 58
+[22-Mar-2016 14:50:26 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 59
+[22-Mar-2016 14:50:26 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 69
+[22-Mar-2016 14:50:26 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 70
+[22-Mar-2016 14:50:26 America/Mexico_City] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 5
+[22-Mar-2016 14:50:26 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 7
+[22-Mar-2016 14:50:26 America/Mexico_City] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 8
+[22-Mar-2016 15:03:41 America/Mexico_City] PHP Warning:  include_once(inc/db_vidainglescore_conn.php): failed to open stream: No such file or directory in /home2/vidaingl/public_html/inc/checar_sesion.php on line 3
+[22-Mar-2016 15:03:41 America/Mexico_City] PHP Warning:  include_once(): Failed opening 'inc/db_vidainglescore_conn.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home2/vidaingl/public_html/inc/checar_sesion.php on line 3
+[22-Mar-2016 15:03:41 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 58
+[22-Mar-2016 15:03:41 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 59
+[22-Mar-2016 15:03:41 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 69
+[22-Mar-2016 15:03:41 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 70
+[22-Mar-2016 15:03:41 America/Mexico_City] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 5
+[22-Mar-2016 15:03:41 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 7
+[22-Mar-2016 15:03:41 America/Mexico_City] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 8
+[22-Mar-2016 15:06:53 America/Mexico_City] PHP Warning:  include_once(inc/db_vidainglescore_conn.php): failed to open stream: No such file or directory in /home2/vidaingl/public_html/inc/checar_sesion.php on line 3
+[22-Mar-2016 15:06:53 America/Mexico_City] PHP Warning:  include_once(): Failed opening 'inc/db_vidainglescore_conn.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home2/vidaingl/public_html/inc/checar_sesion.php on line 3
+[22-Mar-2016 15:06:53 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 58
+[22-Mar-2016 15:06:53 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 59
+[22-Mar-2016 15:06:53 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 69
+[22-Mar-2016 15:06:53 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 70
+[22-Mar-2016 15:06:53 America/Mexico_City] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 5
+[22-Mar-2016 15:06:53 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 7
+[22-Mar-2016 15:06:53 America/Mexico_City] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 8
+[22-Mar-2016 15:08:37 America/Mexico_City] PHP Warning:  include_once(inc/db_vidainglescore_conn.php): failed to open stream: No such file or directory in /home2/vidaingl/public_html/inc/checar_sesion.php on line 3
+[22-Mar-2016 15:08:37 America/Mexico_City] PHP Warning:  include_once(): Failed opening 'inc/db_vidainglescore_conn.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home2/vidaingl/public_html/inc/checar_sesion.php on line 3
+[22-Mar-2016 15:08:37 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 58
+[22-Mar-2016 15:08:37 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 59
+[22-Mar-2016 15:08:37 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 69
+[22-Mar-2016 15:08:37 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 70
+[22-Mar-2016 15:08:37 America/Mexico_City] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 5
+[22-Mar-2016 15:08:37 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 7
+[22-Mar-2016 15:08:37 America/Mexico_City] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 8
+[22-Mar-2016 15:10:35 America/Mexico_City] PHP Warning:  include_once(inc/db_vidainglescore_conn.php): failed to open stream: No such file or directory in /home2/vidaingl/public_html/inc/checar_sesion.php on line 3
+[22-Mar-2016 15:10:35 America/Mexico_City] PHP Warning:  include_once(): Failed opening 'inc/db_vidainglescore_conn.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home2/vidaingl/public_html/inc/checar_sesion.php on line 3
+[22-Mar-2016 15:10:35 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 58
+[22-Mar-2016 15:10:35 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 59
+[22-Mar-2016 15:10:35 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 69
+[22-Mar-2016 15:10:35 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 70
+[22-Mar-2016 15:10:35 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 7
+[22-Mar-2016 15:10:35 America/Mexico_City] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 8
+[22-Mar-2016 15:11:00 America/Mexico_City] PHP Warning:  include_once(inc/db_vidainglescore_conn.php): failed to open stream: No such file or directory in /home2/vidaingl/public_html/inc/checar_sesion.php on line 3
+[22-Mar-2016 15:11:00 America/Mexico_City] PHP Warning:  include_once(): Failed opening 'inc/db_vidainglescore_conn.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home2/vidaingl/public_html/inc/checar_sesion.php on line 3
+[22-Mar-2016 15:11:00 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 58
+[22-Mar-2016 15:11:00 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 59
+[22-Mar-2016 15:11:00 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 69
+[22-Mar-2016 15:11:00 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 70
+[22-Mar-2016 15:11:00 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 7
+[22-Mar-2016 15:11:00 America/Mexico_City] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 8
+[22-Mar-2016 15:14:15 America/Mexico_City] PHP Warning:  include_once(inc/db_vidainglescore_conn.php): failed to open stream: No such file or directory in /home2/vidaingl/public_html/inc/checar_sesion.php on line 3
+[22-Mar-2016 15:14:15 America/Mexico_City] PHP Warning:  include_once(): Failed opening 'inc/db_vidainglescore_conn.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home2/vidaingl/public_html/inc/checar_sesion.php on line 3
+[22-Mar-2016 15:14:15 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 58
+[22-Mar-2016 15:14:15 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 59
+[22-Mar-2016 15:14:15 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 69
+[22-Mar-2016 15:14:15 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 70
+[22-Mar-2016 15:14:15 America/Mexico_City] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 5
+[22-Mar-2016 15:14:15 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 7
+[22-Mar-2016 15:14:15 America/Mexico_City] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 8
+[22-Mar-2016 15:21:42 America/Mexico_City] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 5
+[22-Mar-2016 15:21:42 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 7
+[22-Mar-2016 15:21:42 America/Mexico_City] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 8
+[22-Mar-2016 15:22:11 America/Mexico_City] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 5
+[22-Mar-2016 15:22:11 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 7
+[22-Mar-2016 15:22:11 America/Mexico_City] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 8
+[22-Mar-2016 15:56:34 America/Mexico_City] PHP Warning:  include_once(inc/db_vidainglescore_conn.php): failed to open stream: No such file or directory in /home2/vidaingl/public_html/inc/checar_sesion.php on line 3
+[22-Mar-2016 15:56:34 America/Mexico_City] PHP Warning:  include_once(): Failed opening 'inc/db_vidainglescore_conn.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home2/vidaingl/public_html/inc/checar_sesion.php on line 3
+[22-Mar-2016 15:56:34 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 58
+[22-Mar-2016 15:56:34 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 59
+[22-Mar-2016 15:56:34 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 69
+[22-Mar-2016 15:56:34 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/inc/checar_sesion.php on line 70
+[22-Mar-2016 15:56:34 America/Mexico_City] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 5
+[22-Mar-2016 15:56:34 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 7
+[22-Mar-2016 15:56:34 America/Mexico_City] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/vidaingl/public_html/ajax/ajax_forgotpass.php on line 8
+[27-Apr-2016 19:15:47 America/Mexico_City] PHP Parse error:  syntax error, unexpected ''<br /><br />' (T_CONSTANT_ENCAPSED_STRING) in /home2/vidaingl/public_html/ajax/ajax_contacto.php on line 59
+[27-Apr-2016 19:17:58 America/Mexico_City] PHP Parse error:  syntax error, unexpected ''<br /><br />' (T_CONSTANT_ENCAPSED_STRING) in /home2/vidaingl/public_html/ajax/ajax_contacto.php on line 59
+[27-Apr-2016 19:21:16 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'mysqli_error' (T_STRING) in /home2/vidaingl/public_html/ajax/ajax_contacto.php on line 41
+[27-Apr-2016 19:28:43 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'mysqli_error' (T_STRING) in /home2/vidaingl/public_html/ajax/ajax_contacto.php on line 41
+[27-Apr-2016 20:09:00 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'mysqli_error' (T_STRING) in /home2/vidaingl/public_html/ajax/ajax_contacto.php on line 41
+[27-Apr-2016 20:12:56 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'mysqli_error' (T_STRING) in /home2/vidaingl/public_html/ajax/ajax_contacto.php on line 41
+[27-Apr-2016 20:15:15 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'mysqli_error' (T_STRING) in /home2/vidaingl/public_html/ajax/ajax_contacto.php on line 41
+[04-May-2016 09:08:14 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home2/vidaingl/public_html/ajax/get_answer_keys.php on line 5
+[11-Jun-2016 12:24:55 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'mysqli_error' (T_STRING) in /home2/vidaingl/public_html/ajax/ajax_contacto.php on line 41
+[11-Jun-2016 12:25:00 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'mysqli_error' (T_STRING) in /home2/vidaingl/public_html/ajax/ajax_contacto.php on line 41
+[11-Jun-2016 12:28:13 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'mysqli_error' (T_STRING) in /home2/vidaingl/public_html/ajax/ajax_contacto.php on line 41
+[11-Jun-2016 12:28:33 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'mysqli_error' (T_STRING) in /home2/vidaingl/public_html/ajax/ajax_contacto.php on line 41
+[11-Jun-2016 12:31:03 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'mysqli_error' (T_STRING) in /home2/vidaingl/public_html/ajax/ajax_contacto.php on line 41
+[11-Jun-2016 12:34:29 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'mysqli_error' (T_STRING) in /home2/vidaingl/public_html/ajax/ajax_contacto.php on line 41
+[11-Jun-2016 12:39:27 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'mysqli_error' (T_STRING) in /home2/vidaingl/public_html/ajax/ajax_contacto.php on line 41
+[11-Jun-2016 12:43:57 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file in /home2/vidaingl/public_html/ajax/ajax_contacto.php on line 72
+[11-Jun-2016 12:46:18 America/Mexico_City] PHP Parse error:  syntax error, unexpected ''<br /><br />' (T_CONSTANT_ENCAPSED_STRING) in /home2/vidaingl/public_html/ajax/ajax_contacto.php on line 59
+[14-Aug-2016 07:15:05 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home2/vidaingl/public_html/ajax/get_answer_keys.php on line 5
+[17-Oct-2016 05:20:28 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home2/vidaingl/public_html/ajax/get_answer_keys.php on line 5
+[15-Dec-2016 01:34:34 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home2/vidaingl/public_html/ajax/get_answer_keys.php on line 5
+[30-Dec-2016 21:08:44 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home2/vidaingl/public_html/ajax/get_answer_keys.php on line 5
+[30-Dec-2016 21:08:46 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home2/vidaingl/public_html/ajax/get_answer_keys.php on line 5
+[28-Feb-2017 08:46:42 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home2/vidaingl/public_html/ajax/get_answer_keys.php on line 5
