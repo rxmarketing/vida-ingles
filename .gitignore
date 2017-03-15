@@ -6,6 +6,7 @@ sql/**
 code/**
 audio/**
 cetec/**
+public_html/**
 ceteci/inc/db_ceteci_conn.php
 .htaccess
 .ftpconfig
