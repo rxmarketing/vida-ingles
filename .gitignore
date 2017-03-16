@@ -7,6 +7,7 @@ code/**
 audio/**
 cetec/**
 public_html/**
+prepa/ingles-2-pdf/**
 ceteci/inc/db_ceteci_conn.php
 .htaccess
 .ftpconfig
