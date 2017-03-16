@@ -11,9 +11,7 @@ prepa/ingles-2-pdf/**
 ceteci/inc/db_ceteci_conn.php
 .htaccess
 .ftpconfig
-.idea/modules.xml
-.idea/vidaingles.iml
-.idea/workspace.xml
+.idea/**
 
 #files
 rsss.php
