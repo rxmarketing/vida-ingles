@@ -29,6 +29,7 @@ $output .= '
 				<tr>
 					<th>ID</th>
 					<th>Estatus</th>
+					<th>Descripción</th>
 					<th>Action</th>
 				</tr>
 			</thead>
@@ -41,7 +42,8 @@ if ($rowCount > 0) {
 			
 				<tr>
 					<td>' . $row["modulo_estatus_id"] . '</td>
-					<td class="estatus_nombre" data-id1="' . $row["modulo_estatus_id"] . '" contenteditable>' . $row["modulo_estatus_nombre"] . '</td>
+					<td class="mod_estatus_nombre" data-id1="' . $row["modulo_estatus_id"] . '" contenteditable>' . $row["modulo_estatus_nombre"] . '</td>
+					<td class="mod_estatus_desc" data-id2="' . $row["modulo_estatus_id"] . '" contenteditable>' . $row["modulo_estatus_desc"] . '</td>
  					<td><button name="btn_delete" id="btn_delete" data-id100="' . $row["modulo_estatus_id"] . '">x</button></td>
 				</tr>
 			
@@ -49,16 +51,17 @@ if ($rowCount > 0) {
     }// Ends while
     $output .= '<tr>
 				<td></td>
-				<td id="mod-estatus_nombre" contenteditable></td>
+				<td id="mod_estatus_nombre" contenteditable></td>
+				<td id="mod_estatus_desc" contenteditable></td>
 				<td><button name="btn_add" id="btn_add" class="btn btn-xs btn-success">+</button></td>
 			</tr>';
 } else {
     $output .= '<tr>
-				<td colspan="3">Data not found</td>
+				<td colspan="4">Data not found</td>
 			</tr>
 			<tr>
 				<td></td>
-				<td id="mod-estatus_nombre" contenteditable></td>
+				<td id="mod_estatus_nombre" contenteditable></td>
 				<td><button name="btn_add" id="btn_add" class="btn btn-xs btn-success">+</button></td>
 			</tr>';
 }

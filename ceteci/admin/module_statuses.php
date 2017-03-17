@@ -45,7 +45,7 @@ include('../inc/ceteci_functions.php');
 <script>
     $(document).ready(function () {
 
-        /* Fetch modulos from db table
+        /* Fetch módulos from db table
          * ------------------------------------------------------------------------------------------- */
         function fetch_data() {
             $.ajax({
@@ -60,6 +60,30 @@ include('../inc/ceteci_functions.php');
 
         fetch_data();
 
+        /* add new record to db when #btn_add button is clicked
+         * ------------------------------------------------------------------------------------------- */
+        $(document).click('#btn_add', function () {
+            var mod_status_name = $('#mod_estatus_nombre').text();
+            var mod_status_desc = $('#mod_estatus_desc').text();
+
+            if (mod_status_name === '' || mod_status_desc === "") {
+                alert("Todos los campos son obligatorios");
+                return false;
+            }
+            $.ajax({
+                url: "php/php_insert_module_statuses.php",
+                method: "POST",
+                data: {
+                    mod_status_name: mod_status_name,
+                    mod_status_desc: mod_status_desc
+                },
+                dataType: "text",
+                success: function (data) {
+                    alert(data);
+                    fetch_data();
+                }
+            });
+        });
 
     });
 </script>
