@@ -52,7 +52,6 @@ if($cname == "" || $ccat == "" || $ccef == "" || $cweeks == "" || $cdesc = "" ||
 <head>
 	<meta charset="UTF-8">
 	<title>Add New Course</title>
-	<link rel="stylesheet" href="../vi_core_style.css" media="screen" />
 	<link rel="stylesheet" href="" media="print" />
 </head>
 <body>
@@ -86,14 +85,14 @@ if($cname == "" || $ccat == "" || $ccef == "" || $cweeks == "" || $cdesc = "" ||
 			<input type="text" name="course" id="course" placeholder="Course name" class="data" maxlength="100"/>
 		</div>
 		<div class="label">
-			<label for="" id="" class="label">Category:</label>
+			<label for="category" id="" class="label">Category:</label>
 		</div>
 		<div class="data">
 			<select name="category" id="category">
    <option value="">------</option>
    <?php echo lista_categoria($db_conx) ?>
 			</select>
-			<label for="" id="" class="label">CEF:</label>
+			<label for="cef" id="" class="label">CEF:</label>
 			<select name="cef" id="cef">
 				<option value="a1">A1</option>
 				<option value="a2">A2</option>
@@ -104,14 +103,14 @@ if($cname == "" || $ccat == "" || $ccef == "" || $cweeks == "" || $cdesc = "" ||
 			<input type="text" size="2" name="weeks" id="weeks" class="" placeholder="" required=""/>
 		</div>
 		<div class="label">
-			<label for="" id="" class="label">Description:</label>
+			<label for="desc" id="" class="label">Description:</label>
 		</div>
 		<div class="data">
 			<textarea name="desc" id="desc" cols="30" rows="10">
 			</textarea>
 		</div>
 				<div class="label">
-			<label for="" id="" class="label">Competences:</label>
+			<label for="competences" id="" class="label">Competences:</label>
 		</div>
 		<div class="data">
 			<textarea name="competences" id="competences" cols="30" rows="8">
@@ -121,7 +120,7 @@ if($cname == "" || $ccat == "" || $ccef == "" || $cweeks == "" || $cdesc = "" ||
 	</form>
 
 	</div><!-- ends maincontent-left -->
-	<div id="maincontent-right" style="min-height: 0px; position: static; bottom: auto; right: auto;">
+	<div id="maincontent-right" style="min-height: 0; position: static; bottom: auto; right: auto;">
 
 	</div><!-- ends maincontent-right -->
 	
