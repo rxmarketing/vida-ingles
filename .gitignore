@@ -5,7 +5,6 @@ presentations/**
 sql/**
 code/**
 audio/**
-cetec/**
 public_html/**
 prepa/ingles-2-pdf/**
 ceteci/inc/db_ceteci_conn.php
@@ -18,3 +17,17 @@ rsss.php
 todas_lecciones-with-infinite-scroll.php
 ejercicio_backup-03-07-2016.php
 ejercicio_backup.php
+.idea/
+app-backup/
+app_old/app_ads/
+audio/
+cetec/
+ceteci/sql/
+ceteci/uploads/
+code/
+misc/
+pdf/
+prepa/ingles-2-pdf/
+presentations/
+public_html/
+sql/
