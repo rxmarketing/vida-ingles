@@ -78,16 +78,16 @@ include('../inc/ceteci_functions.php');
             });
         });
 
-      /* edit record
-       -------------------------------------------------------------------------------
-       function live_edit_stud(id, text, column_name){
+      /* update record
+       ------------------------------------------------------------------------------- */
+        function edit_mod_cat(id, text, column_name) {
        $.ajax({
-       url: "php/php_live_edit_stud_data.php",
+           url: "php/php_insert_mod_cat.php",
        method: "POST",
        data: {
-       id:id,
-       text: text,
-       column_name:column_name
+           id: id,
+           text: text,
+           column_name: column_name
        },
        dataType: "text",
        success: function(data){
@@ -97,12 +97,12 @@ include('../inc/ceteci_functions.php');
        });
        }
 
-       $(document).on('blur', '.p_apellido',function(){
+        $(document).blur('.cat_nombre', function () {
        var id = $(this).data("id1");
-       var p_apellido = $(this).text();
-       live_edit_stud(id, p_apellido, "estud_papellido")
+            var mod_cat_nombre = $(this).text();
+            edit_mod_cat(id, mod_cat_nombre, "modulo_cat_nombre")
        });
 
-       */
+
     });
 </script>
