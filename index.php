@@ -5,7 +5,7 @@
 <!doctype html>
 <html lang="es">
 	<head>
-		<title>Vida Inglés | Prepárate para tus exámenes</title>
+    <title>Vida Ingles | Prepárate para tus Exámenes</title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,13 +38,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
 							</button>
-              <a class="navbar-brand" href="<?php echo home() ?>">Vida Inglés</a>
+              <a class="navbar-brand" href="<?php echo home() ?>">Vida Ingles</a>
 						</div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="<?php echo home() ?>">Inicio</a></li>
 								<li><a href="<?php echo home()?>/verbos">Verbos</a></li>
-								<li><a href="<?php echo home() ?>/paginas/4/formulas-de-ingles">Sintáxis</a></li>
+                <li><a href="<?php echo home() ?>/paginas/4/formulas-de-ingles">Sintaxis</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span></a>
                   <ul class="dropdown-menu">
@@ -78,12 +78,12 @@
 			</ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="" alt="Curso Ingl&eacute;s Elemental">
+          <img class="first-slide" src="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Curso de Ingl&eacute;s Elemental</h1>
-							<h3>Nivel A - Usuario B&aacute;sico</h3>
-							<small>Abarca los niveles A1 y A2 del Marco Com&uacute;n Europeo (CEF)</small>
+              <h1>Curso de Ingles Elemental</h1>
+              <h3>Nivel A - Usuario Básico</h3>
+              <small>Abarca los niveles A1 y A2 del Marco Común Europeo (CEF)</small>
 							
 							<h4>A1 Acceso (90 horas de estudio)</h4>
 							<h4>A2 Plataforma (180-200 horas de estudio)</h4>
@@ -93,12 +93,12 @@
 					</div>
 				</div>
         <div class="item">
-          <img class="second-slide" src="" alt="Curso Ingl&eacute;s Pre-Intermendio">
+          <img class="second-slide" src="" alt="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Curso de Ingl&eacute;s Pre-Intermedio</h1>
+              <h1>Curso de Ingles Pre-Intermedio</h1>
 							<h3>Nivel B1 - Usuario Independiente</h3>
-							<small>Abarca el nivel B1 del Marco Com&uacute;n Europeo (CEF)</small>
+              <small>Abarca el nivel B1 del Marco Común Europeo (CEF)</small>
 							
 							<h4>B1 Umbral (350-400 horas de estudio)</h4>
 							<br />
@@ -107,12 +107,12 @@
 					</div>
 				</div>
         <div class="item">
-          <img class="third-slide" src="" alt="Curso Ingl&eacute;s Intermedio">
+          <img class="third-slide" src="" alt="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Curso de Ingl&eacute;s Intermedio</h1>
+              <h1>Curso de Ingles Intermedio</h1>
 							<h3>Nivel B2 - Usuario Independiente</h3>
-							<small>Abarca el nivel B2 del Marco Com&uacute;n Europeo (CEF)</small>
+              <small>Abarca el nivel B2 del Marco Común Europeo (CEF)</small>
 							
 							<h4>B2 Avanzado (500-600 horas de estudio)</h4>
 							<br />
@@ -122,13 +122,16 @@
 					</div>
 				</div>
 				<div class="item">
-          <img class="fourth-slide" src="" alt="Asesor&iacute;a Personalizada">
+          <img class="fourth-slide" src="" alt="">
           <div class="container">
             <div class="carousel-caption">
               <h1>Cursos y Asesoría <span class="text-muted">Personalizada</span></h1>
               <small>Secundaria &middot; Prepa &middot; Profesional</small>
               <p class="lead">Vienes con nosotros o vamos contigo.</p>
-              <p><a class="btn btn-lg btn-primary" href="<?php echo home() ?>/contacto" role="button">Solicita M&aacute;s Info Ahora Mismo &raquo;</a></p>
+              <p><a class="btn btn-lg btn-primary" href="<?php echo home() ?>/contacto" role="button">Solicita Más Info
+                                                                                                      Ahora
+                                                                                                      Mismo &raquo;</a>
+              </p>
 						</div>
 					</div>
 				</div>
@@ -136,12 +139,14 @@
           <img class="fifth-slide" src="" alt="Fifth slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Vida Ingl&eacute;s</h1>
+              <h1>Vida Ingles</h1>
               <p class="lead">Prepárate Para Tus Exámenes</p>
 							<small>Lecciones &middot; Ejercicios &middot; Canciones &middot; Cursos</small>
 							<br />
 							<br />
-              <p><a class="btn btn-lg btn-primary" href="<?php echo home() ?>/registrar" role="button">Reg&iacute;strate Ahora Mismo <small>es gr&aacute;tis</small> &raquo;</a></p>
+              <p><a class="btn btn-lg btn-primary" href="<?php echo home() ?>/registrar" role="button">Regístrate Ahora
+                                                                                                       Mismo
+                  <small>es gratis</small> &raquo;</a></p>
 						</div>
 					</div>
 				</div>
@@ -172,7 +177,8 @@
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#top">Back to top</a></p>
-        <p>&copy; <?php echo date('Y') ?> Vida Inglés &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; <?php echo date('Y') ?> Vida Ingles &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+        </p>
 			</footer>
 		</div><!-- /.container -->
 	</body>
