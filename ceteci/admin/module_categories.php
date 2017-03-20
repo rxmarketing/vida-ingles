@@ -97,7 +97,7 @@ include('../inc/ceteci_functions.php');
        });
        }
 
-        $(document).blur('.cat_nombre', function () {
+        $(document).on('blur', '.cat_nombre', function () {
        var id = $(this).data("id1");
             var mod_cat_nombre = $(this).text();
             edit_mod_cat(id, mod_cat_nombre, "modulo_cat_nombre")
