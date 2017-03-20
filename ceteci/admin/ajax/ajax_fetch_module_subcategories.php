@@ -58,6 +58,7 @@ if ($rowCount > 0) {
 				<td><button name="btn_add" id="btn_add" class="btn btn-xs btn-success">+</button></td>
 			</tr>
 		</tbody>
+		
 		';
 } else {
     $output .= '<tr>

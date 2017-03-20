@@ -22,8 +22,10 @@ include('../inc/ceteci_functions.php');
   <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
   <script src="../../bower_components/tether/dist/js/tether.min.js"></script>
   <script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </head>
 <body>
+<div id="msg">Mensaje aqui!</div>
 <div class="container">
   <div class="row">
     <div class="col-md-9">
@@ -39,7 +41,7 @@ include('../inc/ceteci_functions.php');
 </html>
 <script>
     $(document).ready(function () {
-
+        $('#msg').hide();
       /* fetch group statuses and display them in a table function
        -------------------------------------------------------------------------------*/
         function fetch_data() {
@@ -75,6 +77,7 @@ include('../inc/ceteci_functions.php');
                 dataType: "text",
                 success: function (data) {
                     alert(data);
+                    // $("#msg").html("<small>" + data + "</small>").slideDown();
                     fetch_data();
                 }
             });
