@@ -34,19 +34,21 @@ $output .= '
 			</thead>
 			<tbody>';
 if ($rowCount > 0) {
+
+    /*  Display all records in table editable rows
+    ------------------------------------------------------------------------------------------------------------*/
     while ($row = $resultado->fetch_assoc()) {
-
-
         $output .= '
-			
 				<tr>
 					<td>' . $row["modulo_cat_id"] . '</td>
 					<td class="cat_nombre" data-id1="' . $row["modulo_cat_id"] . '" contenteditable>' . $row["modulo_cat_nombre"] . '</td>
 					<td><button name="btn_delete" id="btn_delete" data-id100="' . $row["modulo_cat_id"] . '">x</button></td>
 				</tr>
-			
 			';
     }// ENDS while
+
+    /* Add new record row
+    -----------------------------------------------------------------------------------------------------------*/
     $output .= '
 			<tr>
 				<td></td>
