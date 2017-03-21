@@ -1,0 +1,10 @@
+[10-Jan-2017 10:02:51 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'Ingles' (T_STRING), expecting ',' or ';' in /home2/vidaingl/public_html/avances/ing181/01-10-2017.php on line 68
+[10-Jan-2017 10:03:19 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'Ingles' (T_STRING), expecting ',' or ';' in /home2/vidaingl/public_html/avances/ing181/01-10-2017.php on line 68
+[10-Jan-2017 10:05:18 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'date' (T_STRING), expecting ',' or ';' in /home2/vidaingl/public_html/avances/ing181/01-10-2017.php on line 67
+[10-Jan-2017 10:06:08 America/Mexico_City] PHP Parse error:  syntax error, unexpected '&' in /home2/vidaingl/public_html/avances/ing181/01-10-2017.php on line 67
+[10-Jan-2017 10:06:17 America/Mexico_City] PHP Parse error:  syntax error, unexpected '&' in /home2/vidaingl/public_html/avances/ing181/01-10-2017.php on line 67
+[10-Jan-2017 10:07:59 America/Mexico_City] PHP Parse error:  syntax error, unexpected ',' in /home2/vidaingl/public_html/avances/ing181/01-10-2017.php on line 67
+[10-Jan-2017 10:08:02 America/Mexico_City] PHP Parse error:  syntax error, unexpected ',' in /home2/vidaingl/public_html/avances/ing181/01-10-2017.php on line 67
+[10-Jan-2017 10:08:07 America/Mexico_City] PHP Parse error:  syntax error, unexpected ',' in /home2/vidaingl/public_html/avances/ing181/01-10-2017.php on line 67
+[10-Jan-2017 10:08:19 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home2/vidaingl/public_html/avances/ing181/01-10-2017.php on line 67
+[10-Jan-2017 10:08:21 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home2/vidaingl/public_html/avances/ing181/01-10-2017.php on line 67
