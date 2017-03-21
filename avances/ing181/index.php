@@ -31,8 +31,12 @@
 			<p class="brand"><a href="http://vidaingles.com" target="_blank">Vida Ingles</a> >> <a href="http://vidaingles.com/avances">Inicio</a></p>
 			<h1>Group ING-181</h1>
 			<table class="table">
-				<th>Date</th>
-				<th>Ver</th>
+        <thead>
+        <tr>
+          <th>Date</th>
+          <th>Ver</th>
+        </tr>
+        </thead>
 				<tbody>
 					<tr>
 						<td><a href="01-10-2017.php">Tue Jan 10th 2017</a></td>
@@ -137,7 +141,10 @@
 						<p class="lead">Aprenderá los adjetivos presentados en esta unidad.</p>
 						
 						<div class="alert alert-info">
-							<strong><i class="fa fa-pencil fa-2x"></i> EXERCISE 3:</strong> Copiar los siguientes adjetivos a su libreta y buscar en <a href="https://translate.google.com/ target="_blank" class="alert-link">google traductor</a> su significado en Español.  
+              <strong><i class="fa fa-pencil fa-2x"></i> EXERCISE 3:</strong> Copiar los siguientes adjetivos a su
+                                                                              libreta y buscar en <a
+                      href="https://translate.google.com/" target="_blank" class="alert-link">google traductor</a> su
+                                                                              significado en Español.
 						</div>
 						<table class="table table-striped table-bordered table-sm" style="width:45%">
 							<thead class="thead-inverse">
