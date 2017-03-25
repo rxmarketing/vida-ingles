@@ -192,8 +192,35 @@
 				<li>have a break <span class="tradu">(descansar)</span></li>
 				<li>have an accident <span class="tradu">(tener un accidente)</span></li>
 			</ul>
-
-		</div>
+      <h2 id="03-25-2017">Sunday Sat 4th, 2017</h2>
+      <p>Objectives:</p>
+      <ul>
+        <li>Pasado simple verbos regulares e irregulares</li>
+      </ul>
+      <p>be, bite, draw, drink, run, see, do, give, know</p>
+      <p>Memorizar el pasado simple los siguientes verbos irregulares</p>
+      <table class="table">
+        <thead>
+        <tr>
+          <th>Presente simple</th>
+          <th>Pasado simple</th>
+          <th>Pasado participio</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>be</td>
+          <td>was/were</td>
+          <td>been/gone</td>
+        </tr>
+        <tr>
+          <td>bite</td>
+          <td></td>
+          <td></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
 		<footer class="footer">
 			<?php  echo "&copy;", date("Y"),  " Vida Ingles &middot;" ?>
 		</footer>
