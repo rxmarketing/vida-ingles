@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,IAAK;EACH,KAAK,EAAE,IAAI;EACX,OAAO,EAAC,GAAG;EACX,MAAM,EAAE,GAAG",
+"sources": ["../scss/vi-estilos.scss"],
+"names": [],
+"file": "vi-estilos.css"
+}
