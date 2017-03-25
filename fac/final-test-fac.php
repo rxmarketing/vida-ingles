@@ -37,19 +37,16 @@
         <div class="col-md-6">
             <div class="card">
                 <div class="card-block">
-                    <h6 class="card-header">1. Complete the sentences with the positive or negative form of the <em>present
-                            of be</em>.</h6>
+                  <h6 class="card-header">1. Complete the sentences with the positive or negative form of the <em>present
+                                                                                                                  of
+                                                                                                                  be</em>.
+                  </h6>
                     <h6>Hi Sarah,</h6>
                     <p class="card-text">
-                        I ____ on holiday in France. We ____ at a campsite by the sea. There ____ lots of other young
-                        people
-                        here. The
-                        weather ____ (not) great, though. It ____ raining today! So I ____ sitting inside my tent,
-                        writing
-                        to
-                        you, and my
-                        sister ____ reading a book. But there ____ a party tonight! I ____ sorry you ____ (not) here
-                        too!
+                      I ____ on holiday in France. We ____ at a campsite by the sea. There ____ lots of other young
+                      people here. The weather ____ (not) great, though. It ____ raining today! So I ____ sitting inside
+                      my tent, writing to you, and my sister ____ reading a book. But there ____ a party tonight! I ____
+                      sorry you ____ (not) here too!
                     </p>
                     <p class="card-text">Love,</p>
                     <p class="card-text">Anita.</p>
@@ -96,16 +93,12 @@
                         brackets.</h6>
 
                     <p class="card-text">Hi Michelle,</p>
-
-                    <p class="card-text">Where were you yesterday? Maria and I _______ (wait) for you at the station.
-                        Why
-                        _________ (you/not come)?
-                        In the end, we _____ (go) to a museum. Maria ______ (not be) happy. "It's boring!" she ______
-                        (say).
-                        Afterwards we _____ (have) a pizza at a new restaurant in the shopping centre. On my way home,
-                        we _____
-                        (see) that there ______ (be) a sale on at the music shop. I _____ (buy) three new CDs!
-                        Send me a text or an email soon. I hope nothing terrible __________ (happen)!</p>
+                  <p class="card-text">Where were you yesterday? Maria and I _______ (wait) for you at the station. Why
+                                       _________ (you/not come)? In the end, we _____ (go) to a museum. Maria ______
+                                       (not be) happy. "It's boring!" she ______ (say). Afterwards we _____ (have) a
+                                       pizza at a new restaurant in the shopping centre. On my way home, we _____ (see)
+                                       that there ______ (be) a sale on at the music shop. I _____ (buy) three new CDs!
+                                       Send me a text or an email soon. I hope nothing terrible __________ (happen)!</p>
 
                     <div class="card-footer">Total: ____ / 10 pts.</div>
                 </div>
@@ -114,20 +107,18 @@
         <div class="col-md-6">
             <div class="card">
                 <div class="card-block">
-                    <h6 class="card-header">5. Complete the sentences with the <em>present perfect continuous</em> of
-                        the verbs in
-                        brackets.</h6>
+                  <h6 class="card-header">5. Complete the sentences with the <em>present perfect continuous</em> of the
+                                          verbs in brackets.</h6>
 
                     <ol>
                         <li>__________________ (I/read) such an exciting book. I'd really recommend it.</li>
-                        <li>Science is really interesting this term. __________________ (we/learn) about global warming.
-                        </li>
+                      <li>Science is really interesting this term. __________________ (we/learn) about global warming.
+                      </li>
                         <li>How long ______________________ (he/study) at university?</li>
                         <li>Something smells delicious! ____________________ (you/bake)?</li>
                         <li>___________________ (you/study) all day. I'm sure you're going to do well in the exam!</li>
                         <li>___________________ (she/practice) her music all morning.</li>
-                        <li>__________________ (Tom/have) guitar lessons for a year - but he still can't play
-                            anything.
+                      <li>__________________ (Tom/have) guitar lessons for a year - but he still can't play anything.
                         </li>
                     </ol>
 
@@ -138,17 +129,17 @@
         <div class="col-md-6">
             <div class="card">
                 <div class="card-block">
-                    <h6 class="card-header">6. Circle the correct alternative. <em>Past simple</em> or <em>past
-                            perfect</em>.</h6>
+                  <h6 class="card-header">6. Circle the correct alternative. <em>Past simple</em> or <em>past
+                                                                                                         perfect</em>.
+                  </h6>
 
                     <ol>
-                        <li>Luckily I <span class="text-primary">bought/had bought</span> my umbrella, because it
-                            suddenly <span class="text-primary">started/had
-                                    started</span> to rain.
-                        </li>
+                      <li>Luckily I <span class="text-primary">bought/had bought</span> my umbrella, because it suddenly
+                        <span class="text-primary">started/had started</span> to rain.
+                      </li>
                         <li>Gemma <span class="text-primary">felt/had felt</span> very sleepy, because she <span
-                                    class="text-primary">didn't go/hadn't gone</span> to bed until the early hours
-                            of the morning.
+                                  class="text-primary">didn't go/hadn't gone</span> to bed until the early hours of the
+                            morning.
                         </li>
                         <li>We didn't <span class="text-primary">hear/hadn't heard</span> from Aunt Mary for ages. Then
                             suddenly she <span class="text-primary">phoned/had phoned</span> us. We found/had found out
