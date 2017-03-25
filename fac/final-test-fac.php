@@ -109,7 +109,6 @@
                 <div class="card-block">
                   <h6 class="card-header">5. Complete the sentences with the <em>present perfect continuous</em> of the
                                           verbs in brackets.</h6>
-
                     <ol>
                         <li>__________________ (I/read) such an exciting book. I'd really recommend it.</li>
                       <li>Science is really interesting this term. __________________ (we/learn) about global warming.
@@ -129,10 +128,9 @@
         <div class="col-md-6">
             <div class="card">
                 <div class="card-block">
-                  <h6 class="card-header">6. Circle the correct alternative. <em>Past simple</em> or <em>past
-                                                                                                         perfect</em>.
+                  <h6 class="card-header">6. Circle the correct alternative. <em>Past simple</em> or
+                    <em>pastperfect</em>.
                   </h6>
-
                     <ol>
                       <li>Luckily I <strong><i>bought/had bought</i></strong> my umbrella, because it suddenly
                         <strong><i>started/had started</i></strong> to rain.
@@ -143,9 +141,8 @@
                           to bed until the early hours of the morning.
                       </li>
                       <li>We didn't <strong><i>hear/hadn't heard</i></strong> from Aunt Mary for ages. Then suddenly she
-                        <strong><i>phoned/had phoned</i></strong> us. We found/had found out that she <strong><i>went/had
-                                                                                                                 been</i></strong>
-                          in Peru for the last three years!
+                        <strong><i>phoned/had phoned</i></strong> us. We <strong><i>found/had found</i></strong> out
+                          that she <strong><i>went/had been</i></strong> in Peru for the last three years!
                       </li>
                       <li>I <strong><i>was/had been</i></strong> so happy to get a Friend request on Facebook from my
                           old friend from primary school. We <strong><i>didn't have/hadn't had</i></strong> any contact
