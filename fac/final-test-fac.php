@@ -59,7 +59,7 @@
                 <div class="card-block">
                     <h6 class="card-header">2. Complete the questions and answers with the <em>present of be</em>.</h6>
                     <ol>
-                        <li>______ your dad older than your mom? No, she _______.</li>
+                      <li>______ your dad older than your mom? No, he _______.</li>
                         <li>______ I late for school? Yes, you _____.</li>
                         <li>______ your phone new? No, it _______.</li>
                         <li>______ Brenda and Julie sisters? Yes, they ______.</li>
@@ -119,7 +119,7 @@
                         <li>___________________ (you/study) all day. I'm sure you're going to do well in the exam!</li>
                         <li>___________________ (she/practice) her music all morning.</li>
                       <li>__________________ (Tom/have) guitar lessons for a year - but he still can't play anything.
-                        </li>
+                      </li>
                     </ol>
 
                     <div class="card-footer">Total: ____ / 7 pts.</div>
@@ -134,23 +134,22 @@
                   </h6>
 
                     <ol>
-                      <li>Luckily I <span class="text-primary">bought/had bought</span> my umbrella, because it suddenly
-                        <span class="text-primary">started/had started</span> to rain.
+                      <li>Luckily I <strong><i>bought/had bought</i></strong> my umbrella, because it suddenly
+                        <strong><i>started/had started</i></strong> to rain.
                       </li>
-                        <li>Gemma <span class="text-primary">felt/had felt</span> very sleepy, because she <span
-                                  class="text-primary">didn't go/hadn't gone</span> to bed until the early hours of the
-                            morning.
-                        </li>
-                        <li>We didn't <span class="text-primary">hear/hadn't heard</span> from Aunt Mary for ages. Then
-                            suddenly she <span class="text-primary">phoned/had phoned</span> us. We found/had found out
-                            that she
-                            <span class="text-primary">went/had been</span> in Peru for the last three years!
-                        </li>
-                        <li>I <span class="text-primary">was/had been</span> so happy to get a Friend request on
-                            Facebook from my old friend from primary
-                            school. We <span class="text-primary">didn't have/hadn't had</span> any contact for about 10
-                            years.
-                        </li>
+                      <li>Gemma <strong><i>felt/had felt</i></strong> very sleepy, because she <strong><i>didn't
+                                                                                                          go/hadn't
+                                                                                                          gone</i></strong>
+                          to bed until the early hours of the morning.
+                      </li>
+                      <li>We didn't <strong><i>hear/hadn't heard</i></strong> from Aunt Mary for ages. Then suddenly she
+                        <strong><i>phoned/had phoned</i></strong> us. We found/had found out that she <span
+                                class="text-primary">went/had been</span> in Peru for the last three years!
+                      </li>
+                      <li>I <strong><i>was/had been</i></strong> so happy to get a Friend request on Facebook from my
+                          old friend from primary school. We <strong><i>didn't have/hadn't had</i></strong> any contact
+                          for about 10 years.
+                      </li>
                     </ol>
 
                     <div class="card-footer">Total: ____ / 9 pts.</div>
@@ -194,10 +193,10 @@
                             Who is the man
                             ______________________________________________________?
                         </li>
-                        <li>he jacket was in a sale. I bought the jacket.<br>
+                      <li>The jacket was in a sale. I bought the jacket.<br>
                             <small class="text-muted">(NDRC)</small>
-                            The jacket
-                            _________________________________________________________.
+                          The jacket
+                          _________________________________________________________.
                         </li>
                     </ol>
 
