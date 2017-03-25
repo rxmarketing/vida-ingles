@@ -143,8 +143,9 @@
                           to bed until the early hours of the morning.
                       </li>
                       <li>We didn't <strong><i>hear/hadn't heard</i></strong> from Aunt Mary for ages. Then suddenly she
-                        <strong><i>phoned/had phoned</i></strong> us. We found/had found out that she <span
-                                class="text-primary">went/had been</span> in Peru for the last three years!
+                        <strong><i>phoned/had phoned</i></strong> us. We found/had found out that she <strong><i>went/had
+                                                                                                                 been</i></strong>
+                          in Peru for the last three years!
                       </li>
                       <li>I <strong><i>was/had been</i></strong> so happy to get a Friend request on Facebook from my
                           old friend from primary school. We <strong><i>didn't have/hadn't had</i></strong> any contact
