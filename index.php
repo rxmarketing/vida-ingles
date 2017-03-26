@@ -5,7 +5,7 @@
 <!doctype html>
 <html lang="es">
 	<head>
-    <title>Vida Ingles | Prepárate para tus Exámenes</title>
+		<title>Vida Ingles | Preparate para tus Examenes</title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -99,7 +99,6 @@
               <h1>Curso de Ingles Pre-Intermedio</h1>
 							<h3>Nivel B1 - Usuario Independiente</h3>
               <small>Abarca el nivel B1 del Marco Común Europeo (CEF)</small>
-							
 							<h4>B1 Umbral (350-400 horas de estudio)</h4>
 							<br />
               <p><a class="btn btn-lg btn-primary" href="<?php echo home() ?>/cursos/2/ingles-preintermedio" role="button">Ver detalles &raquo;</a></p>
@@ -128,9 +127,7 @@
               <h1>Cursos y Asesoría <span class="text-muted">Personalizada</span></h1>
               <small>Secundaria &middot; Prepa &middot; Profesional</small>
               <p class="lead">Vienes con nosotros o vamos contigo.</p>
-              <p><a class="btn btn-lg btn-primary" href="<?php echo home() ?>/contacto" role="button">Solicita Más Info
-                                                                                                      Ahora
-                                                                                                      Mismo &raquo;</a>
+	            <p><a class="btn btn-lg btn-primary" href="<?php echo home() ?>/contacto" role="button">Solicita Más Info Ahora Mismo &raquo;</a>
               </p>
 						</div>
 					</div>
@@ -144,8 +141,7 @@
 							<small>Lecciones &middot; Ejercicios &middot; Canciones &middot; Cursos</small>
 							<br />
 							<br />
-              <p><a class="btn btn-lg btn-primary" href="<?php echo home() ?>/registrar" role="button">Regístrate Ahora
-                                                                                                       Mismo
+	            <p><a class="btn btn-lg btn-primary" href="<?php echo home() ?>/registrar" role="button">Regístrate Ahora Mismo
                   <small>es gratis</small> &raquo;</a></p>
 						</div>
 					</div>
