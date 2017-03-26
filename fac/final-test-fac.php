@@ -26,20 +26,15 @@
         <div class="col-md-12">
             <h1 class="text-uppercase">Final test</h1>
             <small>Student's full name: _____________________________________________</small>
-            <br>
-            <small>Date taken: _________________________________</small>
+          <small>Date taken: ___________________________</small>
             <br>
             <small>Class: <u>Ingles personalizado - Facultad de Derecho UADY</u></small>
-            <br>
             <small>Group: <u>ING-200</u></small>
-
         </div>
         <div class="col-md-6">
             <div class="card">
                 <div class="card-block">
-                  <h6 class="card-header">1. Complete the sentences with the positive or negative form of the <em>present
-                                                                                                                  of
-                                                                                                                  be</em>.
+                  <h6 class="card-header">1. Complete the sentences with the positive or negative form of the <em>present of be</em>.
                   </h6>
                     <h6>Hi Sarah,</h6>
                     <p class="card-text">
@@ -99,7 +94,6 @@
                                        pizza at a new restaurant in the shopping centre. On my way home, we _____ (see)
                                        that there ______ (be) a sale on at the music shop. I _____ (buy) three new CDs!
                                        Send me a text or an email soon. I hope nothing terrible __________ (happen)!</p>
-
                     <div class="card-footer">Total: ____ / 10 pts.</div>
                 </div>
             </div>
@@ -107,8 +101,7 @@
         <div class="col-md-6">
             <div class="card">
                 <div class="card-block">
-                  <h6 class="card-header">5. Complete the sentences with the <em>present perfect continuous</em> of the
-                                          verbs in brackets.</h6>
+                  <h6 class="card-header">5. Complete the sentences with the <em>present perfect continuous</em> of the verbs in brackets.</h6>
                     <ol>
                         <li>__________________ (I/read) such an exciting book. I'd really recommend it.</li>
                       <li>Science is really interesting this term. __________________ (we/learn) about global warming.
@@ -128,17 +121,13 @@
         <div class="col-md-6">
             <div class="card">
                 <div class="card-block">
-                  <h6 class="card-header">6. Circle the correct alternative. <em>Past simple</em> or
-                    <em>pastperfect</em>.
-                  </h6>
+                  <h6 class="card-header">6. Circle the correct alternative. <em>Past simple</em> or <em>past perfect</em>.</h6>
                     <ol>
                       <li>Luckily I <strong><i>bought/had bought</i></strong> my umbrella, because it suddenly
                         <strong><i>started/had started</i></strong> to rain.
                       </li>
-                      <li>Gemma <strong><i>felt/had felt</i></strong> very sleepy, because she <strong><i>didn't
-                                                                                                          go/hadn't
-                                                                                                          gone</i></strong>
-                          to bed until the early hours of the morning.
+                      <li>Gemma <strong><i>felt/had felt</i></strong> very sleepy, because she <strong><i>didn't go/hadn't gone</i></strong> to bed until the early hours of the
+                          morning.
                       </li>
                       <li>We didn't <strong><i>hear/hadn't heard</i></strong> from Aunt Mary for ages. Then suddenly she
                         <strong><i>phoned/had phoned</i></strong> us. We <strong><i>found/had found</i></strong> out
@@ -149,8 +138,7 @@
                           for about 10 years.
                       </li>
                     </ol>
-
-                    <div class="card-footer">Total: ____ / 9 pts.</div>
+                  <div class="card-footer">Total: ____ / 10 pts.</div>
                 </div>
             </div>
         </div>
@@ -159,7 +147,6 @@
                 <div class="card-block">
                     <h6 class="card-header">7. Join the two sentences with <em>who</em>, <em>whose</em> or
                         <em>which</em>.</h6>
-
                     <ol>
                         <li>Do you know anyone? He/She works in a bank?<br>
                             <small class="text-muted">(DRC)</small>
@@ -197,7 +184,6 @@
                           _________________________________________________________.
                         </li>
                     </ol>
-
                     <div class="card-footer">Total: ____ / 14 pts.</div>
                 </div>
             </div>
@@ -206,9 +192,7 @@
             <div class="card">
                 <div class="card-block">
                     <h6 class="card-header">8. Complete the sentence with the correct <em>question tag</em>.</h6>
-
                     <ol>
-                        <li>It's a beautiful day, _________________?</li>
                         <li>It was a very good film, _________________?</li>
                         <li>You were sleeping when I phoned, _________________?</li>
                         <li>You'd like a refund, _____________________?</li>
@@ -217,17 +201,14 @@
                         <li>You aren't really going to do that, _____________?</li>
                         <li>Helen has been doing her homework, _____________?</li>
                     </ol>
-
-                    <div class="card-footer">Total: ____ / 8 pts.</div>
+                  <div class="card-footer">Total: ____ / 7 pts.</div>
                 </div>
             </div>
         </div>
         <div class="col-md-6">
             <div class="card">
                 <div class="card-block">
-                    <h6 class="card-header">9. Write the correct form of the verbs in the <em>conditional sentences</em>.
-                    </h6>
-
+                  <h6 class="card-header">9. Write the correct form of the verbs in the <em>conditional sentences</em>.</h6>
                     <ol>
                         <li>If I were you, I ________________(ask) someone to help you.
                             <small class="text-muted">(2nd)</small>
@@ -235,9 +216,7 @@
                         <li>If you ever __________ (meet) a famous person, what would you say to them?
                             <small class="text-muted">(2nd)</small>
                         </li>
-                        <li>You shouldn't have gone to bed so late. If you ______________ (go) to bed earlier, you
-                            wouldn't be so
-                            tired right now.
+                      <li>You shouldn't have gone to bed so late. If you ______________ (go) to bed earlier, you wouldn't be so tired right now.
                             <small class="text-muted">(3rd)</small>
                         </li>
                         <li>What ________________ (you/do) if you found money in the streets?
