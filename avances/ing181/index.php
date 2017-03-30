@@ -58,6 +58,9 @@
             <td><a href="#mar-21-2017">Tue March 21st 2017</a></td>
 
           </tr>
+					<tr>
+						<td><a href="#mar-30-2017">Tue March 30th 2017</a></td>
+					</tr>
 				</tbody>
 				
 			</table>
@@ -458,7 +461,61 @@
 
         </div>
       </div>
-			
+			<div class="card">
+				<div class="card-block" id="mar-30-2017">
+					<div class="card-header">
+						<h5>Marzo 30 2017</h5>
+					</div>
+					<div class="alert alert-info">
+						<strong><i class="fa fa-pencil fa-2x"></i> EXERCISE 1: </strong> Completa las frases con estas palabras.
+					</div>
+					<p class="alert alert-warning">ingredients | kiosk | menu | rank | shopping | station | underground | waiter</p>
+					<div class="card-title"><h6></h6></div>
+					<ol>
+						<li>You can buy all kinds of things in the ________ center.</li>
+						<li>We don't know where the bus ________ is.</li>
+						<li>Let's ask the __________ what dessert he suggests.</li>
+						<li>Coul you please tell me where the taxi ________ is?</li>
+						<li>Do you have all the __________ you need to make this recipe?</li>
+						<li>Many people use the _____________ to get to work every day.</li>
+						<li>I'd like to look at the ___________, please.</li>
+						<li>I'm going to the _____________. Do you want anything?</li>
+					</ol>
+					<div class="alert alert-info">
+						<strong><i class="fa fa-pencil fa-2x"></i> EXERCISE 2: </strong> Completa las frases con estas palabras.
+					</div>
+					<p class="alert alert-warning">a bottle of | a bowl of | a cup of | a glass of | few | little | many | no</p>
+					<div class="card-title"><h6></h6></div>
+					<ol>
+						<li>I always have _________________ cereal for breakfast.</li>
+						<li>There's only a ____________ honey in the jar.</li>
+						<li>Would you like ____________ tea?</li>
+						<li>This egg box is empty. There are ______ eggs in it.</li>
+						<li>Veronica bought a _________ things from the chemist's</li>
+						<li>Can you buy _________ lemonade on your way home from work?</li>
+						<li>There are so ___________ great cafés in the city center.</li>
+						<li>Mum, I'm really thirsty. Can I have ___________ water?</li>
+					</ol>
+					<div class="alert alert-info">
+						<strong><i class="fa fa-pencil fa-2x"></i> EXERCISE 3: </strong> Escribe frases en el tiempo especificado usando el sujeto, verbo y complemento.
+					</div>
+					<p class="lead">Doctors / save / the patient's life.</p>
+					<ol>
+						<h6 class="card-title">Past Perfect Continuous (+)</h6>
+						<li>____________________________________________________________.</li>
+						<h6 class="card-title">Past simple (-)</h6>
+						<li>____________________________________________________________.</li>
+						<h6 class="card-title">Past continuous (+)</h6>
+						<li>____________________________________________________________.</li>
+						<h6 class="card-title">Futuro continuous (+)</h6>
+						<li>____________________________________________________________.</li>
+						<h6 class="card-title">Present simple (+)</h6>
+						<li>____________________________________________________________.</li>
+						<h6 class="card-title">Present continuous (-)</h6>
+						<li>____________________________________________________________.</li>
+					</ol>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
