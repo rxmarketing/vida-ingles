@@ -39,7 +39,7 @@
 
     </script>
     <style>
-        ul li {
+	    ul li, ol li {
             padding-bottom: 1rem;
         }
     </style>
@@ -1016,13 +1016,18 @@
         </h3>
         <div>
             <h1>Unidad 11</h1>
-            <h2>Modulo 21</h2>
+	        <h2>Modulo 5</h2>
+	        <ul>
+		        <li>Futuro con <em>be going to + infinitivo</em> forma positiva</li>
+		        <li>Futuro con <em>will + infinitivo</em> forma positiva</li>
+	        </ul>
             <ol>
-                <li>Futuro con <em>be (am/is/are) going to + verbo</em>
-                    <p>Usa <em>am/is/are going to + verbo en infinitivo</em> para hablar sobre eventos que sucederán en el futuro. Ejemplos:</p>
+	            <li>Futuro con <em>be (am/is/are) going to + verbo en infinitivo</em> y futuro con <em>will + infinitivo del verbo.</em>
+		            <p>Usa <em>am/is/are going to + verbo en infinitivo</em> y <em>will + verbo en infinitivo</em> para hablar sobre eventos que sucederán en el futuro. Ejemplos:</p>
 
                     <ul>
                         <li>I <strong>am going to watch</strong> a film tonight. <span class="tradu">Yo <strong>voy a ver</strong> una película esta noche.</span></li>
+	                    <li>I <strong>will watch</strong> a film tonight.</li>
                         <li>She <strong>is going to call</strong> me tomorrow. <span class="tradu">Ella <strong>va a llamarme</strong> mañana.</span></li>
                         <li>We <strong>are going to do</strong> this exercise. <span class="tradu">Nosotras <strong>vamos a hacer</strong> este ejercicio.</span></li>
                     </ul>
@@ -1031,56 +1036,129 @@
 
 
                 </li>
-                <li>Futuro con <em>will + verb</em></li>
-                <li></li>
-                <li></li>
-                <li></li>
+
             </ol>
-            <h2>Modulo 22</h2>
-            <ol>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+	        <h2>Modulo 6</h2>
+	        <ul>
+		        <li>Futuro con <em>be going to + infinitivo</em> forma negativa e interrogativa.</li>
+		        <li>Futuro con <em>will + infinitivo</em> forma negativa e interrogativa.</li>
+	        </ul>
+	        <ol><h6>Forma negativa</h6>
+		        <li>I <strong>am not going to watch</strong> a film tonight.</em></li>
+		        <li>I <strong>will not (won't) watch</strong> a film tonight.</li>
+		        <h6>Forma interrogativa</h6>
+		        <li>Am I going to watch a film tonight? Yes, you are. / No, you aren't.</li>
+		        <li>Will I watch a film tonight? Yes, you will. / No, you won't.</li>
             </ol>
+	        <h5>Algunas expresiones de tiempo del futuro</h5>
+	        <ul>
+		        <li>tomorrow</li>
+		        <li>next monday</li>
+		        <li>next week</li>
+		        <li>in five minutes</li>
+		        <li>in two years</li>
+		        <li>from now on</li>
+	        </ul>
         </div>
+
         <h3>Semana 4
             <small>(Fri March 24th, 2017)</small>
         </h3>
         <div>
             <h1>Unidad 12</h1>
-            <h2>Modulo 23</h2>
-            <ol>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ol>
-            <h2>Modulo 24</h2>
-            <ol>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ol>
+	        <h2>Modulo 7</h2>
+	        <p class="lead">Verbos modales <em>can, could, be able to</em> para indicar la potencialidad o no potencialidad de realización de un acto o evento.</p>
+	        <ol>
+		        <li><em>can</em> para oraciones en presente.
+			        <ol>
+				        <li></li>
+				        <li></li>
+			        </ol>
+		        </li>
+		        <li><em>could</em> para oraciones en pasado
+			        <ol>
+				        <li></li>
+				        <li></li>
+			        </ol
+		        </li>
+		        <li>Reconocerá que agregando expresiones de tiempo que señalan futuro a las formas <em>can , could</em> las oraciones adquieren idea de futuro.
+			        <ol>
+				        <li></li>
+				        <li></li>
+			        </ol
+		        </li>
+		        <li><em>be able to </em>
+			        <ol>
+				        <li></li>
+				        <li></li>
+			        </ol
+		        </li>
+		        <li><em>may</em> para indicar deseo de que se realice o no algo.
+			        <ol>
+				        <li></li>
+				        <li></li>
+			        </ol
+		        </li>
+	        </ol>
+	        <h2>Modulo 8</h2>
+	        <h5><em>must, mustn't, have got to, need not, ought to, ought not to, had better, had better not, would, be used to, would rather, would rather not.</em></h5>
+	        <ol>
+		        <h4>must -> para indicar obligatoriedad usa cualquiera de estos verbos modales.</h4>
+		        <li>You <strong>must</strong> stop at the red light.</li>
+		        <li>You <strong>have to</strong> stop at the red light.</li>
+		        <li>You <strong>have got to</strong> stop at the red light.</li>
+		        <li>You'<strong>ve got</strong> stop at the red light. <span class="tradu">Uno <strong>debe</strong> detenerse a la luz roja.</span></li>
+		        <h4>mustn't (must not) para indicar prohibición.</h4>
+		        <li>You <strong>mustn't</strong> pass on the right side. <span class="tradu">Uno <strong>no debe</strong> rebasar a la derecha.</span></li>
+		        <h4>Para indicar que no hay necesidad de realizar una acción usa <em>don't/doesn't have to</em> o <em>need not</em></h4>
+		        <li>We <strong>don't have to</strong> buy tickets. <span class="tradu">Nosotros <strong>no tenemos</strong> que comprar boletos.</span></li>
+		        <li>He <strong>doesn't have to</strong> buy tickets.</li>
+		        <li>We <strong>need not</strong> buy tickets.</li>
+		        <li>He <strong>need to</strong> buy tickets.</li>
+		        <h4>Para indicar obligación en el pasado usa <em>had to</em></h4>
+		        <li>We <strong>had to</strong> buy tickets. <span class="tradu">Nosotros tuvimos que comprar boletos.</span></li>
+		        <h4>Para indicar que no hubo necesidad de hacer algo en el pasado usa <em>didn't have to</em></h4>
+		        <li>We <strong>didn't have to</strong> buy tickets. <span class="tradu">Nosotros <strong>no tuvimos</strong> que comprar boletos.</span></li>
+		        <h4>Para indicar obligación o necesidad de hacer, o no, una acción en el futuro usa <em>will have to</em> o <em>won't have to</em></h4>
+		        <li>I <strong>will have to</strong> buy tickets. <span class="tradu">Yo <strong>tendré que</strong> comprar boletos.</span></li>
+		        <li>I won't have to buy tickets. <span class="tradu">Yo <strong>no tendré</strong> que comprar boletos.</span></li>
+		        <h4>Para aconsejar o indicar conveniencia de realizar o no realizar algo usa <em>should/shouldn't, ought to/ought not to, had better/had better not</em>.</h4>
+		        <li>She has fever. She <strong>should</strong> stay in bed and rest. <span class="tradu">Ella tiene fiebre. Ella <strong>debería</strong> quedarse en cama y descansar.</span>
+		        </li>
+		        <li>She has fever. She <strong>ought to</strong> stay in bed and rest.</li>
+		        <li>She has fever. She <strong>had better</strong> stay in bed and rest.</li>
+		        <li>She <strong>shouldn't</strong> eat chocolate. <span class="tradu">Ella <strong>no debería</strong> comer chocolate.</span></li>
+		        <li>She <strong>ought not to</strong> eat chocolate. <span class="tradu">Ella <strong>no debería</strong> comer chocolate.</span></li>
+		        <li>She <strong>had better not</strong> eat chocolate. <span class="tradu">Ella <strong>no debería</strong> comer chocolate.</span></li>
+		        <h4>Para decir que una acción ERA costrumbre en el pasado usa: <em>used to</em> o <em>would</em></h4>
+		        <li>John <strong>used to</strong> play football on Saturdays. <span class="tradu">John <strong>solía</strong> jugar futball los sábados.</span></li>
+		        <li>John <strong>would</strong> play football on Saturdays. <span class="tradu">John <strong>solía</strong> jugar futbol los sábados.</span></li>
+		        <h4>Para decir que una acción
+			        <mark>NO ERA</mark>
+			        costrumbre en el pasado usa: <em>didn't used to</em> o <em>wouldn't</em></h4>
+		        <li>John <strong>didn't use to</strong> play football on Saturdays. <span class="tradu">John <strong>no solía</strong> jugar futbol los sábados.</span></li>
+		        <li>John <strong>wouldn't</strong> play football on Saturdays. <span class="tradu">John <strong>no solía</strong> jugar futbol los sábados.</span></li>
+		        <h4>Para indicar si se prefiere o no se prefiere realizar una acción o tomar una actitud usa: <em>would rather</em> o <em>wouldn't rather</em></h4>
+		        <li>I <strong>would rather</strong> study for the exam tomorrow. <span class="tradu">Yo <strong>prefiero</strong> estudiar para el examen de mañana.</span></li>
+		        <li>I <strong>would rather not</strong> wear contact lenses today. <span class="tradu">Yo <strong>prefiero no</strong> usar lentes de contacto hoy.</span></li>
+	        </ol>
         </div>
         <h3>Semana 5
             <small>(Fri March 31st, 2017)</small>
         </h3>
         <div>
             <h1>Unidad 13</h1>
-            <h2>Modulo 25</h2>
+	        <h2>Modulo 9</h2>
             <ol>
-                <li></li>
-                <li></li>
+	            <h4>Para preguntar si se tiene o no autorización o permiso de realizar una acción usa: <em>can</em> o <em>may</em></h4>
+	            <li><strong>May</strong> I go to the bathroom? <span class="tradu">¿Puedo ir al baño?</span></li>
+	            <li><strong>Can</strong> I go to the bathroom? <span class="tradu">¿Puedo ir al baño?</span></li>
+	            <h4>Para preguntar si hay deber o necesidad de hacer algo usa: </h4>
                 <li></li>
                 <li></li>
                 <li></li>
             </ol>
-            <h2>Modulo 26</h2>
+	        <h2>Modulo 10</h2>
             <ol>
                 <li></li>
                 <li></li>
