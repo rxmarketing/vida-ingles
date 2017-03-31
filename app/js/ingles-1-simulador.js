@@ -45,7 +45,7 @@
 
             if (nombre === "") {
                 $('.msg').html('Escribe tu primer nombre').fadeIn(400);
-            } else if (apellido === "") {
+            } else if (apellido === "" || checkedValue1 === "") {
                 $('.msg').html(nombre + ' escribe tu primer apellido').fadeIn(400);
             } else {
                 if (checkedValue1 === ak1) {
