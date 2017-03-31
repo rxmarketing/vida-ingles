@@ -43,10 +43,10 @@
                 checkedValue30 = $('[name="q30"]:checked').val();
 
 
-            if (nombre === "") {
-                $('.msg').html('Escribe tu primer nombre').fadeIn(400);
-            } else if (apellido === "" || checkedValue1 === "") {
-                $('.msg').html(nombre + ' escribe tu primer apellido').fadeIn(400);
+            if (nombre === "" || apellido === "") {
+                $('.msg').html('Escribe tu nombre y apellido').slideDown(400);
+            } else if (!checkedValue1 || !checkedValue2 || !checkedValue3 || !checkedValue4 || !checkedValue5 || !checkedValue6 || !checkedValue7 || !checkedValue8 || !checkedValue9 || !checkedValue10 || !checkedValue11 || !checkedValue12 || !checkedValue13 || !checkedValue14 || !checkedValue15 || !checkedValue16 || !checkedValue17 || !checkedValue18 || !checkedValue19 || !checkedValue20 || !checkedValue21 || !checkedValue22 || !checkedValue23 || !checkedValue24 || !checkedValue25 || !checkedValue26 || !checkedValue27 || !checkedValue28 || !checkedValue29 || !checkedValue30) {
+                $('.msg').html(nombre + ' completa todo ejercicio.').slideDown(400);
             } else {
                 if (checkedValue1 === ak1) {
                     $('#lm1').addClass("good");
@@ -201,7 +201,7 @@
             }
         });// Ends #checkBtn.click()
         $('input').focus(function () {
-            $('.msg').fadeOut(700);
+            $('.msg').slideUp(500);
             $(this).removeClass("bad");
         });
     });

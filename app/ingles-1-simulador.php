@@ -932,7 +932,6 @@ include_once('functions.php');
 					</div><!--Ends sugerencias div -->
 					<div class="col-md-8">
 						<button type="submit" class="btn btn-primary noprint" id="checkBtn">Check Answers</button>
-						<span class="msg"></span>
 					</div>
 					<div class="col-md-1">
 						<div class="fb-share-button text-right" data-href="<?php echo canonical() ?>" data-layout="button_count"></div>

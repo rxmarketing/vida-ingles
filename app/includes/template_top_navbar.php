@@ -16,4 +16,5 @@
 			</ul>
 		</div>
 	</div>
+	<div class="msg"></div>
 </div>
