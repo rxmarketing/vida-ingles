@@ -31,7 +31,7 @@ aside {
 }
 
 .ads {
-	margin: 14px 0px;
+    margin: 14px 0;
 }
 
 .syntax {
@@ -45,15 +45,23 @@ aside {
 }
 .good {
     border: 1px solid #00A000;
-    padding: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 4px;
 	background-color: rgba(0, 128, 0, 0.39);
 }
 .bad {
+    border: 1px solid #9e0505;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 4px;
 	background-color: rgba(255, 0, 0, 0.35);
 }
 
 .marketing {
-	margin: 20px 0px;
+    margin: 20px 0;
 }
 label {
   /* font-weight: 400; */
@@ -90,7 +98,7 @@ h3 {
 }
 .formula {
 	color: green;
-  font-style: bold;
+    font-weight: bold;
 }
 
 input.form-control {
