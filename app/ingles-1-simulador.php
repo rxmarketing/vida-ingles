@@ -34,7 +34,6 @@ include_once('functions.php');
 				<form role="form">
 					<h3>Simulador - Ingles I</h3>
 					<div class="fb-like"></div>
-            <?php include_once('includes/app_ads.php') ?>
 					<div class="form-inline">
 						<div class="form-group">
 							<label for="nombre">Nombre: </label> <input type="text" autofocus="" class="form-control" id="nombre" placeholder="Primer nombre"/>
