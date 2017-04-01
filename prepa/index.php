@@ -949,8 +949,7 @@
             <small>(Fri Mar 3, 2017)</small>
         </h3>
         <div>
-
-            <h1>SIMULADOR</h1>
+	        <h1><a href="http://vidaingles.com/app/ingles-1-simulador.php">SIMULADOR</a></h1>
 
         </div>
 
