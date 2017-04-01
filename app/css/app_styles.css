@@ -42,6 +42,8 @@ aside {
 .msg {
 	font-weight: bold;
 	color: red;
+    text-align: center;
+    padding: 5px;
 }
 .good {
     border: 1px solid #00A000;
