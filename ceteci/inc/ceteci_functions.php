@@ -193,7 +193,7 @@
 	
 	/* module select option list ----------------------------------------------------------------------------- */
 	function moduleOptionList($db_conx){
-		$module_name_list = null;
+        $module_list = null;
 		$consulta = "SELECT modulos.mod_id, grupos.grp_clave, module_names.mod_subcat_name 
 		FROM modulos
 		INNER JOIN grupos ON grupos.grp_id = modulos.mod_grupo_id 
