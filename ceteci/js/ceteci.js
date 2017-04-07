@@ -12,7 +12,7 @@
 			$.ajax({
 				type:'POST',
 				url:url,
-				data:'eid='+eid,
+                data: 'eid=' + eid
 			}) //ends ajax
 			.always(function (data) {
 				$('#muni option').remove();
@@ -29,7 +29,7 @@
 			$.ajax({
 				type:'POST',
 				url:url,
-				data:'muniid='+muniid,
+                data: 'muniid=' + muniid
 			}) //ends ajax
 			.always(function (data) {
 				$('#asentamiento option').remove();
@@ -41,19 +41,19 @@
 	/* dynamically populate modulo subcat nombre in addModFrm (add_module.php)
 	----------------------------------------------------------------------------------------*/
 		$('#mod_cat_id').change(function(){
-			var modCatId = $('#mod_cat_id').val();
-			//alert(modCatId);
-			var url = 'php/php_select_module_name.php'; // modulo_subcategorias table
-			$.ajax({
-				type:'POST',
-				url:url,
-				data: 'id=' + modCatId,
-			})
-			.always(function (data) {
-				$('#modNameId option').remove();
-				$('#modNameId').append(data);
-			});
-		});
+            var modCatId = $('#mod_cat_id').val();
+            //alert(modCatId);
+            var url = 'php/php_select_module_name.php'; // modulo_subcategorías table
+            $.ajax({
+                type: 'POST',
+                url: url,
+                data: 'id=' + modCatId
+            })
+                .always(function (data) {
+                    $('#modNameId option').remove();
+                    $('#modNameId').append(data);
+                });
+        });
 		
 		
 		/* dinamic select module id
@@ -65,7 +65,7 @@
 			$.ajax({
 				type:'POST',
 				url: url,
-				data: 'id=' + groupId,
+                data: 'id=' + groupId
 			})
 			.always(function(data){
 				$('#grp_mod_id option').remove();
@@ -83,7 +83,7 @@
 			$.ajax({
 				type:'POST',
 				url: url,
-				data: 'id=' + groupModId,
+                data: 'id=' + groupModId
 			})
 			.always(function(data){
 				$('#mod_unit_id option').remove();
