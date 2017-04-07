@@ -102,7 +102,7 @@ require 'classes/Database.php';
 								<div class="form-group">
 									<label for="cred" class="control-label">No. Credencial</label>
 									<input type="text" class="form-control" name="cred" id="cred" onkeyup="restrict('cred')" placeholder="Key in credential number"/>
-									<span class="cred-aviso"></span> <span class="cred-loader"><img src="i/loader.gif" width="18" height="18" maxlength="11"/> checking for duplicates...</span>
+									<span class="cred-aviso"></span> <span class="cred-loader"><img src="i/loader.gif" width="18" height="18"/> checking for duplicates...</span>
 								</div>
 								<div class="form-group">
 									<label class="control-label" for="group">Group *</label>
@@ -218,7 +218,7 @@ require 'classes/Database.php';
 								</div>
 								<div class="form-group">
 									<label class="control-label" for="zip">Zip Code *</label>
-									<input class="form-control" onkeyup="restrict('zip')" type="zip" name="zip" id="zip" maxlength="5" placeholder="Zip code"/>
+									<input class="form-control" onkeyup="restrict('zip')" type="number" name="zip" id="zip" maxlength="5" placeholder="Zip code"/>
 								</div>
 								<div class="form-group">
 									<label class="control-label" for="address">Address line 1</label>
