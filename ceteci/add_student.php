@@ -1,10 +1,8 @@
 <?php
-	include('inc/db_ceteci_conn.php');
-	include('inc/ceteci_functions.php');
-	//echo "<pre>";
-	//print_r($_POST);
-	//echo "</pre>";
-	// populate the select options with years
+require 'classes/Database.php';
+
+
+// populate the select options with years
 	$yrs = null;
 	$dob = null;
 	$mob = null;
@@ -98,7 +96,7 @@
 									<label class="" for="schoolID">School *</label>
 									<select class="form-control" name="schoolID" id="schoolID" required="required">
 										<option value="" disabled selected>--- Select a school ----</option>
-										<?php echo $school_option_list; ?>
+                      <?php echo $sclOpt; ?>
 									</select>
 								</div>
 								<div class="form-group">
@@ -110,14 +108,14 @@
 									<label class="control-label" for="group">Group *</label>
 									<select class="form-control" name="groupID" id="groupID" required="required">
 										<option value="" selected disabled>--- Select a group ----</option>
-										<?php echo groupOptList($db_conx)?>
+                      <?php echo $grpOpt; ?>
 									</select>
 								</div>
 								<div class="form-group">
 									<label class="control-label" for="studStatusID">Estatus *</label>
 									<select class="form-control" name="studStatusID" id="studStatusID">
 										<option value="" selected disabled>--- Select a status ----</option>
-										<?php echo studStatOptList($db_conx) ?>
+                      <?php echo $studStatOpt; ?>
 									</select>
 								</div>
 								<div class="form-group">
@@ -188,7 +186,7 @@
 								</div>
 								<div class="form-group">
 									<label class="" for="mobilef">Mobile Phone</label>
-									<input class="form-control" onkeyup="restrict('mobilef')" type="tel" name="mobilef" id="mobilef" maxlength="10" onkeyup="restrict('mobilef')" placeholder="Mobile phone"/>
+									<input class="form-control" onkeyup="restrict('mobilef')" type="tel" name="mobilef" id="mobilef" maxlength="10" placeholder="Mobile phone"/>
 								</div>
 								<div class="form-group">
 									<label class="" for="homef">Home Phone</label>
@@ -197,15 +195,15 @@
 								<div class="form-group">
 									<label class="control-label" for="country">Country *</label>
 									<select class="form-control" type="text" name="country" id="country" required="required">
-										<option value="" disabled selected>--- Choose a country ------</option>
-										<?php echo select_countries($db_conx) ?>
+										<option value="152" selected>México</option>
+                      <?php echo $countryOpt; ?>
 									</select>
 								</div>
 								<div class="form-group">
 									<label class="control-label" for="state">State *</label>
 									<select class="form-control" name="state" id="state">
 										<option value="" selected disabled>--- choose a state -------</option>
-										<?php echo select_states($db_conx) ?>
+                      <?php echo $estadosOpt; ?>
 									</select>
 								</div>
 								<div class="form-group">

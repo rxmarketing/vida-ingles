@@ -1,6 +1,7 @@
 <?php
-    include('inc/db_ceteci_conn.php');
-    include('inc/ceteci_functions.php');
+require 'classes/Database.php';
+//include('inc/db_ceteci_conn.php');
+//include('inc/ceteci_functions.php');
 	// echo "<pre>";
 	// print_r($_POST);
 	// echo "</pre>";
@@ -45,19 +46,19 @@
                             <label class="control-label col-md-5" for="schoolID">School</label>
 							<div class="col-md-4">
 								<select class="form-control" name="schoolID" id="schoolID" required="required" autofocus>
-                            	    <option value="" disabled selected>--- Select one from the list ----</option>
-                            	    <?php echo $school_option_list; ?>
+									<option value="" disabled selected>--- Select one from the list ----</option>
+                    <?php echo $sclOpt; ?>
 								</select>
 							</div>
 						</div>
-                        <div class="form-group">
-                            <label class="control-label col-md-5" for="grpCatId">Category</label>
-                            <div class="col-md-4">
-                            	<select class="form-control" name="grpCatId" id="grpCatId" required="required">
-                            	    <option value="" disabled selected>--- Select one from the list ----</option>
-                            	    <?php echo grupoCatOptList($db_conx); ?>
-								</select>
-							</div>
+	                    <div class="form-group">
+		                    <label class="control-label col-md-5" for="grpCatId">Category</label>
+		                    <div class="col-md-4">
+			                    <select class="form-control" name="grpCatId" id="grpCatId" required="required">
+				                    <option value="" disabled selected>--- Select one from the list ----</option>
+                              <?php echo $grpCatOpt; ?>
+			                    </select>
+		                    </div>
 						</div>
                         <div class="form-group">
                             <label class="control-label col-md-5" for="fechaInicio">Start date</label>
@@ -101,7 +102,7 @@
                         	<div class="col-md-4">
                             	<select class="form-control" name="teacher" id="teacher" required="required">
 									<option value="" selected disabled>--- Select one from the list ----</option>
-									<?php echo select_teacher($db_conx);?>
+                                  <?php echo $teachOpt; ?>
 								</select>
 							</div>
 						</div>
@@ -116,7 +117,7 @@
                         	<div class="col-md-4">
                             	<select class="form-control" name="groupStatusID" id="groupStatusID" required="required">
                             	    <option value="" selected disabled>--- Select one from the list ----</option>
-									<?php echo groupStatusOptList($db_conx); ?>
+                                  <?php echo $grpStatOpt; ?>
 								</select>
 							</div>
 						</div>

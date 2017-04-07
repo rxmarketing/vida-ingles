@@ -1,10 +1,13 @@
 <?php
-	include('inc/db_ceteci_conn.php');
-	include('inc/ceteci_functions.php');
+//include('inc/db_ceteci_conn.php');
+//include('inc/ceteci_functions.php');
 	//echo "<pre>";
 	//print_r($_POST);
 	//echo "</pre>";
-	
+require 'classes/Database.php';
+
+
+
 	
 ?>
 <!DOCTYPE html>
@@ -46,14 +49,14 @@
 							<label class="control-label" for="groupID">Group</label>
 							<select name="groupID" class="form-control" id="groupID" autofocus required="required">
 								<option value="" selected disabled>--- Select a group from the list ----</option>
-								<?php echo groupOptList($db_conx); ?>
+                  <?php echo $grpOpt; ?>
 							</select>
 						</div>
 						<div class="form-group">
 							<label class="control-label" for="mod_cat_id">Category</label>
 							<select class="form-control" name="mod_cat_id" id="mod_cat_id" required="required">
 								<option value="" selected disabled>--- Select a module category ----</option>
-								<?php echo select_mod_cat($db_conx); ?>
+                  <?php echo $modCatOpt; ?>
 							</select>
 						</div>
 						<div class="form-group">
@@ -109,7 +112,7 @@
 							<label class="control-label" for="modStatus">Status</label>
 							<select name="modStatus" class="form-control" id="modStatus" class="select">
 								<option value="" selected disabled>--- Select a module status from the list ------------- </option>
-								<?php echo modStatusOptList($db_conx); ?>
+                  <?php echo $modStatOpt; ?>
 							</select>
 						</div>
 						<div class="form-group">
