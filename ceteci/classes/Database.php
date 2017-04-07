@@ -32,7 +32,7 @@ class Database
         $this->isConn = false;
     }
 
-    public function getOptions($query, $params = [])
+    public function getRows($query, $params = [])
     {
         try {
             $stmt = $this->dbconx->prepare($query);
@@ -50,7 +50,7 @@ class Database
 /* Fetch grupos
 ------------------------------------------------------------------------------------*/
 $getGrpOpt = new Database();
-$getRows = $getGrpOpt->getOptions("SELECT * FROM grupos");
+$getRows = $getGrpOpt->getRows("SELECT * FROM grupos");
 $grpOpt = null;
 foreach ($getRows as $row) {
     $grpOpt .= '<option value="' . $row['grupo_id'] . '">' . $row['grupo_clave'] . '</option>';
@@ -60,7 +60,7 @@ foreach ($getRows as $row) {
 /* fetch grupo categorías
 -------------------------------------------------------------------------------------*/
 $getGrpCatOpt = new Database();
-$getRows = $getGrpCatOpt->getOptions("SELECT * FROM grupo_categorias");
+$getRows = $getGrpCatOpt->getRows("SELECT * FROM grupo_categorias");
 $grpCatOpt = null;
 foreach ($getRows as $row) {
     $grpCatOpt .= '<option value="' . $row['grupo_cat_id'] . '">' . $row['grupo_cat_nombre'] . '</option>';
@@ -70,7 +70,7 @@ foreach ($getRows as $row) {
 /* Fetch grupo estatuses
 ------------------------------------------------------------------------------------*/
 $getGrpStatOpt = new Database();
-$getRows = $getGrpStatOpt->getOptions("SELECT * FROM grupo_estatuses");
+$getRows = $getGrpStatOpt->getRows("SELECT * FROM grupo_estatuses");
 $grpStatOpt = null;
 foreach ($getRows as $row) {
     $grpStatOpt .= '<option value="' . $row['grupo_estatus_id'] . '">' . $row['grupo_estatus_nombre'] . '</option>';
@@ -80,7 +80,7 @@ foreach ($getRows as $row) {
 /* fetch módulos
 -------------------------------------------------------------------------------------*/
 $getModOpt = new Database();
-$getRows = $getModOpt->getOptions("SELECT * FROM modulos");
+$getRows = $getModOpt->getRows("SELECT * FROM modulos");
 $modOpt = null;
 foreach ($getRows as $row) {
     $modOpt .= '<option value="' . $row['mod_id'] . '">' . $row[''] . '</option>';
@@ -90,7 +90,7 @@ foreach ($getRows as $row) {
 /* fetch módulo estatuses
 -------------------------------------------------------------------------------------*/
 $getModStatOpt = new Database();
-$getRows = $getModStatOpt->getOptions("SELECT * FROM modulo_estatuses");
+$getRows = $getModStatOpt->getRows("SELECT * FROM modulo_estatuses");
 $modStatOpt = null;
 foreach ($getRows as $row) {
     $modStatOpt .= '<option value="' . $row['modulo_estatus_id'] . '">' . $row['modulo_estatus_nombre'] . '</option>';
@@ -100,7 +100,7 @@ foreach ($getRows as $row) {
 /* Fetch modulo categorías
 ------------------------------------------------------------------------------------*/
 $getModCatOpt = new Database();
-$getRows = $getModCatOpt->getOptions("SELECT * FROM modulo_categorias");
+$getRows = $getModCatOpt->getRows("SELECT * FROM modulo_categorias");
 $modCatOpt = null;
 foreach ($getRows as $row) {
     $modCatOpt .= '<option value="' . $row['modulo_cat_id'] . '">' . $row['modulo_cat_nombre'] . '</option>';
@@ -110,7 +110,7 @@ foreach ($getRows as $row) {
 /* Fetch escuelas
 ------------------------------------------------------------------------------------*/
 $getSclOpt = new Database();
-$getRows = $getSclOpt->getOptions("SELECT * FROM escuelas");
+$getRows = $getSclOpt->getRows("SELECT * FROM escuelas");
 $sclOpt = null;
 foreach ($getRows as $row) {
     $sclOpt .= '<option value="' . $row['esc_id'] . '">' . $row['esc_nombre_corto'] . '</option>';
@@ -120,7 +120,7 @@ foreach ($getRows as $row) {
 /* Fetch maestros
 ------------------------------------------------------------------------------------*/
 $getTeachOpt = new Database();
-$getRows = $getTeachOpt->getOptions("SELECT * FROM maestros");
+$getRows = $getTeachOpt->getRows("SELECT * FROM maestros");
 $teachOpt = null;
 foreach ($getRows as $row) {
     $teachOpt .= '<option value="' . $row['maes_id'] . '">' . $row['maes_papellido'] . ' ' . $row['maes_sapellido'] . '</option>';
@@ -130,7 +130,7 @@ foreach ($getRows as $row) {
 /* Fetch maestro estatuses
 ------------------------------------------------------------------------------------*/
 $getMaesOpt = new Database();
-$getRows = $getMaesOpt->getOptions("SELECT * FROM maestro_estatuses");
+$getRows = $getMaesOpt->getRows("SELECT * FROM maestro_estatuses");
 $list = null;
 foreach ($getRows as $row) {
     $list .= '<option value="' . $row['maes_estatus_id'] . '">' . $row['maes_estatus_nombre'] . '</option>';
@@ -140,7 +140,7 @@ foreach ($getRows as $row) {
 /* fetch estudiante estatuses
 -------------------------------------------------------------------------------------*/
 $getStudStatOpt = new Database();
-$getRows = $getStudStatOpt->getOptions("SELECT * FROM estudiante_estatuses");
+$getRows = $getStudStatOpt->getRows("SELECT * FROM estudiante_estatuses");
 $studStatOpt = null;
 foreach ($getRows as $row) {
     $studStatOpt .= '<option value="' . $row['estud_estatus_id'] . '">' . $row['estud_estatus_nombre'] . '</option>';
@@ -150,7 +150,7 @@ foreach ($getRows as $row) {
 /* fetch countries
 --------------------------------------------------------------------------------------*/
 $getCountriesOpt = new Database();
-$getRows = $getCountriesOpt->getOptions("SELECT * FROM paises");
+$getRows = $getCountriesOpt->getRows("SELECT * FROM paises");
 $countryOpt = null;
 foreach ($getRows as $row) {
     $countryOpt .= '<option value="' . $row['country_id'] . '">' . $row['country_name'] . '</option>';
@@ -160,7 +160,7 @@ foreach ($getRows as $row) {
 /* fetch estados
 -----------------------------------------------------------------------------------------*/
 $getEstadosOpt = new Database();
-$getRows = $getEstadosOpt->getOptions("SELECT * FROM estados");
+$getRows = $getEstadosOpt->getRows("SELECT * FROM estados");
 $estadosOpt = null;
 foreach ($getRows as $row) {
     $estadosOpt .= '<option value="' . $row['estado_id'] . '">' . $row['estado_nombre'] . '</option>';
