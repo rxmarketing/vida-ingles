@@ -15,7 +15,7 @@
                 data: 'eid=' + eid
 			}) //ends ajax
 			.always(function (data) {
-				$('#muni option').remove();
+                $('#muni').find('option').remove();
 				$('#muni').append(data);
 			}); //ends always
 		}); //end change
@@ -32,7 +32,7 @@
                 data: 'muniid=' + muniid
 			}) //ends ajax
 			.always(function (data) {
-				$('#asentamiento option').remove();
+                $('#asentamiento').find('option').remove();
 				$('#asentamiento').append(data);
 			}); //ends always
 		}); //end change
@@ -50,7 +50,7 @@
                 data: 'id=' + modCatId
             })
                 .always(function (data) {
-                    $('#modNameId option').remove();
+                    $('#modNameId').find('option').remove();
                     $('#modNameId').append(data);
                 });
         });
@@ -68,7 +68,7 @@
                 data: 'id=' + groupId
 			})
 			.always(function(data){
-				$('#grp_mod_id option').remove();
+                $('#grp_mod_id').find('option').remove();
 				$('#grp_mod_id').append(data);
 			});
 		}); // ends groupid on change function
@@ -86,7 +86,7 @@
                 data: 'id=' + groupModId
 			})
 			.always(function(data){
-				$('#mod_unit_id option').remove();
+                $('#mod_unit_id').find('option').remove();
 				$('#mod_unit_id').append(data);
 			});
 		}); // ends grp_mod_id on change function
