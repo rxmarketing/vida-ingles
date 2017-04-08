@@ -1,14 +1,9 @@
 <?php
-//include('inc/db_ceteci_conn.php');
-//include('inc/ceteci_functions.php');
 	//echo "<pre>";
 	//print_r($_POST);
 	//echo "</pre>";
 require 'classes/Database.php';
 
-
-
-	
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -27,9 +22,9 @@ require 'classes/Database.php';
 			function restrict(elem) {
 				var tf = _(elem);
 				var rx = new RegExp;
-				if(elem == "groupCode") {
+          if (elem === "groupCode") {
 					rx = /[.,'"; ]/gi;
-					} else if(elem == "groupNotes"){
+          } else if (elem === "groupNotes") {
 					rx = /['"]/gi;
 				}
 				tf.value = tf.value.replace(rx, "");
@@ -67,10 +62,10 @@ require 'classes/Database.php';
 						<div class="form-group">
 							<label class="control-label" for="days">Day(s)</label>
 							<div class="form-check">
-								<label class="form-check-label"><input type="checkbox" name="days[]" class="form-check-input"id="days" value="Mon"/> Mon</label>
+								<label class="form-check-label"><input type="checkbox" name="days[]" class="form-check-input" id="days" value="Mon"/> Mon</label>
 							</div>
 							<div class="form-check">
-								<label class="form-check-label"><input type="checkbox" name="days[]" class="form-check-input"id="days" value="Tue"/> Tue</label>
+								<label class="form-check-label"><input type="checkbox" name="days[]" class="form-check-input" id="days" value="Tue"/> Tue</label>
 							</div>
 							<div class="form-check">
 								<label class="form-check-label"><input type="checkbox" name="days[]" class="form-check-input" id="days" value="Wed"/> Wed</label>

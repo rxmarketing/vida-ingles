@@ -43,7 +43,7 @@
 		$('#mod_cat_id').change(function(){
             var modCatId = $('#mod_cat_id').val();
             //alert(modCatId);
-            var url = 'php/php_select_module_name.php'; // modulo_subcategorías table
+            var url = 'php/php_select_module_subcat.php'; // modulo_subcategorías table
             $.ajax({
                 type: 'POST',
                 url: url,
