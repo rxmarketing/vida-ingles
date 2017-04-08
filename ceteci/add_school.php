@@ -108,8 +108,11 @@ require 'classes/Database.php';
 							        <label class="control-label" for="scl_notes">Notes</label>
 							        <textarea class="form-control" name="scl_notes" id="scl_notes" cols="47" rows="3" placeholder="Type some notes here (optional)"></textarea>
 						        </div>
+						        <div class="form-group">
+							        <label for="" class="control-label"></label>
+							        <button class="btn btn-primary btn-lg" id="addSchoolBtn">Guardar</button>
+						        </div>
 					        </fieldset>
-					        <button class="btn btn-primary btn-block" id="addSchoolBtn">Create school</button>
 					        <span class="msg"></span>
 				        </form>
 			        </div>
