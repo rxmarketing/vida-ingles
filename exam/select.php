@@ -14,9 +14,13 @@ $conx = new \db\Db;
 
 //$getRow = $conx->getRow("SELECT * FROM maestro_estatuses WHERE maes_estatus_id = ?", [1]);
 
-//$getRows = $conx->getRows("SELECT * FROM maestro_estatuses");
+$getRows = $conx->getRows("SELECT * FROM maestro_estatuses");
+foreach ($getRows as $row) {
+    echo $row['maes_estatus_id'];
+}
 
-$status = "Suspendido";
+
+//$status = "Suspendido";
 
 //$insertRow = $conx->insertRow("INSERT INTO maestro_estatuses (maes_estatus_nombre, maes_estatus_fecha_creada) VALUES (?, NOW())", [$status]);
 
@@ -25,7 +29,7 @@ $status = "Suspendido";
 //$deleteRow = $conx->deleteRow("DELETE FROM maestro_estatuses WHERE maes_estatus_id = ?", []);
 
 
-output($deleteRow);
+//output($getRows);
 
 
 ?>
