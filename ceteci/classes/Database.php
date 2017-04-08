@@ -43,6 +43,17 @@ class Database
         }
     }
 
+    public function insertRow($query, $params = [])
+    {
+        try {
+            $stmt = $this->dbconx->prepare($query);
+            $stmt->execute($params);
+            return TRUE;
+        } catch (\PDOException $e) {
+            throw new \Exception($e->getMessage());
+        }
+    }
+
 
 }
 
