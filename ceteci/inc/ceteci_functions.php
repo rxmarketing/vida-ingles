@@ -431,4 +431,3 @@
 		}
 		return $mod_cat_list;
 	}
-?>	
