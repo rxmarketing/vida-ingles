@@ -28,7 +28,7 @@ require 'classes/Database.php';
                     rx = /[^0-9]/gi;
                 } else if (elem === "homef") {
                     rx = /[^0-9]/gi;
-                } else if (elem == "rfc") {
+                } else if (elem === "rfc") {
                     rx = /[^a-z0-9]/gi;
                 }
                 tf.value = tf.value.replace(rx, "");
@@ -40,7 +40,7 @@ require 'classes/Database.php';
 	        <div class="row">
 		        <div class="col-md-9">
 			        <div class="stud-form-wrapper">
-				        <form action="php/php_add_school.php" class="form-signin" role="form" method="post" name="addGrpFrm" id="addGrpFrm">
+				        <form action="php/php_add_school.php" class="form-signin" role="form" method="post" name="addSclFrm" id="addGrpFrm">
 					        <h1 class="form-signin-heading">New school</h1>
 					        <fieldset>
 						        <legend>School info</legend>
