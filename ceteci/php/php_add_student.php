@@ -64,6 +64,12 @@ if (!empty($_POST)) {
 			,estud_skype_username
 			,fecha_creada
 			) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,NOW())", [$school, $group, $cred, $status, $fechainicio, $pnombre, $snombre, $papellido, $sapellido, $gender, $dob, $mob, $yob, $email, $mobilef, $homef, $address1, $address2, $asent, $muni, $state, $zip, $country, $notes, $twitter, $skype]);
+        if ($insertStud = true) {
+            echo "PHP: Datos guardados exitosamente!.";
+        } else {
+            echo "PHP: Los datos no fueron guardados. Error";
+            exit;
+        }
     }
 } else {
     echo 'El formulario esta vacío.';
