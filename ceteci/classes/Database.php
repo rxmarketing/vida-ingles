@@ -58,6 +58,22 @@ class Database
 }
 
 
+$yrs = null;
+$dob = null;
+$mob = null;
+for ($yr = date("Y"); $yr >= 1940; $yr--) {
+    $yrs .= '<option value="' . $yr . '"> ' . $yr . ' </option >';
+}
+// populate the select options with dates
+for ($date = 1; $date <= 31; $date++) {
+    $dob .= '<option value="' . $date . '"> ' . $date . ' </option >';
+}
+// Populate the select options with month numbers
+for ($mes = 1; $mes <= 12; $mes++) {
+    $mob .= '<option value="' . $mes . '">' . $mes . '</option>';
+}
+
+
 /* Fetch grupos
 ------------------------------------------------------------------------------------*/
 $getGrpOpt = new Database();
