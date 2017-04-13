@@ -50,8 +50,8 @@
                 data: 'id=' + modCatId
             })
                 .always(function (data) {
-                    $('#modNameId').find('option').remove();
-                    $('#modNameId').append(data);
+                    $('#modSubcatId').find('option').remove();
+                    $('#modSubcatId').append(data);
                 });
         });
 		
