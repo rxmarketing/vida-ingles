@@ -4,5 +4,21 @@
 	Created by: @ramaldonado
 */
 body {
-    padding-top: 3.5rem;
+    padding-top: 5rem;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.navbar-toggleable-md .navbar-nav .nav-link {
+    padding-left: 2rem;
+}
+
+.table {
+    font-size: .87rem;
+}
+
+.bg-inverse {
+    background-color: #025aa5 !important;
 }
