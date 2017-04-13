@@ -11,21 +11,23 @@ $studList = new \estudiantes\Students();
 		<meta charset="UTF-8">
 		<title>Students</title>
 		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
-		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap-grid.css"/>
 		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap-reboot.min.css"/>
+		<link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/cetec.css">
 		<script src="../bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="../bower_components/tether/dist/js/tether.min.js"></script>
-		<script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="css/cetec.css" />
+		<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
 		<script src="js/ceteci.js"></script>
 	</head>
 	<body>
+  <?php include_once 'templates/topnav-template.php'; ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-9">
 					<h1>CETECi Students</h1>
-					<div>
-						<button class="btn btn-warning" type="button" name="add-stud-btn" id="add-stud-btn" data-toggle="modal" data-target="#add-stud-modal">Add</button>
+					<div class="text-right">
+						<button class="btn btn-warning btn-sm" type="button" name="add-stud-btn" id="add-stud-btn" data-toggle="modal" data-target="#add-stud-modal">+</button>
 					</div>
 					<div class="table-fluid">
 						<table class="table">
@@ -245,12 +247,16 @@ $studList = new \estudiantes\Students();
 									</div>
 								</div>
 								<div class="modal-footer">
-									<button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+									<button class="btn btn-default" type="button" data-dismiss="modal">Cancel</button>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div><!-- Ends col-md-9 -->
+				<div class="col-md-3">
+            <?php include_once 'templates/right-side-nav.php'; ?>
+				</div>
+          <?php include_once 'templates/footer-template.php'; ?>
 			</div><!-- Ends .row -->
 		</div><!-- Ends .container -->
 		<script src="js/add_student.js"></script>

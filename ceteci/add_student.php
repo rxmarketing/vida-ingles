@@ -1,7 +1,5 @@
 <?php
 require 'classes/Database.php';
-
-
 // populate the select options with years
 	$yrs = null;
 	$dob = null;
@@ -25,53 +23,52 @@ require 'classes/Database.php';
 		<title>Add student</title>
 		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap-reboot.min.css"/>
+		<link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/cetec.css">
 		<script src="../bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="../bower_components/tether/dist/js/tether.min.js"></script>
 		<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-		
-		<!--<script src="../js/jquery-migrate-3.js"></script> 
-		-->
-		<script src="js/ceteci.js"></script>
 		<script src="js/main.js"></script>
+		<script src="js/ceteci.js"></script>
 		<script>
 			function restrict(elem) {
 				var tf = _(elem);
 				var rx = new RegExp;
-				if(elem == "studPNombre") {
+          if (elem === "studPNombre") {
 					rx = /[0-9.,'"; ]/gi;
-					} else if(elem == "studSNombre"){
+          } else if (elem === "studSNombre") {
 					rx = /[0-9.,'";]/gi;
-					} else if(elem == "studPApellido"){
+          } else if (elem === "studPApellido") {
 					rx = /[0-9.,' ";]/gi;
-					} else if(elem == "studSApellido"){
+          } else if (elem === "studSApellido") {
 					rx = /[0-9.,' ";]/gi;
-					} else if(elem == "mobilef"){
+          } else if (elem === "mobilef") {
 					rx = /[^0-9]/gi;
-					} else if(elem == "homef"){
+          } else if (elem === "homef") {
 					rx = /[^0-9]/gi;
-					} else if(elem == "email"){
+          } else if (elem === "email") {
 					rx = /[' "\/]/gi;
-					} else if(elem == "domicilio"){
+          } else if (elem === "domicilio") {
 					rx = /['"]/gi;
-					} else if(elem == "domicilio2"){
+          } else if (elem === "domicilio2") {
 					rx = /['"]/gi;
-					} else if(elem == "fracc"){
+          } else if (elem === "fracc") {
 					rx = /['"]/gi;
-					} else if(elem == "municipio"){
+          } else if (elem === "municipio") {
 					rx = /['"]/gi;
-					} else if(elem == "zip"){
+          } else if (elem === "zip") {
 					rx = /[^0-9]/gi;
-					} else if(elem == "estado"){
+          } else if (elem === "estado") {
 					rx = /['"]/gi;
-					} else if(elem == "notas"){
+          } else if (elem === "notas") {
 					rx = /['"]/gi;
-					} else if(elem == "referidopor"){
+          } else if (elem === "referidopor") {
 					rx = /['"]/gi;
-					} else if(elem == "cred"){
+          } else if (elem === "cred") {
 					rx = /[^a-z0-9]/gi;
-					} else if(elem == "cyberhID"){
+          } else if (elem === "cyberhID") {
 					rx = /[^a-z0-9]/gi;
-					} else if(elem == "cyberhPass"){
+          } else if (elem === "cyberhPass") {
 					rx = /[^a-z0-9]/gi;
 				}
 				tf.value = tf.value.replace(rx, "");
@@ -80,12 +77,12 @@ require 'classes/Database.php';
 		
 	</head>
 	<body>
+  <?php include_once 'templates/topnav-template.php'; ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-9">
-					<div class="stud-form-wapper">
 						<form action="php/php_add_student.php" class="form" role="form" method="post" name="addStudFrm" id="addStudFrm">
-							<h1 class="form-signin-heading">New student</h1>
+							<h1 class="">New student</h1>
 							<fieldset>
 								<legend>Academic Info</legend>
 								<div class="form-group">
@@ -105,7 +102,7 @@ require 'classes/Database.php';
 									<span class="cred-aviso"></span> <span class="cred-loader"><img src="i/loader.gif" width="18" height="18"/> checking for duplicates...</span>
 								</div>
 								<div class="form-group">
-									<label class="control-label" for="group">Group *</label>
+									<label class="control-label" for="groupID">Group *</label>
 									<select class="form-control" name="groupID" id="groupID" required="required">
 										<option value="" selected disabled>--- Select a group ----</option>
                       <?php echo $grpOpt; ?>
@@ -149,18 +146,21 @@ require 'classes/Database.php';
 									<label class="control-label col-md-5" for="dob">Date of Birth</label>
 									<div class="row">
 										<div class="col-xs-4 col-md-4 col-lg-4">
+											<label class="control-label col-md-5" for="dob">Fecha</label>
 											<select name="dob" id="dob" class="form-control">
 												<option value="0" selected disabled="disabled">Day</option>
 												<?php echo $dob; ?>
 											</select>
 										</div>
 										<div class="col-xs-4 col-md-4 col-lg-4">
+											<label class="control-label col-md-5" for="mob">Mes</label>
 											<select name="mob" id="mob" class="form-control">
 												<option value="0" selected disabled="disabled">Month</option>
 												<?php echo $mob; ?>
 											</select>
 										</div>
 										<div class="col-xs-4 col-md-4 col-lg-4">
+											<label class="control-label col-md-5" for="yob">Año</label>
 											<select name="yob" id="yob" class="form-control">
 												<option value="0" selected disabled="disabled">Year</option>
 												<?php echo $yrs; ?>
@@ -248,8 +248,9 @@ require 'classes/Database.php';
 							<span class="msg"></span>
 						</form>
 						<script src="js/add_student.js"></script>
-					</div>
-					
+				</div>
+				<div class="col-md-3">
+            <?php include_once 'templates/right-side-nav.php'; ?>
 				</div>
 			</div>
 		</div>

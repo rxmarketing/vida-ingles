@@ -21,7 +21,7 @@
 	,grupo_timeout AS 'timeout'
 	,grupo_dias AS 'dias'
 	,grupo_cat_nombre AS 'categoria'
-	,modulos.mod_nombre_id AS 'mod name id'
+	,modulos.mod_subcat_id AS 'mod name id'
 	,modulos.mod_fecha_inicio AS 'mod inicio'
 	,modulo_niveles.modulo_nivel_nombre AS 'nivel'		
 	
@@ -81,7 +81,7 @@
 		<td>'.$grupoclave.'</td>
 		<td>'.$grupohorario.'</td>
 		<td class="text-center">'.$studCount.'</td>
-		<td><a href="group_details.php?id='.$groupid.'">Details</a></td>
+		<td><a href="?id=' . $groupid . '">Details</a></td>
 		</tr>';
 	}
 	function returnModule($mod){
@@ -114,47 +114,53 @@
 ?>
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="utf-8">
-		<title>Groups</title>
-		<link rel="stylesheet" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" href="css/cetec.css" />
-		<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
-		<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
-		<script src="js/myjavascript.js"></script>
-	</head>
-	<body>
-		<header>
-			<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
-				
-				<a class="navbar-brand" href="#">Dashboard</a>
-				
-			</nav>
-		</header>
-		<section class="container">
-			<div class="row">
-				<div class="col-md-9">
-					<h1>Grupos <small><?php echo $group_count; ?> activos</small></h1>
-					<table class="table table-responsive table-striped">
-						<thead>
-							<th>Id</th>
-							<th>Grupo inició</th>
-							<th>Categoria</th>
-							<th>Nivel actual</th>
-							<th>Nivel inició</th>
-							<th>Clave grupo</th>
-							<th>Horario / Días</th>
-							<th># estudiantes</th>
-							<th>Actions</th>
-						</thead>
-						<tbody>
-							<?php echo $group_list ?>
-						</tbody>
-						<tfoot>
-						</tfoot>
-					</table>
-				</div>
-			</div>
-		</section>
+<head>
+	<meta charset="utf-8">
+	<title>Groups</title>
+	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap-reboot.min.css"/>
+	<link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/cetec.css">
+	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="../bower_components/tether/dist/js/tether.min.js"></script>
+	<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/ceteci.js"></script>
+</head>
+<body>
+<?php include_once 'templates/topnav-template.php'; ?>
+<section class="container">
+	<div class="row">
+		<div class="col-md-9">
+			<h1>Grupos
+				<small><?php echo $group_count; ?> activos</small>
+			</h1>
+			<table class="table table-responsive table-striped">
+				<thead>
+				<tr>
+					<th>Id</th>
+					<th>Grupo inició</th>
+					<th>Categoria</th>
+					<th>Nivel actual</th>
+					<th>Nivel inició</th>
+					<th>Clave grupo</th>
+					<th>Horario / Días</th>
+					<th># estudiantes</th>
+					<th>Actions</th>
+				</tr>
+				</thead>
+				<tbody>
+        <?php echo $group_list ?>
+				</tbody>
+				<tfoot>
+				</tfoot>
+			</table>
+		</div>
+		<div class="col-md-3">
+        <?php include_once 'templates/right-side-nav.php'; ?>
+		</div>
+      <?php include_once 'templates/footer-template.php'; ?>
+	</div>
+</section>
 	</body>
 </html>
