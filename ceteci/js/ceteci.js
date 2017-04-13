@@ -3,6 +3,8 @@
 	"use strict";
 	/*global jQuery, document*/
 	$( document ).ready( function() {
+
+        $('.msg').hide();
 		
 		/* dinamic select muni options
 		----------------------------------------------------------------------------------------*/
