@@ -1,5 +1,5 @@
-<?php 
-	include('../../inc/db_ceteci_conn.php');
+<?php
+include('../../inc/db_cetec_mysqliconn.php');
 	$output = "";
 	$stmt = "SELECT * FROM grupo_estatuses";
 	if(!$sql = $db_conx->prepare($stmt)){

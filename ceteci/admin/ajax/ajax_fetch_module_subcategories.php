@@ -5,7 +5,7 @@
  * Date: 19/03/2017
  * Time: 04:50 PM
  */
-include('../../inc/db_ceteci_conn.php');
+include('../../inc/db_cetec_mysqliconn.php');
 $output = "";
 $stmt = "SELECT * FROM modulo_subcategorias";
 if (!$sql = $db_conx->prepare($stmt)) {

@@ -1,5 +1,5 @@
-<?php 
-	include('../../inc/db_ceteci_conn.php');
+<?php
+include('../../inc/db_cetec_mysqliconn.php');
 	$stmt = "INSERT INTO estudiante_estatuses (
 													estud_estatus_nombre
 													,estud_estatus_fecha_creada

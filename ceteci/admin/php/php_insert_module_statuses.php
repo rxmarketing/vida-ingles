@@ -6,7 +6,7 @@
  * Time: 09:27 PM
  */
 
-include('../../inc/db_ceteci_conn.php');
+include('../../inc/db_cetec_mysqliconn.php');
 $stmt = "INSERT INTO modulo_estatuses (modulo_estatus_nombre, modulo_estatus_desc, modulo_estatus_fecha_creada
 													)
 													VALUES (

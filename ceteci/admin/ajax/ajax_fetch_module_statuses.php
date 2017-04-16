@@ -5,7 +5,7 @@
  * Date: 16/03/2017
  * Time: 07:20 PM
  */
-include('../../inc/db_ceteci_conn.php');
+include('../../inc/db_cetec_mysqliconn.php');
 $output = "";
 $stmt = "SELECT * FROM modulo_estatuses";
 if (!$sql = $db_conx->prepare($stmt)) {

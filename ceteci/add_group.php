@@ -1,6 +1,6 @@
 <?php
 require 'classes/Database.php';
-//include('inc/db_ceteci_conn.php');
+//include('inc/db_cetec_mysqliconn.php');
 //include('inc/ceteci_functions.php');
 	// echo "<pre>";
 	// print_r($_POST);

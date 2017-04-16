@@ -1,5 +1,5 @@
 <?php
-	include('../inc/db_ceteci_conn.php');
+include('../inc/db_cetec_mysqliconn.php');
     //Ajax code executes select asentamientos options
     $modSubcatId = $_POST['id'];
     $stmt = mysqli_query($db_conx, "SELECT * FROM module_name_units WHERE mod_subcat_id = '$modSubcatId' ORDER BY unidad_id");

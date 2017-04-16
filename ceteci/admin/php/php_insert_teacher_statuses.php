@@ -5,7 +5,7 @@
  * Date: 19/03/2017
  * Time: 04:32 PM
  */
-include('../../inc/db_ceteci_conn.php');
+include('../../inc/db_cetec_mysqliconn.php');
 $stmt = "INSERT INTO maestro_estatuses (
 													maes_estatus_nombre
 													,maes_estatus_fecha_creada

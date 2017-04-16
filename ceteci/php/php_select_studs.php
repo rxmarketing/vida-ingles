@@ -1,5 +1,5 @@
-<?php 
-	include('../inc/db_ceteci_conn.php');
+<?php
+include('../inc/db_cetec_mysqliconn.php');
 	$output = "";
 	$stmt = "SELECT * FROM estudiantes ORDER BY estud_id DESC";
 	$result = mysqli_query($db_conx, $stmt);

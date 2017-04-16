@@ -8,7 +8,7 @@
 		
 		/* Connect to db
 		-------------------------------------------------------------------*/
-		require_once ('../inc/db_ceteci_conn.php');
+        require_once('../inc/db_cetec_mysqliconn.php');
 		
 		
 		/* get matricula input and store it in the variable $credential

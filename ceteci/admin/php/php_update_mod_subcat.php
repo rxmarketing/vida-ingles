@@ -5,7 +5,7 @@
  * Date: 19/03/2017
  * Time: 09:02 PM
  */
-include('../../inc/db_ceteci_conn.php');
+include('../../inc/db_cetec_mysqliconn.php');
 $id = $_POST["id"];
 $text = $_POST["text"];
 $column_name = $_POST["column_name"];

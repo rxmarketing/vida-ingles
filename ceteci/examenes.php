@@ -1,5 +1,5 @@
 <?php
-//    include('inc/db_ceteci_conn.php');
+//    include('inc/db_cetec_mysqliconn.php');
 //    $examen_list = "";
 //    $module_name = "";
 //    $consulta = "SELECT * FROM examenes ORDER BY exam_fecha DESC";

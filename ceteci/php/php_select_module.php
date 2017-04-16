@@ -1,5 +1,5 @@
 <?php
-	include('../inc/db_ceteci_conn.php');
+include('../inc/db_cetec_mysqliconn.php');
     //Ajax code executes select asentamientos options
     $grpID = $_POST['id'];
     $stmt = mysqli_query($db_conx, "SELECT modulos.mod_grupo_id, module_names.mod_subcat_id, module_names.mod_subcat_name 

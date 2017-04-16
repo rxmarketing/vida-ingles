@@ -5,7 +5,7 @@
  * Date: 19/03/2017
  * Time: 05:14 PM
  */
-include('../../inc/db_ceteci_conn.php');
+include('../../inc/db_cetec_mysqliconn.php');
 $stmt = "INSERT INTO modulo_categorias (
                                     modulo_cat_nombre
                                     ,modulo_cat_fecha_creada

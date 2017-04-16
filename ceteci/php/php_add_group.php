@@ -1,5 +1,5 @@
 <?php
-	include('../inc/db_ceteci_conn.php');
+include('../inc/db_cetec_mysqliconn.php');
 	if (!empty($_POST)) {
 		$group_fecha_inicio = $_POST['fechaInicio'];
 		$group_fecha_final = $_POST['fechaFinal'];

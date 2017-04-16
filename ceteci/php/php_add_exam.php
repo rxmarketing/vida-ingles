@@ -1,5 +1,5 @@
 <?php
-	include('../inc/db_ceteci_conn.php');
+include('../inc/db_cetec_mysqliconn.php');
 	$group_id = null;
 	if (!empty($_POST)) {
 		$examDate = $_POST['examDate'];

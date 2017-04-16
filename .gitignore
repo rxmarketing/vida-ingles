@@ -1,5 +1,5 @@
 
-ceteci/inc/db_ceteci_conn.php
+ceteci/inc/db_cetec_mysqliconn.php
 .htaccess
 .ftpconfig
 
