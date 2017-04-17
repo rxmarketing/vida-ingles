@@ -20,7 +20,7 @@ if (isset($_POST["email"])) {
         echo "login_failed";
         exit();
     } else {
-        $sql = "SELECT admin_id, admin_username, admin_pass FROM admin WHERE admin_email='$e' AND admin_activated='1' LIMIT 1";
+        $sql = "SELECT estud_id, estud_username, estud_pass FROM cetec.estudiantes WHERE estud_email='$e' AND estud_activated='1' LIMIT 1";
         $query = mysqli_query($db_mysqliconx, $sql);
         $row = mysqli_fetch_row($query);
         $db_id = $row[0];
@@ -36,9 +36,10 @@ if (isset($_POST["email"])) {
             setcookie("id", $db_id, strtotime('+30 days'), "/", "", "", TRUE);
             setcookie("user", $db_username, strtotime('+30 days'), "/", "", "", TRUE);
             setcookie("pass", $db_pass_str, strtotime('+30 days'), "/", "", "", TRUE);
-            $sql = "UPDATE admin SET admin_ip='$ip', admin_lastlogin=now() WHERE admin_username='$db_username' LIMIT 1";
+            $sql = "UPDATE cetec.estudiantes SET estud_ip='$ip', estud_lastlogin=now() WHERE estud_username='$db_username' LIMIT 1";
             $query = mysqli_query($db_mysqliconx, $sql);
             echo $db_username;
+            header("location: ../user.php?u=" . $_SESSION["username"]);
             exit();
         }
     }
