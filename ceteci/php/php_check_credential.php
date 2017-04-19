@@ -18,7 +18,7 @@
 		
 		/* query the estudiantes table if there is a match
 		-------------------------------------------------------------------*/
-		$consulta = $db_conx->prepare("SELECT estud_id FROM estudiantes WHERE estud_matricula=? LIMIT 1");
+        $consulta = $db_mysqliconx->prepare("SELECT estud_id FROM estudiantes WHERE estud_matricula=? LIMIT 1");
 		if(!$consulta){
 			echo "Lo sentimos, estamos experimentando problemas, intentalo mas tarde.<br />";
 			echo "Fallo la preparacion (" . $db_conx->errno . ") " . $db_conx->error;
