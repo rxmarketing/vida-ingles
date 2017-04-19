@@ -10,7 +10,7 @@ if (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'
 
     $muniid = $_POST['muniid'];
 
-    $getRows = $getAsent->getRows("SELECT * FROM asent WHERE muni_id = ?", [$muniid]);
+    $getRows = $getAsent->getRows("SELECT * FROM asent WHERE muni_id = ? ORDER BY asentamiento_nombre ASC", [$muniid]);
     echo '<option value="" selected="selected" disabled="disabled">-- Elige uno de la lista -----</option>';
     foreach ($getRows as $row) {
         echo '<option value="' . $row['asent_id'] . '">' . $row['asentamiento_nombre'] . ' (' . $row['asentamiento_cp'] . ')</option>';
