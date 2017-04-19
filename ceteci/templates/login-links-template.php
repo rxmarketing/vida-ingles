@@ -5,6 +5,8 @@
  * Date: 16/04/2017
  * Time: 03:11 PM
  */
+$admin_ok = "";
+$student_ok = "";
 $loginlinks = null;
 if ($admin_ok == true) {
     $loginlinks = "<ul class=\"navbar-nav mr-auto\">
