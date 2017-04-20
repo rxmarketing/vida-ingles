@@ -4,20 +4,69 @@ use database\DB;
 include_once("inc/check_session.php");
 include "classes/DB.php";
 
+$warning = null;
+
 if (!empty($_POST)) {
     $matricula = $_POST['matricula'];
     $username = $_POST['username'];
     $email = $_POST['email'];
     $pass = $_POST['password'];
     $cpass = $_POST['cpassword'];
-    $pass_hash = hash('SHA512', $pass);
+    $pass_hash = password_hash($pass, PASSWORD_BCRYPT);
 
-    DB::query("UPDATE cetec.estudiantes set 
-estud_username = :u,
-estud_email = :e,
-estud_pass = :p
-WHERE estud_matricula = '$matricula'", array(':u' => $username, ':e' => $email, ':p' => $pass_hash));
-    echo "Success!!";
+    //Check if matricula exists in database
+    if (DB::getRow("SELECT estud_matricula FROM cetec.estudiantes WHERE estud_matricula = :m", [':m' => $matricula])) {
+
+        //Check if matricula has been activated
+        if (DB::getRow("SELECT estud_matricula FROM cetec.estudiantes WHERE estud_matricula = :m AND estud_activated = 1", [':m' => $matricula])) {
+
+            // Check if username already exists
+            if (!DB::getRow("SELECT estud_username FROM cetec.estudiantes WHERE estud_username=:u", [':u' => $username])) {
+
+                // Check username length
+                if ((strlen($username) >= 3 && strlen($username) <= 32)) {
+
+                    //Check for username valid characters
+                    if (preg_match('/[a-zA-Z0-9_]i/', $username)) {
+
+                        //Check for valid email
+                        if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+
+                            //check for password length
+                            if (strlen($pass) >= 6 && strlen($pass) <= 60) {
+
+                                //Check password match
+                                if ($pass == $cpass) {
+
+                                    DB::query("UPDATE cetec.estudiantes set estud_username = :u, estud_email = :e, estud_pass = :p, estud_activated = :a WHERE estud_matricula = '$matricula'", array(':u' => $username, ':e' => $email, ':p' => $pass_hash, ':a' => 1));
+                                    echo "<span class='text-success'><strong>Tu cuenta ha sido activada!</strong></span>";
+
+                                } else {
+                                    echo "<span class='text-danger'><strong>Las contraseñas no son iguales!</strong></span>";
+                                }
+                            } else {
+                                echo "<span class='text-danger'><strong>Contraseña debe tener entre 6 y 60 caracteres!</strong></span>";
+                            }
+
+                        } else {
+                            echo "<span class='text-danger'><strong>Correo electrónico no es valido!</strong></span>";
+                        }
+                    } else {
+                        echo "<span class='text-danger'><strong>Nombre de usuario debe ser letras, números y guión bajo.</strong></span>";
+                    }
+                } else {
+                    echo "<span class='text-danger'><strong>Nombre de usuario debe tener entre 3 y 32 caracteres.</strong></span>";
+                }
+            } else {
+                echo "<span class='text-danger'><strong>Nombre de usuario ya existe!</strong></span>";
+            }
+        } else {
+            echo "<span class='text-danger'><strong>Esta matrícula ya ha sido activada!</strong></span>";
+        }
+    } else {
+        echo "<span class='text-danger'><strong>Número de matrícula no existe!!</strong></span>";
+        exit;
+    }
 }
 
 ?>
@@ -86,6 +135,7 @@ WHERE estud_matricula = '$matricula'", array(':u' => $username, ':e' => $email, 
 <?php include_once 'templates/topnav-template.php'; ?>
 <div class="container">
 	<form method="post" action="activate_acc.php" id="loginform" class="form-signin" role="form">
+		<div><?php echo $warning; ?></div>
 		<h2 class="form">Activar cuenta</h2>
 		<div class="label sr-only">Matrícula</div>
 		<input type="text" name="matricula" id="matricula" class="form-control" placeholder="Ingresa tu matrícula" maxlength="14" autofocus/>
