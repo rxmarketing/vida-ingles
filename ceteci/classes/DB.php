@@ -19,11 +19,12 @@ class DB
     {
         $stmt = self::connect()->prepare($query);
         $stmt->execute($params);
-        $data = $stmt->fetch();
+        $data = $stmt->fetchAll();
         return $data;
     }
 
-    public function insertRow($query, $params = [])
+
+    public static function insertRow($query, $params = [])
     {
         try {
             $stmt = self::connect()->prepare($query);
