@@ -15,13 +15,13 @@ if (!empty($_POST)) {
     $pass_hash = password_hash($pass, PASSWORD_BCRYPT);
 
     //Check if matricula exists in database
-    if (DB::getRow("SELECT estud_matricula FROM cetec.estudiantes WHERE estud_matricula = :m", [':m' => $matricula])) {
+    if (DB::getRow('SELECT estud_matricula FROM cetec.estudiantes WHERE estud_matricula = :m', [':m' => $matricula])) {
 
         //Check if matricula has been activated
-        if (DB::getRow("SELECT estud_matricula FROM cetec.estudiantes WHERE estud_matricula = :m AND estud_activated = 1", [':m' => $matricula])) {
+        if (DB::getRow('SELECT estud_matricula FROM cetec.estudiantes WHERE estud_matricula = :m AND estud_activated = 1', [':m' => $matricula])) {
 
             // Check if username already exists
-            if (!DB::getRow("SELECT estud_username FROM cetec.estudiantes WHERE estud_username=:u", [':u' => $username])) {
+            if (!DB::getRow('SELECT estud_username FROM cetec.estudiantes WHERE estud_username=:u', [':u' => $username])) {
 
                 // Check username length
                 if ((strlen($username) >= 3 && strlen($username) <= 32)) {
@@ -31,6 +31,9 @@ if (!empty($_POST)) {
 
                         //Check for valid email
                         if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+													
+													//Check if email already exists in database
+													if(!DB::getRow('SELECT estud_email FROM cetec.estudiantes WHERE estud_email = :e',[':e'=>$email])){
 
                             //check for password length
                             if (strlen($pass) >= 6 && strlen($pass) <= 60) {
@@ -38,34 +41,36 @@ if (!empty($_POST)) {
                                 //Check password match
                                 if ($pass == $cpass) {
 
-                                    DB::query("UPDATE cetec.estudiantes set estud_username = :u, estud_email = :e, estud_pass = :p, estud_activated = :a WHERE estud_matricula = '$matricula'", array(':u' => $username, ':e' => $email, ':p' => $pass_hash, ':a' => 1));
-                                    echo "<span class='text-success'><strong>Tu cuenta ha sido activada!</strong></span>";
+                                    DB::query("UPDATE cetec.estudiantes set estud_username = :u, estud_email = :e, estud_pass = :p, estud_activated = :a, estud_fecha_activacion = NOW() WHERE estud_matricula = '$matricula'", array(':u' => $username, ':e' => $email, ':p' => $pass_hash, ':a' => 1));
+                                    echo '<span class=\'text-success\'><strong>Tu cuenta ha sido activada!</strong></span>';
 
                                 } else {
-                                    echo "<span class='text-danger'><strong>Las contraseñas no son iguales!</strong></span>";
+                                    echo '<span class="text-danger"><strong>Las contraseñas no son iguales!</strong></span>';
                                 }
                             } else {
-                                echo "<span class='text-danger'><strong>Contraseña debe tener entre 6 y 60 caracteres!</strong></span>";
+                                echo '<span class="text-danger"><strong>Contraseña debe tener entre 6 y 60 caracteres!</strong></span>';
                             }
+														} else {
+																echo '<span class="text-danger"><strong>Correo electrónico ya existe!</strong></span>';
+														}
 
                         } else {
-                            echo "<span class='text-danger'><strong>Correo electrónico no es valido!</strong></span>";
+                            echo '<span class="text-danger"><strong>Correo electrónico no es valido!</strong></span>';
                         }
                     } else {
-                        echo "<span class='text-danger'><strong>Nombre de usuario debe ser letras, números y guión bajo.</strong></span>";
+                        echo '<span class="text-danger"><strong>Nombre de usuario debe ser letras, números y guión bajo.</strong></span>';
                     }
                 } else {
-                    echo "<span class='text-danger'><strong>Nombre de usuario debe tener entre 3 y 32 caracteres.</strong></span>";
+                    echo '<span class="text-danger"><strong>Nombre de usuario debe tener entre 3 y 32 caracteres.</strong></span>';
                 }
             } else {
-                echo "<span class='text-danger'><strong>Nombre de usuario ya existe!</strong></span>";
+                echo '<span class="text-danger"><strong>Nombre de usuario ya existe!</strong></span>';
             }
         } else {
-            echo "<span class='text-danger'><strong>Esta matrícula ya ha sido activada!</strong></span>";
+            echo '<span class="text-danger"><strong>Esta matrícula ya ha sido activada!</strong></span>';
         }
     } else {
-        echo "<span class='text-danger'><strong>Número de matrícula no existe!!</strong></span>";
-        exit;
+        echo '<span class="text-danger"><strong>Número de matrícula no existe!!</strong></span>';
     }
 }
 
@@ -141,7 +146,7 @@ if (!empty($_POST)) {
 		<input type="text" name="matricula" id="matricula" class="form-control" placeholder="Ingresa tu matrícula" maxlength="14" autofocus/>
 		<div class="label sr-only">Username</div>
 		<input type="text" name="username" id="username" class="form-control" placeholder="Crea tu nombre de usuario" maxlength="88"/>
-		<div class="label sr-only">Correo electr&oacute;nico</div>
+		<div class="label sr-only">Correo electrónico</div>
 		<input type="text" name="email" id="email" class="form-control" placeholder="Tu correo electrónico" maxlength="88"/>
 		<div class="label sr-only">Contraseña</div>
 		<input type="password" name="password" id="password" class="form-control" placeholder="Crea una contraseña" maxlength="60">
