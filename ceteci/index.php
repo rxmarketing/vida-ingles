@@ -1,15 +1,26 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Ricardo M
- * Date: 16/04/2017
- * Time: 02:07 PM
- */
-include_once 'inc/check_session.php';
-// If user is logged in, send him to his profile page
-if ($admin_ok == true) {
-    header("location: user.php?username=" . $_SESSION["username"]);
-    exit();
+
+use database\Db;
+include "classes/DB.php";
+
+function isLoggedIn(){
+
+	if(isset($_COOKIE['CETECID'])){
+		
+		if(DB::getRow("SELECT estud_id FROM cetec.login_tokens WHERE token=:tok",[':tok'=>sha1($_COOKIE['CETECID'])])){
+			
+			$logged_id = DB::getRow("SELECT estud_id FROM cetec.login_tokens WHERE token=:tok",[':tok'=>sha1($_COOKIE['CETECID'])])[0]['estud_id']; 	
+			return $logged_id;
+		}
+	}
+	return false;
+}
+
+if(isLoggedIn()){
+	echo 'Logged In :)';
+	echo isLoggedIn();
+} else {
+	echo 'Not logged in :(';
 }
 ?>
 <!DOCTYPE html>
@@ -30,12 +41,7 @@ if ($admin_ok == true) {
 	</script>
 </head>
 <body>
-<?php
-if ($admin_ok == false && $student_ok == false) {
-    echo "No session.";
-}
-include_once 'templates/topnav-template.php';
-?>
+<?php include_once 'templates/topnav-template.php'; ?>
 <div class="container">
 	<div class="row">
 		<div class="col-md-9">

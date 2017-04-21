@@ -21,9 +21,9 @@ if(!empty($_POST)){
         $crypt_strong = True;
     		$token = bin2hex(openssl_random_pseudo_bytes(64,$crypt_strong));
 
-    		$logged_id = DB::getRow("SELECT estud_id FROM cetec.estudiantes WHERE estud_username = :u",[':u'=>$u])[0]['estud_id'];
+    		$stud_id = DB::getRow("SELECT estud_id FROM cetec.estudiantes WHERE estud_username = :u",[':u'=>$u])[0]['estud_id'];
 
-    		DB::insertRow("INSERT INTO cetec.login_tokens VALUES ('',:token,:estud_id)",[':token'=>sha1($token), ':estud_id'=>$logged_id]);
+    		DB::insertRow("INSERT INTO cetec.login_tokens VALUES ('',:token,:estud_id)",[':token'=>sha1($token), ':estud_id'=>$stud_id]);
 
     		setcookie("CETECID",$token,time() + 60 * 60 * 24 * 7,'/',NULL,NULL,TRUE);
 
