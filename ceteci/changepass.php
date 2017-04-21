@@ -1,15 +1,47 @@
 <?php
-include_once("inc/check_session.php");
-if ($student_ok !== true) {
-    header("location: cetec_login.php");
-    exit();
+
+use database\Db;
+use entrar\Login;
+include "classes/DB.php";
+include "classes/Login.php";
+
+$changePassMsg = null;
+
+if(Login::isLoggedIn()){
+	
+	if(!empty($_POST)){
+		
+		$oldpassword = $_POST['opassword'];
+		$npassword = $_POST['npassword'];
+		$cpassword = $_POST['cpassword'];
+		
+		// Checks if old password exists in db
+		if (password_verify($oldpassword, DB::getRow('SELECT estud_pass FROM cetec.estudiantes WHERE estud_id=:estudid', [':estudid'=>Login::isLoggedIn()])[0]['estud_pass'])){
+			
+			// Checks if new passwords match
+			if($npassword == $cpassword) {	
+				
+				// Checks for new password length
+				if(strlen($npassword) >= 6 && strlen($npassword) <= 60){
+					
+					DB::query('UPDATE cetec.estudiantes SET estud_pass = :npass WHERE estud_id = :loggedid',['npass'=>password_hash($npassword, PASSWORD_BCRYPT), ':loggedid'=>Login::isLoggedIn()]);
+					
+					$changePassMsg = '<span class="text-success"><strong>Has cambiado tu contraseña!</strong></span>';
+				
+				} else {
+					$changePassMsg = '<span class="text-danger"><strong>Contraseña debe tener de 6 a 60 caracteres alfanuméricos.</strong></span>';
+				}
+			} else {
+				$changePassMsg = '<span class="text-danger"><strong>Las contraseñas no son iguales!</strong></span>';
+			}
+		} else {
+			$changePassMsg = '<span class="text-danger"><strong>Contraseña actual incorrecta!</strong></span>';
+		}
+	}
+	
+} else {
+	die('Not logged In :(');
 }
-/**
- * Created by PhpStorm.
- * User: Ricardo M
- * Date: 17/04/2017
- * Time: 04:48 PM
- */
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -75,17 +107,18 @@ if ($student_ok !== true) {
 <body>
 <?php include_once 'templates/topnav-template.php'; ?>
 <div class="container">
-	<form method="post" action="php/php_changepass.php" id="changepassFrm" name="changepassFrm" class="form-signin" role="form">
+	<form method="post" action="changepass.php" id="changepassFrm" name="changepassFrm" class="form-signin" role="form">
 		<h2 class="">Cambiar contraseña</h2>
-		<div id="npasswordaviso"></div>
+		<div id="changepass-msg"><?php echo $changePassMsg ?></div>
+		<label for="opassword" id="" class="control-label">Contraseña actual</label>
+		<input type="password" name="opassword" id="opassword" size="20" autocomplete="off" class="form-control data" placeholder="Contraseña actual" autofocus/>
 		<label for="npassword" id="" class="control-label">Nueva contraseña</label>
 		<input type="password" name="npassword" id="npassword" size="20" autocomplete="off" class="form-control data" placeholder="Escribe nueva contraseña" autofocus/>
 		<div id="cpasswordaviso"></div>
 		<label for="cpassword" id="cpasswordLabel" class="control-label">Escribe otra vez contraseña</label>
 		<input type="password" name="cpassword" id="cpassword" size="20" autocomplete="off" class="form-control data" placeholder="Escribe contraseña otra vez"/>
 		<button id="btn-changepass" class="btn btn-lg btn-primary btn-block">Cambiar contraseña</button>
-		<br/>
-		<div id="changepassaviso"></div>
+		
 		<div class="small text-login"></div>
 	</form>
 </div>
