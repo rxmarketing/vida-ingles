@@ -25,3 +25,4 @@ sql/
 /ceteci/console.php
 *.laccdb
 /nb-meta/nbproject/private/
+/nb-meta/
